@@ -1688,7 +1688,7 @@ textarea {
 .top_panel_inner_style_2 .menu_main_nav > li > a {
   padding-left: 1.5em;
   padding-right: 1.5em;
-  padding-top: 2.15em;
+  padding-top: 4.15em;
   padding-bottom: 1.6em;
 }
 .top_panel_fixed .top_panel_inner_style_2 .top_panel_bottom .menu_main_nav > li > a {
@@ -1826,7 +1826,7 @@ textarea {
 .top_panel_inner_style_2 .menu_main_nav > li > a > span,
 .top_panel_inner_style_3 .menu_main_nav > li > a,
 .top_panel_inner_style_3 .menu_main_nav > li > a > span {
-  position: relative;
+  /*position: relative;*/
 }
 .top_panel_inner_style_2 .menu_main_nav > li.current-menu-item > a > span:before,
 .top_panel_inner_style_2 .menu_main_nav > li.current-menu-parent > a > span:before,

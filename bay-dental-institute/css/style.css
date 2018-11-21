@@ -1,4 +1,4 @@
-@charset 'utf-8';
+@charset "utf-8";
 /*
 Project:		Dentario HTML
 Version:		1.0
@@ -1220,7 +1220,7 @@ body:not(.top_panel_fixed) .top_panel_position_over .top_panel_bottom {
     font-size: 11px;
 	position:absolute;
 	right:14px;
-	top:53%;
+	top:67%;
 	-webkit-transform: translateY(-50%);
 	   -moz-transform: translateY(-50%);
 	        transform: translateY(-50%);
@@ -1526,7 +1526,7 @@ body:not(.top_panel_fixed) .top_panel_position_over .top_panel_bottom {
 }
 .logo img {
 	float:left;
-	margin: 0.3em 0.7857em 0 0;
+	margin: 1em 0 1em 1em;
 	width: auto;
 }
 .logo_text,
@@ -5227,7 +5227,7 @@ blockquote .sc_quote_title {
 	padding:10px 4px;
 }
 .widget_area .widget_calendar td {
-	font-size:0.875em
+	font-size:0.875em;
 	padding:0;
 }
 .widget_area .widget_calendar .month_cur {
