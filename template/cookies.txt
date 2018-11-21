@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.themerex.net	TRUE	/	FALSE	1999999999	__cfduid	ddaf7225911c3093bba23735a26ef94751542802435
+
