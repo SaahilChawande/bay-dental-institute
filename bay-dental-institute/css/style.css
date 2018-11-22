@@ -1215,7 +1215,6 @@ body:not(.top_panel_fixed) .top_panel_position_over .top_panel_bottom {
 	padding:0.9em 1.45em;
 }
 .menu_main_nav > li.menu-item-has-children > a:after {
-	content: '\e828';
 	font-family: 'fontello';
     font-size: 11px;
 	position:absolute;

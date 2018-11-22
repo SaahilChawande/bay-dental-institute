@@ -44,7 +44,7 @@
                                     <li class="menu-item current-menu-item"><a href="index.php"><span>Home</span></a></li>
                                     <li class="menu-item"><a href="about-us.php">About Us</a></li>
                                     <li class="menu-item"><a href="vision.php">Vision</a></li>
-                                    <li class="menu-item menu-item-has-children"><a href="#"><span>Courses</span></a>
+                                    <li class="menu-item menu-item-has-children"><a href="#"><span>Courses &nbsp;&#8659;</span></a>
                                         <ul class="sub-menu">
                                             <li class="menu-item"><a href="ore-lds-uk.php"><span>ORE / LDS - UK</span></a></li>
                                             <li class="menu-item"><a href="nbde-usa.php"><span>NBDE - USA</span></a></li>
@@ -61,13 +61,13 @@
                                     </li>
                                     <li class="menu-item"><a href="gallery.php">Gallery</a></li>
                                     <li class="menu-item"><a href="faculty.php">Faculty</a></li>
-                                    <li class="menu-item menu-item-has-children"><a href="#"><span>Store</span></a>
+                                    <li class="menu-item menu-item-has-children"><a href="#"><span>Store &nbsp;&#8659;</span></a>
                                         <ul class="sub-menu">
                                             <li class="menu-item"><a href="store.php"><span>Store</span></a></li>
                                             <li class="menu-item"><a href="book-a-course.php"><span>Book a course</span></a></li>
                                         </ul>
                                     </li>
-                                    <li class="menu-item menu-item-has-children"><a href="#"><span>Contact</span></a>
+                                    <li class="menu-item menu-item-has-children"><a href="#"><span>Contact &nbsp;&#8659;</span></a>
                                         <ul class="sub-menu">
                                             <li class="menu-item"><a href="testimonials.php"><span>Testimonials</span></a></li>
                                             <li class="menu-item"><a href="contact-us.php"><span>Contact Us</span></a></li>
