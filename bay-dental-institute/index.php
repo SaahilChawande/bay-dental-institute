@@ -243,9 +243,7 @@
 
                                                         <div class="wpb_text_column wpb_content_element ">
                                                             <div class="wpb_wrapper">
-                                                                <p>
-                                                                    Our focus is on your overall well being and helping you achieve optimal health
-                                                                    <br /> and esthetics. We provide state-of-the-art dental care in a comfortable.
+                                                                <p>Bay Dental Training Institute is a privately owned, state of the art Clinical soft skills simulation set up with an aim to provide training, guidance and coaching for dentists looking to crack overseas dental licensing exams to register overseas as a practising dentist. All our tutors have passed overseas licensing exams being registered overseas and have extensive knowledge of the application process, preparation, study material, training and job process.<br/><br/>We also conduct short practical orientation training for Dentists and Doctors in the latest international techniques and protocols looking to hone their skills to provide a higher standard of dentistry to their clients.
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -259,16 +257,16 @@
                                                                     <div class="sc_services_item_content">
                                                                         <h4 class="sc_services_item_title">Our Mission</h4>
                                                                         <div class="sc_services_item_description">
-                                                                            <p>Has provided a high class facility for the treatment</p>
+                                                                            <p>We will teach you how to transfer your knowledge from your mind into your hands, improving your <strong>clinical confidence</strong>, boosting your <strong>clinical skills</strong>.</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                                 <div id="sc_services_925_2" class="sc_services_item sc_services_item_2">
                                                                     <span class="sc_icon icon-medic-17"></span>
                                                                     <div class="sc_services_item_content">
-                                                                        <h4 class="sc_services_item_title">Professionals in our Clinick</h4>
+                                                                        <h4 class="sc_services_item_title">Professionals in our Clinic</h4>
                                                                         <div class="sc_services_item_description">
-                                                                            <p>Has provided a high class facility for the treatment</p>
+                                                                            <p>All of our members automatically join our alumni and receive <strong>continued clinical support</strong> after completing one of our courses.</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -307,7 +305,7 @@
                                                                         <h5 class="sc_team_item_title"><a href="single-team.html">Dr. Shravan Chawla</a></h5>
                                                                         <div class="sc_team_item_position">BDS (Mauritius), PCAD (USA),<br> Licensed Practitioner (GDC - UK), Founder, Course Program Director, Clinical Tutor</div>
                                                                         <div class="sc_team_item_description">
-                                                                            Dr. Shravan Chawla has graduated from the University of Mauritius....
+                                                                            Dr. Shravan Chawla has graduated from the University of Mauritius, followed by giving the licensing conducted by the DCI for Indian citizens studying abroad. After gaining a PG certification in aesthetics and implants for NYU(USA), Dr. Chawla went on to crack the ORE-UK licensing exams to be registered as a licensed Dental practitioner with the GDC-UK. Currently Dr. Chawla runs his practice Bay Dental Associates in South Mumbai.
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -323,7 +321,7 @@
                                                                             <br>Stat Exam &amp; Licensed Practitioner (GDC - UK), Overseas Mentor,
                                                                             <br>ORE Course Program Director</div>
                                                                         <div class="sc_team_item_description">
-                                                                            Dr. James .....
+                                                                            After Graduating from the University of Mauritius, and clearing the DCI exam in India, Dr. James worked in private practice in India for a few years before cracking the ORE-UK exam. Dr. James is currently into private practice in Hashtings, UK since 5 years where he pursues implant, aesthetics and the latest in digital dentistry.
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -337,7 +335,7 @@
                                                                         <h5 class="sc_team_item_title"><a href="single-team.html">Dr. Bhushan Khobragade</a></h5>
                                                                         <div class="sc_team_item_position">Overseas Tutor</div>
                                                                         <div class="sc_team_item_description">
-                                                                            Dr. Bhushan .....
+                                                                            Dr. Bhushan cleared his ORE-UK licensing exam in 2017 and is currently settled in Hull City, UK working in Maxillofacial Surgery.
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -352,7 +350,7 @@
                                                                         <div class="sc_team_item_position">NBDE / NDBE USA &amp; Canada Course Director,
                                                                             <br>Facial Aesthetic Surgeon, <br>Skin &amp; Hair Expert</div>
                                                                         <div class="sc_team_item_description">
-                                                                            Dr. Akshari ....
+                                                                            Dr. Akshari Anchan has graduated from the prestigious Nitte University, Mangalore and has post graduated into clinical aesthetics from the esteemed Indian Institute of Aesthetic Medicine, Pune.<br/>She has successfully cleared her licensing exams in the United States of America. In her multiple visits to the United States between 2013-2016, Dr. Anchan has observed various doctors and worked closely with University of Miami on a 3 year program for Facial Aesthetics, Botox, and Lip Fillers.<br/> Dr. Anchan has an experience of over 5 years in clinical practice and maintains a private practice and is an expert consultant to over 25 clinics all over Mumbai concentrating on Facial Aesthetics, Botox, Lip Fillers and Hair transplant. Her research articles have won her National and International laurel including recognition from the renowned Indian Council of Medical Research.
                                                                         </div>
                                                                     </div>
                                                                 </div>

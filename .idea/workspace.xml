@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f2a5367c-6aea-47a6-991f-6aad4b80105d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bay-dental-institute/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,17 +17,20 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bay-dental-institute/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="46" column="115" selection-start-line="46" selection-start-column="115" selection-end-line="46" selection-end-column="115" />
+            <state relative-caret-position="333">
+              <caret line="448" column="104" lean-forward="true" selection-start-line="448" selection-start-column="101" selection-end-line="448" selection-end-column="110" />
               <folding>
+                <element signature="e#3938#3944#0#HTML" expanded="true" />
                 <element signature="e#5179#5184#0" expanded="true" />
+                <element signature="e#5919#5925#0#HTML" expanded="true" />
+                <element signature="e#6446#6452#0#HTML" expanded="true" />
                 <element signature="e#9341#9346#0#HTML" expanded="true" />
                 <element signature="n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#9;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#35497#35502#0#HTML" expanded="true" />
-                <element signature="e#38595#38600#0#HTML" expanded="true" />
-                <element signature="e#38656#38661#0#HTML" expanded="true" />
+                <element signature="n#div#3;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#36595#36600#0#HTML" expanded="true" />
+                <element signature="e#40041#40046#0#HTML" expanded="true" />
+                <element signature="e#40186#40191#0#HTML" expanded="true" />
                 <element signature="n#style#0;n#div#5;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#7;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#9;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -181,18 +183,18 @@
       <option name="presentableId" value="Default" />
       <updated>1542823012165</updated>
       <workItem from="1542823014989" duration="3378000" />
-      <workItem from="1542908455320" duration="9926000" />
+      <workItem from="1542908455320" duration="11009000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13304000" />
+    <option name="totallyTimeSpent" value="14387000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="846" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -225,14 +227,17 @@
         <state relative-caret-position="3876">
           <caret line="228" column="28" selection-start-line="228" selection-start-column="28" selection-end-line="228" selection-end-column="28" />
           <folding>
+            <element signature="e#3938#3944#0#HTML" expanded="true" />
             <element signature="e#5179#5184#0" expanded="true" />
+            <element signature="e#5919#5925#0#HTML" expanded="true" />
+            <element signature="e#6446#6452#0#HTML" expanded="true" />
             <element signature="e#9341#9346#0#HTML" expanded="true" />
             <element signature="n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#9;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#35497#35502#0#HTML" expanded="true" />
-            <element signature="e#38595#38600#0#HTML" expanded="true" />
-            <element signature="e#38656#38661#0#HTML" expanded="true" />
+            <element signature="n#div#3;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#36595#36600#0#HTML" expanded="true" />
+            <element signature="e#40041#40046#0#HTML" expanded="true" />
+            <element signature="e#40186#40191#0#HTML" expanded="true" />
             <element signature="n#style#0;n#div#5;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#7;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#9;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -298,17 +303,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bay-dental-institute/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="46" column="115" selection-start-line="46" selection-start-column="115" selection-end-line="46" selection-end-column="115" />
+        <state relative-caret-position="333">
+          <caret line="448" column="104" lean-forward="true" selection-start-line="448" selection-start-column="101" selection-end-line="448" selection-end-column="110" />
           <folding>
+            <element signature="e#3938#3944#0#HTML" expanded="true" />
             <element signature="e#5179#5184#0" expanded="true" />
+            <element signature="e#5919#5925#0#HTML" expanded="true" />
+            <element signature="e#6446#6452#0#HTML" expanded="true" />
             <element signature="e#9341#9346#0#HTML" expanded="true" />
             <element signature="n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#9;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#35497#35502#0#HTML" expanded="true" />
-            <element signature="e#38595#38600#0#HTML" expanded="true" />
-            <element signature="e#38656#38661#0#HTML" expanded="true" />
+            <element signature="n#div#3;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#36595#36600#0#HTML" expanded="true" />
+            <element signature="e#40041#40046#0#HTML" expanded="true" />
+            <element signature="e#40186#40191#0#HTML" expanded="true" />
             <element signature="n#style#0;n#div#5;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#7;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#9;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
