@@ -11,7 +11,7 @@ body {
   font-weight: 300;
 }
 .scheme_original .body_wrap {
-  color: #30383B;
+  color: #F9A825;
 }
 .scheme_light .body_wrap {
   color: #30383B;
@@ -88,7 +88,7 @@ h6 {
 .scheme_original h4 a,
 .scheme_original h5 a,
 .scheme_original h6 a {
-  color: #30383B;
+  color: #F9A825;
 }
 .scheme_light h1,
 .scheme_light h2,
@@ -151,7 +151,7 @@ blockquote p {
 }
 .scheme_original blockquote,
 .scheme_original blockquote p {
-  color: #232A34;
+  color: #F9A825;
 }
 .scheme_light blockquote,
 .scheme_light blockquote p {
@@ -169,7 +169,7 @@ blockquote:before {
   background-size: contain;
 }
 .scheme_original blockquote:before {
-  color: #ffffff;
+  color: #323F47;
 }
 .scheme_light blockquote:before {
   color: #ffffff;
@@ -901,7 +901,7 @@ textarea {
   background-color: #333F48;
 }
 .scheme_original .top_panel_wrap_inner {
-  background-color: #ffffff;
+  background-color: #323F47;
 }
 .scheme_light .top_panel_wrap_inner {
   background-color: #fafcfc;
@@ -1669,7 +1669,7 @@ textarea {
 }
 .scheme_original .top_panel_inner_style_1 .menu_main_nav > li > a,
 .scheme_original .top_panel_inner_style_2 .menu_main_nav > li > a {
-  color: #30383B;
+  color: #F9A825;
 }
 .scheme_light .top_panel_inner_style_1 .menu_main_nav > li > a,
 .scheme_light .top_panel_inner_style_2 .menu_main_nav > li > a {
@@ -1697,7 +1697,7 @@ textarea {
 }
 .scheme_original .top_panel_inner_style_1 .menu_main_nav > li > a:hover,
 .scheme_original .top_panel_inner_style_2 .menu_main_nav > li > a:hover {
-  color: #A5C422;
+  color: #FFFFFF;
 }
 .scheme_light .top_panel_inner_style_1 .menu_main_nav > li > a:hover,
 .scheme_light .top_panel_inner_style_2 .menu_main_nav > li > a:hover {
@@ -1792,7 +1792,7 @@ textarea {
 .scheme_original .top_panel_inner_style_2 .menu_main_nav > li.current-menu-item > a,
 .scheme_original .top_panel_inner_style_2 .menu_main_nav > li.current-menu-parent > a,
 .scheme_original .top_panel_inner_style_2 .menu_main_nav > li.current-menu-ancestor > a {
-  color: #3FB6E0;
+  color: #F9A825;
 }
 .scheme_light .top_panel_inner_style_1 .menu_main_nav > a:hover,
 .scheme_light .top_panel_inner_style_1 .menu_main_nav > li.sfHover > a,
@@ -1806,7 +1806,7 @@ textarea {
 .scheme_light .top_panel_inner_style_2 .menu_main_nav > li.current-menu-item > a,
 .scheme_light .top_panel_inner_style_2 .menu_main_nav > li.current-menu-parent > a,
 .scheme_light .top_panel_inner_style_2 .menu_main_nav > li.current-menu-ancestor > a {
-  color: #3FB6E0;
+  color: #F9A825;
 }
 .scheme_dark .top_panel_inner_style_1 .menu_main_nav > a:hover,
 .scheme_dark .top_panel_inner_style_1 .menu_main_nav > li.sfHover > a,
@@ -1894,7 +1894,7 @@ textarea {
   color: #FFFFFF;
 }
 .scheme_original .menu_main_nav > li ul li a:hover {
-  color: #A5C422;
+  color: #F9A825;
 }
 .scheme_light .menu_main_nav > li ul li a:hover {
   color: #A5C422;
@@ -4647,7 +4647,7 @@ textarea {
   background-color: #ffffff;
 }
 .scheme_light .copyright_wrap_inner {
-  background-color: #fafcfc;
+  background-color: #323F47;
 }
 .scheme_dark .copyright_wrap_inner {
   background-color: #333F48;
@@ -4656,7 +4656,7 @@ textarea {
   color: #30383B;
 }
 .scheme_light .copyright_wrap_inner .copyright_text {
-  color: #30383B;
+  color: #F9A825;
 }
 .scheme_dark .copyright_wrap_inner .copyright_text {
   color: #A1AAAD;
@@ -4692,7 +4692,7 @@ textarea {
   color: #f0f0f0;
 }
 .scheme_original .scroll_to_top {
-  background-color: #3FB6E0;
+  background-color: #F9A825;
 }
 .scheme_light .scroll_to_top {
   background-color: #3FB6E0;
@@ -7185,7 +7185,7 @@ button,
   color: #f0f0f0;
 }
 .scheme_original .sc_call_to_action_accented {
-  background-color: #3FB6E0;
+  background-color: #323F47;
 }
 .scheme_light .sc_call_to_action_accented {
   background-color: #3FB6E0;
@@ -7196,7 +7196,7 @@ button,
 .scheme_original .sc_call_to_action_accented .sc_item_title,
 .scheme_original .sc_call_to_action_accented .sc_item_subtitle,
 .scheme_original .sc_call_to_action_accented .sc_item_descr {
-  color: #ffffff;
+  color: #F9A825;
 }
 .scheme_light .sc_call_to_action_accented .sc_item_title,
 .scheme_light .sc_call_to_action_accented .sc_item_subtitle,
@@ -8838,7 +8838,7 @@ button,
   color: #55BDE3;
 }
 .scheme_original .sc_services_style_services-1 .sc_services_item {
-  color: #30383B;
+  color: #C3C7C9;
 }
 .scheme_light .sc_services_style_services-1 .sc_services_item {
   color: #30383B;
@@ -8850,7 +8850,7 @@ button,
   font-family: "Open Sans", sans-serif;
 }
 .scheme_original .sc_services_style_services-1 .sc_icon {
-  color: #3FB6E0;
+  color: #F9A825;
 }
 .scheme_light .sc_services_style_services-1 .sc_icon {
   color: #3FB6E0;
@@ -8869,7 +8869,7 @@ button,
 }
 .scheme_original .sc_services_style_services-2 .sc_services_item_description,
 .scheme_original .sc_services_style_services-2 .sc_icon {
-  color: #787C83;
+  color: #C3C7C9;
 }
 .scheme_light .sc_services_style_services-2 .sc_services_item_description,
 .scheme_light .sc_services_style_services-2 .sc_icon {
@@ -8892,7 +8892,7 @@ button,
   color: #A1AAAD;
 }
 .scheme_original .sc_services_style_services-3 .sc_icon {
-  color: rgba(120,124,131,0.8);
+  color: #F9A825;
 }
 .scheme_light .sc_services_style_services-3 .sc_icon {
   color: rgba(120,124,131,0.8);
@@ -9622,7 +9622,7 @@ button,
   font-family: "Open Sans", sans-serif;
 }
 .scheme_original .sc_team_item .sc_team_item_info .sc_team_item_title a {
-  color: #232A34;
+  color: #c07924;
 }
 .scheme_light .sc_team_item .sc_team_item_info .sc_team_item_title a {
   color: #232A34;
@@ -9640,7 +9640,7 @@ button,
   color: #55BDE3;
 }
 .scheme_original .sc_team_item .sc_team_item_info .sc_team_item_position {
-  color: #3FB6E0;
+  color: #F9A825;
 }
 .scheme_light .sc_team_item .sc_team_item_info .sc_team_item_position {
   color: #3FB6E0;
@@ -9660,7 +9660,7 @@ button,
 .scheme_original .sc_team_style_team-1 .sc_team_item_info,
 .scheme_original .sc_team_style_team-2 .sc_team_item_info,
 .scheme_original .sc_team_style_team-3 .sc_team_item_info {
-  color: #30383B;
+  color: #FAFCFC;
 }
 .scheme_light .sc_team_style_team-1 .sc_team_item_info,
 .scheme_light .sc_team_style_team-2 .sc_team_item_info,
@@ -9675,7 +9675,7 @@ button,
 .scheme_original .sc_team_style_team-1 .sc_team_item_info:after,
 .scheme_original .sc_team_style_team-2 .sc_team_item_info:after,
 .scheme_original .sc_team_style_team-3 .sc_team_item_info:after {
-  border-bottom-color: #A5C422;
+  border-bottom-color: #F9A825;
 }
 .scheme_light .sc_team_style_team-1 .sc_team_item_info:after,
 .scheme_light .sc_team_style_team-2 .sc_team_item_info:after,
@@ -10131,7 +10131,7 @@ button,
   font-family: 'Merriweather';
 }
 .scheme_original .sc_item_descr {
-  color: #787C83;
+  color: #F9A825;
 }
 .scheme_light .sc_item_descr {
   color: #787C83;
@@ -10184,7 +10184,7 @@ button,
 }
 .scheme_original .header_mobile .panel_top,
 .scheme_original .header_mobile .side_wrap {
-  background-color: #3FB6E0;
+  background-color: #323F47;
 }
 .scheme_light .header_mobile .panel_top,
 .scheme_light .header_mobile .side_wrap {
@@ -10262,6 +10262,7 @@ button,
 .scheme_original .header_mobile .menu_main_nav > li.current-menu-ancestor > a,
 .scheme_original .header_mobile .menu_main_nav > li > a:hover {
   background-color: rgba(35,42,52,0.15);
+  color: #F9A825;
 }
 .scheme_light .header_mobile .menu_main_nav > a:hover,
 .scheme_light .header_mobile .menu_main_nav > li.sfHover > a,

@@ -6335,7 +6335,7 @@ h1 .wpb_text_column p, h2 .wpb_text_column p, h3 .wpb_text_column p, h4 .wpb_tex
 .header_mobile .menu_button,
 .header_mobile .menu_main_cart .top_panel_cart_button .contact_icon {
 	background-color: transparent !important;
-    color: #000;
+    color: #F9A825;
     font-size: 26px;
     height: auto;
     width: auto;
@@ -6352,7 +6352,7 @@ h1 .wpb_text_column p, h2 .wpb_text_column p, h3 .wpb_text_column p, h4 .wpb_tex
 .header_mobile .menu_main_cart .top_panel_cart_button .contact_icon:hover,
 .header_mobile .menu_main_cart.top_panel_icon:hover .top_panel_cart_button .contact_icon,
 .header_mobile .side_wrap .close:hover{
-	color: #20c7ca;
+	color: #F9A825;
 }
 
 /* side wrap */
@@ -6889,6 +6889,14 @@ h1 .wpb_text_column p, h2 .wpb_text_column p, h3 .wpb_text_column p, h4 .wpb_tex
 }
 .mfp-figure figcaption {
 	display:none;
+}
+
+.dark-background	{
+	background-color: #323F47;
+}
+
+.gold-text	{
+	color: #F9A825;
 }
 
 

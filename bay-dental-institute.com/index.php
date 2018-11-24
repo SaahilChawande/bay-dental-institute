@@ -33,7 +33,7 @@
         <div class="page_wrap">
             <div class="top_panel_fixed_wrap"></div>
             <header class="top_panel_wrap top_panel_style_2 scheme_original">
-                <div class="top_panel_wrap_inner top_panel_inner_style_2 top_panel_position_above" style="background-color: #37474F">
+                <div class="top_panel_wrap_inner top_panel_inner_style_2 top_panel_position_above">
                     <div class="top_panel_bottom">
                         <div class="logo alignleft" style="margin: 0" >
                             <img src="images/logo-1x.png" class="logo_main" alt="">
@@ -41,10 +41,10 @@
                         <div class="content_wrap clearfix">
                             <nav class="menu_main_nav_area">
                                 <ul id="menu_main" class="menu_main_nav">
-                                    <li class="menu-item current-menu-item" ><a href="index.php" style="color: #F9A825"><span>Home</span></a></li>
-                                    <li class="menu-item"><a href="about-us.php" style="color: #F9A825">About Us</a></li>
-                                    <li class="menu-item"><a href="vision.php" style="color: #F9A825">Vision</a></li>
-                                    <li class="menu-item menu-item-has-children"><a href="#" style="color: #F9A825"><span>Courses &nbsp;&#8659;</span></a>
+                                    <li class="menu-item current-menu-item" ><a href="index.php"><span>Home</span></a></li>
+                                    <li class="menu-item"><a href="about-us.php">About Us</a></li>
+                                    <li class="menu-item"><a href="vision.php">Vision</a></li>
+                                    <li class="menu-item menu-item-has-children"><a href="#"><span>Courses &nbsp;&#8659;</span></a>
                                         <ul class="sub-menu">
                                             <li class="menu-item"><a href="ore-lds-uk.php"><span>ORE / LDS - UK</span></a></li>
                                             <li class="menu-item"><a href="nbde-usa.php"><span>NBDE - USA</span></a></li>
@@ -59,15 +59,15 @@
                                             <li class="menu-item"><a href="endotontics.php"><span>Endotontics</span></a></li>
                                         </ul>
                                     </li>
-                                    <li class="menu-item"><a href="gallery.php" style="color: #F9A825">Gallery</a></li>
-                                    <li class="menu-item"><a href="faculty.php" style="color: #F9A825">Faculty</a></li>
-                                    <li class="menu-item menu-item-has-children"><a href="#" style="color: #F9A825"><span>Store &nbsp;&#8659;</span></a>
+                                    <li class="menu-item"><a href="gallery.php">Gallery</a></li>
+                                    <li class="menu-item"><a href="faculty.php">Faculty</a></li>
+                                    <li class="menu-item menu-item-has-children"><a href="#"><span>Store &nbsp;&#8659;</span></a>
                                         <ul class="sub-menu">
                                             <li class="menu-item"><a href="store.php"><span>Store</span></a></li>
                                             <li class="menu-item"><a href="book-a-course.php"><span>Book a course</span></a></li>
                                         </ul>
                                     </li>
-                                    <li class="menu-item menu-item-has-children"><a href="#" style="color: #F9A825"><span>Contact &nbsp;&#8659;</span></a>
+                                    <li class="menu-item menu-item-has-children"><a href="#"><span>Contact &nbsp;&#8659;</span></a>
                                         <ul class="sub-menu">
                                             <li class="menu-item"><a href="testimonials.php"><span>Testimonials</span></a></li>
                                             <li class="menu-item"><a href="contact-us.php"><span>Contact Us</span></a></li>
@@ -79,7 +79,7 @@
                     </div>
                 </div>
             </header>
-            <div class="header_mobile">
+            <div class="header_mobile dark-background">
                 <div class="content_wrap">
                     <div class="menu_button icon-menu"></div>
                     <div class="logo">
@@ -97,7 +97,7 @@
                                 <li class="menu-item"><a href="about-us.php">About Us</a></li>
                                 <li class="menu-item"><a href="vision.php">Vision</a></li>
                                 <li class="menu-item menu-item-has-children"><a href="#"><span>Courses</span></a>
-                                    <ul class="sub-menu">
+                                    <ul class="sub-menu gold-text">
                                         <li class="menu-item"><a href="ore-lds-uk.php"><span>ORE / LDS - UK</span></a></li>
                                         <li class="menu-item"><a href="nbde-usa.php"><span>NBDE - USA</span></a></li>
                                         <li class="menu-item"><a href="ndbe-canada.php"><span>NDBE - Canada</span></a></li>
@@ -191,7 +191,7 @@
                 </div>
             </section>
 
-            <div class="page-content_wrap page_paddings_yes" style="background-color: #37474f;" id="quote">
+            <div class="page-content_wrap page_paddings_yes dark-background" id="quote">
                 <div class="content_wrap">
                     <div class="content">
                         <article class="post_item post_item_single page hentry">
@@ -201,12 +201,12 @@
                                         <div class="wpb_wrapper">
                                             <h4 class="sc_title sc_title_regular"></h4>
                                             <blockquote class="sc_quote">
-                                                <p style=" color: #F9A825;">
+                                                <p>
                                                     I got denials from different dental doctors because of a unique and complicated case.
                                                     Dr. Phillips however brought hope and eagerly took me into surgery that was successful.
                                                     Now I can say that I've never been happier. Thank you Doctor!
                                                 </p>
-                                                <p class="sc_quote_title" style=" color: #F9A825;">Jessica Smith</p>
+                                                <p class="sc_quote_title">Jessica Smith</p>
                                             </blockquote>
                                             <div class="vc_empty_space space_25p">
                                                 <span class="vc_empty_space_inner"></span>
@@ -220,7 +220,7 @@
                 </div>
             </div>
 
-            <div class="page_content_wrap page_paddings_no" id="about-us">
+            <div class="page_content_wrap page_paddings_no dark-background" id="about-us">
                 <div class="content_wrap">
                     <div class="content">
                         <article class="post_item post_item_single page hentry">
@@ -583,29 +583,7 @@
                 <div class="copyright_wrap_inner">
                     <div class="content_wrap_outer">
                         <div class="content_wrap">
-                            <div class="sc_socials sc_socials_type_icons sc_socials_shape_square sc_socials_size_tiny">
-                                <div class="sc_socials_item">
-                                    <a href="#" target="_blank" class="social_icons social_twitter">
-                                        <span class="icon-twitter"></span>
-                                    </a>
-                                </div>
-                                <div class="sc_socials_item">
-                                    <a href="#" target="_blank" class="social_icons social_gplus">
-                                        <span class="icon-gplus"></span>
-                                    </a>
-                                </div>
-                                <div class="sc_socials_item">
-                                    <a href="#" target="_blank" class="social_icons social_facebook">
-                                        <span class="icon-facebook"></span>
-                                    </a>
-                                </div>
-                                <div class="sc_socials_item">
-                                    <a href="#" target="_blank" class="social_icons social_digg">
-                                        <span class="icon-digg"></span>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="copyright_text">ThemeREX © 2017 All Rights Reserved.</div>
+                            <div class="copyright_text">Incepiom © 2018 All Rights Reserved.</div>
                         </div>
                     </div>
                 </div>
@@ -613,7 +591,7 @@
         </div>
     </div>
 	
-    <div id="popup_login" class="popup_wrap popup_login bg_tint_light">
+    <div id="popup_login" class="popup_wrap popup_login bg_tint_light dark-background">
         <a href="#" class="popup_close"></a>
         <div class="form_wrap">
             <div class="form_left">
