@@ -367,27 +367,54 @@
 
                                 <div class="vc_row-full-width"></div>
 
-                                <div data-vc-full-width="true" data-vc-full-width-init="true" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_row-no-padding" style="position: relative; left: -50.2px; box-sizing: border-box; width: 1094px;">
-                                    <div class="wpb_column vc_column_container vc_col-sm-12">
-                                        <div class="vc_column-inner ">
-                                            <div class="wpb_wrapper">
-                                                <div id="sc_call_to_action_457" class="sc_call_to_action sc_call_to_action_accented sc_call_to_action_style_2 sc_call_to_action_align_center">
-                                                    <div class="sc_call_to_action_info">
-                                                        <h3 class="sc_call_to_action_title sc_item_title">
-														<div  class="Count">
-                                                            12000</div></h3>Happy Patients<br/><hr width="2%" ><br/><br/>
-														<h3 class="sc_call_to_action_title sc_item_title">
-														<div class="Count">
-                                                            12</div></h3>Years Experience<br/><hr width="2%" ><br/><br/>
-														<h3 class="sc_call_to_action_title sc_item_title">
-														<div class="Count">
-                                                            36900</div></h3>Appointments<br/><hr width="2%" >
+                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                    <div class="vc_column-inner">
+                                        <div class="wpb_wrapper">
+                                            <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_3">
+                                                <div class="column-1_3 sc_column_item sc_column_item_1 odd first">
+                                                    <h3 class="sc_title sc_title_regular sc_align_center">
+                                                        <div class="Count">
+                                                            12000
+                                                        </div>
+                                                    </h3>
+                                                    <div class="wpb_text_column wpb_content_element vc_custom_1454599792028">
+                                                        <div class="wpb_wrapper">
+                                                            <p class="aligncenter">Happy Patients</p>
+                                                        </div>
                                                     </div>
+                                                    <hr width="2%" >
+                                                </div>
+                                                <div class="column-1_3 sc_column_item sc_column_item_1 even">
+                                                    <h3 class="sc_title sc_title_regular sc_align_center">
+                                                        <div class="Count">
+                                                            12
+                                                        </div>
+                                                    </h3>
+                                                    <div class="wpb_text_column wpb_content_element vc_custom_1454599792028">
+                                                        <div class="wpb_wrapper">
+                                                            <p class="aligncenter">Years Experience</p>
+                                                        </div>
+                                                    </div>
+                                                    <hr width="2%" >
+                                                </div>
+                                                <div class="column-1_3 sc_column_item sc_column_item_1 odd">
+                                                    <h3 class="sc_title sc_title_regular sc_align_center">
+                                                        <div class="Count">
+                                                            36900
+                                                        </div>
+                                                    </h3>
+                                                    <div class="wpb_text_column wpb_content_element vc_custom_1454599792028">
+                                                        <div class="wpb_wrapper">
+                                                            <p class="aligncenter">Appointments</p>
+                                                        </div>
+                                                    </div>
+                                                    <hr width="2%" >
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+
 
                                 <div class="vc_row-full-width"></div>
 
