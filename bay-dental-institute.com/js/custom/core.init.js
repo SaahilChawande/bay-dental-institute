@@ -1,6 +1,26 @@
 /* global jQuery:false */
 /* global DENTARIO_STORAGE:false */
 
+$(window).scroll(startCounter);
+function startCounter() {
+    var hT = $('.Count').offset().top,
+        hH = $('.Count').outerHeight(),
+        wH = $(window).height();
+    if ($(window).scrollTop() > hT+hH-wH) {
+        $(window).off("scroll", startCounter);
+        $('.Count').each(function () {
+            var $this = $(this);
+            jQuery({ Counter: 0 }).animate({ Counter: $this.text() }, {
+                duration: 5000,
+                easing: 'swing',
+                step: function () {
+                    $this.text(Math.ceil(this.Counter));
+                }
+            });
+        });
+    }
+}
+
 jQuery(document).ready(function() {
 	"use strict";
 	DENTARIO_STORAGE['theme_init_counter'] = 0;

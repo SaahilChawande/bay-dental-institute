@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="icon" type="image/x-icon" href="images/favicon.png" />
     <title>Bay Dental Institute</title>
+	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <link rel='stylesheet' href='css/animations.css' type='text/css' media='all' />
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700|Lora:400,400i,700,700i|Merriweather:300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Poppins:300,400,500,600,700|Raleway:100,200,300,400,500,600,700,800,900&amp;subset=latin-ext' type='text/css' media='all'>
     <link rel='stylesheet' href='js/vendor/revslider/settings.css' type='text/css' media='all' />
@@ -372,7 +374,14 @@
                                                 <div id="sc_call_to_action_457" class="sc_call_to_action sc_call_to_action_accented sc_call_to_action_style_2 sc_call_to_action_align_center">
                                                     <div class="sc_call_to_action_info">
                                                         <h3 class="sc_call_to_action_title sc_item_title">
-                                                            <b>Dynamic Counter</b></h3>
+														<div  class="Count">
+                                                            12000</div></h3>Happy Patients<br/><hr width="2%" ><br/><br/>
+														<h3 class="sc_call_to_action_title sc_item_title">
+														<div class="Count">
+                                                            12</div></h3>Years Experience<br/><hr width="2%" ><br/><br/>
+														<h3 class="sc_call_to_action_title sc_item_title">
+														<div class="Count">
+                                                            36900</div></h3>Appointments<br/><hr width="2%" >
                                                     </div>
                                                 </div>
                                             </div>
@@ -666,6 +675,7 @@
     <script type='text/javascript' src='js/vendor/swiper/swiper.min.js'></script>
     <script type='text/javascript' src='http://maps.google.com/maps/api/js?key='></script>
     <script type='text/javascript' src='js/vendor/core.googlemap.js'></script>
+	
 </body>
 
 </html>
