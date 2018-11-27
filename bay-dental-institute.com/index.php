@@ -28,7 +28,7 @@
     <link rel='stylesheet' href='js/vendor/swiper/swiper.min.css' type='text/css' media='all' />
 </head>
 
-<body class="indexp home page body_style_wide body_filled article_style_stretch scheme_original top_panel_show top_panel_above sidebar_hide sidebar_outer_hide vc_responsive">
+<body id="home" class="indexp home page body_style_wide body_filled article_style_stretch scheme_original top_panel_show top_panel_above sidebar_hide sidebar_outer_hide vc_responsive">
     <a id="toc_home" class="sc_anchor" title="Home" data-description="&lt;i&gt;Return to Home&lt;/i&gt; - &lt;br&gt;navigate to home page of the site" data-icon="icon-home" data-url="index.html" data-separator="yes"></a>
     <a id="toc_top" class="sc_anchor" title="To Top" data-description="&lt;i&gt;Back to top&lt;/i&gt; - &lt;br&gt;scroll to top of the page" data-icon="icon-double-up" data-url="" data-separator="yes"></a>
     <div class="body_wrap">
@@ -43,8 +43,8 @@
                         <div class="content_wrap clearfix">
                             <nav class="menu_main_nav_area">
                                 <ul id="menu_main" class="menu_main_nav">
-                                    <li class="menu-item current-menu-item" ><a href="index.php"><span>Home</span></a></li>
-                                    <li class="menu-item"><a href="about-us.php">About Us</a></li>
+                                    <li class="menu-item current-menu-item" ><a href="#home"><span>Home</span></a></li>
+                                    <li class="menu-item"><a href="#about-us">About Us</a></li>
                                     <li class="menu-item"><a href="vision.php">Vision</a></li>
                                     <li class="menu-item menu-item-has-children"><a href="#"><span>Courses &nbsp;&#8659;</span></a>
                                         <ul class="sub-menu">
@@ -95,10 +95,10 @@
                     <div class="panel_top">
                         <nav class="menu_main_nav_area">
                             <ul id="menu_main_mobile" class="menu_main_nav">
-                                <li class="menu-item current-menu-item"><a href="index.php"><span>Home</span></a></li>
-                                <li class="menu-item"><a href="about-us.php">About Us</a></li>
+                                <li class="menu-item current-menu-item" onclick="onClickHome()"><a href="#home"><span>Home</span></a></li>
+                                <!--<li class="menu-item" onclick="onClickAboutUsMenu()"><a href="javascript:void(0);">About Us</a></li>-->
                                 <li class="menu-item"><a href="vision.php">Vision</a></li>
-                                <li class="menu-item menu-item-has-children"><a href="#"><span>Courses</span></a>
+                                <li class="menu-item menu-item-has-children"><a href="javascript:void(0)"><span>Courses</span></a>
                                     <ul class="sub-menu gold-text">
                                         <li class="menu-item"><a href="ore-lds-uk.php"><span>ORE / LDS - UK</span></a></li>
                                         <li class="menu-item"><a href="nbde-usa.php"><span>NBDE - USA</span></a></li>
@@ -115,13 +115,13 @@
                                 </li>
                                 <li class="menu-item"><a href="gallery.php">Gallery</a></li>
                                 <li class="menu-item"><a href="faculty.php">Faculty</a></li>
-                                <li class="menu-item menu-item-has-children"><a href="#"><span>Store</span></a>
+                                <li class="menu-item menu-item-has-children"><a href="javascript:void(0)"><span>Store</span></a>
                                     <ul class="sub-menu">
                                         <li class="menu-item"><a href="store.php"><span>Store</span></a></li>
                                         <li class="menu-item"><a href="book-a-course.php"><span>Book a course</span></a></li>
                                     </ul>
                                 </li>
-                                <li class="menu-item menu-item-has-children"><a href="#"><span>Contact</span></a>
+                                <li class="menu-item menu-item-has-children"><a href="javascript:void(0)"><span>Contact</span></a>
                                     <ul class="sub-menu">
                                         <li class="menu-item"><a href="testimonials.php"><span>Testimonials</span></a></li>
                                         <li class="menu-item"><a href="contact-us.php"><span>Contact Us</span></a></li>
@@ -301,7 +301,7 @@
                                                             <div class="column-1_4 column_padding_bottom">
                                                                 <div id="sc_team_454_1" class="sc_team_item">
                                                                     <div class="sc_team_item_avatar">
-                                                                        <img width="182" height="182" alt="" src="images/team-1-small-182x182.png">
+                                                                        <img width="182" height="182" alt="" src="images/our-team-1.jpg">
                                                                     </div>
                                                                     <div class="sc_team_item_info">
                                                                         <h5 class="sc_team_item_title"><a href="single-team.html">Dr. Shravan Chawla</a></h5>

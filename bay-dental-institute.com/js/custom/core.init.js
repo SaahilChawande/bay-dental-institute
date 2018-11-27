@@ -1,5 +1,58 @@
 /* global jQuery:false */
-/* global DENTARIO_STORAGE:false */
+
+/* Sliding Animation*/
+$(document).ready(function(){
+    $('a[href^="#"]').on('click',function (e) {
+        e.preventDefault();
+        var target = this.hash;
+        $target = $(target);
+        $('body').stop().animate({
+            'scrollTop':  $target.offset().top //no need of parseInt here
+        }, 2000, 'swing', function () {
+            window.location.hash = target;
+        });
+    });
+});
+
+function onClickHome()   {
+    jQuery('.header_mobile .side_wrap').removeClass('open');
+    jQuery('.header_mobile .mask').removeClass('show');
+    jQuery('html').removeClass('menu_mobile_open');
+    // Fix for Safari
+    if (dentario_browser_is_ios() && jQuery('body').hasClass('menu_mobile')) {
+        jQuery('body').removeClass('ios_fixed');
+    }
+}
+
+/*function onClickAboutUsMenu()   {
+    let target = '#about-us';
+    let body = $('body');
+    $target = $(target);
+    $('.header_mobile .side_wrap').removeClass('open');
+    $('.header_mobile .mask').removeClass('show');
+    $('html').removeClass('menu_mobile_open');
+    // Fix for Safari
+    if (dentario_browser_is_ios() && body.hasClass('menu_mobile')) {
+        $('body').removeClass('ios_fixed');
+    }
+    console.log('came here');
+    body.stop().animate({
+        'scrollTop': $target.offset().top
+    }, 2000, 'swing', function()    {
+        window.location.hash = target;
+    })
+}*/
+
+
+jQuery('.header_mobile .mask, .header_mobile .side_wrap .close-menu-on-about-us-click').on('click', function(){
+    jQuery('.header_mobile .side_wrap').removeClass('open');
+    jQuery('.header_mobile .mask').removeClass('show');
+    jQuery('html').removeClass('menu_mobile_open');
+    // Fix for Safari
+    if (dentario_browser_is_ios() && jQuery('body').hasClass('menu_mobile')) {
+        jQuery('body').removeClass('ios_fixed');
+    }
+});
 
 $(window).scroll(startCounter);
 function startCounter() {
