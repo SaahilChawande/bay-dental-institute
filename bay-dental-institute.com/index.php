@@ -304,7 +304,7 @@
                                                                         <img width="182" height="182" alt="" src="images/our-team-1.jpg">
                                                                     </div>
                                                                     <div class="sc_team_item_info">
-                                                                        <h5 class="sc_team_item_title"><a href="single-team.html">Dr. Shravan Chawla</a></h5>
+                                                                        <h5 class="sc_team_item_title">Dr. Shravan Chawla</h5>
                                                                         <div class="sc_team_item_position">BDS (Mauritius), PCAD (USA),<br> Licensed Practitioner (GDC - UK), Founder, Course Program Director, Clinical Tutor</div>
                                                                         <div class="sc_team_item_description">
                                                                             Dr. Shravan Chawla has graduated from the University of Mauritius, followed by giving the licensing conducted by the DCI for Indian citizens studying abroad. After gaining a PG certification in aesthetics and implants for NYU(USA), Dr. Chawla went on to crack the ORE-UK licensing exams to be registered as a licensed Dental practitioner with the GDC-UK. Currently Dr. Chawla runs his practice Bay Dental Associates in South Mumbai.
@@ -315,10 +315,10 @@
                                                             <div class="column-1_4 column_padding_bottom">
                                                                 <div id="sc_team_454_2" class="sc_team_item">
                                                                     <div class="sc_team_item_avatar">
-                                                                        <img width="182" height="182" alt="" src="images/team-4-small-182x182.png">
+                                                                        <img width="182" height="182" alt="" src="images/our-team-2.jpg">
                                                                     </div>
                                                                     <div class="sc_team_item_info">
-                                                                        <h5 class="sc_team_item_title"><a href="single-team.html">Dr. James Mulani</a></h5>
+                                                                        <h5 class="sc_team_item_title">Dr. James Mulani</h5>
                                                                         <div class="sc_team_item_position">BDS (Mauritius), MJDF (UK),
                                                                             <br>Stat Exam &amp; Licensed Practitioner (GDC - UK), Overseas Mentor,
                                                                             <br>ORE Course Program Director</div>
@@ -334,7 +334,7 @@
                                                                         <img width="182" height="182" alt="" src="images/team-2-small-182x182.png">
                                                                     </div>
                                                                     <div class="sc_team_item_info">
-                                                                        <h5 class="sc_team_item_title"><a href="single-team.html">Dr. Bhushan Khobragade</a></h5>
+                                                                        <h5 class="sc_team_item_title">Dr. Bhushan Khobragade</h5>
                                                                         <div class="sc_team_item_position">Overseas Tutor</div>
                                                                         <div class="sc_team_item_description">
                                                                             Dr. Bhushan cleared his ORE-UK licensing exam in 2017 and is currently settled in Hull City, UK working in Maxillofacial Surgery.
@@ -348,7 +348,7 @@
                                                                         <img width="182" height="182" alt="" src="images/team-3-small-182x182.png">
                                                                     </div>
                                                                     <div class="sc_team_item_info">
-                                                                        <h5 class="sc_team_item_title"><a href="single-team.html">Dr. Akshari Anchan</a></h5>
+                                                                        <h5 class="sc_team_item_title">Dr. Akshari Anchan</h5>
                                                                         <div class="sc_team_item_position">NBDE / NDBE USA &amp; Canada Course Director,
                                                                             <br>Facial Aesthetic Surgeon, <br>Skin &amp; Hair Expert</div>
                                                                         <div class="sc_team_item_description">
