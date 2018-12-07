@@ -45,33 +45,29 @@
                                 <ul id="menu_main" class="menu_main_nav">
                                     <li class="menu-item current-menu-item" ><a href="#home"><span>Home</span></a></li>
                                     <li class="menu-item"><a href="#about-us">About Us</a></li>
-                                    <li class="menu-item"><a href="vision.php">Vision</a></li>
+                                    <li class="menu-item"><a href="javascript:void(0)">Vision</a></li>
                                     <li class="menu-item menu-item-has-children"><a href="#"><span>Courses &nbsp;&#8659;</span></a>
                                         <ul class="sub-menu">
                                             <li class="menu-item"><a href="ore-lds-uk.php"><span>ORE / LDS - UK</span></a></li>
-                                            <li class="menu-item"><a href="nbde-usa.php"><span>NBDE - USA</span></a></li>
-                                            <li class="menu-item"><a href="ndbe-canada.php"><span>NDBE - Canada</span></a></li>
-                                            <li class="menu-item"><a href="restorative-dentistry.php"><span>Restorative Dentistry</span></a></li>
-                                            <li class="menu-item"><a href="composites.php"><span>Composites</span></a></li>
-                                            <li class="menu-item"><a href="dental-photography.php"><span>Dental Photography</span></a></li>
-                                            <li class="menu-item"><a href="rubber-dam.php"><span>Rubber Dam</span></a></li>
-                                            <li class="menu-item"><a href="facial-aesthetics.php"><span>Facial Aesthetics: Botox &amp; Lip Fillers</span></a></li>
-                                            <li class="menu-item"><a href="dental-assistant-training.php"><span>Dental Assistant Training</span></a></li>
-                                            <li class="menu-item"><a href="smm-dentists.php"><span>Social Media Marketing for Dentists</span></a></li>
-                                            <li class="menu-item"><a href="endotontics.php"><span>Endotontics</span></a></li>
+                                            <li class="menu-item"><a href="javascript:void(0)"><span>NBDE - USA</span></a></li>
+                                            <li class="menu-item"><a href="javascript:void(0)"><span>NDBE - Canada</span></a></li>
+                                            <li class="menu-item"><a href="javascript:void(0)"><span>Restorative Dentistry</span></a></li>
+                                            <li class="menu-item"><a href="javascript:void(0)"><span>Composites</span></a></li>
+                                            <li class="menu-item"><a href="javascript:void(0)"><span>Dental Photography</span></a></li>
+                                            <li class="menu-item"><a href="javascript:void(0)"><span>Rubber Dam</span></a></li>
+                                            <li class="menu-item"><a href="javascript:void(0)"><span>Facial Aesthetics: Botox &amp; Lip Fillers</span></a></li>
+                                            <li class="menu-item"><a href="javascript:void(0)"><span>Dental Assistant Training</span></a></li>
+                                            <li class="menu-item"><a href="javascript:void(0)"><span>Social Media Marketing for Dentists</span></a></li>
+                                            <li class="menu-item"><a href="javascript:void(0)"><span>Endotontics</span></a></li>
                                         </ul>
                                     </li>
-                                    <li class="menu-item"><a href="gallery.php">Gallery</a></li>
-                                    <li class="menu-item"><a href="faculty.php">Faculty</a></li>
-                                    <li class="menu-item menu-item-has-children"><a href="#"><span>Store &nbsp;&#8659;</span></a>
-                                        <ul class="sub-menu">
-                                            <li class="menu-item"><a href="store.php"><span>Store</span></a></li>
-                                            <li class="menu-item"><a href="book-a-course.php"><span>Book a course</span></a></li>
-                                        </ul>
-                                    </li>
+                                    <li class="menu-item"><a href="javascript:void(0)">Gallery</a></li>
+                                    <li class="menu-item"><a href="javascript:void(0)">Faculty</a></li>
+                                    <li class="menu-item"><a href="javascript:void(0)">Store</a></li>
+                                    <li class="menu-item"><a href="javascript:void(0)">Book a course</a></li>
                                     <li class="menu-item menu-item-has-children"><a href="#"><span>Contact &nbsp;&#8659;</span></a>
                                         <ul class="sub-menu">
-                                            <li class="menu-item"><a href="testimonials.php"><span>Testimonials</span></a></li>
+                                            <li class="menu-item"><a href="javascript:void(0)"><span>Testimonials</span></a></li>
                                             <li class="menu-item"><a href="#contact-us"><span>Contact Us</span></a></li>
                                         </ul>
                                     </li>
@@ -97,34 +93,30 @@
                             <ul id="menu_main_mobile" class="menu_main_nav">
                                 <li class="menu-item current-menu-item" onclick="onClickHome()"><a href="#home"><span>Home</span></a></li>
                                 <!--<li class="menu-item" onclick="onClickAboutUsMenu()"><a href="javascript:void(0);">About Us</a></li>-->
-                                <li class="menu-item"><a href="vision.php">Vision</a></li>
+                                <li class="menu-item"><a href="javascript:void(0)">Vision</a></li>
                                 <li class="menu-item menu-item-has-children"><a href="javascript:void(0)"><span>Courses</span></a>
                                     <ul class="sub-menu gold-text">
                                         <li class="menu-item"><a href="ore-lds-uk.php"><span>ORE / LDS - UK</span></a></li>
-                                        <li class="menu-item"><a href="nbde-usa.php"><span>NBDE - USA</span></a></li>
-                                        <li class="menu-item"><a href="ndbe-canada.php"><span>NDBE - Canada</span></a></li>
-                                        <li class="menu-item"><a href="restorative-dentistry.php"><span>Restorative Dentistry</span></a></li>
-                                        <li class="menu-item"><a href="composites.php"><span>Composites</span></a></li>
-                                        <li class="menu-item"><a href="dental-photography.php"><span>Dental Photography</span></a></li>
-                                        <li class="menu-item"><a href="rubber-dam.php"><span>Rubber Dam</span></a></li>
-                                        <li class="menu-item"><a href="facial-aesthetics.php"><span>Facial Aesthetics: Botox &amp; Lip Fillers</span></a></li>
-                                        <li class="menu-item"><a href="dental-assistant-training.php"><span>Dental Assistant Training</span></a></li>
-                                        <li class="menu-item"><a href="smm-dentists.php"><span>Social Media Marketing for Dentists</span></a></li>
-                                        <li class="menu-item"><a href="endotontics.php"><span>Endotontics</span></a></li>
+                                        <li class="menu-item"><a href="javascript:void(0)"><span>NBDE - USA</span></a></li>
+                                        <li class="menu-item"><a href="javascript:void(0)"><span>NDBE - Canada</span></a></li>
+                                        <li class="menu-item"><a href="javascript:void(0)"><span>Restorative Dentistry</span></a></li>
+                                        <li class="menu-item"><a href="javascript:void(0)"><span>Composites</span></a></li>
+                                        <li class="menu-item"><a href="javascript:void(0)"><span>Dental Photography</span></a></li>
+                                        <li class="menu-item"><a href="javascript:void(0)"><span>Rubber Dam</span></a></li>
+                                        <li class="menu-item"><a href="javascript:void(0)"><span>Facial Aesthetics: Botox &amp; Lip Fillers</span></a></li>
+                                        <li class="menu-item"><a href="javascript:void(0)"><span>Dental Assistant Training</span></a></li>
+                                        <li class="menu-item"><a href="javascript:void(0)"><span>Social Media Marketing for Dentists</span></a></li>
+                                        <li class="menu-item"><a href="javascript:void(0)"><span>Endotontics</span></a></li>
                                     </ul>
                                 </li>
-                                <li class="menu-item"><a href="gallery.php">Gallery</a></li>
-                                <li class="menu-item"><a href="faculty.php">Faculty</a></li>
-                                <li class="menu-item menu-item-has-children"><a href="javascript:void(0)"><span>Store</span></a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item"><a href="store.php"><span>Store</span></a></li>
-                                        <li class="menu-item"><a href="book-a-course.php"><span>Book a course</span></a></li>
-                                    </ul>
-                                </li>
+                                <li class="menu-item"><a href="javascript:void(0)">Gallery</a></li>
+                                <li class="menu-item"><a href="javascript:void(0)">Faculty</a></li>
+                                <li class="menu-item"><a href="javascript:void(0)">Store</a></li>
+                                <li class="menu-item"><a href="javascript:void(0)">Book a course</a></li>
                                 <li class="menu-item menu-item-has-children"><a href="javascript:void(0)"><span>Contact</span></a>
                                     <ul class="sub-menu">
-                                        <li class="menu-item"><a href="testimonials.php"><span>Testimonials</span></a></li>
-                                        <li class="menu-item"><a href="contact-us.php"><span>Contact Us</span></a></li>
+                                        <li class="menu-item"><a href="javascript:void(0)"><span>Testimonials</span></a></li>
+                                        <li class="menu-item"><a href="#contact-us"><span>Contact Us</span></a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -163,7 +155,7 @@
                                     <br/> crown and bridge work and cosmetic care.
                                 </div>
                                 <div class="tp-caption dentrarario-home1-static-text tp-resizeme button" id="slide-4-layer-3" data-x="35" data-y="340" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;","speed":1500,"to":"o:1;","delay":500,"ease":"Power3.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
-                                    <a href="apply-now.php" class="sc_button sc_button_square sc_button_style_filled sc_button_size_medium alignleft">Apply Now</a>
+                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_medium alignleft">Apply Now</a>
                                 </div>
                                 <div class="tp-caption dentrarario-home1-static-header tp-resizeme" id="slide-4-layer-4" data-x="35" data-y="143" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":500,"ease":"Power3.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
                                     High Innovative Technology
@@ -180,7 +172,7 @@
                                     <br/>dental offices when he is not utilizing his talents on the dental van.
                                 </div>
                                 <div class="tp-caption dentrarario-home1-static-text tp-resizeme button" id="slide-5-layer-3" data-x="35" data-y="317" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;","speed":1500,"to":"o:1;","delay":1500,"ease":"Power2.easeOut"},{"delay":3750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
-                                    <a href="appointment.html" class="sc_button sc_button_square sc_button_style_filled sc_button_size_medium alignleft">Make an appointment</a>
+                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_medium alignleft">Make an appointment</a>
                                 </div>
                                 <div class="tp-caption dentrarario-home1-static-header tp-resizeme" id="slide-5-layer-4" data-x="35" data-y="143" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":500,"ease":"Power2.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
                                     High Innovative Technology
@@ -414,7 +406,7 @@
                                                                 <div id="sc_services_047_2" class="sc_services_item sc_services_item_2">
                                                                     <div class="sc_services_item_content">
                                                                         <h4 class="sc_services_item_title">
-                                                                            <a href="nbde-usa.php">NBDE - USA</a>
+                                                                            <a href="javascript:void(0)">NBDE - USA</a>
                                                                         </h4>
                                                                         <div class="sc_services_item_description">
                                                                             <p>National Board Dental Examination (NBDE) is the United States national dental examination for students and professionals in dentistry. It is required for licensure in the United States and may also be required when applying for postgraduate studies in dental specialties after completing a dental degree. Foreign-trained dentists ( E.g. Indian Dentists) also must take the NBDE in order to earn admission into advanced standing programs in US dental schools.</p>
@@ -426,7 +418,7 @@
                                                                 <div id="sc_services_047_3" class="sc_services_item sc_services_item_3">
                                                                     <div class="sc_services_item_content">
                                                                         <h4 class="sc_services_item_title">
-                                                                            <a href="ndbe-canada.php">NDBE - Canada</a>
+                                                                            <a href="javascript:void(0)">NDBE - Canada</a>
                                                                         </h4>
                                                                         <div class="sc_services_item_description">
                                                                             <p>The National Dental Examining Board of Canada, also known as the NDEB is the organization is responsible for granting approval for dentists to practice in Canada through standardized examinations.</p>
@@ -438,7 +430,7 @@
                                                                 <div id="sc_services_047_4" class="sc_services_item sc_services_item_4">
                                                                     <div class="sc_services_item_content">
                                                                         <h4 class="sc_services_item_title">
-                                                                            <a href="restorative-dentistry.php">Restorative Dentistry</a>
+                                                                            <a href="javascript:void(0)">Restorative Dentistry</a>
                                                                         </h4>
                                                                         <div class="sc_services_item_description">
                                                                             <p>
@@ -455,7 +447,7 @@
                                                                 <div id="sc_services_047_5" class="sc_services_item sc_services_item_5">
                                                                     <div class="sc_services_item_content">
                                                                         <h4 class="sc_services_item_title">
-                                                                            <a href="endotontics.php">Endodontics</a>
+                                                                            <a href="javascript:void(0)">Endodontics</a>
                                                                         </h4>
                                                                         <div class="sc_services_item_description">
                                                                             <p>
@@ -472,7 +464,7 @@
                                                                 <div id="sc_services_047_6" class="sc_services_item sc_services_item_6">
                                                                     <div class="sc_services_item_content">
                                                                         <h4 class="sc_services_item_title">
-                                                                            <a href="composites.php">Composites</a>
+                                                                            <a href="javascript:void(0)">Composites</a>
                                                                         </h4>
                                                                         <div class="sc_services_item_description">
                                                                             <p>The aim of this course is to give knowledge, confidence and skills to create beautiful and functional direct anterior and posterior composites</p>
@@ -499,7 +491,7 @@
                                                         <h3 class="sc_call_to_action_title sc_item_title">Have a look at all of our courses</h3>
                                                         <div class="sc_call_to_action_buttons sc_item_buttons">
                                                             <div class="sc_call_to_action_button sc_item_button">
-                                                                <a href="appointment.html" class="sc_button sc_button_square sc_button_style_filled sc_button_size_medium">View Courses</a>
+                                                                <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_medium">View Courses</a>
                                                             </div>
                                                         </div>
                                                     </div>

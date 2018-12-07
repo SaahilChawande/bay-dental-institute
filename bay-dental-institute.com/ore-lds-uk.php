@@ -42,35 +42,31 @@
                         <div class="content_wrap clearfix">
                             <nav class="menu_main_nav_area">
                                 <ul id="menu_main" class="menu_main_nav">
-                                    <li class="menu-item current-menu-item" ><a href="index.php#home"><span>Home</span></a></li>
+                                    <li class="menu-item current-menu-item" ><a href="index.php"><span>Home</span></a></li>
                                     <li class="menu-item"><a href="index.php#about-us">About Us</a></li>
-                                    <li class="menu-item"><a href="vision.php">Vision</a></li>
+                                    <li class="menu-item"><a href="javascript:void(0)">Vision</a></li>
                                     <li class="menu-item menu-item-has-children"><a href="#"><span>Courses &nbsp;&#8659;</span></a>
                                         <ul class="sub-menu">
-                                            <li class="menu-item"><a href="ore-lds-uk.php"><span>ORE / LDS - UK</span></a></li>
-                                            <li class="menu-item"><a href="nbde-usa.php"><span>NBDE - USA</span></a></li>
-                                            <li class="menu-item"><a href="ndbe-canada.php"><span>NDBE - Canada</span></a></li>
-                                            <li class="menu-item"><a href="restorative-dentistry.php"><span>Restorative Dentistry</span></a></li>
-                                            <li class="menu-item"><a href="composites.php"><span>Composites</span></a></li>
-                                            <li class="menu-item"><a href="dental-photography.php"><span>Dental Photography</span></a></li>
-                                            <li class="menu-item"><a href="rubber-dam.php"><span>Rubber Dam</span></a></li>
-                                            <li class="menu-item"><a href="facial-aesthetics.php"><span>Facial Aesthetics: Botox &amp; Lip Fillers</span></a></li>
-                                            <li class="menu-item"><a href="dental-assistant-training.php"><span>Dental Assistant Training</span></a></li>
-                                            <li class="menu-item"><a href="smm-dentists.php"><span>Social Media Marketing for Dentists</span></a></li>
-                                            <li class="menu-item"><a href="endotontics.php"><span>Endotontics</span></a></li>
+                                            <li class="menu-item"><a href="javascript:void(0)"><span>ORE / LDS - UK</span></a></li>
+                                            <li class="menu-item"><a href="javascript:void(0)"><span>NBDE - USA</span></a></li>
+                                            <li class="menu-item"><a href="javascript:void(0)"><span>NDBE - Canada</span></a></li>
+                                            <li class="menu-item"><a href="javascript:void(0)"><span>Restorative Dentistry</span></a></li>
+                                            <li class="menu-item"><a href="javascript:void(0)"<span>Composites</span></a></li>
+                                            <li class="menu-item"><a href="javascript:void(0)"><span>Dental Photography</span></a></li>
+                                            <li class="menu-item"><a href="javascript:void(0)"><span>Rubber Dam</span></a></li>
+                                            <li class="menu-item"><a href="javascript:void(0)"><span>Facial Aesthetics: Botox &amp; Lip Fillers</span></a></li>
+                                            <li class="menu-item"><a href="javascript:void(0)"><span>Dental Assistant Training</span></a></li>
+                                            <li class="menu-item"><a href="javascript:void(0)"><span>Social Media Marketing for Dentists</span></a></li>
+                                            <li class="menu-item"><a href="javascript:void(0)"<span>Endotontics</span></a></li>
                                         </ul>
                                     </li>
-                                    <li class="menu-item"><a href="gallery.php">Gallery</a></li>
-                                    <li class="menu-item"><a href="faculty.php">Faculty</a></li>
-                                    <li class="menu-item menu-item-has-children"><a href="#"><span>Store &nbsp;&#8659;</span></a>
-                                        <ul class="sub-menu">
-                                            <li class="menu-item"><a href="store.php"><span>Store</span></a></li>
-                                            <li class="menu-item"><a href="book-a-course.php"><span>Book a course</span></a></li>
-                                        </ul>
-                                    </li>
+                                    <li class="menu-item"><a href="javascript:void(0)">Gallery</a></li>
+                                    <li class="menu-item"><a href="javascript:void(0)">Faculty</a></li>
+                                    <li class="menu-item"><a href="javascript:void(0)">Store</a></li>
+                                    <li class="menu-item"><a href="javascript:void(0)">Book a course</a></li>
                                     <li class="menu-item menu-item-has-children"><a href="#"><span>Contact &nbsp;&#8659;</span></a>
                                         <ul class="sub-menu">
-                                            <li class="menu-item"><a href="testimonials.php"><span>Testimonials</span></a></li>
+                                            <li class="menu-item"><a href="javascript:void(0)"><span>Testimonials</span></a></li>
                                             <li class="menu-item"><a href="index.php#contact-us"><span>Contact Us</span></a></li>
                                         </ul>
                                     </li>
@@ -96,33 +92,29 @@
                             <ul id="menu_main_mobile" class="menu_main_nav">
                                 <li class="menu-item" onclick="onClickHome()"><a href="index.php"><span>Home</span></a></li>
                                 <li class="menu-item" onclick="onClickAboutUsMenu()"><a href="index.php#about-us">About Us</a></li>
-                                <li class="menu-item"><a href="vision.php">Vision</a></li>
+                                <li class="menu-item"><a href="javascript:void(0)">Vision</a></li>
                                 <li class="menu-item menu-item-has-children current-menu-ancestor"><a href="javascript:void(0)"><span>Courses</span></a>
                                     <ul class="sub-menu gold-text">
                                         <li class="menu-item current-menu-item"><a href="ore-lds-uk.php"><span>ORE / LDS - UK</span></a></li>
-                                        <li class="menu-item"><a href="nbde-usa.php"><span>NBDE - USA</span></a></li>
-                                        <li class="menu-item"><a href="ndbe-canada.php"><span>NDBE - Canada</span></a></li>
-                                        <li class="menu-item"><a href="restorative-dentistry.php"><span>Restorative Dentistry</span></a></li>
-                                        <li class="menu-item"><a href="composites.php"><span>Composites</span></a></li>
-                                        <li class="menu-item"><a href="dental-photography.php"><span>Dental Photography</span></a></li>
-                                        <li class="menu-item"><a href="rubber-dam.php"><span>Rubber Dam</span></a></li>
-                                        <li class="menu-item"><a href="facial-aesthetics.php"><span>Facial Aesthetics: Botox &amp; Lip Fillers</span></a></li>
-                                        <li class="menu-item"><a href="dental-assistant-training.php"><span>Dental Assistant Training</span></a></li>
-                                        <li class="menu-item"><a href="smm-dentists.php"><span>Social Media Marketing for Dentists</span></a></li>
-                                        <li class="menu-item"><a href="endotontics.php"><span>Endotontics</span></a></li>
+                                        <li class="menu-item"><a href="javascript:void(0)"><span>NBDE - USA</span></a></li>
+                                        <li class="menu-item"><a href="javascript:void(0)"><span>NDBE - Canada</span></a></li>
+                                        <li class="menu-item"><a href="javascript:void(0)"><span>Restorative Dentistry</span></a></li>
+                                        <li class="menu-item"><a href="javascript:void(0)"><span>Composites</span></a></li>
+                                        <li class="menu-item"><a href="javascript:void(0)"><span>Dental Photography</span></a></li>
+                                        <li class="menu-item"><a href="javascript:void(0)"><span>Rubber Dam</span></a></li>
+                                        <li class="menu-item"><a href="javascript:void(0)"><span>Facial Aesthetics: Botox &amp; Lip Fillers</span></a></li>
+                                        <li class="menu-item"><a href="javascript:void(0)"><span>Dental Assistant Training</span></a></li>
+                                        <li class="menu-item"><a href="javascript:void(0)"><span>Social Media Marketing for Dentists</span></a></li>
+                                        <li class="menu-item"><a href="javascript:void(0)"><span>Endotontics</span></a></li>
                                     </ul>
                                 </li>
-                                <li class="menu-item"><a href="gallery.php">Gallery</a></li>
-                                <li class="menu-item"><a href="faculty.php">Faculty</a></li>
-                                <li class="menu-item menu-item-has-children"><a href="javascript:void(0)"><span>Store</span></a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item"><a href="store.php"><span>Store</span></a></li>
-                                        <li class="menu-item"><a href="book-a-course.php"><span>Book a course</span></a></li>
-                                    </ul>
-                                </li>
+                                <li class="menu-item"><a href="javascript:void(0)">Gallery</a></li>
+                                <li class="menu-item"><a href="javascript:void(0)">Faculty</a></li>
+                                <li class="menu-item"><a href="javascript:void(0)">Store</a></li>
+                                <li class="menu-item"><a href="javascript:void(0)">Book a course</a></li>
                                 <li class="menu-item menu-item-has-children"><a href="javascript:void(0)"><span>Contact</span></a>
                                     <ul class="sub-menu">
-                                        <li class="menu-item"><a href="testimonials.php"><span>Testimonials</span></a></li>
+                                        <li class="menu-item"><a href="javascript:void(0)"><span>Testimonials</span></a></li>
                                         <li class="menu-item"><a href="index.php#contact-us"><span>Contact Us</span></a></li>
                                     </ul>
                                 </li>
@@ -223,7 +215,8 @@
                                                         <div class="wpb_text_column wpb_content_element ">
                                                             <div class="wpb_wrapper">
 
-                                                                <p>The ORE is conducted by the General Dental Council UK- GDC. You can log on to the GDC website ( www.gdc-uk.org ) for more information about the application guidance.
+                                                                <p>The ORE is conducted by the General Dental Council UK- GDC. You can log on to the GDC website (
+                                                                    <a href=">www.gdc-uk.org">>www.gdc-uk.org</a ) for more information about the application guidance.
                                                                     Further we can also assist you with the application for a fee. </p>
 
 
@@ -299,7 +292,8 @@
                                                     <div class="sc_accordion_content">
                                                         <div class="wpb_text_column wpb_content_element ">
                                                             <div class="wpb_wrapper">
-                                                                <p>Once your application is processed and you have an active eGDC account, the GDC will email you and announce on the latest information page on www.gdc-uk.org when are the dates for the booking for part I. The time the booking will open will be mentioned. You will be required to sign into your eGDC account on that day / time to book your seat for the part I. People try to book this exam from all over the world.</p>
+                                                                <p>Once your application is processed and you have an active eGDC account, the GDC will email you and announce on the latest information page on
+                                                                    <a href=">www.gdc-uk.org">>www.gdc-uk.org</a> when are the dates for the booking for part I. The time the booking will open will be mentioned. You will be required to sign into your eGDC account on that day / time to book your seat for the part I. People try to book this exam from all over the world.</p>
 
 
                                                             </div>
@@ -530,7 +524,7 @@
                                                         <div class="wpb_text_column wpb_content_element ">
                                                             <div class="wpb_wrapper">
                                                                 <p>Well it is not tough, there are plenty of openings in many private and NHS practices. Ideally after passing you should aggressively interview with all practices that have an opening. If you are able to impress the practice with your etiquette, and you have an exhaustive portfolio of work, getting a job with visa support is not impossible.
-                                                                    Log on to www.bdjjobs.com to get an idea of the jobs on offer.
+                                                                    Log on to <a href="www.bdjjobs.com">www.bdjjobs.com</a> to get an idea of the jobs on offer.
                                                                 </p>
 
 
@@ -559,7 +553,7 @@
                                                     <div class="sc_accordion_content">
                                                         <div class="wpb_text_column wpb_content_element ">
                                                             <div class="wpb_wrapper">
-                                                                <p>Please log onto www.bdjjobs.com to get an idea of this.  </p>
+                                                                <p>Please log onto <a href="www.bdjjobs.com">www.bdjjobs.com</a> to get an idea of this.  </p>
 
 
                                                             </div>
@@ -662,15 +656,15 @@
                 </div>
                 </div>
             </div>
-            <div class="copyright_wrap copyright_style_text  scheme_dark">
-            <div class="copyright_wrap_inner">
-                <div class="content_wrap_outer">
-                    <div class="content_wrap">
-                        <div class="copyright_text">ThemeREX © 2017 All Rights Reserved.</div>
+            <div class="copyright_wrap copyright_style_socials scheme_light">
+                <div class="copyright_wrap_inner">
+                    <div class="content_wrap_outer">
+                        <div class="content_wrap">
+                            <div class="copyright_text">Incepiom © 2018 All Rights Reserved.</div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
         </div>
     </div>
 
