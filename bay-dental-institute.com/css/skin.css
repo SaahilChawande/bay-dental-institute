@@ -6737,7 +6737,7 @@ textarea {
   color: #f0f0f0;
 }
 .scheme_original .sc_accordion .sc_accordion_item .sc_accordion_title.ui-state-active {
-  color: #30383B;
+  color: #F9A825;
 }
 .scheme_light .sc_accordion .sc_accordion_item .sc_accordion_title.ui-state-active {
   color: #30383B;
@@ -6755,7 +6755,7 @@ textarea {
   border-top-color: #4F5B64;
 }
 .scheme_original .sc_accordion .sc_accordion_item .sc_accordion_title:hover {
-  color: #3FB6E0;
+  color: #F0FAFF;
 }
 .scheme_light .sc_accordion .sc_accordion_item .sc_accordion_title:hover {
   color: #3FB6E0;
@@ -10131,7 +10131,7 @@ button,
   font-family: 'Merriweather';
 }
 .scheme_original .sc_item_descr {
-  color: #F9A825;
+  color: #F0FAFF;
 }
 .scheme_light .sc_item_descr {
   color: #787C83;

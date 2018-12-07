@@ -160,23 +160,24 @@
 	height:400px;
 }
 
-.sc-pg .sw-slide_1 {
-	background-image:url(../images/image-3-600x400.jpg);
+.sw-slide_1 {
+	background-image:url('../images/courses/ore-lds-uk/s1.jpg');
+    background-repeat:no-repeat;
 }
 .sc-pg .sw-slide_2 {
-	background-image:url(../images/image-1-600x400.jpg)
+	background-image:url('../images/courses/ore-lds-uk/s12.jpg');
 }
 .sc-pg .sw-slide_3 {
-	background-image:url(../images/image-18-708x400.jpg)
+	background-image:url('../images/courses/ore-lds-uk/s12.jpg');
 }
 .sc-pg .sw-slide_4 {
-	background-image:url(../images/image-0-600x400.jpg);
+	background-image:url('../images/courses/ore-lds-uk/s12.jpg');
 }
 .sc-pg .sw-slide_5 {
-	background-image:url(../images/image-14-900x400.jpg);
+	background-image:url('../images/courses/ore-lds-uk/s12.jpg');
 }
 .sc-pg .sw-slide_6 {
-	background-image:url(../images/image-16-528x400.jpg);
+	background-image:url('../images/courses/ore-lds-uk/s12.jpg');
 }
 
 

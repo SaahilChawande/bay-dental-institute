@@ -72,7 +72,7 @@
                                     <li class="menu-item menu-item-has-children"><a href="#"><span>Contact &nbsp;&#8659;</span></a>
                                         <ul class="sub-menu">
                                             <li class="menu-item"><a href="testimonials.php"><span>Testimonials</span></a></li>
-                                            <li class="menu-item"><a href="contact-us.php"><span>Contact Us</span></a></li>
+                                            <li class="menu-item"><a href="#contact-us"><span>Contact Us</span></a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -193,35 +193,6 @@
                 </div>
             </section>
 
-            <div class="page-content_wrap page_paddings_yes dark-background" id="quote">
-                <div class="content_wrap">
-                    <div class="content">
-                        <article class="post_item post_item_single page hentry">
-                            <div class="vc_row wpb_row vc_row-fluid">
-                                <div class="wpb_column vc_column_container vc_col-sm-12">
-                                    <div class="vc_column-inner ">
-                                        <div class="wpb_wrapper">
-                                            <h4 class="sc_title sc_title_regular"></h4>
-                                            <blockquote class="sc_quote">
-                                                <p>
-                                                    I got denials from different dental doctors because of a unique and complicated case.
-                                                    Dr. Phillips however brought hope and eagerly took me into surgery that was successful.
-                                                    Now I can say that I've never been happier. Thank you Doctor!
-                                                </p>
-                                                <p class="sc_quote_title">Jessica Smith</p>
-                                            </blockquote>
-                                            <div class="vc_empty_space space_25p">
-                                                <span class="vc_empty_space_inner"></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-            </div>
-
             <div class="page_content_wrap page_paddings_no dark-background" id="about-us">
                 <div class="content_wrap">
                     <div class="content">
@@ -301,7 +272,7 @@
                                                             <div class="column-1_4 column_padding_bottom">
                                                                 <div id="sc_team_454_1" class="sc_team_item">
                                                                     <div class="sc_team_item_avatar">
-                                                                        <img width="182" height="182" alt="" src="images/our-team-1.jpg">
+                                                                        <img width="182" height="182" alt="" src="images/our-team/t1.jpg">
                                                                     </div>
                                                                     <div class="sc_team_item_info">
                                                                         <h5 class="sc_team_item_title">Dr. Shravan Chawla</h5>
@@ -315,7 +286,7 @@
                                                             <div class="column-1_4 column_padding_bottom">
                                                                 <div id="sc_team_454_2" class="sc_team_item">
                                                                     <div class="sc_team_item_avatar">
-                                                                        <img width="182" height="182" alt="" src="images/our-team-2.jpg">
+                                                                        <img width="182" height="182" alt="" src="images/our-team/t2.jpg">
                                                                     </div>
                                                                     <div class="sc_team_item_info">
                                                                         <h5 class="sc_team_item_title">Dr. James Mulani</h5>
@@ -345,7 +316,7 @@
                                                             <div class="column-1_4 column_padding_bottom">
                                                                 <div id="sc_team_454_4" class="sc_team_item">
                                                                     <div class="sc_team_item_avatar">
-                                                                        <img width="182" height="182" alt="" src="images/team-3-small-182x182.png">
+                                                                        <img width="182" height="182" alt="" src="images/our-team/t4.jpg">
                                                                     </div>
                                                                     <div class="sc_team_item_info">
                                                                         <h5 class="sc_team_item_title">Dr. Akshari Anchan</h5>
@@ -425,94 +396,86 @@
                                                 <div id="sc_services_047_wrap" class="sc_services_wrap">
                                                     <div id="sc_services_047" class="sc_services sc_services_style_services-1 sc_services_type_icons  margin_top_huge margin_bottom_large">
                                                         <h2 class="sc_services_title sc_item_title">Our Courses</h2>
-                                                        <div class="sc_services_descr sc_item_descr">Courses we provide</div>
+                                                        <div class="sc_services_descr sc_item_descr"></div>
                                                         <div class="sc_columns columns_wrap">
                                                             <div class="column-1_3 column_padding_bottom">
                                                                 <div id="sc_services_047_1" class="sc_services_item sc_services_item_1">
-                                                                    <a href="single-service.html">
-                                                                        <span class="sc_icon icon-medic-3"></span>
-                                                                    </a>
                                                                     <div class="sc_services_item_content">
                                                                         <h4 class="sc_services_item_title">
-                                                                            <a href="single-service.html">Course 1</a>
+                                                                            <a href="ore-lds-uk.php">ORE / LDS - UK</a>
                                                                         </h4>
                                                                         <div class="sc_services_item_description">
-                                                                            <p>There are only 2 dental specialties that only focus on dental esthetics: Prosthodontics and Orthodontics</p>
+                                                                            <p>The Overseas Registration Exam ( ORE ) &amp; the License in Dental Science Exam ( LDS )   are licensings Exam conducted by the General Dental Council ( GDC ) UK and Royal college of Surgeons ( RCS ) respectively  for overseas Dentist who wish to migrate and practice in the United Kingdom as a licensed Dentist.</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="column-1_3 column_padding_bottom">
                                                                 <div id="sc_services_047_2" class="sc_services_item sc_services_item_2">
-                                                                    <a href="single-service.html">
-                                                                        <span class="sc_icon icon-medic-1"></span>
-                                                                    </a>
                                                                     <div class="sc_services_item_content">
                                                                         <h4 class="sc_services_item_title">
-                                                                            <a href="single-service.html">Course 2</a>
+                                                                            <a href="nbde-usa.php">NBDE - USA</a>
                                                                         </h4>
                                                                         <div class="sc_services_item_description">
-                                                                            <p>The implant fixture is first placed, so that it is likely to osseointegrate, then a dental prosthetic is added</p>
+                                                                            <p>National Board Dental Examination (NBDE) is the United States national dental examination for students and professionals in dentistry. It is required for licensure in the United States and may also be required when applying for postgraduate studies in dental specialties after completing a dental degree. Foreign-trained dentists ( E.g. Indian Dentists) also must take the NBDE in order to earn admission into advanced standing programs in US dental schools.</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="column-1_3 column_padding_bottom">
                                                                 <div id="sc_services_047_3" class="sc_services_item sc_services_item_3">
-                                                                    <a href="single-service.html">
-                                                                        <span class="sc_icon icon-medic-3"></span>
-                                                                    </a>
                                                                     <div class="sc_services_item_content">
                                                                         <h4 class="sc_services_item_title">
-                                                                            <a href="single-service.html">Course 3</a>
+                                                                            <a href="ndbe-canada.php">NDBE - Canada</a>
                                                                         </h4>
                                                                         <div class="sc_services_item_description">
-                                                                            <p>We provide a wide range of oral health care services to patients, from routine checkups to fitting braces</p>
+                                                                            <p>The National Dental Examining Board of Canada, also known as the NDEB is the organization is responsible for granting approval for dentists to practice in Canada through standardized examinations.</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="column-1_3 column_padding_bottom">
                                                                 <div id="sc_services_047_4" class="sc_services_item sc_services_item_4">
-                                                                    <a href="single-service.html">
-                                                                        <span class="sc_icon icon-medic-12"></span>
-                                                                    </a>
                                                                     <div class="sc_services_item_content">
                                                                         <h4 class="sc_services_item_title">
-                                                                            <a href="single-service.html">Course 4</a>
+                                                                            <a href="restorative-dentistry.php">Restorative Dentistry</a>
                                                                         </h4>
                                                                         <div class="sc_services_item_description">
-                                                                            <p>Bleaching methods use carbamide peroxide which reacts with water to form hydrogen peroxide loremis</p>
+                                                                            <p>
+                                                                                Our aim is to equip the clinician with the right knowledge and skill to provide beautifully restored teeth that technically sound and last long.
+                                                                            </p>
+                                                                            <p>
+                                                                                Dentistry involves a lot of skill and art. We train you to skill yourself with the artistic touch to produce beautifully restored teeth.
+                                                                            </p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="column-1_3 column_padding_bottom">
                                                                 <div id="sc_services_047_5" class="sc_services_item sc_services_item_5">
-                                                                    <a href="single-service.html">
-                                                                        <span class="sc_icon icon-medic-8"></span>
-                                                                    </a>
                                                                     <div class="sc_services_item_content">
                                                                         <h4 class="sc_services_item_title">
-                                                                            <a href="single-service.html">Course 5</a>
+                                                                            <a href="endotontics.php">Endodontics</a>
                                                                         </h4>
                                                                         <div class="sc_services_item_description">
-                                                                            <p>Types of bridges may vary, depending upon how they are fabricated and the way they anchor to the adjacent teeth</p>
+                                                                            <p>
+                                                                                The aim of this course is to provide in depth clear understanding of Endodontics which will enable practitioners to develop the skills necessary to provide high standards of technique & care for patients requiring endodontic treatment.
+                                                                            </p>
+                                                                            <p>
+                                                                                The program format will involve a combination of lectures, case discussions, however the main importance is given to clinical soft skills training, development and problem solving.
+                                                                            </p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                             <div class="column-1_3 column_padding_bottom">
                                                                 <div id="sc_services_047_6" class="sc_services_item sc_services_item_6">
-                                                                    <a href="single-service.html">
-                                                                        <span class="sc_icon icon-medic-6"></span>
-                                                                    </a>
                                                                     <div class="sc_services_item_content">
                                                                         <h4 class="sc_services_item_title">
-                                                                            <a href="single-service.html">Course 6</a>
+                                                                            <a href="composites.php">Composites</a>
                                                                         </h4>
                                                                         <div class="sc_services_item_description">
-                                                                            <p>The most important part of preventive dentistry is to brush teeth with fluoride toothpaste approved by ADA</p>
+                                                                            <p>The aim of this course is to give knowledge, confidence and skills to create beautiful and functional direct anterior and posterior composites</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -534,7 +497,6 @@
                                                 <div id="sc_call_to_action_828" class="sc_call_to_action sc_call_to_action_accented sc_call_to_action_style_1 sc_call_to_action_align_center">
                                                     <div class="sc_call_to_action_info">
                                                         <h3 class="sc_call_to_action_title sc_item_title">Have a look at all of our courses</h3>
-                                                        <div class="sc_call_to_action_descr sc_item_descr">Lorem Epsum.....</div>
                                                         <div class="sc_call_to_action_buttons sc_item_buttons">
                                                             <div class="sc_call_to_action_button sc_item_button">
                                                                 <a href="appointment.html" class="sc_button sc_button_square sc_button_style_filled sc_button_size_medium">View Courses</a>
@@ -549,8 +511,7 @@
 
                                 <div class="vc_row-full-width"></div>
 
-                                <div class="vc_row-full-width"></div>
-                                <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_row-no-padding">
+                                <div id="contact-us" data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_row-no-padding">
                                     <div class="wpb_column vc_column_container vc_col-sm-12">
                                         <div class="vc_column-inner ">
                                             <div class="wpb_wrapper">
@@ -559,7 +520,7 @@
                                                         <div class="sc_section w_half_content alignright">
                                                             <div class="sc_section_inner">
                                                                 <h2 class="sc_title sc_title_regular sc_align_left margin_top_large margin_bottom_tiny">Contact Us</h2>
-                                                                <h6 class="vc_custom_heading vc_custom_1455550892710">Don not hesitate to contact Us!</h6>
+                                                                <h6 class="vc_custom_heading vc_custom_1455550892710">Do not hesitate to contact us!</h6>
                                                                 <div id="sc_services_086_wrap" class="sc_services_wrap">
                                                                     <div id="sc_services_086" class="sc_services sc_services_style_services-2 sc_services_type_icons  margin_top_medium alignleft">
                                                                         <div id="sc_services_086_1" class="sc_services_item sc_services_item_1">
@@ -702,6 +663,7 @@
     <script type='text/javascript' src='js/vendor/swiper/swiper.min.js'></script>
     <script type='text/javascript' src='http://maps.google.com/maps/api/js?key='></script>
     <script type='text/javascript' src='js/vendor/core.googlemap.js'></script>
+    <script type='text/javascript' src='js/custom/home.js'></script>
 	
 </body>
 
