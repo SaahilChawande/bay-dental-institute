@@ -49,7 +49,7 @@
                                     <li class="menu-item menu-item-has-children"><a href="#"><span>Courses &nbsp;&#8659;</span></a>
                                         <ul class="sub-menu">
                                             <li class="menu-item"><a href="ore-lds-uk.php"><span>ORE / LDS - UK</span></a></li>
-                                            <li class="menu-item"><a href="javascript:void(0)"><span>NBDE - USA</span></a></li>
+                                            <li class="menu-item"><a href="nbde-usa.php"><span>NBDE - USA</span></a></li>
                                             <li class="menu-item"><a href="javascript:void(0)"><span>NDBE - Canada</span></a></li>
                                             <li class="menu-item"><a href="javascript:void(0)"><span>Restorative Dentistry</span></a></li>
                                             <li class="menu-item"><a href="javascript:void(0)"><span>Composites</span></a></li>
@@ -64,7 +64,7 @@
                                     <li class="menu-item"><a href="javascript:void(0)">Gallery</a></li>
                                     <li class="menu-item"><a href="javascript:void(0)">Faculty</a></li>
                                     <li class="menu-item"><a href="javascript:void(0)">Store</a></li>
-                                    <li class="menu-item"><a href="javascript:void(0)">Book a course</a></li>
+                                    <li class="menu-item"><a href="book-a-course.php">Book a course</a></li>
                                     <li class="menu-item menu-item-has-children"><a href="#"><span>Contact &nbsp;&#8659;</span></a>
                                         <ul class="sub-menu">
                                             <li class="menu-item"><a href="javascript:void(0)"><span>Testimonials</span></a></li>
@@ -97,7 +97,7 @@
                                 <li class="menu-item menu-item-has-children"><a href="javascript:void(0)"><span>Courses</span></a>
                                     <ul class="sub-menu gold-text">
                                         <li class="menu-item"><a href="ore-lds-uk.php"><span>ORE / LDS - UK</span></a></li>
-                                        <li class="menu-item"><a href="javascript:void(0)"><span>NBDE - USA</span></a></li>
+                                        <li class="menu-item"><a href="nbde-usa.php"><span>NBDE - USA</span></a></li>
                                         <li class="menu-item"><a href="javascript:void(0)"><span>NDBE - Canada</span></a></li>
                                         <li class="menu-item"><a href="javascript:void(0)"><span>Restorative Dentistry</span></a></li>
                                         <li class="menu-item"><a href="javascript:void(0)"><span>Composites</span></a></li>
@@ -112,7 +112,7 @@
                                 <li class="menu-item"><a href="javascript:void(0)">Gallery</a></li>
                                 <li class="menu-item"><a href="javascript:void(0)">Faculty</a></li>
                                 <li class="menu-item"><a href="javascript:void(0)">Store</a></li>
-                                <li class="menu-item"><a href="javascript:void(0)">Book a course</a></li>
+                                <li class="menu-item"><a href="book-a-course.php">Book a course</a></li>
                                 <li class="menu-item menu-item-has-children"><a href="javascript:void(0)"><span>Contact</span></a>
                                     <ul class="sub-menu">
                                         <li class="menu-item"><a href="javascript:void(0)"><span>Testimonials</span></a></li>
@@ -503,7 +503,7 @@
 
                                 <div class="vc_row-full-width"></div>
 
-                                <div id="contact-us" data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_row-no-padding">
+                                <div data-vc-full-width="true" data-vc-full-width-init="true" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_row-no-padding" style="position: relative; left: -50.2px; box-sizing: border-box; width: 1094px;">
                                     <div class="wpb_column vc_column_container vc_col-sm-12">
                                         <div class="vc_column-inner ">
                                             <div class="wpb_wrapper">
@@ -511,16 +511,18 @@
                                                     <div class="column-1_2 sc_column_item sc_column_item_1">
                                                         <div class="sc_section w_half_content alignright">
                                                             <div class="sc_section_inner">
-                                                                <h2 class="sc_title sc_title_regular sc_align_left margin_top_large margin_bottom_tiny">Contact Us</h2>
+                                                                <h2 class="sc_title sc_title_regular sc_align_left margin_bottom_tiny">Contact Us</h2>
                                                                 <h6 class="vc_custom_heading vc_custom_1455550892710">Do not hesitate to contact us!</h6>
                                                                 <div id="sc_services_086_wrap" class="sc_services_wrap">
                                                                     <div id="sc_services_086" class="sc_services sc_services_style_services-2 sc_services_type_icons  margin_top_medium alignleft">
                                                                         <div id="sc_services_086_1" class="sc_services_item sc_services_item_1">
                                                                             <span class="sc_icon icon-location-light"></span>
                                                                             <div class="sc_services_item_content">
-                                                                                <h4 class="sc_services_item_title">Our Adress</h4>
+                                                                                <h4 class="sc_services_item_title">Our Address</h4>
                                                                                 <div class="sc_services_item_description">
-                                                                                    <p>528 tenth Avenue, Boston, BT 58965</p>
+                                                                                    <p>Suite 601-603, A-Wing, Plaza Panchashil,</p>
+                                                                                    <p>6th Floor, Next to Dharam Palace,</p>
+                                                                                    <p>Hughes Road, Mumbai - 400 007</p>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -529,16 +531,9 @@
                                                                             <div class="sc_services_item_content">
                                                                                 <h4 class="sc_services_item_title">Phone</h4>
                                                                                 <div class="sc_services_item_description">
-                                                                                    <p>Manager +1 800 125 65 24</p>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div id="sc_services_086_3" class="sc_services_item sc_services_item_3">
-                                                                            <span class="sc_icon icon-calendar-light"></span>
-                                                                            <div class="sc_services_item_content">
-                                                                                <h4 class="sc_services_item_title">Open Hours</h4>
-                                                                                <div class="sc_services_item_description">
-                                                                                    <p>Mn - St: 8:00am - 9:00pm Sn: Closed</p>
+                                                                                    <p>Dr. Sharavan Chawla - +91 98209 58880</p>
+                                                                                    <p>+91 22 23610338</p>
+                                                                                    <p>+91 22 23638186</p>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -565,8 +560,86 @@
                 </div>
             </div>
 
+            <div class="vc_row-full-width"></div>
 
+            <div class="wpb_column vc_column_container vc_col-sm-12 dark-background">
+                <div class="vc_column-inner ">
+                    <div class="wpb_wrapper">
+                        <div class="sc_content content_wrap margin_top_huge margin_bottom_huge">
+                            <div id="sc_form_070_wrap" class="sc_form_wrap">
+                                <div id="sc_form_070" class="sc_form sc_form_style_form_2 margin_top_null margin_bottom_null">
+                                    <h2 class="sc_form_title sc_item_title">Get in touch with us!</h2>
+                                    <form id="sc_form_070_form" data-formtype="form_2" method="post" action="http://dentario-html.themerex.net/includes/sendmail.php" class="inited">
+                                        <div class="sc_form_info">
+                                            <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_2">
+                                                <div class="column-1_2 sc_column_item sc_column_item_1">
+                                                    <div class="wpb_text_column wpb_content_element ">
+                                                        <div class="wpb_wrapper">
+                                                            <div class="sc_form_item sc_form_field label_over"><i class="icon  icon-user-light"></i>
+                                                                <label class="required" for="sc_form_username">Name</label>
+                                                                <input id="sc_form_username" type="text" name="username" placeholder="Name *">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="column-1_2 sc_column_item sc_column_item_2">
+                                                    <div class="wpb_text_column wpb_content_element ">
+                                                        <div class="wpb_wrapper">
+                                                            <div class="sc_form_item sc_form_field label_over"><i class="icon icon-mobile-light"></i>
+                                                                <label class="required" for="sc_form_phone">Phone</label>
+                                                                <input id="sc_form_phone" type="text" name="phone" placeholder="Phone (Ex. +91 9876543210)">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_2">
+                                                <div class="column-1_2 sc_column_item sc_column_item_1">
+                                                    <div class="wpb_text_column wpb_content_element ">
+                                                        <div class="wpb_wrapper">
+                                                            <div class="sc_form_item sc_form_field label_over"><i class="icon icon-mail-light"></i>
+                                                                <label class="required" for="query_from">E-mail</label>
+                                                                <input id="sc_form_email" type="text" name="email" placeholder="E-mail *">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="column-1_2 sc_column_item sc_column_item_2">
+                                                    <div class="wpb_text_column wpb_content_element ">
+                                                        <div class="wpb_wrapper">
+                                                            <div class="sc_form_item sc_form_field label_over"><i class="icon icon-dentrario_add_user"></i>
+                                                                <label class="required" for="sc_form_doctor">Query From</label>
+                                                                <input id="sc_form_doctor" type="text" name="doctor" placeholder="Patient / Speaker">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="sc_form_item sc_form_message label_over">
+                                            <label class="required" for="sc_form_message">Reason for contact</label>
+                                            <textarea id="sc_form_message" rows="1" name="message" placeholder="Reason for contact"></textarea>
 
+                                            <br><br>
+
+                                            <input type="checkbox" id="scales" name="scales"> I agree to receiving emails / newsletters from baydental.
+                                        </div>
+                                        <div class="sc_form_item sc_form_button">
+                                            <button class="aligncenter">Make an Appointment</button>
+                                        </div>
+                                        <div class="result sc_infobox"></div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vc_empty_space space_10p">
+                            <span class="vc_empty_space_inner"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vc_row-full-width"></div>
 
             <div class="copyright_wrap copyright_style_socials scheme_light">
                 <div class="copyright_wrap_inner">
@@ -579,52 +652,7 @@
             </div>
         </div>
     </div>
-	
-    <div id="popup_login" class="popup_wrap popup_login bg_tint_light dark-background">
-        <a href="#" class="popup_close"></a>
-        <div class="form_wrap">
-            <div class="form_left">
-                <form action="#" method="post" name="login_form" class="popup_form login_form">
-                    <input type="hidden" name="redirect_to" value="index-2.html">
-                    <div class="popup_form_field login_field iconed_field icon-user">
-                        <input type="text" id="log" name="log" value="" placeholder="Login or Email">
-                    </div>
-                    <div class="popup_form_field password_field iconed_field icon-lock">
-                        <input type="password" id="password" name="pwd" value="" placeholder="Password">
-                    </div>
-                    <div class="popup_form_field remember_field">
-                        <input type="checkbox" value="forever" id="rememberme" name="rememberme">
-                        <label for="rememberme">Remember me</label>
-                        <a href="#" class="forgot_password">Forgot password?</a>
-                    </div>
-                    <div class="popup_form_field submit_field">
-                        <input type="submit" class="submit_button" value="Login">
-                    </div>
-                </form>
-            </div>
-            <div class="form_right">
-                <div class="login_socials_title">You can login using your social profile</div>
-                <div class="loginSoc login_plugin">
-                    <div class="wp-social-login-widget">
-                        <div class="wp-social-login-connect-with">Connect with:</div>
-                        <div class="wp-social-login-provider-list">
-                            <a rel="nofollow" href="#" title="Connect with Facebook" class="wp-social-login-provider wp-social-login-provider-facebook" data-provider="Facebook">
-                                <img alt="" title="Connect with Facebook" src="images/facebook.png" />
-                            </a>
-                            <a rel="nofollow" href="#" title="Connect with Google" class="wp-social-login-provider wp-social-login-provider-google" data-provider="Google">
-                                <img alt="" title="Connect with Google" src="images/google.png" />
-                            </a>
-                            <a rel="nofollow" href="#" title="Connect with Twitter" class="wp-social-login-provider wp-social-login-provider-twitter" data-provider="Twitter">
-                                <img alt="" title="Connect with Twitter" src="images/twitter.png" />
-                            </a>
-                        </div>
-                        <div class="wp-social-login-widget-clearing"></div>
-                    </div>
-                </div>
-                <div class="result message_block"></div>
-            </div>
-        </div>
-    </div>
+
     <a href="#" class="scroll_to_top icon-up" title="Scroll to top"></a>
     <div class="custom_html_section"></div>
     <script type='text/javascript' src='js/vendor/jquery/jquery.js'></script>

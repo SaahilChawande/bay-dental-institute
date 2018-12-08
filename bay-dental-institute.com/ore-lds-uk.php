@@ -45,10 +45,10 @@
                                     <li class="menu-item current-menu-item" ><a href="index.php"><span>Home</span></a></li>
                                     <li class="menu-item"><a href="index.php#about-us">About Us</a></li>
                                     <li class="menu-item"><a href="javascript:void(0)">Vision</a></li>
-                                    <li class="menu-item menu-item-has-children"><a href="#"><span>Courses &nbsp;&#8659;</span></a>
+                                    <li class="menu-item menu-item-has-children current-menu-ancestor"><a href="#"><span>Courses &nbsp;&#8659;</span></a>
                                         <ul class="sub-menu">
-                                            <li class="menu-item"><a href="javascript:void(0)"><span>ORE / LDS - UK</span></a></li>
-                                            <li class="menu-item"><a href="javascript:void(0)"><span>NBDE - USA</span></a></li>
+                                            <li class="menu-item current-menu-item"><a href="javascript:void(0)"><span>ORE / LDS - UK</span></a></li>
+                                            <li class="menu-item"><a href="nbde-usa.php"><span>NBDE - USA</span></a></li>
                                             <li class="menu-item"><a href="javascript:void(0)"><span>NDBE - Canada</span></a></li>
                                             <li class="menu-item"><a href="javascript:void(0)"><span>Restorative Dentistry</span></a></li>
                                             <li class="menu-item"><a href="javascript:void(0)"<span>Composites</span></a></li>
@@ -63,7 +63,7 @@
                                     <li class="menu-item"><a href="javascript:void(0)">Gallery</a></li>
                                     <li class="menu-item"><a href="javascript:void(0)">Faculty</a></li>
                                     <li class="menu-item"><a href="javascript:void(0)">Store</a></li>
-                                    <li class="menu-item"><a href="javascript:void(0)">Book a course</a></li>
+                                    <li class="menu-item"><a href="book-a-course.php">Book a course</a></li>
                                     <li class="menu-item menu-item-has-children"><a href="#"><span>Contact &nbsp;&#8659;</span></a>
                                         <ul class="sub-menu">
                                             <li class="menu-item"><a href="javascript:void(0)"><span>Testimonials</span></a></li>
@@ -95,8 +95,8 @@
                                 <li class="menu-item"><a href="javascript:void(0)">Vision</a></li>
                                 <li class="menu-item menu-item-has-children current-menu-ancestor"><a href="javascript:void(0)"><span>Courses</span></a>
                                     <ul class="sub-menu gold-text">
-                                        <li class="menu-item current-menu-item"><a href="ore-lds-uk.php"><span>ORE / LDS - UK</span></a></li>
-                                        <li class="menu-item"><a href="javascript:void(0)"><span>NBDE - USA</span></a></li>
+                                        <li class="menu-item current-menu-item"><a href="javascript:void(0)"><span>ORE / LDS - UK</span></a></li>
+                                        <li class="menu-item"><a href="nbde-usa.php"><span>NBDE - USA</span></a></li>
                                         <li class="menu-item"><a href="javascript:void(0)"><span>NDBE - Canada</span></a></li>
                                         <li class="menu-item"><a href="javascript:void(0)"><span>Restorative Dentistry</span></a></li>
                                         <li class="menu-item"><a href="javascript:void(0)"><span>Composites</span></a></li>
@@ -111,7 +111,7 @@
                                 <li class="menu-item"><a href="javascript:void(0)">Gallery</a></li>
                                 <li class="menu-item"><a href="javascript:void(0)">Faculty</a></li>
                                 <li class="menu-item"><a href="javascript:void(0)">Store</a></li>
-                                <li class="menu-item"><a href="javascript:void(0)">Book a course</a></li>
+                                <li class="menu-item"><a href="book-a-course.php">Book a course</a></li>
                                 <li class="menu-item menu-item-has-children"><a href="javascript:void(0)"><span>Contact</span></a>
                                     <ul class="sub-menu">
                                         <li class="menu-item"><a href="javascript:void(0)"><span>Testimonials</span></a></li>
@@ -216,7 +216,7 @@
                                                             <div class="wpb_wrapper">
 
                                                                 <p>The ORE is conducted by the General Dental Council UK- GDC. You can log on to the GDC website (
-                                                                    <a href=">www.gdc-uk.org">>www.gdc-uk.org</a ) for more information about the application guidance.
+                                                                    <a href="www.gdc-uk.org">www.gdc-uk.org</a> ) for more information about the application guidance.
                                                                     Further we can also assist you with the application for a fee. </p>
 
 
@@ -293,7 +293,7 @@
                                                         <div class="wpb_text_column wpb_content_element ">
                                                             <div class="wpb_wrapper">
                                                                 <p>Once your application is processed and you have an active eGDC account, the GDC will email you and announce on the latest information page on
-                                                                    <a href=">www.gdc-uk.org">>www.gdc-uk.org</a> when are the dates for the booking for part I. The time the booking will open will be mentioned. You will be required to sign into your eGDC account on that day / time to book your seat for the part I. People try to book this exam from all over the world.</p>
+                                                                    <a href="www.gdc-uk.org">www.gdc-uk.org</a> when are the dates for the booking for part I. The time the booking will open will be mentioned. You will be required to sign into your eGDC account on that day / time to book your seat for the part I. People try to book this exam from all over the world.</p>
 
 
                                                             </div>

@@ -704,7 +704,7 @@ textarea {
 .scheme_original input[type="password"],
 .scheme_original select,
 .scheme_original textarea {
-  color: #787C83;
+  color: #FFFFFF;
 }
 .scheme_light input[type="text"],
 .scheme_light input[type="number"],
@@ -839,11 +839,11 @@ textarea {
 }
 .scheme_original input::-webkit-input-placeholder,
 .scheme_original textarea::-webkit-input-placeholder {
-  color: #30383B;
+  color: #FFFFFF;
 }
 .scheme_light input::-webkit-input-placeholder,
 .scheme_light textarea::-webkit-input-placeholder {
-  color: #30383B;
+  color: #FFFFFF;
 }
 .scheme_dark input::-webkit-input-placeholder,
 .scheme_dark textarea::-webkit-input-placeholder {
@@ -6895,7 +6895,7 @@ button,
 .scheme_original input[type="button"],
 .scheme_original button,
 .scheme_original .sc_button.sc_button_style_filled {
-  background-color: #3FB6E0;
+  background-color: #F9A825;
 }
 .scheme_light input[type="submit"],
 .scheme_light input[type="reset"],
@@ -6937,7 +6937,7 @@ button,
 .scheme_original input[type="button"]:hover,
 .scheme_original button:hover,
 .scheme_original .sc_button.sc_button_style_filled:hover {
-  background-color: #A5C422;
+  background-color: #21438C;
 }
 .scheme_light input[type="submit"]:hover,
 .scheme_light input[type="reset"]:hover,
@@ -7377,7 +7377,7 @@ button,
   background-color: #55BDE3;
 }
 .scheme_original .sc_form.sc_form_style_form_2 .sc_form_button button {
-  background-color: #3FB6E0;
+  background-color: #F9A825;
 }
 .scheme_light .sc_form.sc_form_style_form_2 .sc_form_button button {
   background-color: #3FB6E0;
@@ -7422,7 +7422,7 @@ button,
   background-color: #333F48;
 }
 .scheme_original .sc_form.sc_form_style_form_2 .sc_form_item > i {
-  color: #3FB6E0;
+  color: #F9A825;
 }
 .scheme_light .sc_form.sc_form_style_form_2 .sc_form_item > i {
   color: #3FB6E0;
