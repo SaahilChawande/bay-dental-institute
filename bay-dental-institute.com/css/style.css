@@ -6899,4 +6899,13 @@ h1 .wpb_text_column p, h2 .wpb_text_column p, h3 .wpb_text_column p, h4 .wpb_tex
 	color: #F9A825;
 }
 
+.more-details:hover	{
+	cursor: pointer;
+	color: #21438c;
+}
+
+.hide_display	{
+	display: none;
+}
+
 

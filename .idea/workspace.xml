@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2a5367c-6aea-47a6-991f-6aad4b80105d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/bay-dental-institute.com/book-a-course.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/css/skin.css" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/css/skin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/ore-lds-uk.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/ore-lds-uk.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/book-a-course.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/book-a-course.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/css/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,14 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
+            <state relative-caret-position="17">
               <caret line="622" column="44" selection-start-line="622" selection-start-column="44" selection-end-line="622" selection-end-column="44" />
-              <folding>
-                <element signature="n#style#0;n#div#11;n#section#0;n#article#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -32,57 +27,26 @@
       <file leaf-file-name="ore-lds-uk.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/ore-lds-uk.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7888">
+            <state relative-caret-position="833">
               <caret line="49" column="82" selection-start-line="49" selection-start-column="82" selection-end-line="49" selection-end-column="82" />
-              <folding>
-                <element signature="e#5147#5152#0#HTML" expanded="true" />
-                <element signature="e#6220#6226#0#HTML" expanded="true" />
-                <element signature="e#9131#9136#0#HTML" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#7;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#11;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#16925#16930#0#HTML" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="book-a-course.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="book-a-course.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/book-a-course.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="145" column="28" selection-start-line="145" selection-start-column="28" selection-end-line="209" selection-end-column="34" />
-              <folding>
-                <element signature="e#4019#4025#0#HTML" expanded="true" />
-                <element signature="e#5147#5152#0#HTML" expanded="true" />
-                <element signature="e#6220#6226#0#HTML" expanded="true" />
-                <element signature="e#9131#9136#0#HTML" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h3#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h3#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h3#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#13275#13281#0#HTML" expanded="true" />
-                <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h3#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h3#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#15636#15642#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="-153">
+              <caret line="690" column="94" selection-start-line="690" selection-start-column="94" selection-end-line="690" selection-end-column="94" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/css/custom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1921">
+              <caret line="164" column="32" selection-start-line="164" selection-start-column="32" selection-end-line="164" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -91,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/css/skin.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="191">
-              <caret line="7399" column="74" selection-start-line="7399" selection-start-column="69" selection-end-line="7399" selection-end-column="74" />
+              <caret line="129" column="26" selection-start-line="129" selection-start-column="26" selection-end-line="129" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -99,8 +63,8 @@
       <file leaf-file-name="single-service.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/dentario-html.themerex.net/single-service.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="390" column="42" lean-forward="true" selection-start-line="319" selection-start-column="36" selection-end-line="390" selection-end-column="42" />
+            <state relative-caret-position="4930">
+              <caret line="390" column="42" selection-start-line="319" selection-start-column="36" selection-end-line="390" selection-end-column="42" />
               <folding>
                 <element signature="n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#4;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -112,7 +76,7 @@
       <file leaf-file-name="nbde-usa.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/nbde-usa.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="1921">
               <caret line="113" column="80" selection-start-line="113" selection-start-column="80" selection-end-line="113" selection-end-column="80" />
             </state>
           </provider>
@@ -121,7 +85,7 @@
       <file leaf-file-name="shortcodes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/js/custom/shortcodes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="646">
               <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
             </state>
           </provider>
@@ -139,8 +103,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117198">
-              <caret line="6894" column="29" selection-start-line="6894" selection-start-column="29" selection-end-line="6894" selection-end-column="29" />
+            <state relative-caret-position="473">
+              <caret line="6906" column="13" selection-start-line="6906" selection-start-column="1" selection-end-line="6906" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -156,8 +120,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>pati</find>
-      <find>welcome</find>
       <find>header_</find>
       <find>on-mobile-menu-about-us-click</find>
       <find>https:/</find>
@@ -176,7 +138,6 @@
       <find>swiper</find>
       <find>.scheme_original .sc_item_descr</find>
       <find>.sc_item_descr</find>
-      <find>.scheme_original a:hover</find>
       <find>www.</find>
       <find>theme</find>
       <find>ince</find>
@@ -186,6 +147,9 @@
       <find>.scheme_original .sc_form.sc_form_style_form_2 .sc_form_button button</find>
       <find>placeholder</find>
       <find>radio</find>
+      <find>hover</find>
+      <find>hide_display</find>
+      <find>.scheme_original a:hover</find>
     </findStrings>
     <replaceStrings>
       <replace>323F47</replace>
@@ -203,7 +167,6 @@
         <option value="$PROJECT_DIR$/bay-dental-institute/css/skin.css" />
         <option value="$PROJECT_DIR$/bay-dental-institute/css/style.css" />
         <option value="$PROJECT_DIR$/bay-dental-institute/index.php" />
-        <option value="$PROJECT_DIR$/bay-dental-institute.com/css/style.css" />
         <option value="$PROJECT_DIR$/bay-dental-institute.com/sample.php" />
         <option value="$PROJECT_DIR$/bay-dental-institute.com/js/custom/core.init.js" />
         <option value="$PROJECT_DIR$/bay-dental-institute.com/css/custom.css" />
@@ -211,9 +174,10 @@
         <option value="$PROJECT_DIR$/bay-dental-institute.com/js/custom/home.js" />
         <option value="$PROJECT_DIR$/bay-dental-institute.com/nbde-usa.php" />
         <option value="$PROJECT_DIR$/bay-dental-institute.com/ore-lds-uk.php" />
-        <option value="$PROJECT_DIR$/bay-dental-institute.com/book-a-course.php" />
-        <option value="$PROJECT_DIR$/bay-dental-institute.com/css/skin.css" />
         <option value="$PROJECT_DIR$/bay-dental-institute.com/index.php" />
+        <option value="$PROJECT_DIR$/bay-dental-institute.com/css/style.css" />
+        <option value="$PROJECT_DIR$/bay-dental-institute.com/css/skin.css" />
+        <option value="$PROJECT_DIR$/bay-dental-institute.com/book-a-course.php" />
       </list>
     </option>
   </component>
@@ -312,18 +276,19 @@
       <workItem from="1544179284792" duration="2008000" />
       <workItem from="1544202842461" duration="9194000" />
       <workItem from="1544212573126" duration="2000000" />
-      <workItem from="1544286378431" duration="8809000" />
+      <workItem from="1544286378431" duration="9476000" />
+      <workItem from="1544345222122" duration="772000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52920000" />
+    <option name="totallyTimeSpent" value="54359000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="846" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27919462" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28322148" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -332,7 +297,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3218563" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3203593" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -559,28 +524,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4437">
           <caret line="1182" column="18" selection-start-line="261" selection-start-column="12" selection-end-line="1182" selection-end-column="18" />
-          <folding>
-            <element signature="n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/ore-lds-uk.php" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa9964.37870/jssor.slider-27.5.0.min.js" />
-    <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117198">
-          <caret line="6894" column="29" selection-start-line="6894" selection-start-column="29" selection-end-line="6894" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2788">
-          <caret line="164" column="32" selection-start-line="164" selection-start-column="32" selection-end-line="164" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template/dentario-html.themerex.net/css/shortcodes.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84813">
@@ -597,7 +545,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/nbde-usa.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="1921">
           <caret line="113" column="80" selection-start-line="113" selection-start-column="80" selection-end-line="113" selection-end-column="80" />
         </state>
       </provider>
@@ -606,24 +554,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="343" column="38" lean-forward="true" selection-start-line="266" selection-start-column="32" selection-end-line="343" selection-end-column="38" />
-          <folding>
-            <element signature="n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/js/custom/shortcodes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="646">
           <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/dentario-html.themerex.net/single-service.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="390" column="42" lean-forward="true" selection-start-line="319" selection-start-column="36" selection-end-line="390" selection-end-column="42" />
+        <state relative-caret-position="4930">
+          <caret line="390" column="42" selection-start-line="319" selection-start-column="36" selection-end-line="390" selection-end-column="42" />
           <folding>
             <element signature="n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#4;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -631,74 +575,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/book-a-course.php">
+    <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/ore-lds-uk.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="145" column="28" selection-start-line="145" selection-start-column="28" selection-end-line="209" selection-end-column="34" />
-          <folding>
-            <element signature="e#4019#4025#0#HTML" expanded="true" />
-            <element signature="e#5147#5152#0#HTML" expanded="true" />
-            <element signature="e#6220#6226#0#HTML" expanded="true" />
-            <element signature="e#9131#9136#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#13275#13281#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#15636#15642#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="833">
+          <caret line="49" column="82" selection-start-line="49" selection-start-column="82" selection-end-line="49" selection-end-column="82" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/ore-lds-uk.php">
+    <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7888">
-          <caret line="49" column="82" selection-start-line="49" selection-start-column="82" selection-end-line="49" selection-end-column="82" />
-          <folding>
-            <element signature="e#5147#5152#0#HTML" expanded="true" />
-            <element signature="e#6220#6226#0#HTML" expanded="true" />
-            <element signature="e#9131#9136#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#7;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#8;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#9;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#10;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#11;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#16925#16930#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="622" column="44" selection-start-line="622" selection-start-column="44" selection-end-line="622" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1921">
+          <caret line="164" column="32" selection-start-line="164" selection-start-column="32" selection-end-line="164" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/css/skin.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
-          <caret line="7399" column="74" selection-start-line="7399" selection-start-column="69" selection-end-line="7399" selection-end-column="74" />
+          <caret line="129" column="26" selection-start-line="129" selection-start-column="26" selection-end-line="129" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/index.php">
+    <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="622" column="44" selection-start-line="622" selection-start-column="44" selection-end-line="622" selection-end-column="44" />
-          <folding>
-            <element signature="n#style#0;n#div#11;n#section#0;n#article#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="473">
+          <caret line="6906" column="13" selection-start-line="6906" selection-start-column="1" selection-end-line="6906" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/book-a-course.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="690" column="94" selection-start-line="690" selection-start-column="94" selection-end-line="690" selection-end-column="94" />
         </state>
       </provider>
     </entry>
