@@ -50,7 +50,7 @@
                                         <ul class="sub-menu">
                                             <li class="menu-item"><a href="ore-lds-uk.php"><span>ORE / LDS - UK</span></a></li>
                                             <li class="menu-item"><a href="nbde-usa.php"><span>NBDE - USA</span></a></li>
-                                            <li class="menu-item"><a href="javascript:void(0)"><span>NDBE - Canada</span></a></li>
+                                            <li class="menu-item"><a href="ndeb-canada.php"><span>NDEB - Canada</span></a></li>
                                             <li class="menu-item"><a href="javascript:void(0)"><span>Restorative Dentistry</span></a></li>
                                             <li class="menu-item"><a href="javascript:void(0)"><span>Composites</span></a></li>
                                             <li class="menu-item"><a href="javascript:void(0)"><span>Dental Photography</span></a></li>
@@ -98,7 +98,7 @@
                                     <ul class="sub-menu gold-text">
                                         <li class="menu-item"><a href="ore-lds-uk.php"><span>ORE / LDS - UK</span></a></li>
                                         <li class="menu-item"><a href="nbde-usa.php"><span>NBDE - USA</span></a></li>
-                                        <li class="menu-item"><a href="javascript:void(0)"><span>NDBE - Canada</span></a></li>
+                                        <li class="menu-item"><a href="ndeb-canada.php"><span>NDEB - Canada</span></a></li>
                                         <li class="menu-item"><a href="javascript:void(0)"><span>Restorative Dentistry</span></a></li>
                                         <li class="menu-item"><a href="javascript:void(0)"><span>Composites</span></a></li>
                                         <li class="menu-item"><a href="javascript:void(0)"><span>Dental Photography</span></a></li>
@@ -312,7 +312,7 @@
                                                                     </div>
                                                                     <div class="sc_team_item_info">
                                                                         <h5 class="sc_team_item_title">Dr. Akshari Anchan</h5>
-                                                                        <div class="sc_team_item_position">NBDE / NDBE USA &amp; Canada Course Director,
+                                                                        <div class="sc_team_item_position">NBDE / NDEB USA &amp; Canada Course Director,
                                                                             <br>Facial Aesthetic Surgeon, <br>Skin &amp; Hair Expert</div>
                                                                         <div class="sc_team_item_description">
                                                                             Dr. Akshari Anchan has graduated from the prestigious Nitte University, Mangalore and has post graduated into clinical aesthetics from the esteemed Indian Institute of Aesthetic Medicine, Pune.<br/>She has successfully cleared her licensing exams in the United States of America. In her multiple visits to the United States between 2013-2016, Dr. Anchan has observed various doctors and worked closely with University of Miami on a 3 year program for Facial Aesthetics, Botox, and Lip Fillers.<br/> Dr. Anchan has an experience of over 5 years in clinical practice and maintains a private practice and is an expert consultant to over 25 clinics all over Mumbai concentrating on Facial Aesthetics, Botox, Lip Fillers and Hair transplant. Her research articles have won her National and International laurel including recognition from the renowned Indian Council of Medical Research.
@@ -330,7 +330,7 @@
 
                                 <div class="vc_row-full-width"></div>
 
-                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                <!--<div class="wpb_column vc_column_container vc_col-sm-12">
                                     <div class="vc_column-inner">
                                         <div class="wpb_wrapper">
                                             <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_3">
@@ -376,7 +376,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div>-->
 
 
                                 <div class="vc_row-full-width"></div>
@@ -418,7 +418,7 @@
                                                                 <div id="sc_services_047_3" class="sc_services_item sc_services_item_3">
                                                                     <div class="sc_services_item_content">
                                                                         <h4 class="sc_services_item_title">
-                                                                            <a href="javascript:void(0)">NDBE - Canada</a>
+                                                                            <a href="javascript:void(0)">NDEB - Canada</a>
                                                                         </h4>
                                                                         <div class="sc_services_item_description">
                                                                             <p>The National Dental Examining Board of Canada, also known as the NDEB is the organization is responsible for granting approval for dentists to practice in Canada through standardized examinations.</p>

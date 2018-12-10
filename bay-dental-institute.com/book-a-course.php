@@ -7,7 +7,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="icon" type="image/x-icon" href="images/favicon.png" />
-    <title>ORE / LDS - UK - Bay Dental Institute</title>
+    <title>Book a course - Bay Dental Institute</title>
     <link rel='stylesheet' href='css/animations.css' type='text/css' media='all' />
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700|Lora:400,400i,700,700i|Merriweather:300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Poppins:300,400,500,600,700|Raleway:100,200,300,400,500,600,700,800,900&amp;subset=latin-ext' type='text/css' media='all'>
     <link rel='stylesheet' href='css/fontello/css/fontello.css' type='text/css' media='all' />
@@ -124,7 +124,7 @@
                                     <ul class="sub-menu">
                                         <li class="menu-item"><a href="ore-lds-uk.php"><span>ORE / LDS - UK</span></a></li>
                                         <li class="menu-item"><a href="nbde-usa.php"><span>NBDE - USA</span></a></li>
-                                        <li class="menu-item"><a href="javascript:void(0)"><span>NDBE - Canada</span></a></li>
+                                        <li class="menu-item"><a href="ndeb-canada.php"><span>NDEB - Canada</span></a></li>
                                         <li class="menu-item"><a href="javascript:void(0)"><span>Restorative Dentistry</span></a></li>
                                         <li class="menu-item"><a href="javascript:void(0)"<span>Composites</span></a></li>
                                         <li class="menu-item"><a href="javascript:void(0)"><span>Dental Photography</span></a></li>
@@ -172,7 +172,7 @@
                                 <ul class="sub-menu gold-text">
                                     <li class="menu-item"><a href="ore-lds-uk.php"><span>ORE / LDS - UK</span></a></li>
                                     <li class="menu-item"><a href="nbde-usa.php"><span>NBDE - USA</span></a></li>
-                                    <li class="menu-item"><a href="javascript:void(0)"><span>NDBE - Canada</span></a></li>
+                                    <li class="menu-item"><a href="ndeb-canada.php"><span>NDEB - Canada</span></a></li>
                                     <li class="menu-item"><a href="javascript:void(0)"><span>Restorative Dentistry</span></a></li>
                                     <li class="menu-item"><a href="javascript:void(0)"><span>Composites</span></a></li>
                                     <li class="menu-item"><a href="javascript:void(0)"><span>Dental Photography</span></a></li>
@@ -231,7 +231,6 @@
 												</div>
 												<br/>
 												<br/>
-	
                                                 <div class="column-1_2 sc_column_item">
                                                     <div class="aligncenter">
                                                         <h3 style="display: inline">Course Name : </h3>
@@ -242,6 +241,9 @@
                                                         <br><br>
                                                         <h3 style="display: inline">Cost : </h3>
                                                         <p style="display: inline; font-size: 25px;">1000/-</p>
+                                                        <br><br>
+                                                        <h3 style="display: inline">Tutor : </h3>
+                                                        <p style="display: inline; font-size: 25px;">Dr. Shravan Chawla</p>
                                                         <br>
                                                         <h3 class="more-details"><a id="flip1">Click for more details&nbsp;&#8659;</a></h3>
 														<div id="panel1" class="hide_display">
@@ -275,6 +277,9 @@
                                                         <br><br>
                                                         <h3 style="display: inline">Cost : </h3>
                                                         <p style="display: inline; font-size: 25px;">30000/-</p>
+                                                        <br><br>
+                                                        <h3 style="display: inline">Tutor : </h3>
+                                                        <p style="display: inline; font-size: 25px;">Dr. Shravan Chawla</p>
                                                         <br>
                                                         <h3 class="more-details"><a id="flip2">Click for more details&nbsp;&#8659;</a></h3>
 														<div id="panel2" class="hide_display">
@@ -286,9 +291,7 @@
 															Question bank <br/>
 															And images <br/>
 															Candidates are required to get pink + blue book for this session <br/>
-															Notes and Question bank  to prepare hard copy will be provided 
-
-
+															Notes and Question bank  to prepare hard copy will be provided
 														</div>
                                                     </div>
                                                 </div>
@@ -311,6 +314,9 @@
                                                         <br><br>
                                                         <h3 style="display: inline">Cost : </h3>
                                                         <p style="display: inline; font-size: 25px;">50000/-</p>
+                                                        <br><br>
+                                                        <h3 style="display: inline">Tutor : </h3>
+                                                        <p style="display: inline; font-size: 25px;">Dr. Shravan Chawla</p>
                                                         <br>
                                                         <h3 class="more-details"><a id="flip3">Click for more details&nbsp;&#8659;</a></h3>
 														<div id="panel3" class="hide_display">
@@ -319,10 +325,7 @@
 															All Manikin Exercises Shown personally with practice on Frasaco Manikins  <br/>
 															ME all scenarios covered with Viva and CPR manikin Training and Practice on PractiMan ( UK ) CPR manikin   <br/>
 															DTP covered in Depth with history taking, form filling and presentation.  <br/>
-															In Depth training on how to score maximum with the examiner and what they are looking for while marking you in each module. 
-
-
-
+															In Depth training on how to score maximum with the examiner and what they are looking for while marking you in each module.
 														</div>
                                                     </div>
                                                 </div>
@@ -345,14 +348,16 @@
                                                         <br><br>
                                                         <h3 style="display: inline">Cost : </h3>
                                                         <p style="display: inline; font-size: 25px;">25000/-</p>
+                                                        <br><br>
+                                                        <h3 style="display: inline">Tutor : </h3>
+                                                        <p style="display: inline; font-size: 25px;">Dr. Shravan Chawla</p>
                                                         <br>
                                                         <h3 class="more-details"><a id="flip4">Click for more details&nbsp;&#8659;</a></h3>
 														<div id="panel4" class="hide_display">
 															Brief Over View of all Modules OSCE , DTP, MANIKIN, ME <br/>
 															Ideal Delivery for all modules <br/>
 															How to score “ Exceeds Standard “ in each exercise / Module <br/>
-															What the examiner is expecting while scoring 
-
+															What the examiner is expecting while scoring
 														</div>
                                                     </div>
                                                 </div>
@@ -374,6 +379,9 @@
                                                         <br><br>
                                                         <h3 style="display: inline">Cost : </h3>
                                                         <p style="display: inline; font-size: 25px;">6000/-</p>
+                                                        <br><br>
+                                                        <h3 style="display: inline">Tutor : </h3>
+                                                        <p style="display: inline; font-size: 25px;">Dr. Shravan Chawla</p>
                                                         <br>
                                                         <h3 class="more-details"><a id="flip5">Click for more details&nbsp;&#8659;</a></h3>
 														<div id="panel5" class="hide_display">
@@ -382,9 +390,7 @@
 															5 minutes per station with buzzer <br/>
 															Actor, written and skilled OSCE’s <br/>
 															Conducted as exam 
-															Feedback after exam on where to improve 
- 
-
+															Feedback after exam on where to improve
 														</div>
                                                     </div>
                                                 </div>
@@ -408,15 +414,16 @@
                                                         <br><br>
                                                         <h3 style="display: inline">Cost : </h3>
                                                         <p style="display: inline; font-size: 25px;">5500/-</p>
+                                                        <br><br>
+                                                        <h3 style="display: inline">Tutor : </h3>
+                                                        <p style="display: inline; font-size: 25px;">Dr. Shravan Chawla</p>
                                                         <br>
                                                         <h3 class="more-details"><a id="flip6">Click for more details&nbsp;&#8659;</a></h3>
 														<div id="panel6" class="hide_display">
 															3 hour exam scenario like mock <br/>
 															2 major and 2 minor exercise as per consortium <br/>
 															All materials and instruments provided with frasaco manikin + teeth <br/>
-															Feedback after exam on where to improve 
- 
-
+															Feedback after exam on where to improve
 														</div>
                                                     </div>
                                                 </div>
@@ -438,6 +445,9 @@
                                                         <br><br>
                                                         <h3 style="display: inline">Cost : </h3>
                                                         <p style="display: inline; font-size: 25px;">12000/-</p>
+                                                        <br><br>
+                                                        <h3 style="display: inline">Tutor : </h3>
+                                                        <p style="display: inline; font-size: 25px;">Dr. Shravan Chawla</p>
                                                         <br>
                                                         <h3 class="more-details"><a id="flip7">Click for more details&nbsp;&#8659;</a></h3>
 														<div id="panel7" class="hide_display">
@@ -445,9 +455,7 @@
 															ME Viva followed by Mandatory CPR <br/>
 															10 mins break Followed by Actor DTP<br/>
 															DTP forms and clock provided <br/>
-															Feedback provided after exam on where to improve 
- 
-
+															Feedback provided after exam on where to improve
 														</div>
                                                     </div>
                                                 </div>
@@ -469,6 +477,9 @@
                                                         <br><br>
                                                         <h3 style="display: inline">Cost : </h3>
                                                         <p style="display: inline; font-size: 25px;">20000/-</p>
+                                                        <br><br>
+                                                        <h3 style="display: inline">Tutor : </h3>
+                                                        <p style="display: inline; font-size: 25px;">Dr. Shravan Chawla</p>
                                                         <br>
                                                         <h3 class="more-details"><a id="flip8">Click for more details&nbsp;&#8659;</a></h3>
 														<div id="panel8" class="hide_display">
@@ -477,9 +488,7 @@
 															Day 3 :- ME + DTP <br/>
 															Exact exam like mock
 															Feedback and PASS / FAIL Verdict after all modules over <br/>
-															Detailed Feedback on where to improve. 
-
-
+															Detailed Feedback on where to improve.
 														</div>
                                                     </div>
                                                 </div>
@@ -501,6 +510,9 @@
                                                         <br><br>
                                                         <h3 style="display: inline">Cost : </h3>
                                                         <p style="display: inline; font-size: 25px;">6000/-</p>
+                                                        <br><br>
+                                                        <h3 style="display: inline">Tutor : </h3>
+                                                        <p style="display: inline; font-size: 25px;">Dr. Shravan Chawla</p>
                                                         <br>
                                                         <h3 class="more-details"><a id="flip9">Click for more details&nbsp;&#8659;</a></h3>
 														<div id="panel9" class="hide_display">
@@ -545,10 +557,13 @@
                                                         <br><br>
                                                         <h3 style="display: inline">Cost : </h3>
                                                         <p style="display: inline; font-size: 25px;">1500/-</p>
+                                                        <br><br>
+                                                        <h3 style="display: inline">Tutor : </h3>
+                                                        <p style="display: inline; font-size: 25px;">Dr. Akshari Anchan</p>
                                                         <br>
                                                         <h3 class="more-details"><a id="flip10">Click for more details&nbsp;&#8659;</a></h3>
 														<div id="panel10" class="hide_display">
-														Detailed Explanation of NBDE / NDBE <br/>
+														Detailed Explanation of NBDE / NDEB <br/>
 														About NBDE <br/>
 														Different University / Colleges Background <br/>
 														Deemed Vs Private Universities in USA <br/>
@@ -558,10 +573,8 @@
 														Subjects to Study <br/>
 														Examination Schedule <br/>
 														Outline of Preparation <br/>
-														Exam Contents 
-
+														Exam Contents
 														</div>
-														
                                                     </div>
                                                 </div>
                                                 <div class="column-1_2 sc_column_item">
@@ -572,30 +585,30 @@
                                                     </div>
                                                 </div><br/><br/><br/>
 												<div class="column-1_2 sc_column_item">
-												<div class="aligncenter">
+                                                    <div class="aligncenter">
                                                         <h3 style="display: inline">Course Name : </h3>
-                                                        <p style="display: inline; font-size: 25px;">NBDE / NDBE– IMPULSE PART I</p>
+                                                        <p style="display: inline; font-size: 25px;">NBDE / NDEB– IMPULSE PART I</p>
                                                         <br><br>
                                                         <h3 style="display: inline">Duration : </h3>
                                                         <p style="display: inline; font-size: 25px;">8 days ( 4 + 4 ) / 9 am to 11 am ( 15 Hours total ) </p>
                                                         <br><br>
                                                         <h3 style="display: inline">Cost : </h3>
                                                         <p style="display: inline; font-size: 25px;">16000/-</p>
+                                                        <br><br>
+                                                        <h3 style="display: inline">Tutor : </h3>
+                                                        <p style="display: inline; font-size: 25px;">Dr. Akshari Anchan</p>
                                                         <br>
                                                         <h3 class="more-details"><a id="flip11">Click for more details&nbsp;&#8659;</a></h3>
-														<div id="panel11" class="hide_display">
-														All basic sciences covered in brief overview for exam <br/>
-														2 days Anatomy <br/>
-														1 day Physio <br/>
-														1 day Biochemistry<br/> 
-														1 day Microbiology <br/>
-														1 day Dental Anatomy <br/>
-														1 day Pathology <br/>
-														1 day Revision <br/>
-
-
-														</div>
-														
+                                                        <div id="panel11" class="hide_display">
+                                                            All basic sciences covered in brief overview for exam <br/>
+                                                            2 days Anatomy <br/>
+                                                            1 day Physio <br/>
+                                                            1 day Biochemistry<br/>
+                                                            1 day Microbiology <br/>
+                                                            1 day Dental Anatomy <br/>
+                                                            1 day Pathology <br/>
+                                                            1 day Revision <br/>
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <div class="column-1_2 sc_column_item">
@@ -606,34 +619,34 @@
                                                     </div>
                                                 </div><br/><br/><br/>
 												<div class="column-1_2 sc_column_item">
-												<div class="aligncenter">
+                                                    <div class="aligncenter">
                                                         <h3 style="display: inline">Course Name : </h3>
-                                                        <p style="display: inline; font-size: 25px;">NBDE / NDBE– IMPULSE PART II </p>
+                                                        <p style="display: inline; font-size: 25px;">NBDE / NDEB– IMPULSE PART II </p>
                                                         <br><br>
                                                         <h3 style="display: inline">Duration : </h3>
                                                         <p style="display: inline; font-size: 25px;">10 days ( 5 + 5 ) / 9 am to 11am ( 20 Hours Total )</p>
                                                         <br><br>
                                                         <h3 style="display: inline">Cost : </h3>
                                                         <p style="display: inline; font-size: 25px;">20000/-</p>
+                                                        <br><br>
+                                                        <h3 style="display: inline">Tutor : </h3>
+                                                        <p style="display: inline; font-size: 25px;">Dr. Akshari Anchan</p>
                                                         <br>
                                                         <h3 class="more-details"><a id="flip12">Click for more details&nbsp;&#8659;</a></h3>
-														<div id="panel12" class="hide_display">
-														All Clinical Science topics covered in brief overview for exam <br/>
-														1 Day Pharmacology <br/>
-														1 Day Conservative Dentistry & Endodontics <br/>
+                                                        <div id="panel12" class="hide_display">
+                                                            All Clinical Science topics covered in brief overview for exam <br/>
+                                                            1 Day Pharmacology <br/>
+                                                            1 Day Conservative Dentistry & Endodontics <br/>
 
-														1 Day Oral Pathology <br/>
-														1 Day Periodontics <br/>
-														1 Day Orthodontics <br/>
-														1 Day Oral Surgery <br/>
-														1 Day Public Health <br/>
-														1 Day Oral Medicine + Radiology <br/>
-														1 Day Ethics <br/>
-														1 Day Revision 
-
-
-														</div>
-														
+                                                            1 Day Oral Pathology <br/>
+                                                            1 Day Periodontics <br/>
+                                                            1 Day Orthodontics <br/>
+                                                            1 Day Oral Surgery <br/>
+                                                            1 Day Public Health <br/>
+                                                            1 Day Oral Medicine + Radiology <br/>
+                                                            1 Day Ethics <br/>
+                                                            1 Day Revision
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <div class="column-1_2 sc_column_item">
@@ -644,29 +657,30 @@
                                                     </div>
                                                 </div><br/><br/><br/>
 												<div class="column-1_2 sc_column_item">
-												<div class="aligncenter">
+                                                    <div class="aligncenter">
                                                         <h3 style="display: inline">Course Name : </h3>
-                                                        <p style="display: inline; font-size: 25px;">NBDE / NDBE – INTENSE PART I  </p>
+                                                        <p style="display: inline; font-size: 25px;">NBDE / NDEB – INTENSE PART I  </p>
                                                         <br><br>
                                                         <h3 style="display: inline">Duration : </h3>
                                                         <p style="display: inline; font-size: 25px;">24 days total ( 6 days/ week  X 4 weeks / 9 am to 11 am / total 48 hours coaching ) </p>
                                                         <br><br>
                                                         <h3 style="display: inline">Cost : </h3>
                                                         <p style="display: inline; font-size: 25px;">30000/-</p>
+                                                        <br><br>
+                                                        <h3 style="display: inline">Tutor : </h3>
+                                                        <p style="display: inline; font-size: 25px;">Dr. Akshari Anchan</p>
                                                         <br>
                                                         <h3 class="more-details"><a id="flip13">Click for more details&nbsp;&#8659;</a></h3>
-														<div id="panel13" class="hide_display">
-														Detailed and In depth Coaching of Basic Sciences <br/>
-														4 Days Anatomy <br/>
-														4 Days Physiology <br/>
-														4 Days Biochemistry <br/>
-														4 Days Microbiology <br/>
-														4 Days Dental Anatomy <br/>
-														4 Days Pathology <br/>
-														Revision 
-
-														</div>
-														
+                                                        <div id="panel13" class="hide_display">
+                                                            Detailed and In depth Coaching of Basic Sciences <br/>
+                                                            4 Days Anatomy <br/>
+                                                            4 Days Physiology <br/>
+                                                            4 Days Biochemistry <br/>
+                                                            4 Days Microbiology <br/>
+                                                            4 Days Dental Anatomy <br/>
+                                                            4 Days Pathology <br/>
+                                                            Revision
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <div class="column-1_2 sc_column_item">
@@ -679,14 +693,17 @@
 												<div class="column-1_2 sc_column_item">
 												<div class="aligncenter">
                                                         <h3 style="display: inline">Course Name : </h3>
-                                                        <p style="display: inline; font-size: 25px;">NBDE / NDBE – INTENSE PART II  </p>
+                                                        <p style="display: inline; font-size: 25px;">NBDE / NDEB – INTENSE PART II  </p>
                                                         <br><br>
                                                         <h3 style="display: inline">Duration : </h3>
                                                         <p style="display: inline; font-size: 25px;">24 days total ( 6 days/ week  X 4 weeks / 9 am to 11 am / total 48 hours coaching )</p>
                                                         <br><br>
                                                         <h3 style="display: inline">Cost : </h3>
                                                         <p style="display: inline; font-size: 25px;">40000/-</p>
-                                                        <br>
+                                                        <br><br>
+                                                    <h3 style="display: inline">Tutor : </h3>
+                                                    <p style="display: inline; font-size: 25px;">Dr. Akshari Anchan</p>
+                                                    <br>
                                                         <h3 class="more-details"><a id="flip14">Click for more details&nbsp;&#8659;</a></h3>
 														<div id="panel14" class="hide_display">
 														2 Days Pharmacology<br/>

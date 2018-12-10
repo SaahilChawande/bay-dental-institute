@@ -49,7 +49,7 @@
                                         <ul class="sub-menu">
                                             <li class="menu-item current-menu-item"><a href="javascript:void(0)"><span>ORE / LDS - UK</span></a></li>
                                             <li class="menu-item"><a href="nbde-usa.php"><span>NBDE - USA</span></a></li>
-                                            <li class="menu-item"><a href="javascript:void(0)"><span>NDBE - Canada</span></a></li>
+                                            <li class="menu-item"><a href="ndeb-canada.php"><span>NDEB - Canada</span></a></li>
                                             <li class="menu-item"><a href="javascript:void(0)"><span>Restorative Dentistry</span></a></li>
                                             <li class="menu-item"><a href="javascript:void(0)"<span>Composites</span></a></li>
                                             <li class="menu-item"><a href="javascript:void(0)"><span>Dental Photography</span></a></li>
@@ -97,7 +97,7 @@
                                     <ul class="sub-menu gold-text">
                                         <li class="menu-item current-menu-item"><a href="javascript:void(0)"><span>ORE / LDS - UK</span></a></li>
                                         <li class="menu-item"><a href="nbde-usa.php"><span>NBDE - USA</span></a></li>
-                                        <li class="menu-item"><a href="javascript:void(0)"><span>NDBE - Canada</span></a></li>
+                                        <li class="menu-item"><a href="ndeb-canada.php"><span>NDEB - Canada</span></a></li>
                                         <li class="menu-item"><a href="javascript:void(0)"><span>Restorative Dentistry</span></a></li>
                                         <li class="menu-item"><a href="javascript:void(0)"><span>Composites</span></a></li>
                                         <li class="menu-item"><a href="javascript:void(0)"><span>Dental Photography</span></a></li>
