@@ -54,7 +54,7 @@
                                         <li class="menu-item"><a href="javascript:void(0)"<span>Composites</span></a></li>
                                         <li class="menu-item"><a href="dental-photography.php"><span>Dental Photography</span></a></li>
                                         <li class="menu-item"><a href="rubber-dam.php"><span>Rubber Dam</span></a></li>
-                                        <li class="menu-item"><a href="javascript:void(0)"><span>Facial Aesthetics: Botox &amp; Lip Fillers</span></a></li>
+                                        <li class="menu-item"><a href="botox-and-lip-fillers.php"><span>Facial Aesthetics: Botox &amp; Lip Fillers</span></a></li>
                                         <li class="menu-item"><a href="javascript:void(0)"><span>Dental Assistant Training</span></a></li>
                                         <li class="menu-item"><a href="javascript:void(0)"><span>Social Media Marketing for Dentists</span></a></li>
                                         <li class="menu-item"><a href="javascript:void(0)"<span>Endotontics</span></a></li>
@@ -102,7 +102,7 @@
                                     <li class="menu-item"><a href="javascript:void(0)"><span>Composites</span></a></li>
                                     <li class="menu-item"><a href="dental-photography.php"><span>Dental Photography</span></a></li>
                                     <li class="menu-item"><a href="rubber-dam.php"><span>Rubber Dam</span></a></li>
-                                    <li class="menu-item"><a href="javascript:void(0)"><span>Facial Aesthetics: Botox &amp; Lip Fillers</span></a></li>
+                                    <li class="menu-item"><a href="botox-and-lip-fillers.php"><span>Facial Aesthetics: Botox &amp; Lip Fillers</span></a></li>
                                     <li class="menu-item"><a href="javascript:void(0)"><span>Dental Assistant Training</span></a></li>
                                     <li class="menu-item"><a href="javascript:void(0)"><span>Social Media Marketing for Dentists</span></a></li>
                                     <li class="menu-item"><a href="javascript:void(0)"><span>Endotontics</span></a></li>
