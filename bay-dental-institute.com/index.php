@@ -26,6 +26,37 @@
     <link rel='stylesheet' href='css/custom.css' type='text/css' media='all' />
     <link rel='stylesheet' href='css/core.messages.css' type='text/css' media='all' />
     <link rel='stylesheet' href='js/vendor/swiper/swiper.min.css' type='text/css' media='all' />
+
+    <script>
+        $(document).ready(function(){
+            $("#t1-details-click").click(function(){
+                $("#t1-details").slideToggle();
+                if ($("#t1-details-click").text() == 'Click for more ⇓')    {
+                    $("#t1-details-click").text('Click for less');
+                } else  {
+                    $("#t1-details-click").text('Click for more ⇓');
+                }
+            });
+
+            $("#t2-details-click").click(function(){
+                $("#t2-details").slideToggle();
+                if ($("#t2-details-click").text() == 'Click for more ⇓')    {
+                    $("#t2-details-click").text('Click for less');
+                } else  {
+                    $("#t2-details-click").text('Click for more ⇓');
+                }
+            });
+
+            $("#t3-details-click").click(function(){
+                $("#t3-details").slideToggle();
+                if ($("#t3-details-click").text() == 'Click for more ⇓')    {
+                    $("#t3-details-click").text('Click for less');
+                } else  {
+                    $("#t3-details-click").text('Click for more ⇓');
+                }
+            });
+        });
+    </script>
 </head>
 
 <body id="home" class="indexp home page body_style_wide body_filled article_style_stretch scheme_original top_panel_show top_panel_above sidebar_hide sidebar_outer_hide vc_responsive">
@@ -45,18 +76,17 @@
                                 <ul id="menu_main" class="menu_main_nav">
                                     <li class="menu-item current-menu-item" ><a href="#home"><span>Home</span></a></li>
                                     <li class="menu-item"><a href="#about-us">About Us</a></li>
-                                    <li class="menu-item"><a href="javascript:void(0)">Vision</a></li>
                                     <li class="menu-item menu-item-has-children"><a href="#"><span>Courses &nbsp;&#8659;</span></a>
                                         <ul class="sub-menu">
                                             <li class="menu-item"><a href="ore-lds-uk.php"><span>ORE / LDS - UK</span></a></li>
                                             <li class="menu-item"><a href="nbde-usa.php"><span>NBDE - USA</span></a></li>
                                             <li class="menu-item"><a href="ndeb-canada.php"><span>NDEB - Canada</span></a></li>
-                                            <li class="menu-item"><a href="javascript:void(0)"><span>Restorative Dentistry</span></a></li>
-                                            <li class="menu-item"><a href="javascript:void(0)"><span>Composites</span></a></li>
+                                            <li class="menu-item"><a href="restorative-dentistry.php"><span>Restorative Dentistry</span></a></li>
+                                            <li class="menu-item"><a href="composites.php"><span>Composites</span></a></li>
                                             <li class="menu-item"><a href="dental-photography.php"><span>Dental Photography</span></a></li>
                                             <li class="menu-item"><a href="rubber-dam.php"><span>Rubber Dam</span></a></li>
                                             <li class="menu-item"><a href="botox-and-lip-fillers.php"><span>Facial Aesthetics: Botox &amp; Lip Fillers</span></a></li>
-                                            <li class="menu-item"><a href="javascript:void(0)"><span>Dental Assistant Training</span></a></li>
+                                            <li class="menu-item"><a href="dental-assistant-training.php"><span>Dental Assistant Training</span></a></li>
                                             <li class="menu-item"><a href="javascript:void(0)"><span>Social Media Marketing for Dentists</span></a></li>
                                             <li class="menu-item"><a href="endodontics.php"><span>Endotontics</span></a></li>
                                         </ul>
@@ -80,7 +110,7 @@
             <div class="header_mobile dark-background">
                 <div class="content_wrap">
                     <div class="menu_button icon-menu"></div>
-                    <div class="logo">
+                    <div class="logo">b
                         <a href="#">
                             <img src="images/logo-1x.png" class="logo_main" alt="" width="202" height="49">
                         </a>
@@ -93,20 +123,19 @@
                             <ul id="menu_main_mobile" class="menu_main_nav">
                                 <li class="menu-item current-menu-item" onclick="onClickHome()"><a href="#home"><span>Home</span></a></li>
                                 <!--<li class="menu-item" onclick="onClickAboutUsMenu()"><a href="javascript:void(0);">About Us</a></li>-->
-                                <li class="menu-item"><a href="javascript:void(0)">Vision</a></li>
                                 <li class="menu-item menu-item-has-children"><a href="javascript:void(0)"><span>Courses</span></a>
                                     <ul class="sub-menu gold-text">
-                                        <li class="menu-item"><a href="ore-lds-uk.php"><span>ORE / LDS - UK</span></a></li>
-                                        <li class="menu-item"><a href="nbde-usa.php"><span>NBDE - USA</span></a></li>
-                                        <li class="menu-item"><a href="ndeb-canada.php"><span>NDEB - Canada</span></a></li>
-                                        <li class="menu-item"><a href="javascript:void(0)"><span>Restorative Dentistry</span></a></li>
-                                        <li class="menu-item"><a href="javascript:void(0)"><span>Composites</span></a></li>
-                                        <li class="menu-item"><a href="dental-photography.php"><span>Dental Photography</span></a></li>
-                                        <li class="menu-item"><a href="rubber-dam.php"><span>Rubber Dam</span></a></li>
-                                        <li class="menu-item"><a href="botox-and-lip-fillers.php"><span>Facial Aesthetics: Botox &amp; Lip Fillers</span></a></li>
-                                        <li class="menu-item"><a href="javascript:void(0)"><span>Dental Assistant Training</span></a></li>
-                                        <li class="menu-item"><a href="javascript:void(0)"><span>Social Media Marketing for Dentists</span></a></li>
-                                        <li class="menu-item"><a href="endodontics.php"><span>Endotontics</span></a></li>
+                                            <li class="menu-item"><a href="ore-lds-uk.php"><span>ORE / LDS - UK</span></a></li>
+                                            <li class="menu-item"><a href="nbde-usa.php"><span>NBDE - USA</span></a></li>
+                                            <li class="menu-item"><a href="ndeb-canada.php"><span>NDEB - Canada</span></a></li>
+                                            <li class="menu-item"><a href="restorative-dentistry.php"><span>Restorative Dentistry</span></a></li>
+                                            <li class="menu-item"><a href="composites.php"><span>Composites</span></a></li>
+                                            <li class="menu-item"><a href="dental-photography.php"><span>Dental Photography</span></a></li>
+                                            <li class="menu-item"><a href="rubber-dam.php"><span>Rubber Dam</span></a></li>
+                                            <li class="menu-item"><a href="botox-and-lip-fillers.php"><span>Facial Aesthetics: Botox &amp; Lip Fillers</span></a></li>
+                                            <li class="menu-item"><a href="dental-assistant-training.php"><span>Dental Assistant Training</span></a></li>
+                                            <li class="menu-item"><a href="javascript:void(0)"><span>Social Media Marketing for Dentists</span></a></li>
+                                            <li class="menu-item"><a href="endodontics.php"><span>Endotontics</span></a></li>
                                     </ul>
                                 </li>
                                 <li class="menu-item"><a href="javascript:void(0)">Gallery</a></li>
@@ -130,53 +159,65 @@
                     <div id="rev_slider_1_1" class="rev_slider fullwidthabanner" data-version="5.4.3">
                         <ul>
                             <li data-index="rs-1" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="images/01_slider-background-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                                <img src="images/01_slider-background.jpg" alt="" title="01_slider-background" width="2340" height="1034" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
-                                <div class="tp-caption tp-resizeme" id="slide-1-layer-1" data-x="587" data-y="" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-type="image" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":750,"ease":"Power2.easeOut"},{"delay":4000,"speed":1500,"to":"sX:1.25;sY:1.25;opacity:0;","ease":"Power0.easeInOut"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
-                                    <img src="images/h1_sl1_1.png" alt="" data-ww="623px" data-hh="517px" width="623" height="517" data-no-retina>
-                                </div>
-                                <div class="tp-caption dentrarario-home1-static-text2 tp-resizeme" id="slide-1-layer-2" data-x="35" data-y="255" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","speed":1000,"to":"o:1;","delay":1000,"ease":"Power2.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
+                                <img src="images/01-slider-background.jpg" alt="" title="01_slider-background" width="2340" height="1034" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+                                <div class="tp-caption tp-resizeme" id="slide-1-layer-1" data-x="587" data-y="" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-type="image" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":750,"ease":"Power2.easeOut"},{"delay":4000,"speed":1500,"to":"sX:1.25;sY:1.25;opacity:0;","ease":"Power0.easeInOut"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"></div>
+                                <div style="color: #FFFFFF;" class="tp-caption dentrarario-home1-static-text2 tp-resizeme" id="slide-1-layer-2" data-x="35" data-y="255" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","speed":1000,"to":"o:1;","delay":1000,"ease":"Power2.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
                                     Dr. Joseph Phillips is an active member of the Academy of
                                     <br/> General Dentistry and strives to stay up to date with the latest
                                     <br/> in techniques and technology in the dental profession.
                                 </div>
-                                <div class="tp-caption dentrarario-home1-static-header tp-resizeme" id="slide-1-layer-4" data-x="35" data-y="143" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0;rY:0;rZ:0;sX:0.8;sY:0.8;skX:0;skY:0;opacity:0;","speed":1500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
-                                    High Innovative Technology
-                                    <br/> & Professional Dentists
+                                <div class="tp-caption dentrarario-home1-static-text tp-resizeme button" id="slide-4-layer-3" data-x="35" data-y="340" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;","speed":1500,"to":"o:1;","delay":500,"ease":"Power3.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
+                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_medium alignleft">Apply Now</a>
+                                </div>
+                                <div class="tp-caption dentrarario-home1-static-text tp-resizeme button" id="slide-4-layer-3" data-x="35" data-y="340" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;","speed":1500,"to":"o:1;","delay":500,"ease":"Power3.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
+                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_medium alignleft">Apply Now</a>
+                                </div>
+                                <div style="color: #F9A825;" class="tp-caption dentrarario-home1-static-header tp-resizeme" id="slide-1-layer-4" data-x="35" data-y="143" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0;rY:0;rZ:0;sX:0.8;sY:0.8;skX:0;skY:0;opacity:0;","speed":1500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
+                                    State of the Art Infrastructure
                                 </div>
                             </li>
                             <li data-index="rs-4" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="images/01_slider-background-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                                <img src="images/01_slider-background.jpg" alt="" title="01_slider-background" width="2340" height="1034" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
-                                <div class="tp-caption tp-resizeme" id="slide-4-layer-1" data-x="587" data-y="" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-type="image" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":750,"ease":"Power2.easeOut"},{"delay":4000,"speed":1500,"to":"sX:1.25;sY:1.25;opacity:0;","ease":"Power0.easeInOut"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
-                                    <img src="images/h1_sl1_3.png" alt="" data-ww="623px" data-hh="517px" width="623" height="517" data-no-retina>
-                                </div>
-                                <div class="tp-caption dentrarario-home1-static-text2 tp-resizeme" id="slide-4-layer-2" data-x="35" data-y="255" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":500,"ease":"Power3.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
+                                <img src="images/02-slider-background.jpg" alt="" title="01_slider-background" width="2340" height="1034" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+                                <div class="tp-caption tp-resizeme" id="slide-4-layer-1" data-x="587" data-y="" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-type="image" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":750,"ease":"Power2.easeOut"},{"delay":4000,"speed":1500,"to":"sX:1.25;sY:1.25;opacity:0;","ease":"Power0.easeInOut"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"></div>
+                                <div style="color: white" class="tp-caption dentrarario-home1-static-text2 tp-resizeme" id="slide-4-layer-2" data-x="35" data-y="255" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":500,"ease":"Power3.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
                                     Dr. Lisa Casey enjoys all areas of comprehensive dental care from
                                     <br/> preventive treatment and simple restorations to root canals,
                                     <br/> crown and bridge work and cosmetic care.
                                 </div>
                                 <div class="tp-caption dentrarario-home1-static-text tp-resizeme button" id="slide-4-layer-3" data-x="35" data-y="340" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;","speed":1500,"to":"o:1;","delay":500,"ease":"Power3.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
-                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_medium alignleft">Apply Now</a>
+                                    <a href="book-a-course.php" class="sc_button sc_button_square sc_button_style_filled sc_button_size_medium alignleft">Book a course</a>
                                 </div>
-                                <div class="tp-caption dentrarario-home1-static-header tp-resizeme" id="slide-4-layer-4" data-x="35" data-y="143" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":500,"ease":"Power3.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
-                                    High Innovative Technology
-                                    <br/> & Professional Dentists
+                                <div style="color: #F9A825;" class="tp-caption dentrarario-home1-static-header tp-resizeme" id="slide-4-layer-4" data-x="35" data-y="143" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":500,"ease":"Power3.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
+                                    International Dental license Exam Training
                                 </div>
                             </li>
                             <li data-index="rs-5" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="images/01_slider-background-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                                <img src="images/01_slider-background.jpg" alt="" title="01_slider-background" width="2340" height="1034" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
-                                <div class="tp-caption tp-resizeme" id="slide-5-layer-1" data-x="587" data-y="" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-type="image" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":750,"ease":"Power2.easeOut"},{"delay":4000,"speed":1500,"to":"sX:1.25;sY:1.25;opacity:0;","ease":"Power0.easeInOut"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
-                                    <img src="images/h1_sl1_2.png" alt="" data-ww="623px" data-hh="517px" width="623" height="517" data-no-retina>
-                                </div>
-                                <div class="tp-caption dentrarario-home1-static-text2 tp-resizeme" id="slide-5-layer-2" data-x="35" data-y="255" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power2.easeOut"},{"delay":4250,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
+                                <img src="images/03-slider-background.jpg" alt="" title="01_slider-background" width="2340" height="1034" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+                                <div class="tp-caption tp-resizeme" id="slide-5-layer-1" data-x="587" data-y="" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-type="image" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":750,"ease":"Power2.easeOut"},{"delay":4000,"speed":1500,"to":"sX:1.25;sY:1.25;opacity:0;","ease":"Power0.easeInOut"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"></div>
+                                <div style="color: white" class="tp-caption dentrarario-home1-static-text2 tp-resizeme" id="slide-5-layer-2" data-x="35" data-y="255" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power2.easeOut"},{"delay":4250,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
                                     Dr. Nick Kelly is a general dentist and also practices amongst our
                                     <br/>dental offices when he is not utilizing his talents on the dental van.
                                 </div>
                                 <div class="tp-caption dentrarario-home1-static-text tp-resizeme button" id="slide-5-layer-3" data-x="35" data-y="317" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;","speed":1500,"to":"o:1;","delay":1500,"ease":"Power2.easeOut"},{"delay":3750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
-                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_medium alignleft">Make an appointment</a>
+                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_medium alignleft">Faculty</a>
                                 </div>
-                                <div class="tp-caption dentrarario-home1-static-header tp-resizeme" id="slide-5-layer-4" data-x="35" data-y="143" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":500,"ease":"Power2.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
-                                    High Innovative Technology
-                                    <br/> & Professional Dentists
+                                <div style="color: #F9A825" class="tp-caption dentrarario-home1-static-header tp-resizeme" id="slide-5-layer-4" data-x="35" data-y="143" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":500,"ease":"Power2.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
+                                    International Speakers
+                                </div>
+                            </li>
+                            <li data-index="rs-3" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="images/01_slider-background-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                                <img src="images/04-slider-background.jpg" alt="" title="01_slider-background" width="2340" height="1034" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+                                <div class="tp-caption tp-resizeme" id="slide-5-layer-1" data-x="587" data-y="" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-type="image" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":750,"ease":"Power2.easeOut"},{"delay":4000,"speed":1500,"to":"sX:1.25;sY:1.25;opacity:0;","ease":"Power0.easeInOut"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"></div>
+                                <div style="color: white" class="tp-caption dentrarario-home1-static-text2 tp-resizeme" id="slide-5-layer-2" data-x="35" data-y="255" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power2.easeOut"},{"delay":4250,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
+                                    Dr. Nick Kelly is a general dentist and also practices amongst our
+                                    <br/>dental offices when he is not utilizing his talents on the dental van.
+                                </div>
+                                <div class="tp-caption dentrarario-home1-static-text tp-resizeme button" id="slide-5-layer-3" data-x="35" data-y="317" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;","speed":1500,"to":"o:1;","delay":1500,"ease":"Power2.easeOut"},{"delay":3750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
+                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_medium alignleft">Book Now</a>
+                                </div>
+                                <div style="color: #F9A825" class="tp-caption dentrarario-home1-static-header tp-resizeme" id="slide-5-layer-4" data-x="35" data-y="143" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":500,"ease":"Power2.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
+                                    New course Calendar &amp;
+                                    <br>Speakers Every month
                                 </div>
                             </li>
                         </ul>
@@ -195,8 +236,8 @@
                                     <div class="wpb_column vc_column_container vc_col-sm-12">
                                         <div class="vc_column-inner ">
                                             <div class="wpb_wrapper">
-                                                <h2 class="sc_title sc_title_regular sc_align_center margin_top_huge margin_bottom_null centext">Welcome to Bay Dental Associates</h2>
-                                                <h6 class="vc_custom_heading vc_custom_1455547755372">Highest level of service you can find</h6>
+                                                <h2 class="sc_title sc_title_regular sc_align_center margin_top_huge margin_bottom_null centext">Welcome to Bay Dental Institute</h2>
+                                                <h6 class="vc_custom_heading vc_custom_1455547755372">Dental Simulation Lab</h6>
                                                 <div class="columns_wrap sc_columns columns_nofluid autoheight sc_columns_count_2 margin_top_medium">
                                                     <div class="column-1_2 sc_column_item sc_column_item_1">
                                                         <div class="sc_column_item_inner bgimage_column"></div>
@@ -208,7 +249,7 @@
 
                                                         <div class="wpb_text_column wpb_content_element ">
                                                             <div class="wpb_wrapper">
-                                                                <p>Bay Dental Training Institute is a privately owned, state of the art Clinical soft skills simulation set up with an aim to provide training, guidance and coaching for dentists looking to crack overseas dental licensing exams to register overseas as a practising dentist. All our tutors have passed overseas licensing exams being registered overseas and have extensive knowledge of the application process, preparation, study material, training and job process.<br/><br/>We also conduct short practical orientation training for Dentists and Doctors in the latest international techniques and protocols looking to hone their skills to provide a higher standard of dentistry to their clients.
+                                                                <p>Bay Dental Institute is a privately owned, state of the art Clinical soft skills simulation set up with an aim to provide training, guidance and coaching for dentists looking to crack overseas dental licensing exams to register overseas as a practising dentist. All our tutors have passed overseas licensing exams being registered overseas and have extensive knowledge of the application process, preparation, study material, training and job process.<br/><br/>We also conduct short practical orientation training for Dentists and Doctors in the latest international techniques and protocols looking to hone their skills to provide a higher standard of dentistry to their clients.
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -229,7 +270,7 @@
                                                                 <div id="sc_services_925_2" class="sc_services_item sc_services_item_2">
                                                                     <span class="sc_icon icon-medic-17"></span>
                                                                     <div class="sc_services_item_content">
-                                                                        <h4 class="sc_services_item_title">Professionals in our Clinic</h4>
+                                                                        <h4 class="sc_services_item_title">Mentorship</h4>
                                                                         <div class="sc_services_item_description">
                                                                             <p>All of our members automatically join our alumni and receive <strong>continued clinical support</strong> after completing one of our courses.</p>
                                                                         </div>
@@ -261,21 +302,40 @@
                                                             Our Board and Faculty includes Clinicians settled in India and Overseas who have cleared and registered overseas and aim to provide honest guidance for hardworking candidates.
                                                         </div>
                                                         <div class="sc_columns columns_wrap">
-                                                            <div class="column-1_4 column_padding_bottom">
+                                                            <div class="column-1_3 column_padding_bottom">
                                                                 <div id="sc_team_454_1" class="sc_team_item">
                                                                     <div class="sc_team_item_avatar">
                                                                         <img width="182" height="182" alt="" src="images/our-team/t1.jpg">
                                                                     </div>
                                                                     <div class="sc_team_item_info">
                                                                         <h5 class="sc_team_item_title">Dr. Shravan Chawla</h5>
-                                                                        <div class="sc_team_item_position">BDS (Mauritius), PCAD (USA),<br> Licensed Practitioner (GDC - UK), Founder, Course Program Director, Clinical Tutor</div>
-                                                                        <div class="sc_team_item_description">
-                                                                            Dr. Shravan Chawla has graduated from the University of Mauritius, followed by giving the licensing conducted by the DCI for Indian citizens studying abroad. After gaining a PG certification in aesthetics and implants for NYU(USA), Dr. Chawla went on to crack the ORE-UK licensing exams to be registered as a licensed Dental practitioner with the GDC-UK. Currently Dr. Chawla runs his practice Bay Dental Associates in South Mumbai.
+                                                                        <div class="sc_team_item_position">BDS (Mauritius), PCAD (USA),<br>Stat Exam &amp; Licensed Practitioner (GDC - UK), Founder, Course Program Director, Clinical Tutor
+                                                                        </div>
+                                                                        <h6><a href="javascript:void(0)" id="t1-details-click">Click for more &#8659;</a></h6>
+                                                                        <div class="sc_team_item_description" id="t1-details" style="display: none">
+                                                                            Dr. Shravan Chawla has graduated from the University of Mauritius, followed by giving the licensing conducted by the DCI for Indian citizens studying abroad. After gaining a PG certification in aesthetics and implants for NYU(USA), Dr. Chawla went on to crack the ORE-UK licensing exams to be registered as a licensed Dental practitioner with the GDC-UK. Currently Dr. Chawla runs his practice Bay Dental Institute in South Mumbai.
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div class="column-1_4 column_padding_bottom">
+                                                            <div class="column-1_3 column_padding_bottom">
+                                                                <div id="sc_team_454_4" class="sc_team_item">
+                                                                    <div class="sc_team_item_avatar">
+                                                                        <img width="182" height="182" alt="" src="images/our-team/t3.jpg">
+                                                                    </div>
+                                                                    <div class="sc_team_item_info">
+                                                                        <h5 class="sc_team_item_title">Dr. Akshari Anchan</h5>
+                                                                        <div class="sc_team_item_position">NBDE / NDEB USA &amp; Canada Course Director,
+                                                                            <br>Facial Aesthetic Surgeon, <br>Skin &amp; Hair Expert
+                                                                        </div>
+                                                                        <h6><a href="javascript:void(0)" id="t2-details-click">Click for more &#8659;</a></h6>
+                                                                        <div class="sc_team_item_description"  id="t2-details" style="display: none">
+                                                                            Dr. Akshari Anchan has graduated from the prestigious Nitte University, Mangalore and has post graduated into clinical aesthetics from the esteemed Indian Institute of Aesthetic Medicine, Pune.<br/>She has successfully cleared her licensing exams in the United States of America. In her multiple visits to the United States between 2013-2016, Dr. Anchan has observed various doctors and worked closely with University of Miami on a 3 year program for Facial Aesthetics, Botox, and Lip Fillers.<br/> Dr. Anchan has an experience of over 5 years in clinical practice and maintains a private practice and is an expert consultant to over 25 clinics all over Mumbai concentrating on Facial Aesthetics, Botox, Lip Fillers and Hair transplant. Her research articles have won her National and International laurel including recognition from the renowned Indian Council of Medical Research.
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="column-1_3 column_padding_bottom">
                                                                 <div id="sc_team_454_2" class="sc_team_item">
                                                                     <div class="sc_team_item_avatar">
                                                                         <img width="182" height="182" alt="" src="images/our-team/t2.jpg">
@@ -284,14 +344,16 @@
                                                                         <h5 class="sc_team_item_title">Dr. James Mulani</h5>
                                                                         <div class="sc_team_item_position">BDS (Mauritius), MJDF (UK),
                                                                             <br>Stat Exam &amp; Licensed Practitioner (GDC - UK), Overseas Mentor,
-                                                                            <br>ORE Course Program Director</div>
-                                                                        <div class="sc_team_item_description">
+                                                                            <br>ORE Course Program Director
+                                                                        </div>
+                                                                        <h6><a href="javascript:void(0)" id="t3-details-click">Click for more &#8659;</a></h6>
+                                                                        <div class="sc_team_item_description" id="t3-details" style="display: none">
                                                                             After Graduating from the University of Mauritius, and clearing the DCI exam in India, Dr. James worked in private practice in India for a few years before cracking the ORE-UK exam. Dr. James is currently into private practice in Hashtings, UK since 5 years where he pursues implant, aesthetics and the latest in digital dentistry.
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div class="column-1_4 column_padding_bottom">
+                                                            <!--<div class="column-1_4 column_padding_bottom">
                                                                 <div id="sc_team_454_3" class="sc_team_item">
                                                                     <div class="sc_team_item_avatar">
                                                                         <img width="182" height="182" alt="" src="images/team-2-small-182x182.png">
@@ -304,22 +366,7 @@
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                            </div>
-                                                            <div class="column-1_4 column_padding_bottom">
-                                                                <div id="sc_team_454_4" class="sc_team_item">
-                                                                    <div class="sc_team_item_avatar">
-                                                                        <img width="182" height="182" alt="" src="images/our-team/t4.jpg">
-                                                                    </div>
-                                                                    <div class="sc_team_item_info">
-                                                                        <h5 class="sc_team_item_title">Dr. Akshari Anchan</h5>
-                                                                        <div class="sc_team_item_position">NBDE / NDEB USA &amp; Canada Course Director,
-                                                                            <br>Facial Aesthetic Surgeon, <br>Skin &amp; Hair Expert</div>
-                                                                        <div class="sc_team_item_description">
-                                                                            Dr. Akshari Anchan has graduated from the prestigious Nitte University, Mangalore and has post graduated into clinical aesthetics from the esteemed Indian Institute of Aesthetic Medicine, Pune.<br/>She has successfully cleared her licensing exams in the United States of America. In her multiple visits to the United States between 2013-2016, Dr. Anchan has observed various doctors and worked closely with University of Miami on a 3 year program for Facial Aesthetics, Botox, and Lip Fillers.<br/> Dr. Anchan has an experience of over 5 years in clinical practice and maintains a private practice and is an expert consultant to over 25 clinics all over Mumbai concentrating on Facial Aesthetics, Botox, Lip Fillers and Hair transplant. Her research articles have won her National and International laurel including recognition from the renowned Indian Council of Medical Research.
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
+                                                            </div>-->
                                                         </div>
                                                     </div>
                                                 </div>
@@ -406,7 +453,7 @@
                                                                 <div id="sc_services_047_2" class="sc_services_item sc_services_item_2">
                                                                     <div class="sc_services_item_content">
                                                                         <h4 class="sc_services_item_title">
-                                                                            <a href="javascript:void(0)">NBDE - USA</a>
+                                                                            <a href="nbde-usa.php">NBDE - USA</a>
                                                                         </h4>
                                                                         <div class="sc_services_item_description">
                                                                             <p>National Board Dental Examination (NBDE) is the United States national dental examination for students and professionals in dentistry. It is required for licensure in the United States and may also be required when applying for postgraduate studies in dental specialties after completing a dental degree. Foreign-trained dentists ( E.g. Indian Dentists) also must take the NBDE in order to earn admission into advanced standing programs in US dental schools.</p>
@@ -418,7 +465,7 @@
                                                                 <div id="sc_services_047_3" class="sc_services_item sc_services_item_3">
                                                                     <div class="sc_services_item_content">
                                                                         <h4 class="sc_services_item_title">
-                                                                            <a href="javascript:void(0)">NDEB - Canada</a>
+                                                                            <a href="ndeb-canada.php">NDEB - Canada</a>
                                                                         </h4>
                                                                         <div class="sc_services_item_description">
                                                                             <p>The National Dental Examining Board of Canada, also known as the NDEB is the organization is responsible for granting approval for dentists to practice in Canada through standardized examinations.</p>
@@ -430,11 +477,11 @@
                                                                 <div id="sc_services_047_4" class="sc_services_item sc_services_item_4">
                                                                     <div class="sc_services_item_content">
                                                                         <h4 class="sc_services_item_title">
-                                                                            <a href="javascript:void(0)">Restorative Dentistry</a>
+                                                                            <a href="restorative-dentistry.php">Restorative Dentistry</a>
                                                                         </h4>
                                                                         <div class="sc_services_item_description">
                                                                             <p>
-                                                                                Our aim is to equip the clinician with the right knowledge and skill to provide beautifully restored teeth that technically sound and last long.
+                                                                                Our aim is to equip the clinician with the right knowledge and skill to provide beautifully restored teeth that are technically sound and last long.
                                                                             </p>
                                                                             <p>
                                                                                 Dentistry involves a lot of skill and art. We train you to skill yourself with the artistic touch to produce beautifully restored teeth.
@@ -447,7 +494,7 @@
                                                                 <div id="sc_services_047_5" class="sc_services_item sc_services_item_5">
                                                                     <div class="sc_services_item_content">
                                                                         <h4 class="sc_services_item_title">
-                                                                            <a href="javascript:void(0)">Endodontics</a>
+                                                                            <a href="endodontics.php">Endodontics</a>
                                                                         </h4>
                                                                         <div class="sc_services_item_description">
                                                                             <p>
@@ -464,10 +511,11 @@
                                                                 <div id="sc_services_047_6" class="sc_services_item sc_services_item_6">
                                                                     <div class="sc_services_item_content">
                                                                         <h4 class="sc_services_item_title">
-                                                                            <a href="javascript:void(0)">Composites</a>
+                                                                            <a href="composites.php">Composites</a>
                                                                         </h4>
                                                                         <div class="sc_services_item_description">
                                                                             <p>The aim of this course is to give knowledge, confidence and skills to create beautiful and functional direct anterior and posterior composites</p>
+                                                                            <p>We aim to train clinicians to follow the proper bonding protocol  to replicate the natural tooth in every form and function to provide minimally invasive, artistically driven , bio-mimetic bonded dentistry.</p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -531,9 +579,18 @@
                                                                             <div class="sc_services_item_content">
                                                                                 <h4 class="sc_services_item_title">Phone</h4>
                                                                                 <div class="sc_services_item_description">
-                                                                                    <p>Dr. Sharavan Chawla - +91 98209 58880</p>
                                                                                     <p>+91 22 23610338</p>
                                                                                     <p>+91 22 23638186</p>
+                                                                                    <p>+91 98209 58880</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div id="sc_services_086_2" class="sc_services_item sc_services_item_2">
+                                                                            <span class="sc_icon icon-mail-light"></span>
+                                                                            <div class="sc_services_item_content">
+                                                                                <h4 class="sc_services_item_title">Email</h4>
+                                                                                <div class="sc_services_item_description">
+                                                                                    <p>info@baydental.in</p>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -609,7 +666,7 @@
                                                         <div class="wpb_wrapper">
                                                             <div class="sc_form_item sc_form_field label_over"><i class="icon icon-dentrario_add_user"></i>
                                                                 <label class="required" for="sc_form_doctor">Query From</label>
-                                                                <input id="sc_form_doctor" type="text" name="doctor" placeholder="Patient / Speaker">
+                                                                <input id="sc_form_doctor" type="text" name="doctor" placeholder="Student / Speaker">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -625,7 +682,7 @@
                                             <input type="checkbox" id="scales" name="scales"> I agree to receiving emails / newsletters from baydental.
                                         </div>
                                         <div class="sc_form_item sc_form_button">
-                                            <button class="aligncenter">Make an Appointment</button>
+                                            <button class="aligncenter">Book A Course</button>
                                         </div>
                                         <div class="result sc_infobox"></div>
                                     </form>
@@ -641,15 +698,7 @@
 
             <div class="vc_row-full-width"></div>
 
-            <div class="copyright_wrap copyright_style_socials scheme_light">
-                <div class="copyright_wrap_inner">
-                    <div class="content_wrap_outer">
-                        <div class="content_wrap">
-                            <div class="copyright_text">Incepiom © 2018 All Rights Reserved.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <?php include 'footer.php'?>
         </div>
     </div>
 

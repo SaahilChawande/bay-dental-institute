@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="icon" type="image/x-icon" href="images/favicon.png" />
-    <title>Rubber Dam - Bay Dental Institute</title>
+    <title>Restorative Dentistry</title>
     <link rel='stylesheet' href='css/animations.css' type='text/css' media='all' />
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700|Lora:400,400i,700,700i|Merriweather:300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Poppins:300,400,500,600,700|Raleway:100,200,300,400,500,600,700,800,900&amp;subset=latin-ext' type='text/css' media='all'>
     <link rel='stylesheet' href='css/fontello/css/fontello.css' type='text/css' media='all' />
@@ -44,13 +44,13 @@
                                 <li class="menu-item"><a href="index.php#about-us">About Us</a></li>
                                 <li class="menu-item menu-item-has-children current-menu-ancestor"><a href="#"><span>Courses &nbsp;&#8659;</span></a>
                                     <ul class="sub-menu">
-                                        <li class="menu-item"><a href="ore-lds-uk.php"><span>ORE / LDS - UK</span></a></li>
+                                        <li class="menu-item "><a href="ore-lds-uk.php"><span>ORE / LDS - UK</span></a></li>
                                         <li class="menu-item"><a href="nbde-usa.php"><span>NBDE - USA</span></a></li>
                                         <li class="menu-item"><a href="ndeb-canada.php"><span>NDEB - Canada</span></a></li>
-                                        <li class="menu-item"><a href="restorative-dentistry.php"><span>Restorative Dentistry</span></a></li>
+                                        <li class="menu-item current-menu-item"><a href="javascript:void(0)"><span>Restorative Dentistry</span></a></li>
                                         <li class="menu-item"><a href="composites.php"><span>Composites</span></a></li>
                                         <li class="menu-item"><a href="dental-photography.php"><span>Dental Photography</span></a></li>
-                                        <li class="menu-item current-menu-item"><a href="javascript:void(0)"><span>Rubber Dam</span></a></li>
+                                        <li class="menu-item"><a href="rubber-dam.php"><span>Rubber Dam</span></a></li>
                                         <li class="menu-item"><a href="botox-and-lip-fillers.php"><span>Facial Aesthetics: Botox &amp; Lip Fillers</span></a></li>
                                         <li class="menu-item"><a href="dental-assistant-training.php"><span>Dental Assistant Training</span></a></li>
                                         <li class="menu-item"><a href="javascript:void(0)"><span>Social Media Marketing for Dentists</span></a></li>
@@ -91,13 +91,13 @@
                             <li class="menu-item" onclick="onClickAboutUsMenu()"><a href="index.php#about-us">About Us</a></li>
                             <li class="menu-item menu-item-has-children current-menu-ancestor"><a href="javascript:void(0)"><span>Courses</span></a>
                                 <ul class="sub-menu gold-text">
-                                        <li class="menu-item"><a href="ore-lds-uk.php"><span>ORE / LDS - UK</span></a></li>
+                                        <li class="menu-item "><a href="ore-lds-uk.php"><span>ORE / LDS - UK</span></a></li>
                                         <li class="menu-item"><a href="nbde-usa.php"><span>NBDE - USA</span></a></li>
                                         <li class="menu-item"><a href="ndeb-canada.php"><span>NDEB - Canada</span></a></li>
-                                        <li class="menu-item"><a href="restorative-dentistry.php"><span>Restorative Dentistry</span></a></li>
+                                        <li class="menu-item current-menu-item"><a href="javascript:void(0)"><span>Restorative Dentistry</span></a></li>
                                         <li class="menu-item"><a href="composites.php"><span>Composites</span></a></li>
                                         <li class="menu-item"><a href="dental-photography.php"><span>Dental Photography</span></a></li>
-                                        <li class="menu-item current-menu-item"><a href="javascript:void(0)"><span>Rubber Dam</span></a></li>
+                                        <li class="menu-item"><a href="rubber-dam.php"><span>Rubber Dam</span></a></li>
                                         <li class="menu-item"><a href="botox-and-lip-fillers.php"><span>Facial Aesthetics: Botox &amp; Lip Fillers</span></a></li>
                                         <li class="menu-item"><a href="dental-assistant-training.php"><span>Dental Assistant Training</span></a></li>
                                         <li class="menu-item"><a href="javascript:void(0)"><span>Social Media Marketing for Dentists</span></a></li>
@@ -123,11 +123,11 @@
         <div class="top_panel_title top_panel_style_2 title_present breadcrumbs_present scheme_original dark-background">
             <div class="top_panel_title_inner top_panel_inner_style_2 title_present_inner breadcrumbs_present_inner">
                 <div class="content_wrap">
-                    <h1 class="page_title">Rubber Dam</h1>
+                    <h1 class="page_title">Restorative Dentistry</h1>
                     <div class="breadcrumbs">
                         <a class="breadcrumbs_item home" href="index.php">Home</a>
                         <span class="breadcrumbs_delimiter"></span>
-                        <span class="breadcrumbs_item current">Rubber Dam</span>
+                        <span class="breadcrumbs_item current">Restorative Dentistry</span>
                     </div>
                 </div>
             </div>
@@ -140,17 +140,16 @@
                         <section class="post_content">
 
                             <!--Slider-->
-                            <div class="vc_row wpb_row vc_row-fluid">
+                            <!--div class="vc_row wpb_row vc_row-fluid">
                                 <div class="wpb_column vc_column_container vc_col-sm-12">
                                     <div class="vc_column-inner ">
                                         <div class="wpb_wrapper">
                                             <div id="sc_slider_193" class="sc_slider sc_slider_swiper swiper-slider-container sc_slider_height_fixed sc_slider_controls sc_slider_nopagination sc_slider_bg" data-old-height="400" data-interval="6424" style="height:400px;width:100%;">
                                                 <div class="slides swiper-wrapper">
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/rubber-dam/rd1.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/rubber-dam/rd2.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/rubber-dam/rd3.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/rubber-dam/rd4.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/rubber-dam/rd5.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/botox-and-lip-fillers/balx1.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/botox-and-lip-fillers/balx2.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/botox-and-lip-fillers/balx3.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/botox-and-lip-fillers/balx4.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
                                                 </div>
                                                 <div class="sc_slider_controls_wrap">
                                                     <a class="sc_slider_prev" href="#"></a>
@@ -163,7 +162,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div-->
 
                             <!--Initial Para-->
                             <div class="vc_row wpb_row vc_row-fluid">
@@ -172,55 +171,13 @@
                                         <div class="wpb_wrapper">
                                             <div class="wpb_text_column wpb_content_element ">
                                                 <div class="wpb_wrapper centext">
-                                                    <p>We believe in the true and absolute power of bonded dentistry. There is no golden standard for strong and predictable isolation beyond rubber dam. We aim to help clinicians understand and bust myths and simplify the process of placing the rubber dam. Our one day workshop is completely clinically oriented with clinical simulation manikins to practice placement of the rubber dam on different teeth, with different clamps and floss tie techniques.</p>
-                                                </div>
-                                            </div>
-                                            <div class="vc_empty_space space_96p">
-                                                <span class="vc_empty_space_inner"></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                                                    
+                                                    <p>We provide short and long advanced courses on all / some of the modules below. 
+														Our aim is to equip the clinician with the right knowledge and skill to provide beautifully restored teeth that technically sound and last long. </p>
+													<p>
 
-
-                            <!--Aims and Objectives-->
-                            <div class="vc_row wpb_row vc_row-fluid">
-                                <div class="wpb_column vc_column_container vc_col-sm-12">
-                                    <div class="vc_column-inner ">
-                                        <div class="wpb_wrapper">
-                                            <div class="wpb_text_column wpb_content_element ">
-                                                <div class="wpb_wrapper centext">
-                                                    <h3>Aims and Objectives</h3>
-                                                    <ul class="sc_list sc_list_style_iconed">
-                                                        <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Remove the fear factor from rubber dam placement
-                                                        </li>
-                                                        <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Simplifying dam placement and removal
-                                                        </li>
-                                                        <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Understanding different techniques of Dam Placement
-                                                        </li>
-                                                        <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Patient comfort
-                                                        </li>
-                                                        <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Absolute Isolation and partial isolation
-                                                        </li>
-                                                        <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Absolute Isolation and partial isolation
-                                                        </li>
-                                                        <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Fluid Control
-                                                        </li>
-                                                        <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Course Covers
-                                                        </li>
-                                                        <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Theory on benefits and types of isolation
-                                                        </li>
-                                                    </ul>
+														Dentistry involves a lot of skill and art. We train you to skill yourself with the artistic touch to produce beautifully restored teeth. 
+													</p>
                                                 </div>
                                             </div>
                                             <div class="vc_empty_space space_50p">
@@ -230,44 +187,81 @@
                                     </div>
                                 </div>
                             </div>
-
-                            <!--Hands on Clinical Manikin-->
-                            <div class="vc_row wpb_row vc_row-fluid">
-                                <div class="wpb_column vc_column_container vc_col-sm-12">
-                                    <div class="vc_column-inner ">
-                                        <div class="wpb_wrapper">
-                                            <div class="wpb_text_column wpb_content_element ">
-                                                <div class="wpb_wrapper centext">
-                                                    <h3>Hands on Clinical Manikin</h3>
-                                                    <ul class="sc_list sc_list_style_iconed">
-                                                        <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Get familiar with different clamps, forceps , Dams
-                                                        </li>
-                                                        <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Floss Ties
-                                                        </li>
-                                                        <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Split Dam technique , Quadrant Isolation, Single tooth Isolation.
-                                                        </li>
-                                                        <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Dam stabilization, and patient comfort
-                                                        </li>
-                                                        <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Photography with Dam on
-                                                        </li>
-                                                        <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Dam Removal
-                                                        </li>
-                                                        <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Dam Tears and troubleShooting.
-                                                        </li>
-                                                    </ul>
+									<div class="wpb_column vc_column_container vc_col-sm-12">
+                                        <div class="vc_column-inner ">
+                                            <div class="wpb_wrapper">
+                                                <div id="sc_services_047_wrap" class="sc_services_wrap">
+                                                    <div id="sc_services_047" class="sc_services sc_services_style_services-1 sc_services_type_icons  margin_top_huge margin_bottom_large">
+                                                        <h2 class="sc_services_title sc_item_title">Our Courses</h2>
+                                                        <div class="sc_services_descr sc_item_descr"></div>
+                                                        <div class="sc_columns columns_wrap">
+                                                            <div class="column-1_3 column_padding_bottom">
+                                                                <div id="sc_services_047_1" class="sc_services_item sc_services_item_1">
+                                                                    <div class="sc_services_item_content">
+                                                                        <h4 class="sc_services_item_title">
+                                                                            <a href="restorative-dentistry/smile-design-and-patient-management.php">Smile Design and Patient Management</a>
+                                                                        </h4>
+                                                                        
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="column-1_3 column_padding_bottom">
+                                                                <div id="sc_services_047_2" class="sc_services_item sc_services_item_2">
+                                                                    <div class="sc_services_item_content">
+                                                                        <h4 class="sc_services_item_title">
+                                                                            <a href="restorative-dentistry/colour-shade-assessment-and-bleaching.php">Colour, Shade Assessment and Bleaching</a>
+                                                                        </h4>
+                                                                        
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="column-1_3 column_padding_bottom">
+                                                                <div id="sc_services_047_3" class="sc_services_item sc_services_item_3">
+                                                                    <div class="sc_services_item_content">
+                                                                        <h4 class="sc_services_item_title">
+                                                                            <a href="restorative-dentistry/veneers-and-soft-tissue-management.php">Veneers and Soft Tissue Management</a>
+                                                                        </h4>
+                                                                        
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="column-1_3 column_padding_bottom">
+                                                                <div id="sc_services_047_4" class="sc_services_item sc_services_item_4">
+                                                                    <div class="sc_services_item_content">
+                                                                        <h4 class="sc_services_item_title">
+                                                                            <a href="restorative-dentistry/tooth-surface-loss-and-full-mouth-rehab.php">Tooth Surface Loss and Full Mouth Rehab</a>
+                                                                        </h4>
+                                                                        
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="column-1_3 column_padding_bottom">
+                                                                <div id="sc_services_047_5" class="sc_services_item sc_services_item_5">
+                                                                    <div class="sc_services_item_content">
+                                                                        <h4 class="sc_services_item_title">
+                                                                            <a href="restorative-dentistry/anterior-posterior-crowns-and-bridge-dentistry.php">Anterior &amp; Posterior Crowns &amp; Bridge Dentistry </a>
+                                                                        </h4>
+                                                                        
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="column-1_3 column_padding_bottom">
+                                                                <div id="sc_services_047_6" class="sc_services_item sc_services_item_6">
+                                                                    <div class="sc_services_item_content">
+                                                                        <h4 class="sc_services_item_title">
+                                                                            <a href="restorative-dentistry/posterior-onlays-and-crowns.php">Posterior Onlays and Crowns</a>
+                                                                        </h4>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
+                                
+
 
                         </section>
                         <section class="related_wrap related_wrap_empty"></section>

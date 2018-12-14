@@ -901,7 +901,7 @@ textarea {
   background-color: #333F48;
 }
 .scheme_original .top_panel_wrap_inner {
-  background-color: #323F47;
+  background-color: #30383B;
 }
 .scheme_light .top_panel_wrap_inner {
   background-color: #fafcfc;
@@ -7185,7 +7185,7 @@ button,
   color: #f0f0f0;
 }
 .scheme_original .sc_call_to_action_accented {
-  background-color: #323F47;
+  background-color: #30383B;
 }
 .scheme_light .sc_call_to_action_accented {
   background-color: #3FB6E0;
@@ -9426,7 +9426,7 @@ button,
   color: #A1AAAD;
 }
 .scheme_original .slider_engine_revo .tp-bullet {
-  border-color: #787C83;
+  border-color: #F9A825;
 }
 .scheme_light .slider_engine_revo .tp-bullet {
   border-color: #787C83;
@@ -9445,11 +9445,11 @@ button,
 }
 .scheme_original .slider_engine_revo .tp-bullet.selected,
 .scheme_original .slider_engine_revo .tp-bullet:hover {
-  border-color: #3FB6E0;
+  /*border-color: #3FB6E0;*/
 }
 .scheme_light .slider_engine_revo .tp-bullet.selected,
 .scheme_light .slider_engine_revo .tp-bullet:hover {
-  border-color: #3FB6E0;
+  border-color: #F9A825;
 }
 .scheme_dark .slider_engine_revo .tp-bullet.selected,
 .scheme_dark .slider_engine_revo .tp-bullet:hover {
@@ -9457,7 +9457,7 @@ button,
 }
 .scheme_original .slider_engine_revo .tp-bullet.selected,
 .scheme_original .slider_engine_revo .tp-bullet:hover {
-  background-color: #3FB6E0;
+  background-color: #F9A825;
 }
 .scheme_light .slider_engine_revo .tp-bullet.selected,
 .scheme_light .slider_engine_revo .tp-bullet:hover {

@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="icon" type="image/x-icon" href="images/favicon.png" />
-    <title>Rubber Dam - Bay Dental Institute</title>
+    <title>Composites - Bay Dental Institute</title>
     <link rel='stylesheet' href='css/animations.css' type='text/css' media='all' />
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700|Lora:400,400i,700,700i|Merriweather:300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Poppins:300,400,500,600,700|Raleway:100,200,300,400,500,600,700,800,900&amp;subset=latin-ext' type='text/css' media='all'>
     <link rel='stylesheet' href='css/fontello/css/fontello.css' type='text/css' media='all' />
@@ -48,9 +48,9 @@
                                         <li class="menu-item"><a href="nbde-usa.php"><span>NBDE - USA</span></a></li>
                                         <li class="menu-item"><a href="ndeb-canada.php"><span>NDEB - Canada</span></a></li>
                                         <li class="menu-item"><a href="restorative-dentistry.php"><span>Restorative Dentistry</span></a></li>
-                                        <li class="menu-item"><a href="composites.php"><span>Composites</span></a></li>
+                                        <li class="menu-item current-menu-item"><a href="javascript:void(0)"><span>Composites</span></a></li>
                                         <li class="menu-item"><a href="dental-photography.php"><span>Dental Photography</span></a></li>
-                                        <li class="menu-item current-menu-item"><a href="javascript:void(0)"><span>Rubber Dam</span></a></li>
+                                        <li class="menu-item"><a href="rubber-dam.php"><span>Rubber Dam</span></a></li>
                                         <li class="menu-item"><a href="botox-and-lip-fillers.php"><span>Facial Aesthetics: Botox &amp; Lip Fillers</span></a></li>
                                         <li class="menu-item"><a href="dental-assistant-training.php"><span>Dental Assistant Training</span></a></li>
                                         <li class="menu-item"><a href="javascript:void(0)"><span>Social Media Marketing for Dentists</span></a></li>
@@ -95,14 +95,14 @@
                                         <li class="menu-item"><a href="nbde-usa.php"><span>NBDE - USA</span></a></li>
                                         <li class="menu-item"><a href="ndeb-canada.php"><span>NDEB - Canada</span></a></li>
                                         <li class="menu-item"><a href="restorative-dentistry.php"><span>Restorative Dentistry</span></a></li>
-                                        <li class="menu-item"><a href="composites.php"><span>Composites</span></a></li>
+                                        <li class="menu-item current-menu-item"><a href="javascript:void(0)"><span>Composites</span></a></li>
                                         <li class="menu-item"><a href="dental-photography.php"><span>Dental Photography</span></a></li>
-                                        <li class="menu-item current-menu-item"><a href="javascript:void(0)"><span>Rubber Dam</span></a></li>
+                                        <li class="menu-item"><a href="rubber-dam.php"><span>Rubber Dam</span></a></li>
                                         <li class="menu-item"><a href="botox-and-lip-fillers.php"><span>Facial Aesthetics: Botox &amp; Lip Fillers</span></a></li>
                                         <li class="menu-item"><a href="dental-assistant-training.php"><span>Dental Assistant Training</span></a></li>
                                         <li class="menu-item"><a href="javascript:void(0)"><span>Social Media Marketing for Dentists</span></a></li>
                                         <li class="menu-item"><a href="endodontics.php"><span>Endotontics</span></a></li>
-                                </ul>
+                                    </ul>
                             </li>
                             <li class="menu-item"><a href="javascript:void(0)">Gallery</a></li>
                             <li class="menu-item"><a href="javascript:void(0)">Faculty</a></li>
@@ -123,11 +123,11 @@
         <div class="top_panel_title top_panel_style_2 title_present breadcrumbs_present scheme_original dark-background">
             <div class="top_panel_title_inner top_panel_inner_style_2 title_present_inner breadcrumbs_present_inner">
                 <div class="content_wrap">
-                    <h1 class="page_title">Rubber Dam</h1>
+                    <h1 class="page_title">Composites</h1>
                     <div class="breadcrumbs">
                         <a class="breadcrumbs_item home" href="index.php">Home</a>
                         <span class="breadcrumbs_delimiter"></span>
-                        <span class="breadcrumbs_item current">Rubber Dam</span>
+                        <span class="breadcrumbs_item current">Composites</span>
                     </div>
                 </div>
             </div>
@@ -139,86 +139,85 @@
                     <article class="post_item post_item_single page hentry">
                         <section class="post_content">
 
-                            <!--Slider-->
-                            <div class="vc_row wpb_row vc_row-fluid">
-                                <div class="wpb_column vc_column_container vc_col-sm-12">
-                                    <div class="vc_column-inner ">
-                                        <div class="wpb_wrapper">
-                                            <div id="sc_slider_193" class="sc_slider sc_slider_swiper swiper-slider-container sc_slider_height_fixed sc_slider_controls sc_slider_nopagination sc_slider_bg" data-old-height="400" data-interval="6424" style="height:400px;width:100%;">
-                                                <div class="slides swiper-wrapper">
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/rubber-dam/rd1.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/rubber-dam/rd2.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/rubber-dam/rd3.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/rubber-dam/rd4.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/rubber-dam/rd5.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                </div>
-                                                <div class="sc_slider_controls_wrap">
-                                                    <a class="sc_slider_prev" href="#"></a>
-                                                    <a class="sc_slider_next" href="#"></a>
-                                                </div>
-                                            </div>
-                                            <div class="vc_empty_space space_25p">
-                                                <span class="vc_empty_space_inner"></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
 
-                            <!--Initial Para-->
                             <div class="vc_row wpb_row vc_row-fluid">
                                 <div class="wpb_column vc_column_container vc_col-sm-12">
                                     <div class="vc_column-inner ">
                                         <div class="wpb_wrapper">
                                             <div class="wpb_text_column wpb_content_element ">
                                                 <div class="wpb_wrapper centext">
-                                                    <p>We believe in the true and absolute power of bonded dentistry. There is no golden standard for strong and predictable isolation beyond rubber dam. We aim to help clinicians understand and bust myths and simplify the process of placing the rubber dam. Our one day workshop is completely clinically oriented with clinical simulation manikins to practice placement of the rubber dam on different teeth, with different clamps and floss tie techniques.</p>
-                                                </div>
-                                            </div>
-                                            <div class="vc_empty_space space_96p">
-                                                <span class="vc_empty_space_inner"></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <!--Aims and Objectives-->
-                            <div class="vc_row wpb_row vc_row-fluid">
-                                <div class="wpb_column vc_column_container vc_col-sm-12">
-                                    <div class="vc_column-inner ">
-                                        <div class="wpb_wrapper">
-                                            <div class="wpb_text_column wpb_content_element ">
-                                                <div class="wpb_wrapper centext">
-                                                    <h3>Aims and Objectives</h3>
+                                                    <h3>Aim and Objective</h3>
                                                     <ul class="sc_list sc_list_style_iconed">
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Remove the fear factor from rubber dam placement
+                                                            &#10004;&nbsp;&nbsp;&nbsp;To give the knowledge, confidence and skills to create beautiful and functional direct anterior and posterior composites 
+                                                        <li class="sc_list_item">
+                                                            &#10004;&nbsp;&nbsp;&nbsp;Course includes lectures and significant anterior and posterior practicals. 
+                                                        </li>
+                                                        
+                                                        
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="vc_empty_space space_50p">
+                                                <span class="vc_empty_space_inner"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            
+                            <div class="vc_row wpb_row vc_row-fluid">
+                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                    <div class="vc_column-inner ">
+                                        <div class="wpb_wrapper">
+                                            <div class="wpb_text_column wpb_content_element ">
+                                                <div class="wpb_wrapper centext">
+                                                    <h3>Topics Covered</h3>
+                                                    <ul class="sc_list sc_list_style_iconed">
+                                                        <li class="sc_list_item">
+                                                            &#10004;&nbsp;&nbsp;&nbsp;Unbiased appraisal of current materials
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Simplifying dam placement and removal
+                                                            &#10004;&nbsp;&nbsp;&nbsp;The determinants of colour
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Understanding different techniques of Dam Placement
+                                                            &#10004;&nbsp;&nbsp;&nbsp;Natural Layering concept
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Patient comfort
+                                                            &#10004;&nbsp;&nbsp;&nbsp;Material and shade selection
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Absolute Isolation and partial isolation
+                                                            &#10004;&nbsp;&nbsp;&nbsp;Anterior and Posterior Isolation Techniques
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Absolute Isolation and partial isolation
+                                                            &#10004;&nbsp;&nbsp;&nbsp;Bonding Partial Coverage Anterior Composites
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Fluid Control
+                                                            &#10004;&nbsp;&nbsp;&nbsp;Direct and Semi-Direct Techniques
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Course Covers
+                                                            &#10004;&nbsp;&nbsp;&nbsp;Shade Masking and Hypoplasia
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Theory on benefits and types of isolation
+                                                            &#10004;&nbsp;&nbsp;&nbsp;Diasterma Closure
+                                                        </li>
+                                                        <li class="sc_list_item">
+                                                            &#10004;&nbsp;&nbsp;&nbsp;Complex build up techniques
+                                                        </li>
+                                                        <li class="sc_list_item">
+                                                            &#10004;&nbsp;&nbsp;&nbsp;Lab Communication
+                                                        </li>
+                                                        <li class="sc_list_item">
+                                                            &#10004;&nbsp;&nbsp;&nbsp;Finishing and Polishing in detial
+                                                        </li>
+                                                        <li class="sc_list_item">
+                                                            &#10004;&nbsp;&nbsp;&nbsp;Ideal Contact Point Creation
+                                                        </li>
+                                                        <li class="sc_list_item">
+                                                            &#10004;&nbsp;&nbsp;&nbsp;Direct Posterior
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -231,44 +230,7 @@
                                 </div>
                             </div>
 
-                            <!--Hands on Clinical Manikin-->
-                            <div class="vc_row wpb_row vc_row-fluid">
-                                <div class="wpb_column vc_column_container vc_col-sm-12">
-                                    <div class="vc_column-inner ">
-                                        <div class="wpb_wrapper">
-                                            <div class="wpb_text_column wpb_content_element ">
-                                                <div class="wpb_wrapper centext">
-                                                    <h3>Hands on Clinical Manikin</h3>
-                                                    <ul class="sc_list sc_list_style_iconed">
-                                                        <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Get familiar with different clamps, forceps , Dams
-                                                        </li>
-                                                        <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Floss Ties
-                                                        </li>
-                                                        <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Split Dam technique , Quadrant Isolation, Single tooth Isolation.
-                                                        </li>
-                                                        <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Dam stabilization, and patient comfort
-                                                        </li>
-                                                        <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Photography with Dam on
-                                                        </li>
-                                                        <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Dam Removal
-                                                        </li>
-                                                        <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Dam Tears and troubleShooting.
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
+                           
                         </section>
                         <section class="related_wrap related_wrap_empty"></section>
                     </article>

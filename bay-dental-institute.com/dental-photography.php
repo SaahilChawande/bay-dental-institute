@@ -42,20 +42,19 @@
                             <ul id="menu_main" class="menu_main_nav">
                                 <li class="menu-item current-menu-item" ><a href="index.php"><span>Home</span></a></li>
                                 <li class="menu-item"><a href="index.php#about-us">About Us</a></li>
-                                <li class="menu-item"><a href="javascript:void(0)">Vision</a></li>
                                 <li class="menu-item menu-item-has-children current-menu-ancestor"><a href="#"><span>Courses &nbsp;&#8659;</span></a>
                                     <ul class="sub-menu">
-                                        <li class="menu-item current-menu-item"><a href="javascript:void(0)"><span>ORE / LDS - UK</span></a></li>
+                                        <li class="menu-item"><a href="ore-lds-uk.php"><span>ORE / LDS - UK</span></a></li>
                                         <li class="menu-item"><a href="nbde-usa.php"><span>NBDE - USA</span></a></li>
                                         <li class="menu-item"><a href="ndeb-canada.php"><span>NDEB - Canada</span></a></li>
-                                        <li class="menu-item"><a href="javascript:void(0)"><span>Restorative Dentistry</span></a></li>
-                                        <li class="menu-item"><a href="javascript:void(0)"<span>Composites</span></a></li>
-                                        <li class="menu-item"><a href="javascript:void(0)"><span>Dental Photography</span></a></li>
-                                        <li class="menu-item"><a href="javascript:void(0)"><span>Rubber Dam</span></a></li>
+                                        <li class="menu-item"><a href="restorative-dentistry.php"><span>Restorative Dentistry</span></a></li>
+                                        <li class="menu-item"><a href="composites.php"><span>Composites</span></a></li>
+                                        <li class="menu-item current-menu-item"><a href="javascript:void(0)"><span>Dental Photography</span></a></li>
+                                        <li class="menu-item"><a href="rubber-dam.php"><span>Rubber Dam</span></a></li>
                                         <li class="menu-item"><a href="botox-and-lip-fillers.php"><span>Facial Aesthetics: Botox &amp; Lip Fillers</span></a></li>
-                                        <li class="menu-item"><a href="javascript:void(0)"><span>Dental Assistant Training</span></a></li>
+                                        <li class="menu-item"><a href="dental-assistant-training.php"><span>Dental Assistant Training</span></a></li>
                                         <li class="menu-item"><a href="javascript:void(0)"><span>Social Media Marketing for Dentists</span></a></li>
-                                        <li class="menu-item"><a href="endodontics.php"<span>Endotontics</span></a></li>
+                                        <li class="menu-item"><a href="endodontics.php"><span>Endotontics</span></a></li>
                                     </ul>
                                 </li>
                                 <li class="menu-item"><a href="javascript:void(0)">Gallery</a></li>
@@ -90,20 +89,19 @@
                         <ul id="menu_main_mobile" class="menu_main_nav">
                             <li class="menu-item" onclick="onClickHome()"><a href="index.php"><span>Home</span></a></li>
                             <li class="menu-item" onclick="onClickAboutUsMenu()"><a href="index.php#about-us">About Us</a></li>
-                            <li class="menu-item"><a href="javascript:void(0)">Vision</a></li>
                             <li class="menu-item menu-item-has-children current-menu-ancestor"><a href="javascript:void(0)"><span>Courses</span></a>
                                 <ul class="sub-menu gold-text">
-                                    <li class="menu-item current-menu-item"><a href="javascript:void(0)"><span>ORE / LDS - UK</span></a></li>
-                                    <li class="menu-item"><a href="nbde-usa.php"><span>NBDE - USA</span></a></li>
-                                    <li class="menu-item"><a href="ndeb-canada.php"><span>NDEB - Canada</span></a></li>
-                                    <li class="menu-item"><a href="javascript:void(0)"><span>Restorative Dentistry</span></a></li>
-                                    <li class="menu-item"><a href="javascript:void(0)"><span>Composites</span></a></li>
-                                    <li class="menu-item"><a href="javascript:void(0)"><span>Dental Photography</span></a></li>
-                                    <li class="menu-item"><a href="javascript:void(0)"><span>Rubber Dam</span></a></li>
-                                    <li class="menu-item"><a href="botox-and-lip-fillers.php"><span>Facial Aesthetics: Botox &amp; Lip Fillers</span></a></li>
-                                    <li class="menu-item"><a href="javascript:void(0)"><span>Dental Assistant Training</span></a></li>
-                                    <li class="menu-item"><a href="javascript:void(0)"><span>Social Media Marketing for Dentists</span></a></li>
-                                    <li class="menu-item"><a href="endodontics.php"><span>Endotontics</span></a></li>
+                                        <li class="menu-item"><a href="ore-lds-uk.php"><span>ORE / LDS - UK</span></a></li>
+                                        <li class="menu-item"><a href="nbde-usa.php"><span>NBDE - USA</span></a></li>
+                                        <li class="menu-item"><a href="ndeb-canada.php"><span>NDEB - Canada</span></a></li>
+                                        <li class="menu-item"><a href="restorative-dentistry.php"><span>Restorative Dentistry</span></a></li>
+                                        <li class="menu-item"><a href="composites.php"><span>Composites</span></a></li>
+                                        <li class="menu-item current-menu-item"><a href="javascript:void(0)"><span>Dental Photography</span></a></li>
+                                        <li class="menu-item"><a href="rubber-dam.php"><span>Rubber Dam</span></a></li>
+                                        <li class="menu-item"><a href="botox-and-lip-fillers.php"><span>Facial Aesthetics: Botox &amp; Lip Fillers</span></a></li>
+                                        <li class="menu-item"><a href="dental-assistant-training.php"><span>Dental Assistant Training</span></a></li>
+                                        <li class="menu-item"><a href="javascript:void(0)"><span>Social Media Marketing for Dentists</span></a></li>
+                                        <li class="menu-item"><a href="endodontics.php"><span>Endotontics</span></a></li>
                                 </ul>
                             </li>
                             <li class="menu-item"><a href="javascript:void(0)">Gallery</a></li>
