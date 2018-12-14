@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2a5367c-6aea-47a6-991f-6aad4b80105d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/bay-dental-institute.com/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/book-a-course.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/book-a-course.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/botox-and-lip-fillers.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/botox-and-lip-fillers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/css/skin.css" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/css/skin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/dental-photography.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/dental-photography.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/endodontics.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/endodontics.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/images/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/images/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/images/logo-1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/images/logo-1x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/images/logo-fixed.png" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/images/logo-fixed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/images/our-team/t4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/nbde-usa.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/nbde-usa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/ndeb-canada.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/ndeb-canada.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/ore-lds-uk.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/ore-lds-uk.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/rubber-dam.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/rubber-dam.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/dentario-html.themerex.net/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/template/dentario-html.themerex.net/css/responsive.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,18 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="veneers-and-soft-tissue-management.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/restorative-dentistry/veneers-and-soft-tissue-management.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="90" column="130" selection-start-line="90" selection-start-column="130" selection-end-line="90" selection-end-column="130" />
-              <caret line="43" column="103" selection-start-line="43" selection-start-column="103" selection-end-line="43" selection-end-column="103" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -116,7 +86,6 @@
         <option value="$PROJECT_DIR$/bay-dental-institute.com/css/responsive.css" />
         <option value="$PROJECT_DIR$/template/dentario-html.themerex.net/css/responsive.css" />
         <option value="$PROJECT_DIR$/bay-dental-institute.com/index.php" />
-        <option value="$PROJECT_DIR$/bay-dental-institute.com/book-a-course.php" />
         <option value="$PROJECT_DIR$/bay-dental-institute.com/botox-and-lip-fillers.php" />
         <option value="$PROJECT_DIR$/bay-dental-institute.com/composites.php" />
         <option value="$PROJECT_DIR$/bay-dental-institute.com/dental-assistant-training.php" />
@@ -133,6 +102,7 @@
         <option value="$PROJECT_DIR$/bay-dental-institute.com/restorative-dentistry/smile-design-and-patient-management.php" />
         <option value="$PROJECT_DIR$/bay-dental-institute.com/restorative-dentistry/tooth-surface-loss-and-full-mouth-rehab.php" />
         <option value="$PROJECT_DIR$/bay-dental-institute.com/restorative-dentistry/veneers-and-soft-tissue-management.php" />
+        <option value="$PROJECT_DIR$/bay-dental-institute.com/book-a-course.php" />
       </list>
     </option>
   </component>
@@ -230,18 +200,17 @@
       <workItem from="1544345222122" duration="1394000" />
       <workItem from="1544458594195" duration="93000" />
       <workItem from="1544463656693" duration="9834000" />
-      <workItem from="1544807390402" duration="9543000" />
+      <workItem from="1544807390402" duration="10438000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74451000" />
+    <option name="totallyTimeSpent" value="75346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="846" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2946309" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2946309" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -250,7 +219,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.31634182" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.31586826" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -458,13 +427,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/book-a-course.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="167" column="127" selection-start-line="167" selection-start-column="127" selection-end-line="167" selection-end-column="127" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/botox-and-lip-fillers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -604,9 +566,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/restorative-dentistry/veneers-and-soft-tissue-management.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
+        <state relative-caret-position="387">
           <caret line="90" column="130" selection-start-line="90" selection-start-column="130" selection-end-line="90" selection-end-column="130" />
           <caret line="43" column="103" selection-start-line="43" selection-start-column="103" selection-end-line="43" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/book-a-course.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="256" column="62" selection-start-line="256" selection-start-column="62" selection-end-line="256" selection-end-column="62" />
         </state>
       </provider>
     </entry>

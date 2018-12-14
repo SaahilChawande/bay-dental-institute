@@ -110,7 +110,7 @@
             <div class="header_mobile dark-background">
                 <div class="content_wrap">
                     <div class="menu_button icon-menu"></div>
-                    <div class="logo">b
+                    <div class="logo">
                         <a href="#">
                             <img src="images/logo-1x.png" class="logo_main" alt="" width="202" height="49">
                         </a>
