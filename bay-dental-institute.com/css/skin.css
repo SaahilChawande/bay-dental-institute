@@ -1885,7 +1885,7 @@ textarea {
   padding: inherit 1.5em inherit;
 }
 .scheme_original .menu_main_nav > li ul li a {
-  color: #ACB4B6;
+  color: #1f2326;
 }
 .scheme_light .menu_main_nav > li ul li a {
   color: #ACB4B6;
@@ -10156,7 +10156,8 @@ button,
   color: #f0f0f0;
 }
 .scheme_original .esg-navigationbutton.esg-loadmore {
-  background-color: #A5C422;
+  background-color: #F9A825;
+  display: none;
 }
 .scheme_light .esg-navigationbutton.esg-loadmore {
   background-color: #A5C422;

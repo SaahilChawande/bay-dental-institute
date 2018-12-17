@@ -1476,7 +1476,8 @@ img.emoji {
 .esg-grid .mainul li.eg-dentrario-wrapper .esg-media-poster {
 	background-size: cover;
 	background-position: center center;
-	background-repeat: no-repeat
+	background-repeat: no-repeat;
+	margin: 10px;
 }
 
 

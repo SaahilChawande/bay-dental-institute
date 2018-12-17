@@ -57,7 +57,7 @@
                                         <li class="menu-item"><a href="endodontics.php"><span>Endotontics</span></a></li>
                                     </ul>
                                 </li>
-                                <li class="menu-item"><a href="javascript:void(0)">Gallery</a></li>
+                                <li class="menu-item"><a href="gallery.php">Gallery</a></li>
                                 <li class="menu-item"><a href="javascript:void(0)">Faculty</a></li>
                                 <li class="menu-item"><a href="javascript:void(0)">Store</a></li>
                                 <li class="menu-item"><a href="book-a-course.php">Book a course</a></li>
@@ -104,7 +104,7 @@
                                         <li class="menu-item"><a href="endodontics.php"><span>Endotontics</span></a></li>
                                 </ul>
                             </li>
-                            <li class="menu-item"><a href="javascript:void(0)">Gallery</a></li>
+                            <li class="menu-item"><a href="gallery.php">Gallery</a></li>
                             <li class="menu-item"><a href="javascript:void(0)">Faculty</a></li>
                             <li class="menu-item"><a href="javascript:void(0)">Store</a></li>
                             <li class="menu-item"><a href="book-a-course.php">Book a course</a></li>
@@ -140,29 +140,33 @@
                         <section class="post_content">
 
                             <!--Slider-->
-                            <!--div class="vc_row wpb_row vc_row-fluid">
+                            <div class="vc_row wpb_row vc_row-fluid">
                                 <div class="wpb_column vc_column_container vc_col-sm-12">
                                     <div class="vc_column-inner ">
                                         <div class="wpb_wrapper">
                                             <div id="sc_slider_193" class="sc_slider sc_slider_swiper swiper-slider-container sc_slider_height_fixed sc_slider_controls sc_slider_nopagination sc_slider_bg" data-old-height="400" data-interval="6424" style="height:400px;width:100%;">
                                                 <div class="slides swiper-wrapper">
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/botox-and-lip-fillers/balx1.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/botox-and-lip-fillers/balx2.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/botox-and-lip-fillers/balx3.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/botox-and-lip-fillers/balx4.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/restorative-dentistry/rd-1.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/restorative-dentistry/rd-2.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/restorative-dentistry/rd-3.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/restorative-dentistry/rd-4.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/restorative-dentistry/rd-5.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/restorative-dentistry/rd-6.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/restorative-dentistry/rd-7.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/restorative-dentistry/rd-8.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
                                                 </div>
                                                 <div class="sc_slider_controls_wrap">
                                                     <a class="sc_slider_prev" href="#"></a>
                                                     <a class="sc_slider_next" href="#"></a>
                                                 </div>
                                             </div>
-                                            <div class="vc_empty_space space_25p">
+                                            <div class="vc_empty_space space_50p">
                                                 <span class="vc_empty_space_inner"></span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div-->
+                            </div>
 
                             <!--Initial Para-->
                             <div class="vc_row wpb_row vc_row-fluid">
@@ -187,72 +191,70 @@
                                     </div>
                                 </div>
                             </div>
-									<div class="wpb_column vc_column_container vc_col-sm-12">
-                                        <div class="vc_column-inner ">
-                                            <div class="wpb_wrapper">
-                                                <div id="sc_services_047_wrap" class="sc_services_wrap">
-                                                    <div id="sc_services_047" class="sc_services sc_services_style_services-1 sc_services_type_icons  margin_top_huge margin_bottom_large">
-                                                        <h2 class="sc_services_title sc_item_title">Our Courses</h2>
-                                                        <div class="sc_services_descr sc_item_descr"></div>
-                                                        <div class="sc_columns columns_wrap">
-                                                            <div class="column-1_3 column_padding_bottom">
-                                                                <div id="sc_services_047_1" class="sc_services_item sc_services_item_1">
-                                                                    <div class="sc_services_item_content">
-                                                                        <h4 class="sc_services_item_title">
-                                                                            <a href="restorative-dentistry/smile-design-and-patient-management.php">Smile Design and Patient Management</a>
-                                                                        </h4>
-                                                                        
-                                                                    </div>
-                                                                </div>
+                            <div class="wpb_column vc_column_container vc_col-sm-12">
+                                <div class="vc_column-inner ">
+                                    <div class="wpb_wrapper">
+                                        <div id="sc_services_047_wrap" class="sc_services_wrap">
+                                            <div id="sc_services_047" class="sc_services sc_services_style_services-1 sc_services_type_icons  margin_top_huge margin_bottom_large">
+                                                <h2 class="sc_services_title sc_item_title">Our Courses</h2>
+                                                <div class="sc_services_descr sc_item_descr"></div>
+                                                <div class="sc_columns columns_wrap">
+                                                    <div class="column-1_3 column_padding_bottom">
+                                                        <div id="sc_services_047_1" class="sc_services_item sc_services_item_1">
+                                                            <div class="sc_services_item_content">
+                                                                <h4 class="sc_services_item_title">
+                                                                    <a href="restorative-dentistry/smile-design-and-patient-management.php">Smile Design and Patient Management</a>
+                                                                </h4>
+
                                                             </div>
-                                                            <div class="column-1_3 column_padding_bottom">
-                                                                <div id="sc_services_047_2" class="sc_services_item sc_services_item_2">
-                                                                    <div class="sc_services_item_content">
-                                                                        <h4 class="sc_services_item_title">
-                                                                            <a href="restorative-dentistry/colour-shade-assessment-and-bleaching.php">Colour, Shade Assessment and Bleaching</a>
-                                                                        </h4>
-                                                                        
-                                                                    </div>
-                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="column-1_3 column_padding_bottom">
+                                                        <div id="sc_services_047_2" class="sc_services_item sc_services_item_2">
+                                                            <div class="sc_services_item_content">
+                                                                <h4 class="sc_services_item_title">
+                                                                    <a href="restorative-dentistry/colour-shade-assessment-and-bleaching.php">Colour, Shade Assessment and Bleaching</a>
+                                                                </h4>
+
                                                             </div>
-                                                            <div class="column-1_3 column_padding_bottom">
-                                                                <div id="sc_services_047_3" class="sc_services_item sc_services_item_3">
-                                                                    <div class="sc_services_item_content">
-                                                                        <h4 class="sc_services_item_title">
-                                                                            <a href="restorative-dentistry/veneers-and-soft-tissue-management.php">Veneers and Soft Tissue Management</a>
-                                                                        </h4>
-                                                                        
-                                                                    </div>
-                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="column-1_3 column_padding_bottom">
+                                                        <div id="sc_services_047_3" class="sc_services_item sc_services_item_3">
+                                                            <div class="sc_services_item_content">
+                                                                <h4 class="sc_services_item_title">
+                                                                    <a href="restorative-dentistry/veneers-and-soft-tissue-management.php">Veneers and Soft Tissue Management</a>
+                                                                </h4>
+
                                                             </div>
-                                                            <div class="column-1_3 column_padding_bottom">
-                                                                <div id="sc_services_047_4" class="sc_services_item sc_services_item_4">
-                                                                    <div class="sc_services_item_content">
-                                                                        <h4 class="sc_services_item_title">
-                                                                            <a href="restorative-dentistry/tooth-surface-loss-and-full-mouth-rehab.php">Tooth Surface Loss and Full Mouth Rehab</a>
-                                                                        </h4>
-                                                                        
-                                                                    </div>
-                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="column-1_3 column_padding_bottom">
+                                                        <div id="sc_services_047_4" class="sc_services_item sc_services_item_4">
+                                                            <div class="sc_services_item_content">
+                                                                <h4 class="sc_services_item_title">
+                                                                    <a href="restorative-dentistry/tooth-surface-loss-and-full-mouth-rehab.php">Tooth Surface Loss and Full Mouth Rehab</a>
+                                                                </h4>
+
                                                             </div>
-                                                            <div class="column-1_3 column_padding_bottom">
-                                                                <div id="sc_services_047_5" class="sc_services_item sc_services_item_5">
-                                                                    <div class="sc_services_item_content">
-                                                                        <h4 class="sc_services_item_title">
-                                                                            <a href="restorative-dentistry/anterior-posterior-crowns-and-bridge-dentistry.php">Anterior &amp; Posterior Crowns &amp; Bridge Dentistry </a>
-                                                                        </h4>
-                                                                        
-                                                                    </div>
-                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="column-1_3 column_padding_bottom">
+                                                        <div id="sc_services_047_5" class="sc_services_item sc_services_item_5">
+                                                            <div class="sc_services_item_content">
+                                                                <h4 class="sc_services_item_title">
+                                                                    <a href="restorative-dentistry/anterior-posterior-crowns-and-bridge-dentistry.php">Anterior &amp; Posterior Crowns &amp; Bridge Dentistry </a>
+                                                                </h4>
+
                                                             </div>
-                                                            <div class="column-1_3 column_padding_bottom">
-                                                                <div id="sc_services_047_6" class="sc_services_item sc_services_item_6">
-                                                                    <div class="sc_services_item_content">
-                                                                        <h4 class="sc_services_item_title">
-                                                                            <a href="restorative-dentistry/posterior-onlays-and-crowns.php">Posterior Onlays and Crowns</a>
-                                                                        </h4>
-                                                                    </div>
-                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="column-1_3 column_padding_bottom">
+                                                        <div id="sc_services_047_6" class="sc_services_item sc_services_item_6">
+                                                            <div class="sc_services_item_content">
+                                                                <h4 class="sc_services_item_title">
+                                                                    <a href="restorative-dentistry/posterior-onlays-and-crowns.php">Posterior Onlays and Crowns</a>
+                                                                </h4>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -260,9 +262,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                
-
-
+                                </div>
+                            </div>
                         </section>
                         <section class="related_wrap related_wrap_empty"></section>
                     </article>

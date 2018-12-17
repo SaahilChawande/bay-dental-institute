@@ -59,7 +59,7 @@
                                         <li class="menu-item"><a href="endodontics.php"><span>Endotontics</span></a></li>
                                     </ul>
                                 </li>
-                                <li class="menu-item"><a href="javascript:void(0)">Gallery</a></li>
+                                <li class="menu-item"><a href="gallery.php">Gallery</a></li>
                                 <li class="menu-item"><a href="javascript:void(0)">Faculty</a></li>
                                 <li class="menu-item"><a href="javascript:void(0)">Store</a></li>
                                 <li class="menu-item"><a href="book-a-course.php">Book a course</a></li>
@@ -106,7 +106,7 @@
                                         <li class="menu-item"><a href="endodontics.php"><span>Endotontics</span></a></li>
                                 </ul>
                             </li>
-                            <li class="menu-item"><a href="javascript:void(0)">Gallery</a></li>
+                            <li class="menu-item"><a href="gallery.php">Gallery</a></li>
                             <li class="menu-item"><a href="javascript:void(0)">Faculty</a></li>
                             <li class="menu-item"><a href="javascript:void(0)">Store</a></li>
                             <li class="menu-item"><a href="book-a-course.php">Book a course</a></li>

@@ -57,7 +57,7 @@
                                         <li class="menu-item"><a href="endodontics.php"><span>Endotontics</span></a></li>
                                     </ul>
                                 </li>
-                                <li class="menu-item"><a href="javascript:void(0)">Gallery</a></li>
+                                <li class="menu-item"><a href="gallery.php">Gallery</a></li>
                                 <li class="menu-item"><a href="javascript:void(0)">Faculty</a></li>
                                 <li class="menu-item"><a href="javascript:void(0)">Store</a></li>
                                 <li class="menu-item"><a href="book-a-course.php">Book a course</a></li>
@@ -104,7 +104,7 @@
                                         <li class="menu-item"><a href="endodontics.php"><span>Endotontics</span></a></li>
                                     </ul>
                             </li>
-                            <li class="menu-item"><a href="javascript:void(0)">Gallery</a></li>
+                            <li class="menu-item"><a href="gallery.php">Gallery</a></li>
                             <li class="menu-item"><a href="javascript:void(0)">Faculty</a></li>
                             <li class="menu-item"><a href="javascript:void(0)">Store</a></li>
                             <li class="menu-item"><a href="book-a-course.php">Book a course</a></li>
@@ -138,6 +138,37 @@
                 <div class="content">
                     <article class="post_item post_item_single page hentry">
                         <section class="post_content">
+
+                            <!--Slider-->
+                            <div class="vc_row wpb_row vc_row-fluid">
+                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                    <div class="vc_column-inner ">
+                                        <div class="wpb_wrapper">
+                                            <div id="sc_slider_193" class="sc_slider sc_slider_swiper swiper-slider-container sc_slider_height_fixed sc_slider_controls sc_slider_nopagination sc_slider_bg" data-old-height="400" data-interval="6424" style="height:400px;width:100%;">
+                                                <div class="slides swiper-wrapper">
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/dental-assistant-training/dat-1.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/dental-assistant-training/dat-2.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/dental-assistant-training/dat-3.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/dental-assistant-training/dat-4.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/dental-assistant-training/dat-5.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/dental-assistant-training/dat-6.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/dental-assistant-training/dat-7.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/dental-assistant-training/dat-8.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/dental-assistant-training/dat-9.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                </div>
+                                                <div class="sc_slider_controls_wrap">
+                                                    <a class="sc_slider_prev" href="#"></a>
+                                                    <a class="sc_slider_next" href="#"></a>
+                                                </div>
+                                            </div>
+                                            <div class="vc_empty_space space_50p">
+                                                <span class="vc_empty_space_inner"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
 							<!--Initial Para-->
                             <div class="vc_row wpb_row vc_row-fluid">
                                 <div class="wpb_column vc_column_container vc_col-sm-12">

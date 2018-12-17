@@ -134,7 +134,7 @@
                                         <li class="menu-item"><a href="endodontics.php"<span>Endotontics</span></a></li>
                                     </ul>
                                 </li>
-                                <li class="menu-item"><a href="javascript:void(0)">Gallery</a></li>
+                                <li class="menu-item"><a href="gallery.php">Gallery</a></li>
                                 <li class="menu-item"><a href="javascript:void(0)">Faculty</a></li>
                                 <li class="menu-item"><a href="javascript:void(0)">Store</a></li>
                                 <li class="menu-item current-menu-item"><a href="javascript:void(0)">Book a course</a></li>
@@ -150,6 +150,7 @@
                 </div>
             </div>
         </header>
+
         <div class="header_mobile dark-background">
             <div class="content_wrap">
                 <div class="menu_button icon-menu"></div>
@@ -181,7 +182,7 @@
                                         <li class="menu-item"><a href="endodontics.php"<span>Endotontics</span></a></li>
                                 </ul>
                             </li>
-                            <li class="menu-item"><a href="javascript:void(0)">Gallery</a></li>
+                            <li class="menu-item"><a href="gallery.php">Gallery</a></li>
                             <li class="menu-item"><a href="javascript:void(0)">Faculty</a></li>
                             <li class="menu-item"><a href="javascript:void(0)">Store</a></li>
                             <li class="menu-item current-menu-item"><a href="javascript:void(0)">Book a course</a></li>
@@ -197,6 +198,7 @@
             </div>
             <div class="mask"></div>
         </div>
+
         <div class="top_panel_title top_panel_style_2 title_present breadcrumbs_present scheme_original dark-background">
             <div class="top_panel_title_inner top_panel_inner_style_2 title_present_inner breadcrumbs_present_inner">
                 <div class="content_wrap">
@@ -215,10 +217,9 @@
                 <div class="content">
                     <article class="post_item post_item_single page hentry">
                         <section class="post_content">
-
                             <div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid">
                                 <div class="wpb_column vc_column_container vc_col-sm-12" style="border: 1px solid #F9A825">
-                                    <div class="vc_column-inner ">
+                                    <div class="vc_column-inner" style="padding-left: 40px; padding-right: 40px">
                                         <div class="wpb_wrapper">
                                             <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_2 margin_bottom_huge">
                                                 <div class="column-1_1 sc_column_item">
@@ -229,309 +230,346 @@
 												</div>
 												<br/>
 												<br/>
-                                                <div class="column-1_2 sc_column_item">
-                                                    <div class="aligncenter">
-                                                        <h3 style="display: inline">Course Name : </h3>
-                                                        <p style="display: inline; font-size: 25px;">ORE / LDS Orientation and Introduction</p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Duration : </h3>
-                                                        <p style="display: inline; font-size: 25px;">1 day/3 hour program</p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Cost : </h3>
-                                                        <p style="display: inline; font-size: 25px;">1000/-</p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Tutor : </h3>
-                                                        <p style="display: inline; font-size: 25px;">Dr. Shravan Chawla</p>
-                                                        <br>
-                                                        <h3 class="more-details"><a id="flip1">Click for more details&nbsp;&#8659;</a></h3>
-														<div id="panel1" class="hide_display">
-															Over view of the exam <br/>
-															How to book and cost of the exam <br/>
-															How to prepare <br/>
-															Subjects you are tested on <br/>
-															What happens once you pass the ORE<br/>
-															Registration with the GDC UK <br/>
-															Job / Visa Status in the UK <br/>
-															What you need to crack the ORE <br/>
-
-														</div>
+                                                <div class="row">
+                                                    <div class="column-1_3 sc_column_item">
+                                                        <div class="aligncenter">
+                                                            <h5 style="display: inline">Course Name : </h5>
+                                                            <p style="display: inline; ">ORE / LDS Orientation and Introduction</p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Duration : </h5>
+                                                            <p style="display: inline;">1 day/3 hour program</p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Cost : </h5>
+                                                            <p style="display: inline">1000/-</p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Tutor : </h5>
+                                                            <p style="display: inline; ">Dr. Shravan Chawla</p>
+                                                            <br>
+                                                            <h5 class="more-details"><a id="flip1">Click for more details&nbsp;&#8659;</a></h5>
+                                                            <div id="panel1" class="hide_display">
+                                                                Over view of the exam <br/>
+                                                                How to book and cost of the exam <br/>
+                                                                How to prepare <br/>
+                                                                Subjects you are tested on <br/>
+                                                                What happens once you pass the ORE<br/>
+                                                                Registration with the GDC UK <br/>
+                                                                Job / Visa Status in the UK <br/>
+                                                                What you need to crack the ORE <br/>
+                                                            </div>
+                                                            <br>
+                                                            <div class="row">
+                                                                <div class="column-1_3">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
+                                                                </div>
+                                                                <div class="column-1_3">
+                                                                    <div class="margin_top_small margin_bottom_small">1</div>
+                                                                </div>
+                                                                <div class="column-1_3">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="column-1_3 sc_column_item">
+                                                        <div class="aligncenter">
+                                                            <h5 style="display: inline">Course Name : </h5>
+                                                            <p style="display: inline;">Part I - Theory Exam Coaching</p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Duration : </h5>
+                                                            <p style="display: inline;">2 days coaching/ 9am to 6pm</p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Cost : </h5>
+                                                            <p style="display: inline;">30000/-</p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Tutor : </h5>
+                                                            <p style="display: inline;">Dr. Shravan Chawla</p>
+                                                            <br>
+                                                            <h5 class="more-details"><a id="flip2">Click for more details&nbsp;&#8659;</a></h5>
+                                                            <div id="panel2" class="hide_display">
+                                                                We will cover all the Topics you need to cover to prepare for part I <br/>
+                                                                Basic Sciences <br/>
+                                                                Clinical Sciences<br/>
+                                                                MCQ’s <br/>
+                                                                EMQ’s <br/>
+                                                                Question bank <br/>
+                                                                And images <br/>
+                                                                Candidates are required to get pink + blue book for this session <br/>
+                                                                Notes and Question bank  to prepare hard copy will be provided
+                                                            </div>
+                                                            <br>
+                                                            <div class="row">
+                                                                <div class="column-1_3">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
+                                                                </div>
+                                                                <div class="column-1_3">
+                                                                    <div class="margin_top_small margin_bottom_small">1</div>
+                                                                </div>
+                                                                <div class="column-1_3">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="column-1_3 sc_column_item">
+                                                        <div class="aligncenter">
+                                                            <h5 style="display: inline">Course Name : </h5>
+                                                            <p style="display: inline">Part II - Comprehensive Coaching</p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Duration : </h5>
+                                                            <p style="display: inline">5 days / 9 am to 6 pm </p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Cost : </h5>
+                                                            <p style="display: inline">50000/-</p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Tutor : </h5>
+                                                            <p style="display: inline">Dr. Shravan Chawla</p>
+                                                            <br>
+                                                            <h5 class="more-details"><a id="flip3">Click for more details&nbsp;&#8659;</a></h5>
+                                                            <div id="panel3" class="hide_display">
+                                                                All Part II Modules Covered in Depth <br/>
+                                                                All Actor, Written, skilled OSCE’s with practice <br/>
+                                                                All Manikin Exercises Shown personally with practice on Frasaco Manikins  <br/>
+                                                                ME all scenarios covered with Viva and CPR manikin Training and Practice on PractiMan
+                                                                <br> ( UK ) CPR manikin   <br/>
+                                                                DTP covered in Depth with history taking, <br> form filling and presentation.  <br/>
+                                                                In Depth training on how to score maximum with the examiner and what they are looking
+                                                                <br> for while marking you in each module.
+                                                            </div>
+                                                            <br>
+                                                            <div class="row">
+                                                                <div class="column-1_3">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
+                                                                </div>
+                                                                <div class="column-1_3">
+                                                                    <div class="margin_top_small margin_bottom_small aligncenter">1</div>
+                                                                </div>
+                                                                <div class="column-1_3">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                                <div class="column-1_2 sc_column_item">
-                                                    <div class="aligncenter">
-                                                        <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
-                                                        <div class="margin_top_small margin_bottom_small">1</div>
-                                                        <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
+												<div class="row">
+                                                    <div class="column-1_3 sc_column_item">
+                                                        <div class="aligncenter">
+                                                            <h5 style="display: inline">Course Name : </h5>
+                                                            <p style="display: inline">Part II - 2 Day Revision Course</p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Duration : </h5>
+                                                            <p style="display: inline">2 days / 9 am to 6 pm </p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Cost : </h5>
+                                                            <p style="display: inline">25000/-</p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Tutor : </h5>
+                                                            <p style="display: inline">Dr. Shravan Chawla</p>
+                                                            <br>
+                                                            <h5 class="more-details"><a id="flip4">Click for more details&nbsp;&#8659;</a></h5>
+                                                            <div id="panel4" class="hide_display">
+                                                                Brief Over View of all Modules OSCE , DTP, MANIKIN, ME <br/>
+                                                                Ideal Delivery for all modules <br/>
+                                                                How to score “ Exceeds Standard “ in each exercise / Module <br/>
+                                                                What the examiner is expecting while scoring
+                                                            </div>
+                                                            <br>
+                                                            <div class="row">
+                                                                <div class="column-1_3">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
+                                                                </div>
+                                                                <div class="column-1_3">
+                                                                    <div class="margin_top_small margin_bottom_small">1</div>
+                                                                </div>
+                                                                <div class="column-1_3">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="column-1_3 sc_column_item">
+                                                        <div class="aligncenter">
+                                                            <h5 style="display: inline">Course Name : </h5>
+                                                            <p style="display: inline">1 Day OSCE Mock Exam</p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Duration : </h5>
+                                                            <p style="display: inline">3 hours mock exam </p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Cost : </h5>
+                                                            <p style="display: inline">6000/-</p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Tutor : </h5>
+                                                            <p style="display: inline">Dr. Shravan Chawla</p>
+                                                            <br>
+                                                            <h5 class="more-details"><a id="flip5">Click for more details&nbsp;&#8659;</a></h5>
+                                                            <div id="panel5" class="hide_display">
+                                                                2 hour exam<br/>
+                                                                18 stations with 2 rest stations with timer <br/>
+                                                                5 minutes per station with buzzer <br/>
+                                                                Actor, written and skilled OSCE’s <br/>
+                                                                Conducted as exam
+                                                                Feedback after exam on where to improve
+                                                            </div>
+                                                            <br>
+                                                            <div class="row">
+                                                                <div class="column-1_3">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
+                                                                </div>
+                                                                <div class="column-1_3">
+                                                                    <div class="margin_top_small margin_bottom_small">1</div>
+                                                                </div>
+                                                                <div class="column-1_3">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="column-1_3 sc_column_item">
+                                                        <div class="aligncenter">
+                                                            <h5 style="display: inline">Course Name : </h5>
+                                                            <p style="display: inline">1 Day Manikin Mock Exam</p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Duration : </h5>
+                                                            <p style="display: inline">3 hour mock exam</p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Cost : </h5>
+                                                            <p style="display: inline">5500/-</p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Tutor : </h5>
+                                                            <p style="display: inline">Dr. Shravan Chawla</p>
+                                                            <br>
+                                                            <h5 class="more-details"><a id="flip6">Click for more details&nbsp;&#8659;</a></h5>
+                                                            <div id="panel6" class="hide_display">
+                                                                3 hour exam scenario like mock <br/>
+                                                                2 major and 2 minor exercise as per consortium <br/>
+                                                                All materials and instruments provided with frasaco manikin + teeth <br/>
+                                                                Feedback after exam on where to improve
+                                                            </div>
+                                                            <br>
+                                                            <div class="row">
+                                                                <div class="column-1_3">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
+                                                                </div>
+                                                                <div class="column-1_3">
+                                                                    <div class="margin_top_small margin_bottom_small">1</div>
+                                                                </div>
+                                                                <div class="column-1_3">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
-												<br/><br/><br/>
-												<div class="column-1_2 sc_column_item">
-                                                    <div class="aligncenter">
-                                                        <h3 style="display: inline">Course Name : </h3>
-                                                        <p style="display: inline; font-size: 25px;">Part I - Theory Exam Coaching</p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Duration : </h3>
-                                                        <p style="display: inline; font-size: 25px;">2 days coaching/ 9am to 6pm</p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Cost : </h3>
-                                                        <p style="display: inline; font-size: 25px;">30000/-</p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Tutor : </h3>
-                                                        <p style="display: inline; font-size: 25px;">Dr. Shravan Chawla</p>
-                                                        <br>
-                                                        <h3 class="more-details"><a id="flip2">Click for more details&nbsp;&#8659;</a></h3>
-														<div id="panel2" class="hide_display">
-															We will cover all the Topics you need to cover to prepare for part I <br/>
-															Basic Sciences <br/>
-															Clinical Sciences<br/> 
-															MCQ’s <br/>
-															EMQ’s <br/>
-															Question bank <br/>
-															And images <br/>
-															Candidates are required to get pink + blue book for this session <br/>
-															Notes and Question bank  to prepare hard copy will be provided
-														</div>
+                                                <div class="row">
+                                                    <div class="column-1_3 sc_column_item">
+                                                        <div class="aligncenter">
+                                                            <h5 style="display: inline">Course Name : </h5>
+                                                            <p style="display: inline">1 Day ME + DTP MOCK Exam </p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Duration : </h5>
+                                                            <p style="display: inline">20 mins ME Mock exam Followed by 1 hour DTP Mock exam </p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Cost : </h5>
+                                                            <p style="display: inline">12000/-</p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Tutor : </h5>
+                                                            <p style="display: inline">Dr. Shravan Chawla</p>
+                                                            <br>
+                                                            <h5 class="more-details"><a id="flip7">Click for more details&nbsp;&#8659;</a></h5>
+                                                            <div id="panel7" class="hide_display">
+                                                                First ME followed by DTP help exactly like on Exam Day <br/>
+                                                                ME Viva followed by Mandatory CPR <br/>
+                                                                10 mins break Followed by Actor DTP<br/>
+                                                                DTP forms and clock provided <br/>
+                                                                Feedback provided after exam on where to improve
+                                                            </div>
+                                                            <br>
+                                                            <div class="row">
+                                                                <div class="column-1_3">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
+                                                                </div>
+                                                                <div class="column-1_3">
+                                                                    <div class="margin_top_small margin_bottom_small">1</div>
+                                                                </div>
+                                                                <div class="column-1_3">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="column-1_3 sc_column_item">
+                                                        <div class="aligncenter">
+                                                            <h5 style="display: inline">Course Name : </h5>
+                                                            <p style="display: inline">ORE / LDS PART II Complete Mock </p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Duration : </h5>
+                                                            <p style="display: inline">4 Modules conducted over 3 days just like exam </p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Cost : </h5>
+                                                            <p style="display: inline">20000/-</p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Tutor : </h5>
+                                                            <p style="display: inline">Dr. Shravan Chawla</p>
+                                                            <br>
+                                                            <h5 class="more-details"><a id="flip8">Click for more details&nbsp;&#8659;</a></h5>
+                                                            <div id="panel8" class="hide_display">
+                                                                Day 1 :- OSCE <br/>
+                                                                Day 2 :- Manikin <br/>
+                                                                Day 3 :- ME + DTP <br/>
+                                                                Exact exam like mock
+                                                                Feedback and PASS / FAIL Verdict after all modules over <br/>
+                                                                Detailed Feedback on where to improve.
+                                                            </div>
+                                                            <br>
+                                                            <div class="row">
+                                                                <div class="column-1_3">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
+                                                                </div>
+                                                                <div class="column-1_3">
+                                                                    <div class="margin_top_small margin_bottom_small">1</div>
+                                                                </div>
+                                                                <div class="column-1_3">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="column-1_3 sc_column_item">
+                                                        <div class="aligncenter">
+                                                            <h5 style="display: inline">Course Name : </h5>
+                                                            <p style="display: inline">1 Day Manikin Revision</p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Duration : </h5>
+                                                            <p style="display: inline">1 day / 9 am to 6 pm </p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Cost : </h5>
+                                                            <p style="display: inline">6000/-</p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Tutor : </h5>
+                                                            <p style="display: inline">Dr. Shravan Chawla</p>
+                                                            <br>
+                                                            <h5 class="more-details"><a id="flip9">Click for more details&nbsp;&#8659;</a></h5>
+                                                            <div id="panel9" class="hide_display">
+                                                                You come in and we revise all preps<br/>
+                                                                We show you each exercise with tricks and time management <br/>
+                                                                Frasaco manikins and teeth <br/>
+                                                                All Materials Provided <br/>
+                                                                Practice Preps at our center and we provide feedback on how to improve <br/>
+                                                            </div>
+                                                            <br>
+                                                            <div class="row">
+                                                                <div class="column-1_3">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
+                                                                </div>
+                                                                <div class="column-1_3">
+                                                                    <div class="margin_top_small margin_bottom_small">1</div>
+                                                                </div>
+                                                                <div class="column-1_3">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                                <div class="column-1_2 sc_column_item">
-                                                    <div class="aligncenter">
-                                                        <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
-                                                        <div class="margin_top_small margin_bottom_small">1</div>
-                                                        <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
-                                                    </div>
-                                                </div>
-												<br/>
-												<br/><br/>
-												<div class="column-1_2 sc_column_item">
-                                                    <div class="aligncenter">
-                                                        <h3 style="display: inline">Course Name : </h3>
-                                                        <p style="display: inline; font-size: 25px;">Part II - Comprehensive Coaching</p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Duration : </h3>
-                                                        <p style="display: inline; font-size: 25px;">5 days / 9 am to 6 pm </p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Cost : </h3>
-                                                        <p style="display: inline; font-size: 25px;">50000/-</p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Tutor : </h3>
-                                                        <p style="display: inline; font-size: 25px;">Dr. Shravan Chawla</p>
-                                                        <br>
-                                                        <h3 class="more-details"><a id="flip3">Click for more details&nbsp;&#8659;</a></h3>
-														<div id="panel3" class="hide_display">
-															All Part II Modules Covered in Depth <br/>
-															All Actor, Written, skilled OSCE’s with practice <br/>
-															All Manikin Exercises Shown personally with practice on Frasaco Manikins  <br/>
-															ME all scenarios covered with Viva and CPR manikin Training and Practice on PractiMan ( UK ) CPR manikin   <br/>
-															DTP covered in Depth with history taking, form filling and presentation.  <br/>
-															In Depth training on how to score maximum with the examiner and what they are looking for while marking you in each module.
-														</div>
-                                                    </div>
-                                                </div>
-												
-                                                <div class="column-1_2 sc_column_item">
-                                                    <div class="aligncenter">
-                                                        <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
-                                                        <div class="margin_top_small margin_bottom_small">1</div>
-                                                        <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
-                                                    </div>
-                                                </div><br/>
-												<br/><br/>
-												<div class="column-1_2 sc_column_item">
-                                                    <div class="aligncenter">
-                                                        <h3 style="display: inline">Course Name : </h3>
-                                                        <p style="display: inline; font-size: 25px;">Part II - 2 Day Revision Course</p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Duration : </h3>
-                                                        <p style="display: inline; font-size: 25px;">2 days / 9 am to 6 pm </p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Cost : </h3>
-                                                        <p style="display: inline; font-size: 25px;">25000/-</p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Tutor : </h3>
-                                                        <p style="display: inline; font-size: 25px;">Dr. Shravan Chawla</p>
-                                                        <br>
-                                                        <h3 class="more-details"><a id="flip4">Click for more details&nbsp;&#8659;</a></h3>
-														<div id="panel4" class="hide_display">
-															Brief Over View of all Modules OSCE , DTP, MANIKIN, ME <br/>
-															Ideal Delivery for all modules <br/>
-															How to score “ Exceeds Standard “ in each exercise / Module <br/>
-															What the examiner is expecting while scoring
-														</div>
-                                                    </div>
-                                                </div>
-                                                <div class="column-1_2 sc_column_item">
-                                                    <div class="aligncenter">
-                                                        <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
-                                                        <div class="margin_top_small margin_bottom_small">1</div>
-                                                        <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
-                                                    </div>
-                                                </div>
-												<br/><br/><br/>
-												<div class="column-1_2 sc_column_item">
-                                                    <div class="aligncenter">
-                                                        <h3 style="display: inline">Course Name : </h3>
-                                                        <p style="display: inline; font-size: 25px;">1 Day OSCE Mock Exam</p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Duration : </h3>
-                                                        <p style="display: inline; font-size: 25px;">3 hours mock exam </p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Cost : </h3>
-                                                        <p style="display: inline; font-size: 25px;">6000/-</p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Tutor : </h3>
-                                                        <p style="display: inline; font-size: 25px;">Dr. Shravan Chawla</p>
-                                                        <br>
-                                                        <h3 class="more-details"><a id="flip5">Click for more details&nbsp;&#8659;</a></h3>
-														<div id="panel5" class="hide_display">
-															2 hour exam<br/>
-															18 stations with 2 rest stations with timer <br/>
-															5 minutes per station with buzzer <br/>
-															Actor, written and skilled OSCE’s <br/>
-															Conducted as exam 
-															Feedback after exam on where to improve
-														</div>
-                                                    </div>
-                                                </div>
-												
-                                                <div class="column-1_2 sc_column_item">
-                                                    <div class="aligncenter">
-                                                        <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
-                                                        <div class="margin_top_small margin_bottom_small">1</div>
-                                                        <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
-                                                    </div>
-                                                </div>
-												<br/>
-												<br/><br/>
-												<div class="column-1_2 sc_column_item">
-                                                    <div class="aligncenter">
-                                                        <h3 style="display: inline">Course Name : </h3>
-                                                        <p style="display: inline; font-size: 25px;">1 Day Manikin Mock Exam</p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Duration : </h3>
-                                                        <p style="display: inline; font-size: 25px;">3 hour mock exam</p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Cost : </h3>
-                                                        <p style="display: inline; font-size: 25px;">5500/-</p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Tutor : </h3>
-                                                        <p style="display: inline; font-size: 25px;">Dr. Shravan Chawla</p>
-                                                        <br>
-                                                        <h3 class="more-details"><a id="flip6">Click for more details&nbsp;&#8659;</a></h3>
-														<div id="panel6" class="hide_display">
-															3 hour exam scenario like mock <br/>
-															2 major and 2 minor exercise as per consortium <br/>
-															All materials and instruments provided with frasaco manikin + teeth <br/>
-															Feedback after exam on where to improve
-														</div>
-                                                    </div>
-                                                </div>
-                                                <div class="column-1_2 sc_column_item">
-                                                    <div class="aligncenter">
-                                                        <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
-                                                        <div class="margin_top_small margin_bottom_small">1</div>
-                                                        <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
-                                                    </div>
-                                                </div>
-												<br/><br/><br/>
-												<div class="column-1_2 sc_column_item">
-                                                    <div class="aligncenter">
-                                                        <h3 style="display: inline">Course Name : </h3>
-                                                        <p style="display: inline; font-size: 25px;">1 Day ME + DTP MOCK Exam </p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Duration : </h3>
-                                                        <p style="display: inline; font-size: 25px;">20 mins ME Mock exam Followed by 1 hour DTP Mock exam </p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Cost : </h3>
-                                                        <p style="display: inline; font-size: 25px;">12000/-</p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Tutor : </h3>
-                                                        <p style="display: inline; font-size: 25px;">Dr. Shravan Chawla</p>
-                                                        <br>
-                                                        <h3 class="more-details"><a id="flip7">Click for more details&nbsp;&#8659;</a></h3>
-														<div id="panel7" class="hide_display">
-															First ME followed by DTP help exactly like on Exam Day <br/>
-															ME Viva followed by Mandatory CPR <br/>
-															10 mins break Followed by Actor DTP<br/>
-															DTP forms and clock provided <br/>
-															Feedback provided after exam on where to improve
-														</div>
-                                                    </div>
-                                                </div>
-                                                <div class="column-1_2 sc_column_item">
-                                                    <div class="aligncenter">
-                                                        <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
-                                                        <div class="margin_top_small margin_bottom_small">1</div>
-                                                        <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
-                                                    </div>
-                                                </div>
-												<br/><br/><br/>
-												<div class="column-1_2 sc_column_item">
-                                                    <div class="aligncenter">
-                                                        <h3 style="display: inline">Course Name : </h3>
-                                                        <p style="display: inline; font-size: 25px;">ORE / LDS PART II Complete Mock </p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Duration : </h3>
-                                                        <p style="display: inline; font-size: 25px;">4 Modules conducted over 3 days just like exam </p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Cost : </h3>
-                                                        <p style="display: inline; font-size: 25px;">20000/-</p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Tutor : </h3>
-                                                        <p style="display: inline; font-size: 25px;">Dr. Shravan Chawla</p>
-                                                        <br>
-                                                        <h3 class="more-details"><a id="flip8">Click for more details&nbsp;&#8659;</a></h3>
-														<div id="panel8" class="hide_display">
-															Day 1 :- OSCE <br/>
-															Day 2 :- Manikin <br/>
-															Day 3 :- ME + DTP <br/>
-															Exact exam like mock
-															Feedback and PASS / FAIL Verdict after all modules over <br/>
-															Detailed Feedback on where to improve.
-														</div>
-                                                    </div>
-                                                </div>
-                                                <div class="column-1_2 sc_column_item">
-                                                    <div class="aligncenter">
-                                                        <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
-                                                        <div class="margin_top_small margin_bottom_small">1</div>
-                                                        <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
-                                                    </div>
-                                                </div>
-												<br/><br/><br/>
-												<div class="column-1_2 sc_column_item">
-                                                    <div class="aligncenter">
-                                                        <h3 style="display: inline">Course Name : </h3>
-                                                        <p style="display: inline; font-size: 25px;">1 Day Manikin Revision</p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Duration : </h3>
-                                                        <p style="display: inline; font-size: 25px;">1 day / 9 am to 6 pm </p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Cost : </h3>
-                                                        <p style="display: inline; font-size: 25px;">6000/-</p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Tutor : </h3>
-                                                        <p style="display: inline; font-size: 25px;">Dr. Shravan Chawla</p>
-                                                        <br>
-                                                        <h3 class="more-details"><a id="flip9">Click for more details&nbsp;&#8659;</a></h3>
-														<div id="panel9" class="hide_display">
-															You come in and we revise all preps<br/>
-															We show you each exercise with tricks and time management <br/>
-															Frasaco manikins and teeth <br/>
-															All Materials Provided <br/>
-															Practice Preps at our center and we provide feedback on how to improve <br/>
-
-
-														</div>
-                                                    </div>
-                                                </div>
-                                                <div class="column-1_2 sc_column_item">
-                                                    <div class="aligncenter">
-                                                        <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
-                                                        <div class="margin_top_small margin_bottom_small">1</div>
-                                                        <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
-                                                    </div>
-                                                </div>
-
                                             </div>
                                         </div>
                                     </div>
@@ -542,192 +580,221 @@
 									
 									<br/><br/>
 
-                                    <div class="vc_column-inner ">
+                                    <div class="vc_column-inner" style="padding-right: 40px; padding-left: 40px">
                                         <div class="wpb_wrapper">
                                             <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_2 margin_bottom_huge">
-                                                <div class="column-1_2 sc_column_item">
-                                                    <div class="aligncenter">
-                                                        <h3 style="display: inline">Course Name : </h3>
-                                                        <p style="display: inline; font-size: 25px;">Orentation & Introduction </p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Duration : </h3>
-                                                        <p style="display: inline; font-size: 25px;">6 hours</p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Cost : </h3>
-                                                        <p style="display: inline; font-size: 25px;">1500/-</p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Tutor : </h3>
-                                                        <p style="display: inline; font-size: 25px;">Dr. Akshari Anchan</p>
-                                                        <br>
-                                                        <h3 class="more-details"><a id="flip10">Click for more details&nbsp;&#8659;</a></h3>
-														<div id="panel10" class="hide_display">
-														Detailed Explanation of NBDE / NDEB <br/>
-														About NBDE <br/>
-														Different University / Colleges Background <br/>
-														Deemed Vs Private Universities in USA <br/>
-														CAAPID Appllication <br/>
-														Dates & Deadlines <br/>
-														Application Process <br/>
-														Subjects to Study <br/>
-														Examination Schedule <br/>
-														Outline of Preparation <br/>
-														Exam Contents
-														</div>
+                                                <div class="row">
+                                                    <div class="column-1_3 sc_column_item">
+                                                        <div class="aligncenter">
+                                                            <h5 style="display: inline">Course Name : </h5>
+                                                            <p style="display: inline">Orentation & Introduction </p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Duration : </h5>
+                                                            <p style="display: inline">6 hours</p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Cost : </h5>
+                                                            <p style="display: inline">1500/-</p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Tutor : </h5>
+                                                            <p style="display: inline">Dr. Akshari Anchan</p>
+                                                            <br>
+                                                            <h5 class="more-details"><a id="flip10">Click for more details&nbsp;&#8659;</a></h5>
+                                                            <div id="panel10" class="hide_display">
+                                                                Detailed Explanation of NBDE / NDEB <br/>
+                                                                About NBDE <br/>
+                                                                Different University / Colleges Background <br/>
+                                                                Deemed Vs Private Universities in USA <br/>
+                                                                CAAPID Appllication <br/>
+                                                                Dates & Deadlines <br/>
+                                                                Application Process <br/>
+                                                                Subjects to Study <br/>
+                                                                Examination Schedule <br/>
+                                                                Outline of Preparation <br/>
+                                                                Exam Contents
+                                                            </div>
+                                                            <br>
+                                                            <div class="row">
+                                                                <div class="column-1_3 column">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
+                                                                </div>
+                                                                <div class="column-1_3">
+                                                                    <div class="margin_top_small margin_bottom_small">1</div>
+                                                                </div>
+                                                                <div class="column-1_3">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="column-1_2 sc_column_item">
-                                                    <div class="aligncenter">
-                                                        <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
-                                                        <div class="margin_top_small margin_bottom_small">1</div>
-                                                        <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
+                                                    <div class="column-1_3 sc_column_item">
+                                                        <div class="aligncenter">
+                                                            <h5 style="display: inline">Course Name : </h5>
+                                                            <p style="display: inline">NBDE / NDEB– IMPULSE PART I</p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Duration : </h5>
+                                                            <p style="display: inline">8 days ( 4 + 4 ) / 9 am to 11 am ( 15 Hours total ) </p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Cost : </h5>
+                                                            <p style="display: inline">16000/-</p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Tutor : </h5>
+                                                            <p style="display: inline">Dr. Akshari Anchan</p>
+                                                            <br>
+                                                            <h5 class="more-details"><a id="flip11">Click for more details&nbsp;&#8659;</a></h5>
+                                                            <div id="panel11" class="hide_display">
+                                                                All basic sciences covered in brief overview for exam <br/>
+                                                                2 days Anatomy <br/>
+                                                                1 day Physio <br/>
+                                                                1 day Biochemistry<br/>
+                                                                1 day Microbiology <br/>
+                                                                1 day Dental Anatomy <br/>
+                                                                1 day Pathology <br/>
+                                                                1 day Revision <br/>
+                                                            </div>
+                                                            <br>
+                                                            <div class="row">
+                                                                <div class="column-1_3">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
+                                                                </div>
+                                                                <div class="column-1_3">
+                                                                    <div class="margin_top_small margin_bottom_small">1</div>
+                                                                </div>
+                                                                <div class="column-1_3">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                </div><br/><br/><br/>
-												<div class="column-1_2 sc_column_item">
-                                                    <div class="aligncenter">
-                                                        <h3 style="display: inline">Course Name : </h3>
-                                                        <p style="display: inline; font-size: 25px;">NBDE / NDEB– IMPULSE PART I</p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Duration : </h3>
-                                                        <p style="display: inline; font-size: 25px;">8 days ( 4 + 4 ) / 9 am to 11 am ( 15 Hours total ) </p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Cost : </h3>
-                                                        <p style="display: inline; font-size: 25px;">16000/-</p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Tutor : </h3>
-                                                        <p style="display: inline; font-size: 25px;">Dr. Akshari Anchan</p>
-                                                        <br>
-                                                        <h3 class="more-details"><a id="flip11">Click for more details&nbsp;&#8659;</a></h3>
-                                                        <div id="panel11" class="hide_display">
-                                                            All basic sciences covered in brief overview for exam <br/>
-                                                            2 days Anatomy <br/>
-                                                            1 day Physio <br/>
-                                                            1 day Biochemistry<br/>
-                                                            1 day Microbiology <br/>
-                                                            1 day Dental Anatomy <br/>
-                                                            1 day Pathology <br/>
-                                                            1 day Revision <br/>
+                                                    <div class="column-1_3 sc_column_item">
+                                                        <div class="aligncenter">
+                                                            <h5 style="display: inline">Course Name : </h5>
+                                                            <p style="display: inline">NBDE / NDEB– IMPULSE <br> PART II </p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Duration : </h5>
+                                                            <p style="display: inline">10 days ( 5 + 5 ) / 9 am to 11am
+                                                                <br> ( 20 Hours Total )</p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Cost : </h5>
+                                                            <p style="display: inline">20000/-</p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Tutor : </h5>
+                                                            <p style="display: inline">Dr. Akshari Anchan</p>
+                                                            <br>
+                                                            <h5 class="more-details"><a id="flip12">Click for more details&nbsp;&#8659;</a></h5>
+                                                            <div id="panel12" class="hide_display">
+                                                                All Clinical Science topics covered in brief overview for exam <br/>
+                                                                1 Day Pharmacology <br/>
+                                                                1 Day Conservative Dentistry & Endodontics <br/>
+
+                                                                1 Day Oral Pathology <br/>
+                                                                1 Day Periodontics <br/>
+                                                                1 Day Orthodontics <br/>
+                                                                1 Day Oral Surgery <br/>
+                                                                1 Day Public Health <br/>
+                                                                1 Day Oral Medicine + Radiology <br/>
+                                                                1 Day Ethics <br/>
+                                                                1 Day Revision
+                                                            </div>
+                                                            <br>
+                                                            <div class="row">
+                                                                <div class="column-1_3">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
+                                                                </div>
+                                                                <div class="column-1_3">
+                                                                    <div class="margin_top_small margin_bottom_small">1</div>
+                                                                </div>
+                                                                <div class="column-1_3">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="column-1_2 sc_column_item">
-                                                    <div class="aligncenter">
-                                                        <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
-                                                        <div class="margin_top_small margin_bottom_small">1</div>
-                                                        <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
+                                                <div class="row">
+                                                    <div class="column-1_2 sc_column_item">
+                                                        <div class="aligncenter">
+                                                            <h5 style="display: inline">Course Name : </h5>
+                                                            <p style="display: inline">NBDE / NDEB – INTENSE PART I  </p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Duration : </h5>
+                                                            <p style="display: inline">24 days total ( 6 days/ week  X 4 weeks / 9 am to 11 am / total 48 hours coaching ) </p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Cost : </h5>
+                                                            <p style="display: inline">30000/-</p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Tutor : </h5>
+                                                            <p style="display: inline">Dr. Akshari Anchan</p>
+                                                            <br>
+                                                            <h5 class="more-details"><a id="flip13">Click for more details&nbsp;&#8659;</a></h5>
+                                                            <div id="panel13" class="hide_display">
+                                                                Detailed and In depth Coaching of Basic Sciences <br/>
+                                                                4 Days Anatomy <br/>
+                                                                4 Days Physiology <br/>
+                                                                4 Days Biochemistry <br/>
+                                                                4 Days Microbiology <br/>
+                                                                4 Days Dental Anatomy <br/>
+                                                                4 Days Pathology <br/>
+                                                                Revision
+                                                            </div>
+                                                            <br>
+                                                            <div class="row">
+                                                                <div class="column-1_3">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
+                                                                </div>
+                                                                <div class="column-1_3">
+                                                                    <div class="margin_top_small margin_bottom_small">1</div>
+                                                                </div>
+                                                                <div class="column-1_3">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                </div><br/><br/><br/>
-												<div class="column-1_2 sc_column_item">
-                                                    <div class="aligncenter">
-                                                        <h3 style="display: inline">Course Name : </h3>
-                                                        <p style="display: inline; font-size: 25px;">NBDE / NDEB– IMPULSE PART II </p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Duration : </h3>
-                                                        <p style="display: inline; font-size: 25px;">10 days ( 5 + 5 ) / 9 am to 11am ( 20 Hours Total )</p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Cost : </h3>
-                                                        <p style="display: inline; font-size: 25px;">20000/-</p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Tutor : </h3>
-                                                        <p style="display: inline; font-size: 25px;">Dr. Akshari Anchan</p>
-                                                        <br>
-                                                        <h3 class="more-details"><a id="flip12">Click for more details&nbsp;&#8659;</a></h3>
-                                                        <div id="panel12" class="hide_display">
-                                                            All Clinical Science topics covered in brief overview for exam <br/>
-                                                            1 Day Pharmacology <br/>
-                                                            1 Day Conservative Dentistry & Endodontics <br/>
-
-                                                            1 Day Oral Pathology <br/>
-                                                            1 Day Periodontics <br/>
-                                                            1 Day Orthodontics <br/>
-                                                            1 Day Oral Surgery <br/>
-                                                            1 Day Public Health <br/>
-                                                            1 Day Oral Medicine + Radiology <br/>
-                                                            1 Day Ethics <br/>
-                                                            1 Day Revision
+                                                    <div class="column-1_2 sc_column_item">
+                                                        <div class="aligncenter">
+                                                            <h5 style="display: inline">Course Name : </h5>
+                                                            <p style="display: inline">NBDE / NDEB – INTENSE PART II  </p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Duration : </h5>
+                                                            <p style="display: inline">24 days total ( 6 days/ week  X 4 weeks / 9 am to 11 am
+                                                                <br> / total 48 hours coaching )</p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Cost : </h5>
+                                                            <p style="display: inline">40000/-</p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Tutor : </h5>
+                                                            <p style="display: inline">Dr. Akshari Anchan</p>
+                                                            <br>
+                                                            <h5 class="more-details"><a id="flip14">Click for more details&nbsp;&#8659;</a></h5>
+                                                            <div id="panel14" class="hide_display">
+                                                                2 Days Pharmacology<br/>
+                                                                2 Days Conservative Dentistry & Endodontics <br/>
+                                                                2 Days Prosthodontics <br/>
+                                                                2 Days Oral Pathology <br/>
+                                                                2 Days Periodontics <br/>
+                                                                2 Days Orthodontics <br/>
+                                                                2 Days Oral Surgery <br/>
+                                                                2 Days Public Health <br/>
+                                                                2 Days Oral Medicine & Radiology<br/>
+                                                                2 Days Ethics <br/>
+                                                                4 Days Revision
+                                                            </div>
+                                                            <br>
+                                                            <div class="row">
+                                                                <div class="column-1_3">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
+                                                                </div>
+                                                                <div class="column-1_3">
+                                                                    <div class="margin_top_small margin_bottom_small">1</div>
+                                                                </div>
+                                                                <div class="column-1_3">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="column-1_2 sc_column_item">
-                                                    <div class="aligncenter">
-                                                        <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
-                                                        <div class="margin_top_small margin_bottom_small">1</div>
-                                                        <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
-                                                    </div>
-                                                </div><br/><br/><br/>
-												<div class="column-1_2 sc_column_item">
-                                                    <div class="aligncenter">
-                                                        <h3 style="display: inline">Course Name : </h3>
-                                                        <p style="display: inline; font-size: 25px;">NBDE / NDEB – INTENSE PART I  </p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Duration : </h3>
-                                                        <p style="display: inline; font-size: 25px;">24 days total ( 6 days/ week  X 4 weeks / 9 am to 11 am / total 48 hours coaching ) </p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Cost : </h3>
-                                                        <p style="display: inline; font-size: 25px;">30000/-</p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Tutor : </h3>
-                                                        <p style="display: inline; font-size: 25px;">Dr. Akshari Anchan</p>
-                                                        <br>
-                                                        <h3 class="more-details"><a id="flip13">Click for more details&nbsp;&#8659;</a></h3>
-                                                        <div id="panel13" class="hide_display">
-                                                            Detailed and In depth Coaching of Basic Sciences <br/>
-                                                            4 Days Anatomy <br/>
-                                                            4 Days Physiology <br/>
-                                                            4 Days Biochemistry <br/>
-                                                            4 Days Microbiology <br/>
-                                                            4 Days Dental Anatomy <br/>
-                                                            4 Days Pathology <br/>
-                                                            Revision
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="column-1_2 sc_column_item">
-                                                    <div class="aligncenter">
-                                                        <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
-                                                        <div class="margin_top_small margin_bottom_small">1</div>
-                                                        <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
-                                                    </div>
-                                                </div><br/><br/><br/>
-												<div class="column-1_2 sc_column_item">
-												<div class="aligncenter">
-                                                        <h3 style="display: inline">Course Name : </h3>
-                                                        <p style="display: inline; font-size: 25px;">NBDE / NDEB – INTENSE PART II  </p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Duration : </h3>
-                                                        <p style="display: inline; font-size: 25px;">24 days total ( 6 days/ week  X 4 weeks / 9 am to 11 am / total 48 hours coaching )</p>
-                                                        <br><br>
-                                                        <h3 style="display: inline">Cost : </h3>
-                                                        <p style="display: inline; font-size: 25px;">40000/-</p>
-                                                        <br><br>
-                                                    <h3 style="display: inline">Tutor : </h3>
-                                                    <p style="display: inline; font-size: 25px;">Dr. Akshari Anchan</p>
-                                                    <br>
-                                                        <h3 class="more-details"><a id="flip14">Click for more details&nbsp;&#8659;</a></h3>
-														<div id="panel14" class="hide_display">
-														2 Days Pharmacology<br/>
-														2 Days Conservative Dentistry & Endodontics <br/>
-														2 Days Prosthodontics <br/>
-														2 Days Oral Pathology <br/>
-														2 Days Periodontics <br/>
-														2 Days Orthodontics <br/>
-														2 Days Oral Surgery <br/>
-														2 Days Public Health <br/>
-														2 Days Oral Medicine & Radiology<br/> 
-														2 Days Ethics <br/>
-														4 Days Revision 
-
-														</div>
-														
-                                                    </div>
-                                                </div>
-                                                <div class="column-1_2 sc_column_item">
-                                                    <div class="aligncenter">
-                                                        <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
-                                                        <div class="margin_top_small margin_bottom_small">1</div>
-                                                        <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
-                                                    </div>
-                                                </div>
-
+                                                <br/><br/><br/>
                                             </div>
                                         </div>
                                     </div>
