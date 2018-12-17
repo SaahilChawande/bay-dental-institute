@@ -161,7 +161,7 @@
                                                                         </a>
                                                                     </div>
                                                                     <div class="esg-center eg-post-857 eg-dentrario-element-1-a esg-falldown" data-delay="0.2">
-                                                                        <a class="eg-dentrario-element-1 eg-post-857" href="single-post.html" target="_self">
+                                                                        <a class="eg-dentrario-element-1 eg-post-857" href="javascript:void()" target="_self">
                                                                             <i class="eg-icon-link gold-text"></i>
                                                                         </a>
                                                                     </div>
@@ -184,7 +184,7 @@
                                                                         </a>
                                                                     </div>
                                                                     <div class="esg-center eg-post-858 eg-dentrario-element-1-a esg-falldown" data-delay="0.2">
-                                                                        <a class="eg-dentrario-element-1 eg-post-858" href="single-post.html" target="_self">
+                                                                        <a class="eg-dentrario-element-1 eg-post-858" href="javascript:void()" target="_self">
                                                                             <i class="eg-icon-link gold-text"></i>
                                                                         </a>
                                                                     </div>
@@ -207,7 +207,7 @@
                                                                         </a>
                                                                     </div>
                                                                     <div class="esg-center eg-post-859 eg-dentrario-element-1-a esg-falldown" data-delay="0.2">
-                                                                        <a class="eg-dentrario-element-1 eg-post-859" href="single-post.html" target="_self">
+                                                                        <a class="eg-dentrario-element-1 eg-post-859" href="javascript:void()" target="_self">
                                                                             <i class="eg-icon-link gold-text"></i>
                                                                         </a>
                                                                     </div>
@@ -230,7 +230,7 @@
                                                                         </a>
                                                                     </div>
                                                                     <div class="esg-center eg-post-860 eg-dentrario-element-1-a esg-falldown" data-delay="0.2">
-                                                                        <a class="eg-dentrario-element-1 eg-post-860" href="single-post.html" target="_self">
+                                                                        <a class="eg-dentrario-element-1 eg-post-860" href="javascript:void()" target="_self">
                                                                             <i class="eg-icon-link gold-text"></i>
                                                                         </a>
                                                                     </div>
@@ -253,7 +253,7 @@
                                                                         </a>
                                                                     </div>
                                                                     <div class="esg-center eg-post-861 eg-dentrario-element-1-a esg-falldown" data-delay="0.2">
-                                                                        <a class="eg-dentrario-element-1 eg-post-861" href="single-post.html" target="_self">
+                                                                        <a class="eg-dentrario-element-1 eg-post-861" href="javascript:void()" target="_self">
                                                                             <i class="eg-icon-link gold-text"></i>
                                                                         </a>
                                                                     </div>
@@ -276,7 +276,7 @@
                                                                         </a>
                                                                     </div>
                                                                     <div class="esg-center eg-post-862 eg-dentrario-element-1-a esg-falldown" data-delay="0.2">
-                                                                        <a class="eg-dentrario-element-1 eg-post-862" href="single-post.html" target="_self">
+                                                                        <a class="eg-dentrario-element-1 eg-post-862" href="javascript:void()" target="_self">
                                                                             <i class="eg-icon-link gold-text"></i>
                                                                         </a>
                                                                     </div>
@@ -285,143 +285,6 @@
                                                                 </div>
                                                             </div>
 
-                                                        </li>
-                                                        <li id="eg-1-post-id-863" class="filterall filter-gallery eg-dentrario-wrapper eg-post-id-863" data-date="1452598783">
-                                                            <div class="esg-media-cover-wrapper">
-                                                                <div class="esg-entry-media">
-                                                                    <img src="images/gallery/gallery-7.jpg" alt="" width="1516" height="1228">
-                                                                </div>
-                                                                <div class="esg-entry-cover esg-fade" data-delay="0">
-                                                                    <div class="esg-overlay esg-fade eg-dentrario-container" data-delay="0"></div>
-                                                                    <div class="esg-center eg-post-863 eg-dentrario-element-0-a esg-falldown" data-delay="0.1">
-                                                                        <a class="eg-dentrario-element-0 eg-post-863 esgbox" href="images/gallery/gallery-7.jpg">
-                                                                            <i class="eg-icon-search gold-text"></i>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="esg-center eg-post-863 eg-dentrario-element-1-a esg-falldown" data-delay="0.2">
-                                                                        <a class="eg-dentrario-element-1 eg-post-863" href="single-post.html" target="_self">
-                                                                            <i class="eg-icon-link gold-text"></i>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="esg-center eg-dentrario-element-8 esg-none esg-clear"></div>
-                                                                    <div class="esg-center eg-dentrario-element-9 esg-none esg-clear"></div>
-                                                                </div>
-                                                            </div>
-
-                                                        </li>
-                                                        <li id="eg-1-post-id-864" class="filterall filter-gallery eg-dentrario-wrapper eg-post-id-864" data-date="1452598795">
-                                                            <div class="esg-media-cover-wrapper">
-                                                                <div class="esg-entry-media">
-                                                                    <img src="images/gallery/gallery-8.jpg" alt="" width="826" height="640">
-                                                                </div>
-                                                                <div class="esg-entry-cover esg-fade" data-delay="0">
-                                                                    <div class="esg-overlay esg-fade eg-dentrario-container" data-delay="0"></div>
-                                                                    <div class="esg-center eg-post-864 eg-dentrario-element-0-a esg-falldown" data-delay="0.1">
-                                                                        <a class="eg-dentrario-element-0 eg-post-864 esgbox" href="images/gallery/gallery-8.jpg">
-                                                                            <i class="eg-icon-search gold-text"></i>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="esg-center eg-post-864 eg-dentrario-element-1-a esg-falldown" data-delay="0.2">
-                                                                        <a class="eg-dentrario-element-1 eg-post-864" href="single-post.html" target="_self">
-                                                                            <i class="eg-icon-link gold-text"></i>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="esg-center eg-dentrario-element-8 esg-none esg-clear"></div>
-                                                                    <div class="esg-center eg-dentrario-element-9 esg-none esg-clear"></div>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-
-                                                        <li id="eg-1-post-id-861" class="filterall filter-gallery eg-dentrario-wrapper eg-post-id-861" data-date="1452598765">
-                                                            <div class="esg-media-cover-wrapper">
-                                                                <div class="esg-entry-media">
-                                                                    <img src="images/gallery/gallery-5.jpg" alt="" width="1600" height="1216">
-                                                                </div>
-                                                                <div class="esg-entry-cover esg-fade" data-delay="0">
-                                                                    <div class="esg-overlay esg-fade eg-dentrario-container" data-delay="0"></div>
-                                                                    <div class="esg-center eg-post-861 eg-dentrario-element-0-a esg-falldown" data-delay="0.1">
-                                                                        <a class="eg-dentrario-element-0 eg-post-861 esgbox" href="images/gallery/gallery-5.jpg">
-                                                                            <i class="eg-icon-search gold-text"></i>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="esg-center eg-post-861 eg-dentrario-element-1-a esg-falldown" data-delay="0.2">
-                                                                        <a class="eg-dentrario-element-1 eg-post-861" href="single-post.html" target="_self">
-                                                                            <i class="eg-icon-link gold-text"></i>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="esg-center eg-dentrario-element-8 esg-none esg-clear"></div>
-                                                                    <div class="esg-center eg-dentrario-element-9 esg-none esg-clear"></div>
-                                                                </div>
-                                                            </div>
-
-                                                        </li>
-                                                        <li id="eg-1-post-id-862" class="filterall filter-gallery eg-dentrario-wrapper eg-post-id-862" data-date="1452598772">
-                                                            <div class="esg-media-cover-wrapper">
-                                                                <div class="esg-entry-media">
-                                                                    <img src="images/gallery/gallery-6.jpg" alt="" width="998" height="941">
-                                                                </div>
-                                                                <div class="esg-entry-cover esg-fade" data-delay="0">
-                                                                    <div class="esg-overlay esg-fade eg-dentrario-container" data-delay="0"></div>
-                                                                    <div class="esg-center eg-post-862 eg-dentrario-element-0-a esg-falldown" data-delay="0.1">
-                                                                        <a class="eg-dentrario-element-0 eg-post-862 esgbox" href="images/gallery/gallery-6.jpg">
-                                                                            <i class="eg-icon-search gold-text"></i>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="esg-center eg-post-862 eg-dentrario-element-1-a esg-falldown" data-delay="0.2">
-                                                                        <a class="eg-dentrario-element-1 eg-post-862" href="single-post.html" target="_self">
-                                                                            <i class="eg-icon-link gold-text"></i>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="esg-center eg-dentrario-element-8 esg-none esg-clear"></div>
-                                                                    <div class="esg-center eg-dentrario-element-9 esg-none esg-clear"></div>
-                                                                </div>
-                                                            </div>
-
-                                                        </li>
-                                                        <li id="eg-1-post-id-863" class="filterall filter-gallery eg-dentrario-wrapper eg-post-id-863" data-date="1452598783">
-                                                            <div class="esg-media-cover-wrapper">
-                                                                <div class="esg-entry-media">
-                                                                    <img src="images/gallery/gallery-7.jpg" alt="" width="1516" height="1228">
-                                                                </div>
-                                                                <div class="esg-entry-cover esg-fade" data-delay="0">
-                                                                    <div class="esg-overlay esg-fade eg-dentrario-container" data-delay="0"></div>
-                                                                    <div class="esg-center eg-post-863 eg-dentrario-element-0-a esg-falldown" data-delay="0.1">
-                                                                        <a class="eg-dentrario-element-0 eg-post-863 esgbox" href="images/gallery/gallery-7.jpg">
-                                                                            <i class="eg-icon-search gold-text"></i>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="esg-center eg-post-863 eg-dentrario-element-1-a esg-falldown" data-delay="0.2">
-                                                                        <a class="eg-dentrario-element-1 eg-post-863" href="single-post.html" target="_self">
-                                                                            <i class="eg-icon-link gold-text"></i>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="esg-center eg-dentrario-element-8 esg-none esg-clear"></div>
-                                                                    <div class="esg-center eg-dentrario-element-9 esg-none esg-clear"></div>
-                                                                </div>
-                                                            </div>
-
-                                                        </li>
-                                                        <li id="eg-1-post-id-864" class="filterall filter-gallery eg-dentrario-wrapper eg-post-id-864" data-date="1452598795">
-                                                            <div class="esg-media-cover-wrapper">
-                                                                <div class="esg-entry-media">
-                                                                    <img src="images/gallery/gallery-8.jpg" alt="" width="826" height="640">
-                                                                </div>
-                                                                <div class="esg-entry-cover esg-fade" data-delay="0">
-                                                                    <div class="esg-overlay esg-fade eg-dentrario-container" data-delay="0"></div>
-                                                                    <div class="esg-center eg-post-864 eg-dentrario-element-0-a esg-falldown" data-delay="0.1">
-                                                                        <a class="eg-dentrario-element-0 eg-post-864 esgbox" href="images/gallery/gallery-8.jpg">
-                                                                            <i class="eg-icon-search gold-text"></i>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="esg-center eg-post-864 eg-dentrario-element-1-a esg-falldown" data-delay="0.2">
-                                                                        <a class="eg-dentrario-element-1 eg-post-864" href="single-post.html" target="_self">
-                                                                            <i class="eg-icon-link gold-text"></i>
-                                                                        </a>
-                                                                    </div>
-                                                                    <div class="esg-center eg-dentrario-element-8 esg-none esg-clear"></div>
-                                                                    <div class="esg-center eg-dentrario-element-9 esg-none esg-clear"></div>
-                                                                </div>
-                                                            </div>
                                                         </li>
                                                     </ul>
                                                 </div>
