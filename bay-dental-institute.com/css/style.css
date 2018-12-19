@@ -902,6 +902,7 @@ label.required:after {
 .content_container {
 	width:1170px;
 	margin:0 auto;
+	padding-left: 100px;
 }
 /*
 .content_wrap .content_wrap,
@@ -1517,15 +1518,16 @@ body:not(.top_panel_fixed) .top_panel_position_over .top_panel_bottom {
 	overflow:hidden;
 }
 .top_panel_wrap .logo_main {
-	max-height:100px;
+	max-height:140px;
 	width:auto;
+	margin-left: 20px;
 }
 .logo a {
 	display:inline-block;
 }
 .logo img {
 	float:left;
-	margin: 1em 0 1em 1em;
+	/*margin: 1em 0 1em 1em;*/
 	width: auto;
 }
 .logo_text,
@@ -6893,6 +6895,10 @@ h1 .wpb_text_column p, h2 .wpb_text_column p, h3 .wpb_text_column p, h4 .wpb_tex
 
 .dark-background	{
 	background-color: #30383B;
+}
+
+.different-dark-background	{
+	background-color: #65777F;
 }
 
 .gold-text	{

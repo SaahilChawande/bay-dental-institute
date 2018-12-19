@@ -202,6 +202,9 @@
                                                     <div class="column-1_3 column_padding_bottom">
                                                         <div id="sc_services_047_1" class="sc_services_item sc_services_item_1">
                                                             <div class="sc_services_item_content">
+                                                                <a href="javascript:void(0)">
+                                                                    <span class="sc_icon icon-medic-1"></span>
+                                                                </a>
                                                                 <h4 class="sc_services_item_title">
                                                                     <a href="restorative-dentistry/smile-design-and-patient-management.php">Smile Design and Patient Management</a>
                                                                 </h4>
@@ -212,6 +215,9 @@
                                                     <div class="column-1_3 column_padding_bottom">
                                                         <div id="sc_services_047_2" class="sc_services_item sc_services_item_2">
                                                             <div class="sc_services_item_content">
+                                                                <a href="javascript:void(0)">
+                                                                    <span class="sc_icon icon-medic-1"></span>
+                                                                </a>
                                                                 <h4 class="sc_services_item_title">
                                                                     <a href="restorative-dentistry/colour-shade-assessment-and-bleaching.php">Colour, Shade Assessment and Bleaching</a>
                                                                 </h4>
@@ -222,6 +228,9 @@
                                                     <div class="column-1_3 column_padding_bottom">
                                                         <div id="sc_services_047_3" class="sc_services_item sc_services_item_3">
                                                             <div class="sc_services_item_content">
+                                                                <a href="javascript:void(0)">
+                                                                    <span class="sc_icon icon-medic-1"></span>
+                                                                </a>
                                                                 <h4 class="sc_services_item_title">
                                                                     <a href="restorative-dentistry/veneers-and-soft-tissue-management.php">Veneers and Soft Tissue Management</a>
                                                                 </h4>
@@ -232,6 +241,9 @@
                                                     <div class="column-1_3 column_padding_bottom">
                                                         <div id="sc_services_047_4" class="sc_services_item sc_services_item_4">
                                                             <div class="sc_services_item_content">
+                                                                <a href="javascript:void(0)">
+                                                                    <span class="sc_icon icon-medic-1"></span>
+                                                                </a>
                                                                 <h4 class="sc_services_item_title">
                                                                     <a href="restorative-dentistry/tooth-surface-loss-and-full-mouth-rehab.php">Tooth Surface Loss and Full Mouth Rehab</a>
                                                                 </h4>
@@ -242,6 +254,9 @@
                                                     <div class="column-1_3 column_padding_bottom">
                                                         <div id="sc_services_047_5" class="sc_services_item sc_services_item_5">
                                                             <div class="sc_services_item_content">
+                                                                <a href="javascript:void(0)">
+                                                                    <span class="sc_icon icon-medic-1"></span>
+                                                                </a>
                                                                 <h4 class="sc_services_item_title">
                                                                     <a href="restorative-dentistry/anterior-posterior-crowns-and-bridge-dentistry.php">Anterior &amp; Posterior Crowns &amp; Bridge Dentistry </a>
                                                                 </h4>
@@ -252,6 +267,9 @@
                                                     <div class="column-1_3 column_padding_bottom">
                                                         <div id="sc_services_047_6" class="sc_services_item sc_services_item_6">
                                                             <div class="sc_services_item_content">
+                                                                <a href="javascript:void(0)">
+                                                                    <span class="sc_icon icon-medic-1"></span>
+                                                                </a>
                                                                 <h4 class="sc_services_item_title">
                                                                     <a href="restorative-dentistry/posterior-onlays-and-crowns.php">Posterior Onlays and Crowns</a>
                                                                 </h4>

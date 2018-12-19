@@ -6916,7 +6916,7 @@ button,
 .scheme_original input[type="button"],
 .scheme_original button,
 .scheme_original .sc_button.sc_button_style_filled {
-  color: #ffffff;
+  color: black;
 }
 .scheme_light input[type="submit"],
 .scheme_light input[type="reset"],
@@ -7185,7 +7185,7 @@ button,
   color: #f0f0f0;
 }
 .scheme_original .sc_call_to_action_accented {
-  background-color: #30383B;
+  background-color: #4f575a;
 }
 .scheme_light .sc_call_to_action_accented {
   background-color: #3FB6E0;
@@ -7209,7 +7209,7 @@ button,
   color: #f0f0f0;
 }
 .scheme_original .sc_call_to_action_accented .sc_item_button > a {
-  color: #30383B;
+  color: white;
 }
 .scheme_light .sc_call_to_action_accented .sc_item_button > a {
   color: #30383B;
@@ -7218,7 +7218,7 @@ button,
   color: #A1AAAD;
 }
 .scheme_original .sc_call_to_action_accented .sc_item_button > a {
-  background-color: #ffffff;
+  background-color: #F9A825;
 }
 .scheme_light .sc_call_to_action_accented .sc_item_button > a {
   background-color: #ffffff;
@@ -8859,10 +8859,10 @@ button,
   color: #A1AAAD;
 }
 .scheme_original .sc_services_style_services-1 .sc_services_item:hover .sc_icon {
-  color: #A5C422;
+  color: white;
 }
 .scheme_light .sc_services_style_services-1 .sc_services_item:hover .sc_icon {
-  color: #A5C422;
+  color: white;
 }
 .scheme_dark .sc_services_style_services-1 .sc_services_item:hover .sc_icon {
   color: #55BDE3;

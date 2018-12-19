@@ -162,9 +162,6 @@
                                 <img src="images/01-slider-background.jpg" alt="" title="01_slider-background" width="2340" height="1034" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
                                 <div class="tp-caption tp-resizeme" id="slide-1-layer-1" data-x="587" data-y="" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-type="image" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":750,"ease":"Power2.easeOut"},{"delay":4000,"speed":1500,"to":"sX:1.25;sY:1.25;opacity:0;","ease":"Power0.easeInOut"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"></div>
                                 <div style="color: #FFFFFF;" class="tp-caption dentrarario-home1-static-text2 tp-resizeme" id="slide-1-layer-2" data-x="35" data-y="255" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","speed":1000,"to":"o:1;","delay":1000,"ease":"Power2.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
-                                    Dr. Joseph Phillips is an active member of the Academy of
-                                    <br/> General Dentistry and strives to stay up to date with the latest
-                                    <br/> in techniques and technology in the dental profession.
                                 </div>
                                 <div class="tp-caption dentrarario-home1-static-text tp-resizeme button" id="slide-4-layer-3" data-x="35" data-y="340" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;","speed":1500,"to":"o:1;","delay":500,"ease":"Power3.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
                                     <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_medium alignleft">Apply Now</a>
@@ -172,7 +169,7 @@
                                 <div class="tp-caption dentrarario-home1-static-text tp-resizeme button" id="slide-4-layer-3" data-x="35" data-y="340" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;","speed":1500,"to":"o:1;","delay":500,"ease":"Power3.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
                                     <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_medium alignleft">Apply Now</a>
                                 </div>
-                                <div style="color: #F9A825;" class="tp-caption dentrarario-home1-static-header tp-resizeme" id="slide-1-layer-4" data-x="35" data-y="143" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0;rY:0;rZ:0;sX:0.8;sY:0.8;skX:0;skY:0;opacity:0;","speed":1500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
+                                <div style="color: white; font-weight: bold" class="tp-caption dentrarario-home1-static-header tp-resizeme" id="slide-1-layer-4" data-x="35" data-y="143" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0;rY:0;rZ:0;sX:0.8;sY:0.8;skX:0;skY:0;opacity:0;","speed":1500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
                                     State of the Art Infrastructure
                                 </div>
                             </li>
@@ -180,14 +177,11 @@
                                 <img src="images/02-slider-background.jpg" alt="" title="01_slider-background" width="2340" height="1034" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
                                 <div class="tp-caption tp-resizeme" id="slide-4-layer-1" data-x="587" data-y="" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-type="image" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":750,"ease":"Power2.easeOut"},{"delay":4000,"speed":1500,"to":"sX:1.25;sY:1.25;opacity:0;","ease":"Power0.easeInOut"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"></div>
                                 <div style="color: white" class="tp-caption dentrarario-home1-static-text2 tp-resizeme" id="slide-4-layer-2" data-x="35" data-y="255" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":500,"ease":"Power3.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
-                                    Dr. Lisa Casey enjoys all areas of comprehensive dental care from
-                                    <br/> preventive treatment and simple restorations to root canals,
-                                    <br/> crown and bridge work and cosmetic care.
                                 </div>
                                 <div class="tp-caption dentrarario-home1-static-text tp-resizeme button" id="slide-4-layer-3" data-x="35" data-y="340" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;","speed":1500,"to":"o:1;","delay":500,"ease":"Power3.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
                                     <a href="book-a-course.php" class="sc_button sc_button_square sc_button_style_filled sc_button_size_medium alignleft">Book a course</a>
                                 </div>
-                                <div style="color: #F9A825;" class="tp-caption dentrarario-home1-static-header tp-resizeme" id="slide-4-layer-4" data-x="35" data-y="143" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":500,"ease":"Power3.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
+                                <div style="color: white; font-weight: bold" class="tp-caption dentrarario-home1-static-header tp-resizeme" id="slide-4-layer-4" data-x="35" data-y="143" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":500,"ease":"Power3.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
                                     International Dental license Exam Training
                                 </div>
                             </li>
@@ -195,13 +189,11 @@
                                 <img src="images/03-slider-background.jpg" alt="" title="01_slider-background" width="2340" height="1034" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
                                 <div class="tp-caption tp-resizeme" id="slide-5-layer-1" data-x="587" data-y="" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-type="image" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":750,"ease":"Power2.easeOut"},{"delay":4000,"speed":1500,"to":"sX:1.25;sY:1.25;opacity:0;","ease":"Power0.easeInOut"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"></div>
                                 <div style="color: white" class="tp-caption dentrarario-home1-static-text2 tp-resizeme" id="slide-5-layer-2" data-x="35" data-y="255" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power2.easeOut"},{"delay":4250,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
-                                    Dr. Nick Kelly is a general dentist and also practices amongst our
-                                    <br/>dental offices when he is not utilizing his talents on the dental van.
                                 </div>
                                 <div class="tp-caption dentrarario-home1-static-text tp-resizeme button" id="slide-5-layer-3" data-x="35" data-y="317" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;","speed":1500,"to":"o:1;","delay":1500,"ease":"Power2.easeOut"},{"delay":3750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
                                     <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_medium alignleft">Faculty</a>
                                 </div>
-                                <div style="color: #F9A825" class="tp-caption dentrarario-home1-static-header tp-resizeme" id="slide-5-layer-4" data-x="35" data-y="143" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":500,"ease":"Power2.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
+                                <div style="color: white; font-weight: bold" class="tp-caption dentrarario-home1-static-header tp-resizeme" id="slide-5-layer-4" data-x="35" data-y="143" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":500,"ease":"Power2.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
                                     International Speakers
                                 </div>
                             </li>
@@ -209,13 +201,11 @@
                                 <img src="images/04-slider-background.jpg" alt="" title="01_slider-background" width="2340" height="1034" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
                                 <div class="tp-caption tp-resizeme" id="slide-5-layer-1" data-x="587" data-y="" data-width="['none','none','none','none']" data-height="['none','none','none','none']" data-type="image" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":750,"ease":"Power2.easeOut"},{"delay":4000,"speed":1500,"to":"sX:1.25;sY:1.25;opacity:0;","ease":"Power0.easeInOut"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"></div>
                                 <div style="color: white" class="tp-caption dentrarario-home1-static-text2 tp-resizeme" id="slide-5-layer-2" data-x="35" data-y="255" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power2.easeOut"},{"delay":4250,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
-                                    Dr. Nick Kelly is a general dentist and also practices amongst our
-                                    <br/>dental offices when he is not utilizing his talents on the dental van.
                                 </div>
                                 <div class="tp-caption dentrarario-home1-static-text tp-resizeme button" id="slide-5-layer-3" data-x="35" data-y="317" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;","speed":1500,"to":"o:1;","delay":1500,"ease":"Power2.easeOut"},{"delay":3750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
                                     <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_medium alignleft">Book Now</a>
                                 </div>
-                                <div style="color: #F9A825" class="tp-caption dentrarario-home1-static-header tp-resizeme" id="slide-5-layer-4" data-x="35" data-y="143" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":500,"ease":"Power2.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
+                                <div style="color: white; font-weight: bold" class="tp-caption dentrarario-home1-static-header tp-resizeme" id="slide-5-layer-4" data-x="35" data-y="143" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":500,"ease":"Power2.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
                                     New course Calendar &amp;
                                     <br>Speakers Every month
                                 </div>
@@ -311,7 +301,7 @@
                                                                         <h5 class="sc_team_item_title">Dr. Shravan Chawla</h5>
                                                                         <div class="sc_team_item_position">BDS (Mauritius), PCAD (USA),<br>Stat Exam &amp; Licensed Practitioner (GDC - UK), Founder, Course Program Director, Clinical Tutor
                                                                         </div>
-                                                                        <h6><a href="javascript:void(0)" id="t1-details-click">Click for more &#8659;</a></h6>
+                                                                        <h6><a href="javascript:void(0)" id="t1-details-click" style="color: white">Click for more &#8659;</a></h6>
                                                                         <div class="sc_team_item_description" id="t1-details" style="display: none">
                                                                             Dr. Shravan Chawla has graduated from the University of Mauritius, followed by giving the licensing conducted by the DCI for Indian citizens studying abroad. After gaining a PG certification in aesthetics and implants for NYU(USA), Dr. Chawla went on to crack the ORE-UK licensing exams to be registered as a licensed Dental practitioner with the GDC-UK. Currently Dr. Chawla runs his practice Bay Dental Institute in South Mumbai.
                                                                         </div>
@@ -328,7 +318,7 @@
                                                                         <div class="sc_team_item_position">NBDE / NDEB USA &amp; Canada Course Director,
                                                                             <br>Facial Aesthetic Surgeon, <br>Skin &amp; Hair Expert
                                                                         </div>
-                                                                        <h6><a href="javascript:void(0)" id="t2-details-click">Click for more &#8659;</a></h6>
+                                                                        <h6><a href="javascript:void(0)" id="t2-details-click" style="color: white">Click for more &#8659;</a></h6>
                                                                         <div class="sc_team_item_description"  id="t2-details" style="display: none">
                                                                             Dr. Akshari Anchan has graduated from the prestigious Nitte University, Mangalore and has post graduated into clinical aesthetics from the esteemed Indian Institute of Aesthetic Medicine, Pune.<br/>She has successfully cleared her licensing exams in the United States of America. In her multiple visits to the United States between 2013-2016, Dr. Anchan has observed various doctors and worked closely with University of Miami on a 3 year program for Facial Aesthetics, Botox, and Lip Fillers.<br/> Dr. Anchan has an experience of over 5 years in clinical practice and maintains a private practice and is an expert consultant to over 25 clinics all over Mumbai concentrating on Facial Aesthetics, Botox, Lip Fillers and Hair transplant. Her research articles have won her National and International laurel including recognition from the renowned Indian Council of Medical Research.
                                                                         </div>
@@ -346,7 +336,7 @@
                                                                             <br>Stat Exam &amp; Licensed Practitioner (GDC - UK), Overseas Mentor,
                                                                             <br>ORE Course Program Director
                                                                         </div>
-                                                                        <h6><a href="javascript:void(0)" id="t3-details-click">Click for more &#8659;</a></h6>
+                                                                        <h6><a href="javascript:void(0)" id="t3-details-click" style="color: white">Click for more &#8659;</a></h6>
                                                                         <div class="sc_team_item_description" id="t3-details" style="display: none">
                                                                             After Graduating from the University of Mauritius, and clearing the DCI exam in India, Dr. James worked in private practice in India for a few years before cracking the ORE-UK exam. Dr. James is currently into private practice in Hashtings, UK since 5 years where he pursues implant, aesthetics and the latest in digital dentistry.
                                                                         </div>
@@ -428,7 +418,7 @@
 
                                 <div class="vc_row-full-width"></div>
 
-                                <div data-vc-full-width="true" data-vc-full-width-init="true" class="vc_row wpb_row vc_row-fluid vc_custom_1455704765009" style="position: relative; left: -50.2px; box-sizing: border-box; width: 1094px; padding-left: 50.2px; padding-right: 49.8px;">
+                                <div data-vc-full-width="true" data-vc-full-width-init="true" class="vc_row wpb_row vc_row-fluid vc_custom_1455704765009 different-dark-background" style="position: relative; left: -50.2px; box-sizing: border-box; width: 1094px; padding-left: 50.2px; padding-right: 49.8px;">
                                     <div class="wpb_column vc_column_container vc_col-sm-12">
                                         <div class="vc_column-inner ">
                                             <div class="wpb_wrapper">
@@ -439,6 +429,9 @@
                                                         <div class="sc_columns columns_wrap">
                                                             <div class="column-1_3 column_padding_bottom">
                                                                 <div id="sc_services_047_1" class="sc_services_item sc_services_item_1">
+                                                                    <a href="javascript:void(0)">
+                                                                        <span class="sc_icon icon-medic-1"></span>
+                                                                    </a>
                                                                     <div class="sc_services_item_content">
                                                                         <h4 class="sc_services_item_title">
                                                                             <a href="ore-lds-uk.php">ORE / LDS - UK</a>
@@ -451,6 +444,9 @@
                                                             </div>
                                                             <div class="column-1_3 column_padding_bottom">
                                                                 <div id="sc_services_047_2" class="sc_services_item sc_services_item_2">
+                                                                    <a href="javascript:void(0)">
+                                                                        <span class="sc_icon icon-medic-1"></span>
+                                                                    </a>
                                                                     <div class="sc_services_item_content">
                                                                         <h4 class="sc_services_item_title">
                                                                             <a href="nbde-usa.php">NBDE - USA</a>
@@ -463,6 +459,9 @@
                                                             </div>
                                                             <div class="column-1_3 column_padding_bottom">
                                                                 <div id="sc_services_047_3" class="sc_services_item sc_services_item_3">
+                                                                    <a href="javascript:void(0)">
+                                                                        <span class="sc_icon icon-medic-1"></span>
+                                                                    </a>
                                                                     <div class="sc_services_item_content">
                                                                         <h4 class="sc_services_item_title">
                                                                             <a href="ndeb-canada.php">NDEB - Canada</a>
@@ -475,6 +474,9 @@
                                                             </div>
                                                             <div class="column-1_3 column_padding_bottom">
                                                                 <div id="sc_services_047_4" class="sc_services_item sc_services_item_4">
+                                                                    <a href="javascript:void(0)">
+                                                                        <span class="sc_icon icon-medic-1"></span>
+                                                                    </a>
                                                                     <div class="sc_services_item_content">
                                                                         <h4 class="sc_services_item_title">
                                                                             <a href="restorative-dentistry.php">Restorative Dentistry</a>
@@ -492,6 +494,9 @@
                                                             </div>
                                                             <div class="column-1_3 column_padding_bottom">
                                                                 <div id="sc_services_047_5" class="sc_services_item sc_services_item_5">
+                                                                    <a href="javascript:void(0)">
+                                                                        <span class="sc_icon icon-medic-1"></span>
+                                                                    </a>
                                                                     <div class="sc_services_item_content">
                                                                         <h4 class="sc_services_item_title">
                                                                             <a href="endodontics.php">Endodontics</a>
@@ -509,6 +514,9 @@
                                                             </div>
                                                             <div class="column-1_3 column_padding_bottom">
                                                                 <div id="sc_services_047_6" class="sc_services_item sc_services_item_6">
+                                                                    <a href="javascript:void(0)">
+                                                                        <span class="sc_icon icon-medic-1"></span>
+                                                                    </a>
                                                                     <div class="sc_services_item_content">
                                                                         <h4 class="sc_services_item_title">
                                                                             <a href="composites.php">Composites</a>

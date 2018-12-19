@@ -46,7 +46,7 @@
                                 <li class="menu-item"><a href="index.php#about-us">About Us</a></li>
                                 <li class="menu-item menu-item-has-children current-menu-ancestor"><a href="#"><span>Courses &nbsp;&#8659;</span></a>
                                     <ul class="sub-menu">
-                                        <li class="menu-item"><a href="ore-lds-ul.php"><span>ORE / LDS - UK</span></a></li>
+                                        <li class="menu-item"><a href="ore-lds-uk.php"><span>ORE / LDS - UK</span></a></li>
                                         <li class="menu-item"><a href="nbde-usa.php"><span>NBDE - USA</span></a></li>
                                         <li class="menu-item"><a href="ndeb-canada.php"><span>NDEB - Canada</span></a></li>
                                         <li class="menu-item"><a href="restorative-dentistry.php"><span>Restorative Dentistry</span></a></li>
@@ -93,7 +93,7 @@
                             <li class="menu-item" onclick="onClickAboutUsMenu()"><a href="index.php#about-us">About Us</a></li>
                             <li class="menu-item menu-item-has-children current-menu-ancestor"><a href="javascript:void(0)"><span>Courses</span></a>
                                 <ul class="sub-menu gold-text">
-                                        <li class="menu-item"><a href="ore-lds-ul.php"><span>ORE / LDS - UK</span></a></li>
+                                        <li class="menu-item"><a href="ore-lds-uk.php"><span>ORE / LDS - UK</span></a></li>
                                         <li class="menu-item"><a href="nbde-usa.php"><span>NBDE - USA</span></a></li>
                                         <li class="menu-item"><a href="ndeb-canada.php"><span>NDEB - Canada</span></a></li>
                                         <li class="menu-item"><a href="restorative-dentistry.php"><span>Restorative Dentistry</span></a></li>
@@ -142,24 +142,16 @@
                         <section class="post_content">
 
                             <!--Slider-->
-                            <!--<div class="vc_row wpb_row vc_row-fluid">
+                            <div class="vc_row wpb_row vc_row-fluid">
                                 <div class="wpb_column vc_column_container vc_col-sm-12">
                                     <div class="vc_column-inner ">
                                         <div class="wpb_wrapper">
                                             <div id="sc_slider_193" class="sc_slider sc_slider_swiper swiper-slider-container sc_slider_height_fixed sc_slider_controls sc_slider_nopagination sc_slider_bg" data-old-height="400" data-interval="6424" style="height:400px;width:100%;">
                                                 <div class="slides swiper-wrapper">
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/ore-lds-uk/s1.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/ore-lds-uk/s2.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/ore-lds-uk/s3.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/ore-lds-uk/s4.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/ore-lds-uk/s5.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/ore-lds-uk/s6.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/ore-lds-uk/s7.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/ore-lds-uk/s8.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/ore-lds-uk/s9.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/ore-lds-uk/s10.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/ore-lds-uk/s11.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/ore-lds-uk/s12.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/endodontics/ed-1.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/endodontics/ed-2.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/endodontics/ed-3.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/endodontics/ed-4.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
                                                 </div>
                                                 <div class="sc_slider_controls_wrap">
                                                     <a class="sc_slider_prev" href="#"></a>
@@ -172,7 +164,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>-->
+                            </div>
 
                             <!--Initial Para-->
                             <div class="vc_row wpb_row vc_row-fluid">

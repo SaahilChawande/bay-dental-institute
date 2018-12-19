@@ -284,6 +284,7 @@
                                                             <h5 style="display: inline">Tutor : </h5>
                                                             <p style="display: inline;">Dr. Shravan Chawla</p>
                                                             <br>
+                                                            <br>
                                                             <h5 class="more-details"><a id="flip2">Click for more details&nbsp;&#8659;</a></h5>
                                                             <div id="panel2" class="hide_display">
                                                                 We will cover all the Topics you need to cover to prepare for part I <br/>
@@ -556,6 +557,7 @@
                                                                 Practice Preps at our center and we provide feedback on how to improve <br/>
                                                             </div>
                                                             <br>
+                                                            <br>
                                                             <div class="row">
                                                                 <div class="column-1_3">
                                                                     <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
@@ -599,6 +601,7 @@
                                                             <p style="display: inline">Dr. Akshari Anchan</p>
                                                             <br>
                                                             <h5 class="more-details"><a id="flip10">Click for more details&nbsp;&#8659;</a></h5>
+                                                            <br><br>
                                                             <div id="panel10" class="hide_display">
                                                                 Detailed Explanation of NBDE / NDEB <br/>
                                                                 About NBDE <br/>
@@ -641,6 +644,7 @@
                                                             <p style="display: inline">Dr. Akshari Anchan</p>
                                                             <br>
                                                             <h5 class="more-details"><a id="flip11">Click for more details&nbsp;&#8659;</a></h5>
+                                                            <br>
                                                             <div id="panel11" class="hide_display">
                                                                 All basic sciences covered in brief overview for exam <br/>
                                                                 2 days Anatomy <br/>
