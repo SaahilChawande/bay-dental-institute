@@ -224,6 +224,8 @@
                                             <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_2 margin_bottom_huge">
                                                 <div class="column-1_1 sc_column_item">
                                                     <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large alignright">Book Now</a>
+													
+                                                    <a href="login.php" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large alignright">Login</a>
                                                 </div>
 												<div class="aligncenter">
 												<h3>ORE/LDS-UK</h3>
