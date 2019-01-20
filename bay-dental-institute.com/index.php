@@ -690,7 +690,7 @@
                                             <input type="checkbox" id="scales" name="scales"> I agree to receiving emails / newsletters from baydental.
                                         </div>
                                         <div class="sc_form_item sc_form_button">
-                                            <button class="aligncenter">Book A Course</button>
+                                            <button class="aligncenter" href="book-a-course.php">Book A Course</button>
                                         </div>
                                         <div class="result sc_infobox"></div>
                                     </form>

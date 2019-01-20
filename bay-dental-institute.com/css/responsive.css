@@ -2123,7 +2123,7 @@ Very common low res
 		border-width: 1px;
 	}
 	input.sc_button_size_large[type="submit"], input.sc_button_size_large[type="button"], button.sc_button_size_large, .sc_button.sc_button_size_large {
-		padding: 1em 1.25em;
+		padding: 1em 0em;
 	}
 	input.sc_button_size_medium[type="submit"], input.sc_button_size_medium[type="button"], button.sc_button_size_medium, .sc_button.sc_button_size_medium {
 		padding: 0.8em 1em;

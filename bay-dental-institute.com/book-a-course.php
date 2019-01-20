@@ -131,7 +131,7 @@
                                         <li class="menu-item"><a href="botox-and-lip-fillers.php"><span>Facial Aesthetics: Botox &amp; Lip Fillers</span></a></li>
                                         <li class="menu-item"><a href="dental-assistant-training.php"><span>Dental Assistant Training</span></a></li>
                                         <li class="menu-item"><a href="javascript:void(0)"><span>Social Media Marketing for Dentists</span></a></li>
-                                        <li class="menu-item"><a href="endodontics.php"<span>Endotontics</span></a></li>
+                                        <li class="menu-item"><a href="endodontics.php"<>span>Endotontics</span></a></li>
                                     </ul>
                                 </li>
                                 <li class="menu-item"><a href="gallery.php">Gallery</a></li>
@@ -179,7 +179,7 @@
                                         <li class="menu-item"><a href="botox-and-lip-fillers.php"><span>Facial Aesthetics: Botox &amp; Lip Fillers</span></a></li>
                                         <li class="menu-item"><a href="dental-assistant-training.php"><span>Dental Assistant Training</span></a></li>
                                         <li class="menu-item"><a href="javascript:void(0)"><span>Social Media Marketing for Dentists</span></a></li>
-                                        <li class="menu-item"><a href="endodontics.php"<span>Endotontics</span></a></li>
+                                        <li class="menu-item"><a href="endodontics.php"><span>Endotontics</span></a></li>
                                 </ul>
                             </li>
                             <li class="menu-item"><a href="gallery.php">Gallery</a></li>
@@ -223,9 +223,9 @@
                                         <div class="wpb_wrapper">
                                             <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_2 margin_bottom_huge">
                                                 <div class="column-1_1 sc_column_item">
-                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large alignright">Book Now</a>
+                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large alignright" style="padding: 1em 1.25em">Book Now</a>
 													
-                                                    <a href="login.php" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large alignright">Login</a>
+                                                    <a href="login.php" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large alignright" style="padding: 1em 1.25em">Login</a>
                                                 </div>
 												<div class="aligncenter">
 												<h3>ORE/LDS-UK</h3>
@@ -246,7 +246,6 @@
                                                             <br><br>
                                                             <h5 style="display: inline">Tutor : </h5>
                                                             <p style="display: inline; ">Dr. Shravan Chawla</p>
-                                                            <br>
                                                             <h5 class="more-details"><a id="flip1">Click for more details&nbsp;&#8659;</a></h5>
                                                             <div id="panel1" class="hide_display">
                                                                 Over view of the exam <br/>
@@ -258,16 +257,9 @@
                                                                 Job / Visa Status in the UK <br/>
                                                                 What you need to crack the ORE <br/>
                                                             </div>
-                                                            <br>
-                                                            <div class="row">
-                                                                <div class="column-1_3">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
-                                                                </div>
-                                                                <div class="column-1_3">
-                                                                    <div class="margin_top_small margin_bottom_small">1</div>
-                                                                </div>
-                                                                <div class="column-1_3">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
+                                                            <div class="row aligncenter">
+                                                                <div class="column-1_2">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 23px">Add to Cart</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -286,7 +278,6 @@
                                                             <h5 style="display: inline">Tutor : </h5>
                                                             <p style="display: inline;">Dr. Shravan Chawla</p>
                                                             <br>
-                                                            <br>
                                                             <h5 class="more-details"><a id="flip2">Click for more details&nbsp;&#8659;</a></h5>
                                                             <div id="panel2" class="hide_display">
                                                                 We will cover all the Topics you need to cover to prepare for part I <br/>
@@ -300,15 +291,9 @@
                                                                 Notes and Question bank  to prepare hard copy will be provided
                                                             </div>
                                                             <br>
-                                                            <div class="row">
-                                                                <div class="column-1_3">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
-                                                                </div>
-                                                                <div class="column-1_3">
-                                                                    <div class="margin_top_small margin_bottom_small">1</div>
-                                                                </div>
-                                                                <div class="column-1_3">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
+                                                            <div class="row aligncenter">
+                                                                <div class="column-1_2">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Add to Cart</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -338,21 +323,15 @@
                                                                 In Depth training on how to score maximum with the examiner and what they are looking
                                                                 <br> for while marking you in each module.
                                                             </div>
-                                                            <br>
-                                                            <div class="row">
-                                                                <div class="column-1_3">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
-                                                                </div>
-                                                                <div class="column-1_3">
-                                                                    <div class="margin_top_small margin_bottom_small aligncenter">1</div>
-                                                                </div>
-                                                                <div class="column-1_3">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
+                                                            <div class="row aligncenter">
+                                                                <div class="column-1_2">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 23px">Add to Cart</a>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
+                                                <br>
 												<div class="row">
                                                     <div class="column-1_3 sc_column_item">
                                                         <div class="aligncenter">
@@ -375,16 +354,9 @@
                                                                 How to score “ Exceeds Standard “ in each exercise / Module <br/>
                                                                 What the examiner is expecting while scoring
                                                             </div>
-                                                            <br>
-                                                            <div class="row">
-                                                                <div class="column-1_3">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
-                                                                </div>
-                                                                <div class="column-1_3">
-                                                                    <div class="margin_top_small margin_bottom_small">1</div>
-                                                                </div>
-                                                                <div class="column-1_3">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
+                                                            <div class="row aligncenter">
+                                                                <div class="column-1_2">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 20px">Add to Cart</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -412,16 +384,9 @@
                                                                 Conducted as exam
                                                                 Feedback after exam on where to improve
                                                             </div>
-                                                            <br>
-                                                            <div class="row">
-                                                                <div class="column-1_3">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
-                                                                </div>
-                                                                <div class="column-1_3">
-                                                                    <div class="margin_top_small margin_bottom_small">1</div>
-                                                                </div>
-                                                                <div class="column-1_3">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
+                                                            <div class="row aligncenter">
+                                                                <div class="column-1_2">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 20px">Add to Cart</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -447,16 +412,9 @@
                                                                 All materials and instruments provided with frasaco manikin + teeth <br/>
                                                                 Feedback after exam on where to improve
                                                             </div>
-                                                            <br>
-                                                            <div class="row">
-                                                                <div class="column-1_3">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
-                                                                </div>
-                                                                <div class="column-1_3">
-                                                                    <div class="margin_top_small margin_bottom_small">1</div>
-                                                                </div>
-                                                                <div class="column-1_3">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
+                                                            <div class="row aligncenter">
+                                                                <div class="column-1_2">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 20px">Add to Cart</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -476,7 +434,6 @@
                                                             <br><br>
                                                             <h5 style="display: inline">Tutor : </h5>
                                                             <p style="display: inline">Dr. Shravan Chawla</p>
-                                                            <br>
                                                             <h5 class="more-details"><a id="flip7">Click for more details&nbsp;&#8659;</a></h5>
                                                             <div id="panel7" class="hide_display">
                                                                 First ME followed by DTP help exactly like on Exam Day <br/>
@@ -485,16 +442,9 @@
                                                                 DTP forms and clock provided <br/>
                                                                 Feedback provided after exam on where to improve
                                                             </div>
-                                                            <br>
-                                                            <div class="row">
-                                                                <div class="column-1_3">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
-                                                                </div>
-                                                                <div class="column-1_3">
-                                                                    <div class="margin_top_small margin_bottom_small">1</div>
-                                                                </div>
-                                                                <div class="column-1_3">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
+                                                            <div class="row aligncenter">
+                                                                <div class="column-1_2">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 12px">Add to Cart</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -522,16 +472,9 @@
                                                                 Feedback and PASS / FAIL Verdict after all modules over <br/>
                                                                 Detailed Feedback on where to improve.
                                                             </div>
-                                                            <br>
-                                                            <div class="row">
-                                                                <div class="column-1_3">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
-                                                                </div>
-                                                                <div class="column-1_3">
-                                                                    <div class="margin_top_small margin_bottom_small">1</div>
-                                                                </div>
-                                                                <div class="column-1_3">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
+                                                            <div class="row aligncenter">
+                                                                <div class="column-1_2">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Add to Cart</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -559,16 +502,9 @@
                                                                 Practice Preps at our center and we provide feedback on how to improve <br/>
                                                             </div>
                                                             <br>
-                                                            <br>
-                                                            <div class="row">
-                                                                <div class="column-1_3">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
-                                                                </div>
-                                                                <div class="column-1_3">
-                                                                    <div class="margin_top_small margin_bottom_small">1</div>
-                                                                </div>
-                                                                <div class="column-1_3">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
+                                                            <div class="row aligncenter">
+                                                                <div class="column-1_2">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white;">Add to Cart</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -579,7 +515,7 @@
                                     </div>
 									
 									<div class="aligncenter">
-									<h3>NBDE (USA) / NBDE (CANADA)</h3>
+									<h3>NBDE (USA) / NDEB (CANADA)</h3>
 									</div>
 									
 									<br/><br/>
@@ -617,16 +553,9 @@
                                                                 Outline of Preparation <br/>
                                                                 Exam Contents
                                                             </div>
-                                                            <br>
-                                                            <div class="row">
-                                                                <div class="column-1_3 column">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
-                                                                </div>
-                                                                <div class="column-1_3">
-                                                                    <div class="margin_top_small margin_bottom_small">1</div>
-                                                                </div>
-                                                                <div class="column-1_3">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
+                                                            <div class="row aligncenter">
+                                                                <div class="column-1_2">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Add to Cart</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -646,7 +575,6 @@
                                                             <p style="display: inline">Dr. Akshari Anchan</p>
                                                             <br>
                                                             <h5 class="more-details"><a id="flip11">Click for more details&nbsp;&#8659;</a></h5>
-                                                            <br>
                                                             <div id="panel11" class="hide_display">
                                                                 All basic sciences covered in brief overview for exam <br/>
                                                                 2 days Anatomy <br/>
@@ -658,15 +586,9 @@
                                                                 1 day Revision <br/>
                                                             </div>
                                                             <br>
-                                                            <div class="row">
-                                                                <div class="column-1_3">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
-                                                                </div>
-                                                                <div class="column-1_3">
-                                                                    <div class="margin_top_small margin_bottom_small">1</div>
-                                                                </div>
-                                                                <div class="column-1_3">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
+                                                            <div class="row aligncenter">
+                                                                <div class="column-1_2">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Add to Cart</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -701,16 +623,9 @@
                                                                 1 Day Ethics <br/>
                                                                 1 Day Revision
                                                             </div>
-                                                            <br>
-                                                            <div class="row">
-                                                                <div class="column-1_3">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
-                                                                </div>
-                                                                <div class="column-1_3">
-                                                                    <div class="margin_top_small margin_bottom_small">1</div>
-                                                                </div>
-                                                                <div class="column-1_3">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
+                                                            <div class="row aligncenter">
+                                                                <div class="column-1_2">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 10px">Add to Cart</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -742,16 +657,9 @@
                                                                 4 Days Pathology <br/>
                                                                 Revision
                                                             </div>
-                                                            <br>
-                                                            <div class="row">
-                                                                <div class="column-1_3">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
-                                                                </div>
-                                                                <div class="column-1_3">
-                                                                    <div class="margin_top_small margin_bottom_small">1</div>
-                                                                </div>
-                                                                <div class="column-1_3">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
+                                                            <div class="row aligncenter">
+                                                                <div class="column-1_2">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Add to Cart</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -785,16 +693,9 @@
                                                                 2 Days Ethics <br/>
                                                                 4 Days Revision
                                                             </div>
-                                                            <br>
-                                                            <div class="row">
-                                                                <div class="column-1_3">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">-</a>
-                                                                </div>
-                                                                <div class="column-1_3">
-                                                                    <div class="margin_top_small margin_bottom_small">1</div>
-                                                                </div>
-                                                                <div class="column-1_3">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large">+</a>
+                                                            <div class="row aligncenter">
+                                                                <div class="column-1_2">
+                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Add to Cart</a>
                                                                 </div>
                                                             </div>
                                                         </div>
