@@ -25,7 +25,13 @@
     <link rel='stylesheet' href='css/custom.css' type='text/css' media='all' />
     <link rel='stylesheet' href='css/core.messages.css' type='text/css' media='all' />
     <link rel='stylesheet' href='js/vendor/swiper/swiper.min.css' type='text/css' media='all' />
-	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+    <!-- Sweet Alert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 	<script>
 	$(document).ready(function(){
@@ -99,7 +105,17 @@
             $("#panel14").slideToggle();
         });
     });
-	</script>
+
+    function onAddCartClicked(id)   {
+        $('#' + id + '_1').hide();
+        $('#' + id + '_2').show();
+    }
+
+    function onRemoveCartClicked(id)    {
+        $('#' + id + '_2').hide();
+        $('#' + id + '_1').show();
+    }
+    </script>
 </head>
 
 <body id="home" class="indexp home page body_style_wide body_filled article_style_stretch scheme_original top_panel_show top_panel_above sidebar_hide sidebar_outer_hide vc_responsive">
@@ -259,7 +275,8 @@
                                                             </div>
                                                             <div class="row aligncenter">
                                                                 <div class="column-1_2">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 23px">Add to Cart</a>
+                                                                    <a id="1_1" onclick="onAddCartClicked('1');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 23px">Add to Cart</a>
+                                                                    <a id="1_2" onclick="onRemoveCartClicked('1');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 23px; display: none; background-color: #21438C">Added</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -293,7 +310,8 @@
                                                             <br>
                                                             <div class="row aligncenter">
                                                                 <div class="column-1_2">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Add to Cart</a>
+                                                                    <a id="2_1" onclick="onAddCartClicked('2');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Add to Cart</a>
+                                                                    <a id="2_2" onclick="onRemoveCartClicked('2');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; display: none; background-color: #21438C">Added</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -325,7 +343,8 @@
                                                             </div>
                                                             <div class="row aligncenter">
                                                                 <div class="column-1_2">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 23px">Add to Cart</a>
+                                                                    <a id="3_1" onclick="onAddCartClicked('3');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 23px">Add to Cart</a>
+                                                                    <a id="3_2" onclick="onRemoveCartClicked('3');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 23px; display: none; background-color: #21438C">Added</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -356,7 +375,8 @@
                                                             </div>
                                                             <div class="row aligncenter">
                                                                 <div class="column-1_2">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 20px">Add to Cart</a>
+                                                                    <a id="4_1" onclick="onAddCartClicked('4');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 20px">Add to Cart</a>
+                                                                    <a id="4_2" onclick="onRemoveCartClicked('4');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 20px; display: none; background-color: #21438C">Added</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -386,7 +406,8 @@
                                                             </div>
                                                             <div class="row aligncenter">
                                                                 <div class="column-1_2">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 20px">Add to Cart</a>
+                                                                    <a id="5_1" onclick="onAddCartClicked('5');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 20px">Add to Cart</a>
+                                                                    <a id="5_2" onclick="onRemoveCartClicked('5');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 20px; display: none; background-color: #21438C">Added</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -414,7 +435,8 @@
                                                             </div>
                                                             <div class="row aligncenter">
                                                                 <div class="column-1_2">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 20px">Add to Cart</a>
+                                                                    <a id="6_1" onclick="onAddCartClicked('6');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 20px">Add to Cart</a>
+                                                                    <a id="6_2" onclick="onRemoveCartClicked('6');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 20px; display: none; background-color: #21438C">Added</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -444,7 +466,8 @@
                                                             </div>
                                                             <div class="row aligncenter">
                                                                 <div class="column-1_2">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 12px">Add to Cart</a>
+                                                                    <a id="7_1" onclick="onAddCartClicked('7');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 12px">Add to Cart</a>
+                                                                    <a id="7_2" onclick="onRemoveCartClicked('7');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 12px; display: none; background-color: #21438C">Added</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -474,7 +497,8 @@
                                                             </div>
                                                             <div class="row aligncenter">
                                                                 <div class="column-1_2">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Add to Cart</a>
+                                                                    <a id="8_1" onclick="onAddCartClicked('8');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Add to Cart</a>
+                                                                    <a id="8_2" onclick="onRemoveCartClicked('8');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; display: none; background-color: #21438C">Added</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -504,7 +528,8 @@
                                                             <br>
                                                             <div class="row aligncenter">
                                                                 <div class="column-1_2">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white;">Add to Cart</a>
+                                                                    <a id="9_1" onclick="onAddCartClicked('9');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white;">Add to Cart</a>
+                                                                    <a id="9_2" onclick="onRemoveCartClicked('9');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; display: none; background-color: #21438C">Added</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -555,7 +580,8 @@
                                                             </div>
                                                             <div class="row aligncenter">
                                                                 <div class="column-1_2">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Add to Cart</a>
+                                                                    <a id="10_1" onclick="onAddCartClicked('10');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Add to Cart</a>
+                                                                    <a id="10_2" onclick="onRemoveCartClicked('10');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; display: none; background-color: #21438C">Added</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -588,7 +614,8 @@
                                                             <br>
                                                             <div class="row aligncenter">
                                                                 <div class="column-1_2">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Add to Cart</a>
+                                                                    <a id="11_1" onclick="onAddCartClicked('11');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Add to Cart</a>
+                                                                    <a id="11_2" onclick="onRemoveCartClicked('11');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; display: none; background-color: #21438C">Added</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -625,7 +652,8 @@
                                                             </div>
                                                             <div class="row aligncenter">
                                                                 <div class="column-1_2">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 10px">Add to Cart</a>
+                                                                    <a id="12_1" onclick="onAddCartClicked('12');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 10px">Add to Cart</a>
+                                                                    <a id="12_2" onclick="onRemoveCartClicked('12');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 10px; display: none; background-color: #21438C">Added</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -659,7 +687,8 @@
                                                             </div>
                                                             <div class="row aligncenter">
                                                                 <div class="column-1_2">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Add to Cart</a>
+                                                                    <a id="13_1" onclick="onAddCartClicked('13');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Add to Cart</a>
+                                                                    <a id="13_2" onclick="onRemoveCartClicked('13');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; display: none; background-color: #21438C">Added</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -695,7 +724,8 @@
                                                             </div>
                                                             <div class="row aligncenter">
                                                                 <div class="column-1_2">
-                                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Add to Cart</a>
+                                                                    <a id="14_1" onclick="onAddCartClicked('14');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Add to Cart</a>
+                                                                    <a id="14_2" onclick="onRemoveCartClicked('14');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; display: none; background-color: #21438C">Added</a>
                                                                 </div>
                                                             </div>
                                                         </div>
