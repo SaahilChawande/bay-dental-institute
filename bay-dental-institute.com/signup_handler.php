@@ -58,7 +58,7 @@ if(mysqli_num_rows($result) > 0)    {
 
 $query = "insert into `client` values ('". $username ."', '" . $password_1 . "', '" . $email . "', '" . $address . "', '" . $mobile . "');";
 if(mysqli_query($conn, $query))    {
-    send_success('Registration Successful');
+    send_success('Registration Successful!');
 }   else {
     send_error('There was an error while signing up.');
 }
