@@ -295,6 +295,19 @@
                                 </div>
                             </div>
                         </section>
+						<section class="post_content">
+                            <div class="vc_row wpb_row vc_row-fluid">
+                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                    <div class="vc_column-inner ">
+                                        <div class="wpb_wrapper">
+										
+											<div id="instafeed">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+                        </section>
                     </article>
                     <section class="related_wrap related_wrap_empty"></section>
                 </div>
@@ -355,6 +368,9 @@
 <div class="custom_html_section"></div>
 
 
+<script type="text/javascript" src="js/custom/instafeed.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/custom/insta.js"></script>
 <script type='text/javascript' src='js/vendor/jquery/jquery.js'></script>
 <script type='text/javascript' src='js/vendor/jquery/jquery-migrate.min.js'></script>
 <script type='text/javascript' src='js/custom/custom.js'></script>
