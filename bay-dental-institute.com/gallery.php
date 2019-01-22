@@ -23,6 +23,84 @@
     <link rel='stylesheet' href='css/custom.css' type='text/css' media='all' />
     <link rel='stylesheet' href='css/core.messages.css' type='text/css' media='all' />
     <link rel='stylesheet' href='js/vendor/esg/lightbox.css' type='text/css' media='all' />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" />
+	<link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+	<style>
+	
+		.img-featured-container {
+		  overflow: hidden;
+		  position: relative;
+		  
+		}
+
+		.img-featured-container img {
+		  width: 100%;
+		 padding: 10px; 
+		}
+
+		.img-featured-container .img-backdrop {
+		  background: linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+		  margin: 0;
+		  padding: 0;
+		  width: 100%;
+		  height: 100%;
+		  position: absolute;
+		  z-index: 1;
+		  opacity: 0;
+		  transition: all 0.3s ease;
+		}
+
+		.img-featured-container:hover > .img-backdrop {
+		  opacity: 1;
+		}
+		.img-featured-container .description-container {
+		  color: #fff;
+		  font-size: 16px;
+		  line-height: 1.2;
+		  padding: 0 30px;
+		  text-align: center;
+		  line-height: 20px;
+		  width: 100%;
+		  position: absolute;
+		  top: 50%;
+		  left: 50%;
+		  transform: translate(-50%, -50%);
+		  transform-style: preserve-3d;
+		  z-index: 2;
+		  opacity: 0;
+		  transition: all .2s ease;
+		}
+
+		.img-featured-container .description-container .fa-instagram {
+		  font-size: 40px;
+		}
+
+		.img-featured-container .description-container p {
+		  font-weight: 300;
+		  margin-bottom: 0;
+		}
+
+		.img-featured-container:hover .description-container {
+		  opacity: 1;
+		}
+
+		.img-featured-container .description-container .caption {
+		  display: none;
+		  margin-bottom: 10px;
+		}
+
+		.img-featured-container .description-container .likes,
+		.img-featured-container .description-container .comments {
+		  margin: 0 5px;
+		}
+		@media screen and (min-width:768px) {
+		  .img-featured-container .description-container .caption {
+			display: block;
+		  }
+		}
+	</style>
+	
 </head>
 
 <body class="page body_style_wide body_filled article_style_stretch scheme_original top_panel_show top_panel_above sidebar_hide sidebar_outer_hide vc_responsive">
@@ -301,8 +379,24 @@
                                     <div class="vc_column-inner ">
                                         <div class="wpb_wrapper">
 										
-											<div id="instafeed">
+											<div id="instafeed-gallery-feed" class="gallery row no-gutter">
+  
+												<div class="col-xs-12 col-sm-4">
+													<a href="https://www.instagram.com/baydentalmumbai/"><img src="images/logo-fixed.png" style="margin:0;padding-left:50px;" class="img-responsive"></a>
+													<a href="{{image}}" data-caption="{{model.user.username}}, {{likes}} likes">
+														<div class="img-featured-container">
+															<div class="img-backdrop"></div>
+															<div class="description-container">
+																
+															</div>
+														</div>
+													</a>
+												</div> 
+
 											</div>
+
+										<button id="btn-instafeed-load" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large aligncenter">Load more</button>
+
 										</div>
 									</div>
 								</div>
@@ -366,10 +460,10 @@
 
 <a href="#" class="scroll_to_top icon-up" title="Scroll to top"></a>
 <div class="custom_html_section"></div>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/instafeed.js/1.4.1/instafeed.min.js"></script>
 
 <script type="text/javascript" src="js/custom/instafeed.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript" src="js/custom/insta.js"></script>
 <script type='text/javascript' src='js/vendor/jquery/jquery.js'></script>
 <script type='text/javascript' src='js/vendor/jquery/jquery-migrate.min.js'></script>
