@@ -110,17 +110,50 @@
         });
     });
 
-    function onAddCartClicked(id)   {
-        var session_isset = <?php
+    $(document).ready(function()    {
+        var session_isset = check_session();
+
+        if(session_isset === '1')   {
+            var username = "<?= isset($_SESSION['username']) ? $_SESSION['username'] : ''; ?>";
+            var data_array = {"username": username};
+            var data = JSON.parse(JSON.stringify(data_array));
+            $.ajax({
+                type: "POST",
+                url: "get-cart.php",
+                data: data,
+                dataType: "json"
+            }).done(function(data)  {
+                if(data.status == "ok") {
+                    for(var i = 0; i < data.message.length; i++)    {
+                        $('#' + data.message[i].course_id + '_1').hide();
+                        $('#' + data.message[i].course_id + '_2').show();
+                    }
+                }
+                else if(data.status == "error") {
+                    swal("Error", data.message, "error");
+                }
+            }).fail(function(xhr, status, error)    {
+                swal("Unable to connect. Please try again.");
+            });
+        }
+    });
+
+    function check_session()    {
+        return '<?php
             if(isset($_SESSION['username']))
                 echo '1';
             else
                 echo '0';
-        ?>;
-        var username = "<?= $_SESSION['username']; ?>";
-        var data_array = {"username": username, "course_id": id.toString() };
-        var data = JSON.parse(JSON.stringify(data_array));
-        if(session_isset === 1)   {
+        ?>';
+    }
+
+    function onAddCartClicked(id)   {
+        var session_isset = check_session();
+
+        if(session_isset === '1')   {
+            var username = "<?= isset($_SESSION['username']) ? $_SESSION['username'] : ''; ?>";
+            var data_array = {"username": username, "course_id": id.toString() };
+            var data = JSON.parse(JSON.stringify(data_array));
             $.ajax({
                 type: "POST",
                 url: "add-to-cart-handler.php",
@@ -149,8 +182,37 @@
     }
 
     function onRemoveCartClicked(id)    {
-        $('#' + id + '_2').hide();
-        $('#' + id + '_1').show();
+        var session_isset = check_session();
+
+        if(session_isset === '1')   {
+            var username = "<?= isset($_SESSION['username']) ? $_SESSION['username'] : ''; ?>";
+            var data_array = {"username": username, "course_id": id.toString() };
+            var data = JSON.parse(JSON.stringify(data_array));
+            $.ajax({
+                type: "POST",
+                url: "remove-from-cart-handler.php",
+                data: data,
+                dataType: "json"
+            }).done(function(data)  {
+                if(data.status == "ok") {
+                    $('#' + id + '_2').hide();
+                    $('#' + id + '_1').show();
+                }
+                else if(data.status == "error") {
+                    swal("Error", data.message, "error");
+                }
+            }).fail(function(xhr, status, error)    {
+                swal("Unable to connect. Please try again.");
+            });
+        }
+        else    {
+            swal({
+                title: "Please login / signup to continue",
+                type: "error"
+            }).then(function()  {
+                window.location.href = "login.php";
+            });
+        }
     }
     </script>
 </head>
