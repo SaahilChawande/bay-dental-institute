@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 20, 2019 at 09:32 AM
+-- Generation Time: Jan 23, 2019 at 06:20 PM
 -- Server version: 10.1.30-MariaDB
 -- PHP Version: 7.2.2
 
@@ -21,6 +21,27 @@ SET time_zone = "+00:00";
 --
 -- Database: `baydentalinstitute`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `cart`
+--
+
+CREATE TABLE `cart` (
+  `username` varchar(64) NOT NULL,
+  `course_id` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `cart`
+--
+
+INSERT INTO `cart` (`username`, `course_id`) VALUES
+('niveditalodha', 2),
+('niveditalodha', 3),
+('saahilchawande', 1),
+('saahilchawande', 14);
 
 -- --------------------------------------------------------
 
@@ -44,7 +65,8 @@ INSERT INTO `client` (`username`, `password`, `email`, `address`, `mobileNo`) VA
 ('saahilchawande', 'saahil@123', 'chawandesaahil600@gmail.com', 'B wing', '9892617671'),
 ('anilchawande', 'anil@123', 'anilchawande@gmail.com', '12345678', ''),
 ('nvlodha', 'nivi@123', 'nivi@gail.com', '123456', ''),
-('ronakmanglani', 'ronak@123', 'rabc@gmail.com', '1234', '');
+('ronakmanglani', 'ronak@123', 'rabc@gmail.com', '1234', ''),
+('niveditalodha', 'nivi@123', 'nivi@gmail.com', '1234567', '1234567890');
 
 -- --------------------------------------------------------
 
@@ -84,6 +106,12 @@ INSERT INTO `courses` (`course_id`, `course_name`, `course_duration`, `course_co
 --
 -- Indexes for dumped tables
 --
+
+--
+-- Indexes for table `cart`
+--
+ALTER TABLE `cart`
+  ADD PRIMARY KEY (`username`,`course_id`);
 
 --
 -- Indexes for table `client`
