@@ -25,6 +25,15 @@
     <link rel='stylesheet' href='css/custom.css' type='text/css' media='all' />
     <link rel='stylesheet' href='css/core.messages.css' type='text/css' media='all' />
     <link rel='stylesheet' href='js/vendor/swiper/swiper.min.css' type='text/css' media='all' />
+	<style>
+		.float{
+			position:absolute;
+			height:60px;
+			padding:10px;
+			right:0px;
+			text-align:center;
+		}
+	</style>
 </head>
 
 <body id="home" class="indexp home page body_style_wide body_filled article_style_stretch scheme_original top_panel_show top_panel_above sidebar_hide sidebar_outer_hide vc_responsive">
@@ -134,7 +143,9 @@
                 </div>
             </div>
         </div>
-
+		<a href="book-a-course.php" class="float">
+			<button>Book this Course</button>
+			</a>
         <div class="page_content_wrap page_paddings_yes dark-background">
             <div class="content_wrap">
                 <div class="content">
