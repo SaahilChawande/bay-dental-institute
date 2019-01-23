@@ -6913,9 +6913,13 @@ h1 .wpb_text_column p, h2 .wpb_text_column p, h3 .wpb_text_column p, h4 .wpb_tex
 	display: none;
 }
 
-@media (max-width: 639px)
-@media (max-width: 479px)
-.center-button	{
-	padding: 1em 0em;
+.course-border	{
+	border: 1px solid white;
 }
+
+.remove-cart-button	{
+	width: 100%; 
+	color: white; 
+	background-color: #B30000;
+	border-radius: 3px;
 }

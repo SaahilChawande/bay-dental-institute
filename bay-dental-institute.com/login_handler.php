@@ -43,6 +43,8 @@ if($username == "" and $password == "") {
 $query = "select * from `client` where `username` = '" . $username . "' and `password` = '" . $password . "';";
 $result = mysqli_query($conn, $query);
 if(mysqli_num_rows($result) > 0)    {
+    session_start();
+    $_SESSION['username'] = $username;
     send_success('Login Successful');
 
     // Resume here

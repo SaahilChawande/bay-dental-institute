@@ -133,13 +133,13 @@
                                         <li class="menu-item"><a href="botox-and-lip-fillers.php"><span>Facial Aesthetics: Botox &amp; Lip Fillers</span></a></li>
                                         <li class="menu-item"><a href="dental-assistant-training.php"><span>Dental Assistant Training</span></a></li>
                                         <li class="menu-item"><a href="javascript:void(0)"><span>Social Media Marketing for Dentists</span></a></li>
-                                        <li class="menu-item"><a href="endodontics.php"<span>Endotontics</span></a></li>
+                                        <li class="menu-item"><a href="endodontics.php"><span>Endotontics</span></a></li>
                                     </ul>
                                 </li>
                                 <li class="menu-item"><a href="javascript:void(0)">Gallery</a></li>
                                 <li class="menu-item"><a href="javascript:void(0)">Faculty</a></li>
                                 <li class="menu-item"><a href="javascript:void(0)">Store</a></li>
-                                <li class="menu-item current-menu-item"><a href="javascript:void(0)">Book a course</a></li>
+                                <li class="menu-item current-menu-item"><a href="book-a-course.php">Book a course</a></li>
                                 <li class="menu-item menu-item-has-children"><a href="#"><span>Contact &nbsp;&#8659;</span></a>
                                     <ul class="sub-menu">
                                         <li class="menu-item"><a href="javascript:void(0)"><span>Testimonials</span></a></li>
@@ -181,13 +181,13 @@
                                     <li class="menu-item"><a href="botox-and-lip-fillers.php"><span>Facial Aesthetics: Botox &amp; Lip Fillers</span></a></li>
                                     <li class="menu-item"><a href="dental-assistant-training.php"><span>Dental Assistant Training</span></a></li>
                                     <li class="menu-item"><a href="javascript:void(0)"><span>Social Media Marketing for Dentists</span></a></li>
-                                    <li class="menu-item"><a href="endodontics.php"<span>Endotontics</span></a></li>
+                                    <li class="menu-item"><a href="endodontics.php"><span>Endotontics</span></a></li>
                                 </ul>
                             </li>
                             <li class="menu-item"><a href="javascript:void(0)">Gallery</a></li>
                             <li class="menu-item"><a href="javascript:void(0)">Faculty</a></li>
                             <li class="menu-item"><a href="javascript:void(0)">Store</a></li>
-                            <li class="menu-item current-menu-item"><a href="javascript:void(0)">Book a course</a></li>
+                            <li class="menu-item current-menu-item"><a href="book-a-course.php">Book a course</a></li>
                             <li class="menu-item menu-item-has-children"><a href="javascript:void(0)"><span>Contact</span></a>
                                 <ul class="sub-menu">
                                     <li class="menu-item"><a href="javascript:void(0)"><span>Testimonials</span></a></li>

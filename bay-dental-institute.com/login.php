@@ -43,7 +43,13 @@
                 dataType: "json"
             }).done(function(data)  {
                 if(data.status == "ok") {
-                    swal("Login Successful", data.message, "success");
+                    swal({
+                        title: "Login Successful", 
+                        text: data.message, 
+                        type: "success"
+                    }).then(function()  {
+                        window.location.href = "book-a-course.php";
+                    });
                 }
                 else if(data.status == "error") {
                     swal("Error", data.message, "error");

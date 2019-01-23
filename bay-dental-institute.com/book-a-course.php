@@ -1,8 +1,11 @@
+<?php
+    ob_start();
+    session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en-US" class="scheme_original">
 
-
-<!-- Mirrored from dentario-html.themerex.net/shortcodes.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 21 Nov 2018 12:16:52 GMT -->
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -34,6 +37,7 @@
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 	<script>
+    
 	$(document).ready(function(){
         $("#flip1").click(function(){
             $("#panel1").slideToggle();
@@ -107,8 +111,41 @@
     });
 
     function onAddCartClicked(id)   {
-        $('#' + id + '_1').hide();
-        $('#' + id + '_2').show();
+        var session_isset = <?php
+            if(isset($_SESSION['username']))
+                echo '1';
+            else
+                echo '0';
+        ?>;
+        var username = "<?= $_SESSION['username']; ?>";
+        var data_array = {"username": username, "course_id": id.toString() };
+        var data = JSON.parse(JSON.stringify(data_array));
+        if(session_isset === 1)   {
+            $.ajax({
+                type: "POST",
+                url: "add-to-cart-handler.php",
+                data: data,
+                dataType: "json"
+            }).done(function(data)  {
+                if(data.status == "ok") {
+                    $('#' + id + '_1').hide();
+                    $('#' + id + '_2').show();
+                }
+                else if(data.status == "error") {
+                    swal("Error", data.message, "error");
+                }
+            }).fail(function(xhr, status, error)    {
+                swal("Unable to connect. Please try again.");
+            });
+        }
+        else    {
+            swal({
+                title: "Please login / signup to continue",
+                type: "error"
+            }).then(function()  {
+                window.location.href = "login.php";
+            });
+        }
     }
 
     function onRemoveCartClicked(id)    {
@@ -147,7 +184,7 @@
                                         <li class="menu-item"><a href="botox-and-lip-fillers.php"><span>Facial Aesthetics: Botox &amp; Lip Fillers</span></a></li>
                                         <li class="menu-item"><a href="dental-assistant-training.php"><span>Dental Assistant Training</span></a></li>
                                         <li class="menu-item"><a href="javascript:void(0)"><span>Social Media Marketing for Dentists</span></a></li>
-                                        <li class="menu-item"><a href="endodontics.php"<>span>Endotontics</span></a></li>
+                                        <li class="menu-item"><a href="endodontics.php"><span>Endotontics</span></a></li>
                                     </ul>
                                 </li>
                                 <li class="menu-item"><a href="gallery.php">Gallery</a></li>
@@ -241,7 +278,15 @@
                                                 <div class="column-1_1 sc_column_item">
                                                     <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large alignright" style="padding: 1em 1.25em">Book Now</a>
 													
-                                                    <a href="login.php" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large alignright" style="padding: 1em 1.25em">Login</a>
+                                                    <?php 
+                                                        if(isset($_SESSION['username']))    {
+                                                            echo '<a href="logout.php" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large alignright" style="padding: 1em 1.25em">Logout</a>';
+                                                        }
+                                                        else    {
+                                                            echo '<a href="login.php" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large alignright" style="padding: 1em 1.25em">Login</a>';
+                                                        }
+                                                    ?>
+                                                    
                                                 </div>
 												<div class="aligncenter">
 												<h3>ORE/LDS-UK</h3>
@@ -250,7 +295,7 @@
 												<br/>
                                                 <div class="row">
                                                     <div class="column-1_3 sc_column_item">
-                                                        <div class="aligncenter">
+                                                        <div class="aligncenter course-border">
                                                             <h5 style="display: inline">Course Name : </h5>
                                                             <p style="display: inline; ">ORE / LDS Orientation and Introduction</p>
                                                             <br><br>
@@ -276,13 +321,13 @@
                                                             <div class="row aligncenter">
                                                                 <div class="column-1_2">
                                                                     <a id="1_1" onclick="onAddCartClicked('1');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 23px">Add to Cart</a>
-                                                                    <a id="1_2" onclick="onRemoveCartClicked('1');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 23px; display: none; background-color: #21438C">Added</a>
+                                                                    <a id="1_2" onclick="onRemoveCartClicked('1');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="display: none; color: white; margin-top: 23px">Remove from Cart</a>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="column-1_3 sc_column_item">
-                                                        <div class="aligncenter">
+                                                        <div class="aligncenter course-border">
                                                             <h5 style="display: inline">Course Name : </h5>
                                                             <p style="display: inline;">Part I - Theory Exam Coaching</p>
                                                             <br><br>
@@ -311,13 +356,13 @@
                                                             <div class="row aligncenter">
                                                                 <div class="column-1_2">
                                                                     <a id="2_1" onclick="onAddCartClicked('2');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Add to Cart</a>
-                                                                    <a id="2_2" onclick="onRemoveCartClicked('2');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; display: none; background-color: #21438C">Added</a>
+                                                                    <a id="2_2" onclick="onRemoveCartClicked('2');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="color: white; display: none">Remove from Cart</a>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="column-1_3 sc_column_item">
-                                                        <div class="aligncenter">
+                                                        <div class="aligncenter course-border">
                                                             <h5 style="display: inline">Course Name : </h5>
                                                             <p style="display: inline">Part II - Comprehensive Coaching</p>
                                                             <br><br>
@@ -344,7 +389,7 @@
                                                             <div class="row aligncenter">
                                                                 <div class="column-1_2">
                                                                     <a id="3_1" onclick="onAddCartClicked('3');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 23px">Add to Cart</a>
-                                                                    <a id="3_2" onclick="onRemoveCartClicked('3');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 23px; display: none; background-color: #21438C">Added</a>
+                                                                    <a id="3_2" onclick="onRemoveCartClicked('3');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="color: white; margin-top: 23px; display: none">Remove from Cart</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -353,7 +398,7 @@
                                                 <br>
 												<div class="row">
                                                     <div class="column-1_3 sc_column_item">
-                                                        <div class="aligncenter">
+                                                        <div class="aligncenter course-border">
                                                             <h5 style="display: inline">Course Name : </h5>
                                                             <p style="display: inline">Part II - 2 Day Revision Course</p>
                                                             <br><br>
@@ -376,13 +421,13 @@
                                                             <div class="row aligncenter">
                                                                 <div class="column-1_2">
                                                                     <a id="4_1" onclick="onAddCartClicked('4');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 20px">Add to Cart</a>
-                                                                    <a id="4_2" onclick="onRemoveCartClicked('4');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 20px; display: none; background-color: #21438C">Added</a>
+                                                                    <a id="4_2" onclick="onRemoveCartClicked('4');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="color: white; margin-top: 20px; display: none">Remove from Cart</a>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="column-1_3 sc_column_item">
-                                                        <div class="aligncenter">
+                                                        <div class="aligncenter course-border">
                                                             <h5 style="display: inline">Course Name : </h5>
                                                             <p style="display: inline">1 Day OSCE Mock Exam</p>
                                                             <br><br>
@@ -407,13 +452,13 @@
                                                             <div class="row aligncenter">
                                                                 <div class="column-1_2">
                                                                     <a id="5_1" onclick="onAddCartClicked('5');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 20px">Add to Cart</a>
-                                                                    <a id="5_2" onclick="onRemoveCartClicked('5');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 20px; display: none; background-color: #21438C">Added</a>
+                                                                    <a id="5_2" onclick="onRemoveCartClicked('5');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="color: white; margin-top: 20px; display: none">Remove from Cart</a>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="column-1_3 sc_column_item">
-                                                        <div class="aligncenter">
+                                                        <div class="aligncenter course-border">
                                                             <h5 style="display: inline">Course Name : </h5>
                                                             <p style="display: inline">1 Day Manikin Mock Exam</p>
                                                             <br><br>
@@ -436,7 +481,7 @@
                                                             <div class="row aligncenter">
                                                                 <div class="column-1_2">
                                                                     <a id="6_1" onclick="onAddCartClicked('6');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 20px">Add to Cart</a>
-                                                                    <a id="6_2" onclick="onRemoveCartClicked('6');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 20px; display: none; background-color: #21438C">Added</a>
+                                                                    <a id="6_2" onclick="onRemoveCartClicked('6');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="color: white; margin-top: 20px; display: none">Remove from Cart</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -444,7 +489,7 @@
                                                 </div>
                                                 <div class="row">
                                                     <div class="column-1_3 sc_column_item">
-                                                        <div class="aligncenter">
+                                                        <div class="aligncenter course-border">
                                                             <h5 style="display: inline">Course Name : </h5>
                                                             <p style="display: inline">1 Day ME + DTP MOCK Exam </p>
                                                             <br><br>
@@ -467,13 +512,13 @@
                                                             <div class="row aligncenter">
                                                                 <div class="column-1_2">
                                                                     <a id="7_1" onclick="onAddCartClicked('7');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 12px">Add to Cart</a>
-                                                                    <a id="7_2" onclick="onRemoveCartClicked('7');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 12px; display: none; background-color: #21438C">Added</a>
+                                                                    <a id="7_2" onclick="onRemoveCartClicked('7');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="color: white; margin-top: 12px; display: none">Remove from Cart</a>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="column-1_3 sc_column_item">
-                                                        <div class="aligncenter">
+                                                        <div class="aligncenter course-border">
                                                             <h5 style="display: inline">Course Name : </h5>
                                                             <p style="display: inline">ORE / LDS PART II Complete Mock </p>
                                                             <br><br>
@@ -498,13 +543,13 @@
                                                             <div class="row aligncenter">
                                                                 <div class="column-1_2">
                                                                     <a id="8_1" onclick="onAddCartClicked('8');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Add to Cart</a>
-                                                                    <a id="8_2" onclick="onRemoveCartClicked('8');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; display: none; background-color: #21438C">Added</a>
+                                                                    <a id="8_2" onclick="onRemoveCartClicked('8');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="color: white; display: none">Remove from Cart</a>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="column-1_3 sc_column_item">
-                                                        <div class="aligncenter">
+                                                        <div class="aligncenter course-border">
                                                             <h5 style="display: inline">Course Name : </h5>
                                                             <p style="display: inline">1 Day Manikin Revision</p>
                                                             <br><br>
@@ -529,7 +574,7 @@
                                                             <div class="row aligncenter">
                                                                 <div class="column-1_2">
                                                                     <a id="9_1" onclick="onAddCartClicked('9');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white;">Add to Cart</a>
-                                                                    <a id="9_2" onclick="onRemoveCartClicked('9');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; display: none; background-color: #21438C">Added</a>
+                                                                    <a id="9_2" onclick="onRemoveCartClicked('9');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="color: white; display: none;">Remove from Cart</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -550,7 +595,7 @@
                                             <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_2 margin_bottom_huge">
                                                 <div class="row">
                                                     <div class="column-1_3 sc_column_item">
-                                                        <div class="aligncenter">
+                                                        <div class="aligncenter course-border">
                                                             <h5 style="display: inline">Course Name : </h5>
                                                             <p style="display: inline">Orentation & Introduction </p>
                                                             <br><br>
@@ -581,13 +626,13 @@
                                                             <div class="row aligncenter">
                                                                 <div class="column-1_2">
                                                                     <a id="10_1" onclick="onAddCartClicked('10');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Add to Cart</a>
-                                                                    <a id="10_2" onclick="onRemoveCartClicked('10');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; display: none; background-color: #21438C">Added</a>
+                                                                    <a id="10_2" onclick="onRemoveCartClicked('10');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="color: white; display: none">Remove from Cart</a>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="column-1_3 sc_column_item">
-                                                        <div class="aligncenter">
+                                                        <div class="aligncenter course-border">
                                                             <h5 style="display: inline">Course Name : </h5>
                                                             <p style="display: inline">NBDE / NDEB– IMPULSE PART I</p>
                                                             <br><br>
@@ -615,13 +660,13 @@
                                                             <div class="row aligncenter">
                                                                 <div class="column-1_2">
                                                                     <a id="11_1" onclick="onAddCartClicked('11');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Add to Cart</a>
-                                                                    <a id="11_2" onclick="onRemoveCartClicked('11');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; display: none; background-color: #21438C">Added</a>
+                                                                    <a id="11_2" onclick="onRemoveCartClicked('11');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="color: white; display: none">Remove from Cart</a>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="column-1_3 sc_column_item">
-                                                        <div class="aligncenter">
+                                                        <div class="aligncenter course-border">
                                                             <h5 style="display: inline">Course Name : </h5>
                                                             <p style="display: inline">NBDE / NDEB– IMPULSE <br> PART II </p>
                                                             <br><br>
@@ -653,7 +698,7 @@
                                                             <div class="row aligncenter">
                                                                 <div class="column-1_2">
                                                                     <a id="12_1" onclick="onAddCartClicked('12');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 10px">Add to Cart</a>
-                                                                    <a id="12_2" onclick="onRemoveCartClicked('12');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 10px; display: none; background-color: #21438C">Added</a>
+                                                                    <a id="12_2" onclick="onRemoveCartClicked('12');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="color: white; margin-top: 10px; display: none">Remove from Cart</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -661,7 +706,7 @@
                                                 </div>
                                                 <div class="row">
                                                     <div class="column-1_2 sc_column_item">
-                                                        <div class="aligncenter">
+                                                        <div class="aligncenter course-border">
                                                             <h5 style="display: inline">Course Name : </h5>
                                                             <p style="display: inline">NBDE / NDEB – INTENSE PART I  </p>
                                                             <br><br>
@@ -688,13 +733,13 @@
                                                             <div class="row aligncenter">
                                                                 <div class="column-1_2">
                                                                     <a id="13_1" onclick="onAddCartClicked('13');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Add to Cart</a>
-                                                                    <a id="13_2" onclick="onRemoveCartClicked('13');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; display: none; background-color: #21438C">Added</a>
+                                                                    <a id="13_2" onclick="onRemoveCartClicked('13');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="color: white; display: none">Remove from Cart</a>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="column-1_2 sc_column_item">
-                                                        <div class="aligncenter">
+                                                        <div class="aligncenter course-border">
                                                             <h5 style="display: inline">Course Name : </h5>
                                                             <p style="display: inline">NBDE / NDEB – INTENSE PART II  </p>
                                                             <br><br>
@@ -725,7 +770,7 @@
                                                             <div class="row aligncenter">
                                                                 <div class="column-1_2">
                                                                     <a id="14_1" onclick="onAddCartClicked('14');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Add to Cart</a>
-                                                                    <a id="14_2" onclick="onRemoveCartClicked('14');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; display: none; background-color: #21438C">Added</a>
+                                                                    <a id="14_2" onclick="onRemoveCartClicked('14');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="color: white; display: none">Remove from Cart</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -840,3 +885,7 @@
 
 <!-- Mirrored from dentario-html.themerex.net/shortcodes.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 21 Nov 2018 12:17:29 GMT -->
 </html>
+
+<?php 
+    ob_end_flush();
+?>
