@@ -5,7 +5,7 @@ Please, make all necessary changes in the corresponding .less-file!
 @charset "utf-8";
 
 body {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
   line-height: 1.7em;
   font-weight: 300;
@@ -29,7 +29,7 @@ body {
   background-color: #4F5B64;
 }
 h1 {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: "Open Sans", sans-serif;
   font-size: 3em;
   line-height: 1.3em;
   font-weight: 300;
@@ -37,7 +37,7 @@ h1 {
   margin-bottom: 0.5em;
 }
 h2 {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: "Open Sans", sans-serif;
   font-size: 2.5em;
   line-height: 1.3em;
   font-weight: 300;
@@ -45,7 +45,7 @@ h2 {
   margin-bottom: 0.5em;
 }
 h3 {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: "Open Sans", sans-serif;
   font-size: 2.214em;
   line-height: 1.3em;
   font-weight: 300;
@@ -53,7 +53,7 @@ h3 {
   margin-bottom: 0.4em;
 }
 h4 {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: "Open Sans", sans-serif;
   font-size: 2em;
   line-height: 1.3em;
   font-weight: 300;
@@ -61,7 +61,7 @@ h4 {
   margin-bottom: 0.9em;
 }
 h5 {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.357em;
   line-height: 1.3em;
   font-weight: 400;
@@ -69,7 +69,7 @@ h5 {
   margin-bottom: 1em;
 }
 h6 {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.214em;
   line-height: 1.3em;
   font-weight: 600;
@@ -147,7 +147,7 @@ h6 {
 }
 blockquote,
 blockquote p {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: 'Merriweather';
 }
 .scheme_original blockquote,
 .scheme_original blockquote p {
@@ -162,7 +162,7 @@ blockquote p {
   color: #ECECEC;
 }
 blockquote .sc_quote_title {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: "Open Sans", sans-serif;
 }
 blockquote:before {
   background: transparent url('../images/hex_blue.png') no-repeat;
@@ -634,7 +634,7 @@ blockquote:before {
   box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.02);
 }
 .sc_table table tr:first-child {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: "Open Sans", sans-serif;
 }
 .scheme_original .sc_table table tr:first-child {
   background-color: rgba(63,182,224,0.01);
@@ -1413,7 +1413,7 @@ textarea {
   margin-top: 3.52em;
 }
 .top_panel_style_2 .open_hours_label {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: "Open Sans", sans-serif;
   font-size: 12.992px;
   line-height: 17.99px;
 }
@@ -1448,7 +1448,7 @@ textarea {
   color: #A1AAAD;
 }
 .top_panel_style_2 .contact_phone {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: "Open Sans", sans-serif;
   font-size: 12.992px;
   line-height: 17.99px;
   text-align: right;
@@ -2829,7 +2829,7 @@ textarea {
   color: #A4ABAE;
 }
 .top_panel_title .breadcrumbs {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: "Open Sans", sans-serif;
 }
 .scheme_original .top_panel_title_inner .post_navi .post_navi_item a,
 .scheme_original .top_panel_title_inner .breadcrumbs a.breadcrumbs_item {
@@ -2935,7 +2935,7 @@ textarea {
   background-color: rgba(85,189,227,0);
 }
 .post_info {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: "Lora", serif;
   line-height: 1.2857em;
   font-style: italic;
   margin-bottom: 2.5em;
@@ -3055,7 +3055,7 @@ textarea {
   border-top-color: #4F5B64;
 }
 .post_info_bottom .post_info_tags {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: "Poppins", sans-serif;
 }
 .scheme_original .post_info_bottom .post_info_tags {
   border-bottom-color: #EDEDED;
@@ -3067,7 +3067,7 @@ textarea {
   border-bottom-color: #4F5B64;
 }
 .post_info_bottom .post_info_tags a {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: "Poppins", sans-serif;
 }
 .scheme_original .post_info_bottom .post_info_tags a {
   color: #30383B;
@@ -3106,7 +3106,7 @@ textarea {
   background-color: #A1AAAD;
 }
 .post_info_bottom .sc_socials.sc_socials_share .share_caption {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: "Poppins", sans-serif;
   cursor: pointer;
 }
 .scheme_original .post_info_bottom .sc_socials.sc_socials_share .share_caption {
@@ -3855,7 +3855,7 @@ textarea {
   border-bottom-color: #4F5B64;
 }
 .comments_list_wrap .comment_info > span.comment_author {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: "Open Sans", sans-serif;
 }
 .scheme_original .comments_list_wrap .comment_info > span.comment_author {
   color: #30383B;
@@ -3867,7 +3867,7 @@ textarea {
   color: #A1AAAD;
 }
 .comments_list_wrap .comment_info > .comment_date > .comment_date_value {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: 'Lora';
 }
 .scheme_original .comments_list_wrap .comment_info > .comment_date > .comment_date_value {
   color: #787C83;
@@ -3910,15 +3910,16 @@ textarea {
 }
 .comments_list_wrap .comment_text p,
 .comments_wrap .comments_notes {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: 'Merriweather';
 }
 .post_item_404 .page_title {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: "Open Sans", sans-serif;
 }
 .post_item_404 .page_description {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: 'Merriweather';
+}
 .post_item_404 .page_subtitle {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: 'Merriweather';
 }
 .scheme_original .post_item_404 .page_subtitle {
   color: #3FB6E0;
@@ -4238,7 +4239,8 @@ textarea {
   color: #A1AAAD;
 }
 .widget_area_inner .post_info {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: 'Merriweather';
+}
 .scheme_original .widget_area_inner .post_info {
   color: #ACB4B6;
 }
@@ -4501,7 +4503,7 @@ textarea {
   color: #ffffff;
 }
 .widget_area_inner .widget_area .widget_calendar {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: "Open Sans", sans-serif;
 }
 .scheme_original .widget_area_inner .widget_calendar .weekday {
   color: #232A34;
@@ -6570,10 +6572,10 @@ textarea {
 .booking_font_custom,
 .booking_day_container,
 .booking_calendar_container_all {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: "Poppins", sans-serif;
 }
 .booking_weekdays_custom {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: "Open Sans", sans-serif;
 }
 .scheme_original .booking_month_container_custom,
 .scheme_original .booking_month_navigation_button_custom {
@@ -6714,7 +6716,7 @@ textarea {
   border-bottom-color: #4F5B64;
 }
 .sc_accordion .sc_accordion_item .sc_accordion_title {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: "Open Sans", sans-serif;
 }
 .scheme_original .sc_accordion .sc_accordion_item .sc_accordion_title {
   border-color: #EDEDED;
@@ -6831,7 +6833,7 @@ textarea {
 }
 .mejs-container .mejs-controls .mejs-time {
   font-size: 0.93em;
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: "Poppins", sans-serif;
 }
 .scheme_original .mejs-container .mejs-controls .mejs-time {
   color: #30383B;
@@ -7162,7 +7164,7 @@ button,
   background-color: #55BDE3;
 }
 .sc_call_to_action .sc_call_to_action_descr {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: "Open Sans", sans-serif;
 }
 .scheme_original .sc_call_to_action .sc_call_to_action_descr {
   color: #232A34;
@@ -8351,7 +8353,7 @@ button,
   background-color: rgba(161,170,173,0.6);
 }
 .sc_infobox {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: "Open Sans", sans-serif;
 }
 .scheme_original .sc_infobox.sc_infobox_style_regular {
   background-color: #3FB6E0;
@@ -8531,7 +8533,7 @@ button,
   color: #ffffff;
 }
 .sc_price_block.sc_price_block_style_3 .sc_price_block_title {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: "Open Sans", sans-serif;
 }
 .scheme_original .sc_price_block.sc_price_block_style_3 .sc_price_block_title {
   color: #30383B;
@@ -8544,7 +8546,7 @@ button,
 }
 .sc_price_block .sc_price_block_description,
 .sc_price_block .sc_price_block_money {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: "Open Sans", sans-serif;
 }
 .scheme_original .sc_price_block.sc_price_block_style_3 .sc_price_block_money:after {
   background-color: rgba(120,124,131,0.5);
@@ -8556,7 +8558,7 @@ button,
   background-color: rgba(255,255,255,0.5);
 }
 .sc_price_block .sc_price_block_link .sc_button {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
 }
 .scheme_original .sc_price_block .sc_price_block_link .sc_button {
@@ -8734,13 +8736,13 @@ button,
   background-color: #333F48;
 }
 .sc_recent_news .post_item .post_title {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.357em;
   line-height: 1.3em;
   font-weight: 400;
 }
 .sc_recent_news .post_item h6.post_title {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.214em;
   line-height: 1.3em;
   font-weight: 600;
@@ -8845,7 +8847,7 @@ button,
   color: #A1AAAD;
 }
 .sc_services_style_services-1 .sc_services_item_title {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: "Open Sans", sans-serif;
 }
 .scheme_original .sc_services_style_services-1 .sc_icon {
   color: #F9A825;
@@ -9040,7 +9042,7 @@ button,
   border-color: #333F48;
 }
 .sc_skills_bar .sc_skills_info .sc_skills_label {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: "Open Sans", sans-serif;
 }
 .scheme_original .sc_skills_bar .sc_skills_info .sc_skills_label {
   color: #30383B;
@@ -9097,7 +9099,7 @@ button,
   border-color: #A1AAAD;
 }
 .sc_skills_bar.sc_skills_horizontal .sc_skills_total {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: "Open Sans", sans-serif;
 }
 .scheme_original .sc_skills_bar.sc_skills_horizontal .sc_skills_total {
   background-color: #EDEDED;
@@ -9127,7 +9129,7 @@ button,
   border-top-color: #4F5B64;
 }
 .sc_skills_legend_title {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: "Open Sans", sans-serif;
 }
 .scheme_original .sc_skills_legend_title {
   color: #30383B;
@@ -9139,7 +9141,7 @@ button,
   color: #A1AAAD;
 }
 .sc_skills_legend_value {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: "Open Sans", sans-serif;
 }
 .scheme_original .sc_skills_legend_value {
   color: #787C83;
@@ -9581,7 +9583,7 @@ button,
   box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.02);
 }
 .sc_tabs.sc_tabs_style_2 .sc_tabs_titles li a {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: "Open Sans", sans-serif;
 }
 .scheme_original .sc_tabs.sc_tabs_style_2 .sc_tabs_titles li a {
   border-color: #EDEDED;
@@ -9617,7 +9619,7 @@ button,
   color: #A1AAAD;
 }
 .sc_team_item .sc_team_item_info .sc_team_item_title a {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: "Open Sans", sans-serif;
 }
 .scheme_original .sc_team_item .sc_team_item_info .sc_team_item_title a {
   color: #c07924;
@@ -9821,7 +9823,7 @@ button,
   color: #A1AAAD;
 }
 .sc_testimonial_author_name {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: "Open Sans", sans-serif;
   font-size: 0.93em;
   font-weight: 600;
 }
@@ -9853,7 +9855,7 @@ button,
   color: #ffffff;
 }
 .sc_testimonials_style_testimonials-2 .sc_testimonial_content {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: 'Merriweather';
 }
 .scheme_original .sc_testimonials_style_testimonials-2 .sc_testimonial_author_name:before {
   color: #ACB4B6;
@@ -9889,7 +9891,7 @@ button,
   color: #A1AAAD;
 }
 .sc_testimonials_style_testimonials-4 .sc_testimonial_content p {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: 'Merriweather';
   font-size: 0.933em;
   font-style: italic;
   line-height: 1.7em;
@@ -10126,7 +10128,7 @@ button,
   color: #55BDE3;
 }
 .sc_item_descr {
-  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+  font-family: 'Merriweather';
 }
 .scheme_original .sc_item_descr {
   color: #F0FAFF;

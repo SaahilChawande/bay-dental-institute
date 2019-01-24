@@ -470,7 +470,7 @@ input[type="submit"]:hover:after, input[type="button"]:hover:after, button:hover
 	height: 28px;
 	border: 1px solid #ddd;
 	background-color: #fff;
-	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+	font-family: "fontello";
 	content: '\e82d';
 	text-align: center;
 	position: absolute;
@@ -793,7 +793,7 @@ input[type="submit"]:hover:after, input[type="button"]:hover:after, button:hover
 }
 .sc_clients_style_clients-2 .sc_client_description:before {
 	content: '\e8b6';
-	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+	font-family: 'fontello';
 	font-size:1.5em;
 	font-style:normal;
 	line-height:1.5em;
@@ -997,7 +997,7 @@ input:-webkit-autofill:active {
 .sc_form .sc_form_item .sc_form_element input[type="radio"] + label:before,
 .sc_form .sc_form_item .sc_form_element input[type="checkbox"] + label:before {
 	content:' ';
-	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+	font-family: fontello;
 	display:block;
 	text-align:center;
 	border: 1px solid #ebebeb;
@@ -1096,7 +1096,7 @@ input:-webkit-autofill:active {
 }
 .sc_form .picker__nav--prev:before,
 .sc_form .picker__nav--next:before {
-    font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+    font-family: "fontello";
     display: inline-block;
 	line-height:inherit;
 }
@@ -1304,7 +1304,7 @@ input:-webkit-autofill:active {
 }
 .sc_form_select_container:after {
 	content:'\e828';
-	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+	font-family: fontello;
 	display:block;
 	text-align:center;
 	position:absolute;
@@ -1872,7 +1872,7 @@ figure figcaption,
 }
 .sc_infobox.sc_infobox_closeable:after {
 	content: '\e8ac';
-	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+	font-family: "fontello";
 	cursor:pointer;
 	position:absolute;
 	right:1.25em;
@@ -2447,7 +2447,7 @@ ul.sc_list_style_iconed {
 	margin-left: 0.6667em;
 }
 .sc_scroll_controls_wrap a:before {
-	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+	font-family: fontello;
 }
 .sc_scroll_controls_wrap .sc_scroll_next:before {
 	content:'\e836';
@@ -2565,7 +2565,7 @@ ul.sc_list_style_iconed {
 }
 .sc_recent_news_header_category_item_more:after {
 	content: '\e828';
-	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+	font-family: 'fontello';
 	display:inline-block;
 	margin-left:0.5em;
 	-webkit-transition: all ease .3s;
@@ -2720,7 +2720,7 @@ aside .sc_recent_news .post_item.post_accented_on {
 }
 .sc_recent_news .post_counters .post_edit a:before {
 	content:'\e8bb';
-	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+	font-family: 'fontello';
 	display:inline-block;
 	margin-right:0.5em;
 }
@@ -3481,7 +3481,7 @@ body.sidebar_hide .sc_recent_news_style_news-announce .post_size_small { height:
 	margin-right: -100px;
 }
 .sc_slider_controls_wrap a:before {
-	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+	font-family: 'fontello';
 }
 .sc_slider_controls_wrap .sc_slider_next:before {
 	content:'\e901';
@@ -4049,7 +4049,7 @@ body.sidebar_hide .sc_recent_news_style_news-announce .post_size_small { height:
 }
 .sc_socials.sc_socials_share .share_caption:before {
 	content: '\e904';
-	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+	font-family: 'fontello';
 	font-size: 16px;
 	position: absolute;
 	left: 1px; top: 0;
@@ -4434,7 +4434,7 @@ body.single-team .body_style_fullscreen .page_content_wrap {
 }
 .sc_testimonials_style_testimonials-1 .sc_testimonial_content:after {
 	content: '\e8b6';
-	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+	font-family: 'fontello';
 	font-style: normal;
 	font-size: 20px;
 	position: absolute;
@@ -4504,7 +4504,7 @@ body.single-team .body_style_fullscreen .page_content_wrap {
 }
 .sc_testimonials_style_testimonials-3 .sc_testimonial_content p:first-child:before {
 	content: '\e8b6';
-	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+	font-family: 'fontello';
 	font-size:1.5em;
 	display:block;
 	position: absolute;

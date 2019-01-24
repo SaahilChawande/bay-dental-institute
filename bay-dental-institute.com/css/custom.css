@@ -242,7 +242,7 @@
 	font-size: 14px;
 	color: #888888;
 	text-align: center;
-	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+	font-family: Merriweather;
 	font-weight:300;
 	font-style:normal
 }
@@ -346,7 +346,7 @@
 	font-size: 13px;
 	color: #3fb6e0;
 	text-align: left;
-	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+	font-family: Open Sans;
 	font-weight:400;
 	font-style:italic
 }
@@ -364,7 +364,7 @@
 	font-size: 15px;
 	color: #c7c7c7;
 	text-align: center;
-	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+	font-family: Merriweather;
 	font-weight:300;
 	font-style:normal
 }
@@ -502,7 +502,7 @@
 	font-size: 13px;
 	color: #333333;
 	text-align: left;
-	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+	font-family: Open Sans;
 	font-weight:600;
 	font-style:normal
 }
@@ -512,7 +512,7 @@
 	font-size: 14px;
 	color: #f7bd5f;
 	text-align: center;
-	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+	font-family: Merriweather;
 	font-weight:300;
 	font-style:normal
 }
@@ -521,7 +521,7 @@
 	font-size: 14px;
 	color: #C3C7C9;
 	text-align: left;
-	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+	font-family: Merriweather;
 	font-weight:300;
 	font-style:normal
 }
@@ -1014,7 +1014,7 @@ img.emoji {
     -webkit-filter: grayscale(100%)
 }
 .myportfolio-container .added_to_cart.wc-forward {
-    font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+    font-family: "Open Sans";
     font-size: 13px;
     color: #fff;
     margin-top: 10px
@@ -1214,7 +1214,7 @@ img.emoji {
     -webkit-filter: grayscale(100%);
 }
 .myportfolio-container .added_to_cart.wc-forward {
-    font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+    font-family: "Open Sans";
     font-size: 13px;
     color: #fff;
     margin-top: 10px
@@ -1252,7 +1252,7 @@ img.emoji {
     -webkit-border-radius: 5px;
     font-size: 12px;
     font-weight: 700;
-    font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+    font-family: "Open Sans", sans-serif;
     display: inline-block;
     background: #fff;
     margin-bottom: 5px
@@ -1368,7 +1368,7 @@ img.emoji {
     background-color: rgba(0, 0, 0, 0.50) !important;
     z-index: 2 !important;
     display: block;
-    font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+    font-family: "Open Sans" !important;
     border-top-width: 0px !important;
     border-right-width: 0px !important;
     border-bottom-width: 0px !important;
@@ -1659,7 +1659,8 @@ img.emoji {
 }
 
 .myportfolio-container .added_to_cart.wc-forward {
-	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+	font-family: "Open Sans";
+	font-size: 13px;
 	color: #fff;
 	margin-top: 10px
 }
@@ -1890,7 +1891,7 @@ img.emoji {
 }
 
 .myportfolio-container .added_to_cart.wc-forward {
-	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+	font-family: "Open Sans";
 	font-size: 13px;
 	color: #fff;
 	margin-top: 10px
@@ -1929,7 +1930,7 @@ img.emoji {
 	-webkit-border-radius: 5px;
 	font-size: 12px;
 	font-weight: 700;
-	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+	font-family:"Open Sans", sans-serif;
 	display: inline-block;
 	background: #fff;
 	margin-bottom: 5px
@@ -2056,7 +2057,7 @@ img.emoji {
 	background-color: rgba(0, 0, 0, 0.50) !important;
 	z-index: 2 !important;
 	display: block;
-	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+	font-family:"Open Sans" !important;
 	border-top-width: 0px !important;
 	border-right-width: 0px !important;
 	border-bottom-width: 0px !important;
@@ -2330,7 +2331,7 @@ img.emoji {
 }
 
 .myportfolio-container .added_to_cart.wc-forward {
-	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+	font-family: "Open Sans";
 	font-size: 13px;
 	color: #fff;
 	margin-top: 10px
@@ -2563,7 +2564,7 @@ img.emoji {
 }
 
 .myportfolio-container .added_to_cart.wc-forward {
-	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+	font-family: "Open Sans";
 	font-size: 13px;
 	color: #fff;
 	margin-top: 10px
@@ -2602,7 +2603,7 @@ img.emoji {
 	-webkit-border-radius: 5px;
 	font-size: 12px;
 	font-weight: 700;
-	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+	font-family: "Open Sans", sans-serif;
 	display: inline-block;
 	background: #fff;
 	margin-bottom: 5px
@@ -2729,7 +2730,7 @@ img.emoji {
 	background-color: rgba(0, 0, 0, 0.50) !important;
 	z-index: 2 !important;
 	display: block;
-	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
+	font-family: "Open Sans" !important;
 	border-top-width: 0px !important;
 	border-right-width: 0px !important;
 	border-bottom-width: 0px !important;
