@@ -26,10 +26,12 @@
 	<style>
 		.float{
 			position:absolute;
-			height:60px;
-			padding:10px;
-			right:0px;
 			text-align:center;
+			padding:10px;
+			margin-left:auto;
+			margin-right:auto;
+			
+
 		}
 	</style>
 </head>
@@ -141,9 +143,7 @@
                 </div>
             </div>
         </div>
-		<a href="book-a-course.php" class="float">
-			<button>Book this Course</button>
-			</a>
+		
         <div class="page_content_wrap page_paddings_yes dark-background">
             <div class="content_wrap">
                 <div class="content">
@@ -288,11 +288,17 @@
                             </div>
 
                         </section>
+						<a href="book-a-course.php" class="float">
+							<button>Book this Course</button>
+						</a>
                         <section class="related_wrap related_wrap_empty"></section>
                     </article>
+					
                 </div>
             </div>
+			
         </div>
+		
         <div class="copyright_wrap copyright_style_socials scheme_light">
             <div class="copyright_wrap_inner">
                 <div class="content_wrap_outer">
