@@ -27,11 +27,13 @@
     <link rel='stylesheet' href='js/vendor/swiper/swiper.min.css' type='text/css' media='all' />
 	<style>
 		.float{
-			position:absolute;
-			height:60px;
-			padding:10px;
-			right:0px;
+			position:fixed;
 			text-align:center;
+			padding:15px;
+			width:5%;
+			display:block;
+			bottom: 5em;
+			right: 1.5em;
 		}
 	</style>
 </head>
@@ -65,7 +67,7 @@
                                         <li class="menu-item"><a href="botox-and-lip-fillers.php"><span>Facial Aesthetics: Botox &amp; Lip Fillers</span></a></li>
                                         <li class="menu-item"><a href="dental-assistant-training.php"><span>Dental Assistant Training</span></a></li>
                                         <li class="menu-item"><a href="javascript:void(0)"><span>Social Media Marketing for Dentists</span></a></li>
-                                        <li class="menu-item"><a href="endodontics.php"><span>Endotontics</span></a></li>
+                                        <li class="menu-item"><a href="endodontics.php"><span>Endodontics</span></a></li>
                                         </ul>
                                     </li>
                                     <li class="menu-item"><a href="gallery.php">Gallery</a></li>
@@ -112,7 +114,7 @@
                                         <li class="menu-item"><a href="botox-and-lip-fillers.php"><span>Facial Aesthetics: Botox &amp; Lip Fillers</span></a></li>
                                         <li class="menu-item"><a href="dental-assistant-training.php"><span>Dental Assistant Training</span></a></li>
                                         <li class="menu-item"><a href="javascript:void(0)"><span>Social Media Marketing for Dentists</span></a></li>
-                                        <li class="menu-item"><a href="endodontics.php"><span>Endotontics</span></a></li>
+                                        <li class="menu-item"><a href="endodontics.php"><span>Endodontics</span></a></li>
                                     </ul>
                                 </li>
                                 <li class="menu-item"><a href="gallery.php">Gallery</a></li>
@@ -180,34 +182,35 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="vc_col-md-8">
 
                                     <!--Initial Para-->
                                     <div class="vc_row wpb_row vc_row-fluid">
-                                        <div class="wpb_column vc_column_container vc_col-sm-12">
-                                            <div class="vc_column-inner ">
-                                                <div class="wpb_wrapper">
-                                                    <div class="wpb_text_column wpb_content_element ">
-                                                        <div class="wpb_wrapper centext">
+										<div class="wpb_column vc_column_container vc_col-sm-12">
+											<div class="vc_column-inner ">
+												<div class="wpb_wrapper">
+													<div class="wpb_text_column wpb_content_element ">
+														<div class="wpb_wrapper centext">
                                                             <p>
                                                                 The Overseas Registration Exam ( ORE ) &amp; the License in Dental Science Exam ( LDS ) are licensings Exam conducted by the General Dental Council ( GDC ) UK and Royal college of Surgeons ( RCS ) respectively  for overseas Dentist who wish to migrate and practice in the United Kingdom as a licensed Dentist.
                                                             </p>
                                                             <p>
                                                                 It is a 2 part exam. Part I is theory based MCQ exam requiring 50% pass individually followed by part II exam which is a practical exam. Both exams are held in London many times a year. After Passing part II the candidate is eligible to register with the GDC, and seek a job as a dentist with the NHS / Private practice/ Hospital in the UK ( Britain, Ireland, Scotland, Wales )  (NOTE:- Except Dublin. )
                                                             </p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="vc_empty_space space_96p">
-                                                        <span class="vc_empty_space_inner"></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+														</div>
+													</div>
+													<div class="vc_empty_space space_50p">
+														<span class="vc_empty_space_inner"></span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
 
 
                                     <!--FAQs-->
+									
+                            <div class="row">
+                                <div class="vc_col-md-8">
                                     <div class="vc_row wpb_row vc_row-fluid">
                                         <div class="wpb_column vc_column_container vc_col-sm-12">
                                             <div class="vc_column-inner ">

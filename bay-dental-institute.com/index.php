@@ -88,7 +88,7 @@
                                             <li class="menu-item"><a href="botox-and-lip-fillers.php"><span>Facial Aesthetics: Botox &amp; Lip Fillers</span></a></li>
                                             <li class="menu-item"><a href="dental-assistant-training.php"><span>Dental Assistant Training</span></a></li>
                                             <li class="menu-item"><a href="javascript:void(0)"><span>Social Media Marketing for Dentists</span></a></li>
-                                            <li class="menu-item"><a href="endodontics.php"><span>Endotontics</span></a></li>
+                                            <li class="menu-item"><a href="endodontics.php"><span>Endodontics</span></a></li>
                                         </ul>
                                     </li>
                                     <li class="menu-item"><a href="gallery.php">Gallery</a></li>
@@ -135,7 +135,7 @@
                                             <li class="menu-item"><a href="botox-and-lip-fillers.php"><span>Facial Aesthetics: Botox &amp; Lip Fillers</span></a></li>
                                             <li class="menu-item"><a href="dental-assistant-training.php"><span>Dental Assistant Training</span></a></li>
                                             <li class="menu-item"><a href="javascript:void(0)"><span>Social Media Marketing for Dentists</span></a></li>
-                                            <li class="menu-item"><a href="endodontics.php"><span>Endotontics</span></a></li>
+                                            <li class="menu-item"><a href="endodontics.php"><span>Endodontics</span></a></li>
                                     </ul>
                                 </li>
                                 <li class="menu-item"><a href="gallery.php">Gallery</a></li>
@@ -515,7 +515,7 @@
                                                                         </h4>
                                                                         <div class="sc_services_item_description">
                                                                             <p>
-                                                                                The aim of this course is to provide in depth clear understanding of Endodontics which will enable practitioners to develop the skills necessary to provide high standards of technique & care for patients requiring endodontic treatment.
+                                                                                The aim of this course is to provide in depth clear understanding of Endodontics which will enable practitioners to develop the skills necessary to provide high standards of technique & care for patients requiring Endodontics treatment.
                                                                             </p>
                                                                             <p>
                                                                                 The program format will involve a combination of lectures, case discussions, however the main importance is given to clinical soft skills training, development and problem solving.

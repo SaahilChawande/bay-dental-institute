@@ -55,7 +55,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,input,textarea,button,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, address, section, video, audio {
-	font-family: inherit;
+	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
 	font-size: 100%;
 	font-style: inherit;
 	font-weight: inherit;
@@ -170,7 +170,7 @@ dfn, cite, em, i { font-style: italic; }
 blockquote { padding: 0.7em; }
 
 pre, code, kbd, tt, var, samp {
-	font-family: "Courier New", Courier, monospace;
+	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
 	font-size: 1em;
 }
 pre {
@@ -290,7 +290,7 @@ iframe, video, embed {
 /* 3. Form fields settings
 -------------------------------------------------------------- */
 button, input, optgroup, select, textarea {
-	font-family: inherit;
+	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
 	font-size: 1em;				/* Corrects font size not being inherited in all browsers */
 	line-height: 1.2857em;
 	margin: 0;					/* Addresses margins set differently in IE6/7, F3/4, S5, Chrome */
@@ -1215,7 +1215,7 @@ body:not(.top_panel_fixed) .top_panel_position_over .top_panel_bottom {
 	padding:0.9em 1.45em;
 }
 .menu_main_nav > li.menu-item-has-children > a:after {
-	font-family: 'fontello';
+	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
     font-size: 11px;
 	position:absolute;
 	right:14px;
@@ -1226,7 +1226,7 @@ body:not(.top_panel_fixed) .top_panel_position_over .top_panel_bottom {
 }
 .top_panel_wrap li li.menu-item-has-children > a:after {
 	content: '\e836';
-	font-family: 'fontello';
+	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
 	position:absolute;
 	right:8px;
 	top:50%;
@@ -1857,7 +1857,7 @@ body:not(.top_panel_fixed) .top_panel_position_over .top_panel_bottom {
 }
 .open_child_menu:before {
 	content: '\e828';
-	font-family:fontello;
+	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
 }
 li.opened > a > .open_child_menu:before {
 	content: '\e835';
@@ -2342,7 +2342,7 @@ body.search_fixed {
 	margin-bottom: 7px;
 }
 .widget_area .post_item .post_info {
-	font-family: 'Lora';
+	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
     font-size: 13px;
 	margin-bottom:0;
 	line-height:1.5em;
@@ -2542,7 +2542,7 @@ body.search_fixed {
 }
 .pushy .close-pushy:before {
 	content: '\e8ac';
-	font-family: fontello;
+	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
 	font-size: 1.5em;
 	position:absolute;
 	right: 1.25em;
@@ -2843,7 +2843,7 @@ body.search_fixed {
 }
 .header_mobile .login  .popup_link:before{
     content: '\e8c3';
-    font-family: fontello;
+    font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
     position: absolute;
     right: 28px;
     top: 16px;
@@ -2861,7 +2861,7 @@ body.search_fixed {
 }
 .header_mobile .search_wrap:before {
     content: '\e807';
-    font-family: fontello;
+    font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
     position: absolute;
     right: 28px;
     top: 16px;
@@ -3017,7 +3017,7 @@ body.search_fixed {
 	line-height:40px; 
 }
 .tparrows.default:before { 
-	font-family: "fontello"; 
+	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
 	font-size:3em; 
 }
 .tp-leftarrow.default:before { 
@@ -3101,7 +3101,7 @@ body.search_fixed {
 .post_navi .post_navi_delimiter:before {content:'::';}
 .breadcrumbs .breadcrumbs_delimiter:before {
 	content:'\e90d';
-	font-family: 'fontello';
+	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
 }
 
 
@@ -3213,7 +3213,7 @@ blockquote, blockquote p {
 	line-height:1.3333em;
 }
 blockquote:before {
-	font-family:'fontello';
+	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
 	content: '\e8b6';
 	display:block;
 	position:absolute;
@@ -3295,7 +3295,7 @@ blockquote .sc_quote_title {
 }
 .post_item .post_readmore:after {
 	content: '\e836';
-	font-family:fontello;
+	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
 	display: inline-block;
 	margin-left:0.5em;
 }
@@ -3846,23 +3846,23 @@ blockquote .sc_quote_title {
 .pagination_wrap .pager_prev {
 }
 .pagination_wrap .pager_next:before {
-	font-family:fontello;
+	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
 	content: '\e901';
 	margin-right:0;
 }
 .pagination_wrap .pager_prev:before {
-	font-family:fontello;
+	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
 	content: '\e8fe';
 	margin-right:0;
 }
 .pagination_wrap .pager_last:before {
-	font-family:fontello;
+	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
 	content: '\e901\e901';
 	margin-right:10px;
 	letter-spacing:-7px;
 }
 .pagination_wrap .pager_first:before {
-	font-family:fontello;
+	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
 	content: '\e8fe\e8fe';
 	margin-right:10px;
 	letter-spacing:-7px;
@@ -4121,7 +4121,7 @@ blockquote .sc_quote_title {
 	height:58px;
 	line-height:58px;
 	font-size:25px;
-	font-family: "fontello";
+	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
 	border:1px solid #ddd;
 	background-color: rgba(255,255,255, 0.8);
 	color:#888888;
@@ -4359,7 +4359,7 @@ blockquote .sc_quote_title {
 } 
 .reviews_star:before {
 	content: '\e8c8';
-	font-family: "fontello";
+	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
 	font-size:inherit;
 	display: inline-block;
 	vertical-align:top;
@@ -4716,7 +4716,7 @@ blockquote .sc_quote_title {
 }
 .comments_list_wrap .comment_reply a:before {
 	content:'\e802';
-	font-family: fontello;
+	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
 	margin-right:0.5em;
 }
 
@@ -4768,7 +4768,7 @@ blockquote .sc_quote_title {
 }
 .comments_wrap .comments_field:before {
 	content: '';
-	font-family: 'fontello';
+	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
 	position: absolute;
 	left: 0; top: 0.5em;
 }
@@ -4958,7 +4958,7 @@ blockquote .sc_quote_title {
 }
 .menu_side_nav > li.menu-item-has-children > a:after {
 	content: '\e836';
-	font-family: 'fontello';
+	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
 	position:absolute;
 	right:10px;
 	top:50%;
@@ -4968,7 +4968,7 @@ blockquote .sc_quote_title {
 }
 .sidebar_outer_menu li li.menu-item-has-children > a:after {
 	content: '\e836';
-	font-family: 'fontello';
+	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
 	position:absolute;
 	right:8px;
 	top:50%;
@@ -5019,7 +5019,7 @@ blockquote .sc_quote_title {
 .menu_side_responsive > li.menu-item-has-children > a:after,
 .menu_side_responsive li li.menu-item-has-children > a:after {
 	content: '\e828';
-	font-family: 'fontello';
+	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
 	position:absolute;
 	right:10px;
 	top:50%;
@@ -5082,7 +5082,7 @@ blockquote .sc_quote_title {
 
 .widget_area ul li:before {
 	content: '\e90d';
-	font-family: 'fontello';
+	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
 	position:absolute;
 	left:1px;
 	top: 0;
@@ -5209,7 +5209,7 @@ blockquote .sc_quote_title {
 	background-position: center center;
 }
 .widget_area .widget_calendar td a:after {
-	font-family:'fontello';
+	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
 	content: '\e83c';
 	position:absolute;
 	left:48%;
@@ -5239,7 +5239,7 @@ blockquote .sc_quote_title {
 }
 .widget_area .widget_calendar .month_prev a:before,
 .widget_area .widget_calendar .month_next a:before {
-	font-family: 'fontello';
+	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
 }
 .widget_area .widget_calendar .month_prev a:before {
 	content: '\e90c';
@@ -5588,7 +5588,7 @@ footer.twitter_wrap .sc_section_overlay {
 .hover_icon:before {
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
-    font-family:'fontello';
+    font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
 	font-size: 1.5em;
 	color:#ffffff;
 	cursor:pointer;
@@ -5791,7 +5791,7 @@ footer.twitter_wrap .sc_section_overlay {
 	color: #909090;
 }
 .popup_wrap .popup_close:before {
-	font-family:fontello;
+	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
 	content:'\e8ac';
 	line-height:1em;
 	padding:0 !important;
@@ -5987,7 +5987,7 @@ h1 .wpb_text_column p, h2 .wpb_text_column p, h3 .wpb_text_column p, h4 .wpb_tex
 
 .slider_engine_revo .tparrows:before {
 	color: #333333;
-	font-family: 'fontello';
+	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
 	font-size: 32px;
 }
 .slider_engine_revo .tp-leftarrow:before {
@@ -6420,7 +6420,7 @@ h1 .wpb_text_column p, h2 .wpb_text_column p, h3 .wpb_text_column p, h4 .wpb_tex
 /* Essential Grid */
 .eg-icon-search:before,
 .eg-icon-link:before {
-	font-family: fontello;
+	font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
 }
 .eg-icon-search:before {
 	content: '\e8ec';
@@ -6496,7 +6496,7 @@ h1 .wpb_text_column p, h2 .wpb_text_column p, h3 .wpb_text_column p, h4 .wpb_tex
 }
 .header_mobile .menu_main_nav li.menu-item-has-children > a:after {
     content: '\e828';
-    font-family: 'fontello';
+    font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
     position: absolute;
     right: 30px;
     top: 24px;
@@ -6573,7 +6573,7 @@ h1 .wpb_text_column p, h2 .wpb_text_column p, h3 .wpb_text_column p, h4 .wpb_tex
 }
 .header_mobile .login  .popup_link:before{
     content: '\e8c3';
-    font-family: fontello;
+    font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
     position: absolute;
     right: 28px;
     top: 16px;
@@ -6592,7 +6592,7 @@ h1 .wpb_text_column p, h2 .wpb_text_column p, h3 .wpb_text_column p, h4 .wpb_tex
 .header_mobile .search_wrap:before {
     display: none;
 	content: '\e807';
-    font-family: fontello;
+    font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
     position: absolute;
     right: 28px;
     top: 16px;

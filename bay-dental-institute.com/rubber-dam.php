@@ -25,13 +25,13 @@
     <link rel='stylesheet' href='js/vendor/swiper/swiper.min.css' type='text/css' media='all' />
 	<style>
 		.float{
-			position:absolute;
+			position:fixed;
 			text-align:center;
-			padding:10px;
-			margin-left:auto;
-			margin-right:auto;
-			
-
+			padding:15px;
+			width:5%;
+			display:block;
+			bottom: 5em;
+			right: 1.5em;
 		}
 	</style>
 </head>
@@ -65,7 +65,7 @@
                                         <li class="menu-item"><a href="botox-and-lip-fillers.php"><span>Facial Aesthetics: Botox &amp; Lip Fillers</span></a></li>
                                         <li class="menu-item"><a href="dental-assistant-training.php"><span>Dental Assistant Training</span></a></li>
                                         <li class="menu-item"><a href="javascript:void(0)"><span>Social Media Marketing for Dentists</span></a></li>
-                                        <li class="menu-item"><a href="endodontics.php"><span>Endotontics</span></a></li>
+                                        <li class="menu-item"><a href="endodontics.php"><span>Endodontics</span></a></li>
                                     </ul>
                                 </li>
                                 <li class="menu-item"><a href="gallery.php">Gallery</a></li>
@@ -112,7 +112,7 @@
                                         <li class="menu-item"><a href="botox-and-lip-fillers.php"><span>Facial Aesthetics: Botox &amp; Lip Fillers</span></a></li>
                                         <li class="menu-item"><a href="dental-assistant-training.php"><span>Dental Assistant Training</span></a></li>
                                         <li class="menu-item"><a href="javascript:void(0)"><span>Social Media Marketing for Dentists</span></a></li>
-                                        <li class="menu-item"><a href="endodontics.php"><span>Endotontics</span></a></li>
+                                        <li class="menu-item"><a href="endodontics.php"><span>Endodontics</span></a></li>
                                 </ul>
                             </li>
                             <li class="menu-item"><a href="gallery.php">Gallery</a></li>
@@ -143,7 +143,10 @@
                 </div>
             </div>
         </div>
-		
+							
+		<a href="book-a-course.php"  class="float">
+			<button>Book this Course</button>
+		</a>
         <div class="page_content_wrap page_paddings_yes dark-background">
             <div class="content_wrap">
                 <div class="content">
@@ -159,11 +162,11 @@
                                                 <div class="slides swiper-wrapper">
                                                     <div class="swiper-slide" style="background-image: url(images/courses/rubber-dam/rd1.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
                                                     <div class="swiper-slide" style="background-image: url(images/courses/rubber-dam/rd2.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/rubber-dam/rd3.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/rubber-dam/rd4.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/rubber-dam/rd5.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/rubber-dam/rd6.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/rubber-dam/rd7.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/rubber-dam/rd3.jpg); transform:rotate(180deg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/rubber-dam/rd4.jpg);transform:rotate(180deg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/rubber-dam/rd5.jpg); transform:rotate(180deg);background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/rubber-dam/rd6.jpg); transform:rotate(180deg);background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    
                                                     <div class="swiper-slide" style="background-image: url(images/courses/rubber-dam/rd8.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
                                                     <div class="swiper-slide" style="background-image: url(images/courses/rubber-dam/rd9.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
                                                     <div class="swiper-slide" style="background-image: url(images/courses/rubber-dam/rd10.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
@@ -280,17 +283,16 @@
                                                             &#10004;&nbsp;&nbsp;&nbsp;Dam Tears and troubleShooting.
                                                         </li>
                                                     </ul>
+								
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+							
 
                         </section>
-						<a href="book-a-course.php" class="float">
-							<button>Book this Course</button>
-						</a>
                         <section class="related_wrap related_wrap_empty"></section>
                     </article>
 					

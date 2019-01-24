@@ -1,10 +1,5 @@
 @font-face {
-  font-family: 'fontello';
-  src: url('../font/fontello85b2.eot?47087227');
-  src: url('../font/fontello85b2.eot?47087227#iefix') format('embedded-opentype'),
-       url('../font/fontello85b2.woff?47087227') format('woff'),
-       url('../font/fontello85b2.ttf?47087227') format('truetype'),
-       url('../font/fontello85b2.svg?47087227#fontello') format('svg');
+  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
   font-weight: normal;
   font-style: normal;
 }
@@ -13,14 +8,13 @@
 /*
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
-    font-family: 'fontello';
-    src: url('../font/fontello.svg?47087227#fontello') format('svg');
+    font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
   }
 }
 */
  
  [class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "fontello";
+  font-family: caslon, baskerville,ehrhardt,roboto,open sans, lato;
   font-style: normal;
   font-weight: normal;
   speak: none;

@@ -27,11 +27,13 @@
     <link rel='stylesheet' href='js/vendor/swiper/swiper.min.css' type='text/css' media='all' />
 	<style>
 		.float{
-			position:absolute;
-			height:60px;
-			padding:10px;
-			right:0px;
+			position:fixed;
 			text-align:center;
+			padding:15px;
+			width:5%;
+			display:block;
+			bottom: 5em;
+			right: 1.5em;
 		}
 	</style>
 </head>
@@ -65,7 +67,7 @@
                                         <li class="menu-item"><a href="botox-and-lip-fillers.php"><span>Facial Aesthetics: Botox &amp; Lip Fillers</span></a></li>
                                         <li class="menu-item"><a href="dental-assistant-training.php"><span>Dental Assistant Training</span></a></li>
                                         <li class="menu-item"><a href="javascript:void(0)"><span>Social Media Marketing for Dentists</span></a></li>
-                                        <li class="menu-item current-menu-item"><a href="javascript:void(0)"><span>Endotontics</span></a></li>
+                                        <li class="menu-item current-menu-item"><a href="javascript:void(0)"><span>Endodontics</span></a></li>
                                     </ul>
                                 </li>
                                 <li class="menu-item"><a href="gallery.php">Gallery</a></li>
@@ -112,7 +114,7 @@
                                         <li class="menu-item"><a href="botox-and-lip-fillers.php"><span>Facial Aesthetics: Botox &amp; Lip Fillers</span></a></li>
                                         <li class="menu-item"><a href="dental-assistant-training.php"><span>Dental Assistant Training</span></a></li>
                                         <li class="menu-item"><a href="javascript:void(0)"><span>Social Media Marketing for Dentists</span></a></li>
-                                        <li class="menu-item current-menu-item"><a href="javascript:void(0)"><span>Endotontics</span></a></li>
+                                        <li class="menu-item current-menu-item"><a href="javascript:void(0)"><span>Endodontics</span></a></li>
                                 </ul>
                             </li>
                             <li class="menu-item"><a href="gallery.php">Gallery</a></li>
@@ -159,10 +161,10 @@
                                         <div class="wpb_wrapper">
                                             <div id="sc_slider_193" class="sc_slider sc_slider_swiper swiper-slider-container sc_slider_height_fixed sc_slider_controls sc_slider_nopagination sc_slider_bg" data-old-height="400" data-interval="6424" style="height:400px;width:100%;">
                                                 <div class="slides swiper-wrapper">
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/endodontics/ed-1.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/endodontics/ed-2.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/endodontics/ed-3.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/endodontics/ed-4.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/Endodontics/ed-1.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/Endodontics/ed-2.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/Endodontics/ed-4.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/Endodontics/ed-3.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
                                                 </div>
                                                 <div class="sc_slider_controls_wrap">
                                                     <a class="sc_slider_prev" href="#"></a>
@@ -184,12 +186,12 @@
                                         <div class="wpb_wrapper">
                                             <div class="wpb_text_column wpb_content_element ">
                                                 <div class="wpb_wrapper centext">
-                                                    <p>The aim of this course is to provide in depth clear understanding of Endodontics which will enable practitioners to develop the skills necessary to provide high standards of technique & care for patients requiring endodontic treatment.</p>
-                                                    <p>We provide short basic courses and exhaustive advanced endodontic courses covering the topics below.</p>
+                                                    <p>The aim of this course is to provide in depth clear understanding of Endodontics which will enable practitioners to develop the skills necessary to provide high standards of technique & care for patients requiring Endodontics treatment.</p>
+                                                    <p>We provide short basic courses and exhaustive advanced Endodontics courses covering the topics below.</p>
                                                     <p>The program format will involve a combination of lectures, case discussions, however the main importance is given to clinical soft skills training, development and problem solving.</p>
                                                     <p>We have small batches to help have a one is to one teacher student learning experience.</p>
                                                     <p>We understand that each clinician has a different level of skill, experience and capacity hence we try our best to tailor each learning experience to cater to each individual to enhance the learning experience.</p>
-                                                    <p>The various basic and advanced endodontic courses we offer cover the topics below based on the course on offer.</p>
+                                                    <p>The various basic and advanced Endodontics courses we offer cover the topics below based on the course on offer.</p>
                                                 </div>
                                             </div>
                                             <div class="vc_empty_space space_50p">
@@ -214,16 +216,16 @@
                                                             &#10004;&nbsp;&nbsp;&nbsp;To revise and understand basic dental anatomy and how this relates to access cavity design
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;To understand that access cavity is the fundamental premise for success in endodontics
+                                                            &#10004;&nbsp;&nbsp;&nbsp;To understand that access cavity is the fundamental premise for success in Endodontics
                                                         </li>
                                                         <li class="sc_list_item">
                                                             &#10004;&nbsp;&nbsp;&nbsp;Pulp physiology and Pathology
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Endodontic Diagnosis
+                                                            &#10004;&nbsp;&nbsp;&nbsp;Endodontics Diagnosis
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Endodontic treatment
+                                                            &#10004;&nbsp;&nbsp;&nbsp;Endodontics treatment
                                                         </li>
                                                         <li class="sc_list_item">
                                                             &#10004;&nbsp;&nbsp;&nbsp;Emergency and acute pain control (local anaesthetic techniques)
@@ -235,7 +237,7 @@
                                                             &#10004;&nbsp;&nbsp;&nbsp;Radiographic assessment
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;To develop deep expertise in preparation for endodontics
+                                                            &#10004;&nbsp;&nbsp;&nbsp;To develop deep expertise in preparation for Endodontics
                                                         </li>
                                                         <li class="sc_list_item">
                                                             &#10004;&nbsp;&nbsp;&nbsp;To understand the goals of the first stages in treatment
@@ -256,7 +258,7 @@
                                                             &#10004;&nbsp;&nbsp;&nbsp;Learning Irrigation and disinfection techniques
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Perfecting Endodontic diagnosis
+                                                            &#10004;&nbsp;&nbsp;&nbsp;Perfecting Endodontics diagnosis
                                                         </li>
                                                         <li class="sc_list_item">
                                                             &#10004;&nbsp;&nbsp;&nbsp;Inter-appointment dressing techniques
@@ -295,7 +297,7 @@
                                                             &#10004;&nbsp;&nbsp;&nbsp;Removal of root canal blockages
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Removal of incumbent failed endodontic obturation material
+                                                            &#10004;&nbsp;&nbsp;&nbsp;Removal of incumbent failed Endodontics obturation material
                                                         </li>
                                                         <li class="sc_list_item">
                                                             &#10004;&nbsp;&nbsp;&nbsp;Removal of posts/silver points and separated instrument
@@ -304,10 +306,10 @@
                                                             &#10004;&nbsp;&nbsp;&nbsp;Management of very calcified canals
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;To understand how to overcome common problems in endodontics
+                                                            &#10004;&nbsp;&nbsp;&nbsp;To understand how to overcome common problems in Endodontics
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;How to remove old failed endodontic material
+                                                            &#10004;&nbsp;&nbsp;&nbsp;How to remove old failed Endodontics material
                                                         </li>
                                                         <li class="sc_list_item">
                                                             &#10004;&nbsp;&nbsp;&nbsp;To perfect obturation technique
@@ -337,7 +339,7 @@
                                                             &#10004;&nbsp;&nbsp;&nbsp;Trauma
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;To practice and perfect endodontic techniques for traumatized teeth
+                                                            &#10004;&nbsp;&nbsp;&nbsp;To practice and perfect Endodontics techniques for traumatized teeth
                                                         </li>
                                                         <li class="sc_list_item">
                                                             &#10004;&nbsp;&nbsp;&nbsp;Management of post operative pain –prediction and avoidance
@@ -370,7 +372,7 @@
                                                             &#10004;&nbsp;&nbsp;&nbsp;Access through existing restorations
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Give deep understanding of the restorative options for endodontically treated teeth
+                                                            &#10004;&nbsp;&nbsp;&nbsp;Give deep understanding of the restorative options for Endodonticsally treated teeth
                                                         </li>
                                                         <li class="sc_list_item">
                                                             &#10004;&nbsp;&nbsp;&nbsp;To give deep skills in tooth preparation & post preparation
@@ -405,7 +407,7 @@
                                                             &#10004;&nbsp;&nbsp;&nbsp;Surgery preparation
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Access to magnification and illumination as an essential to endodontics
+                                                            &#10004;&nbsp;&nbsp;&nbsp;Access to magnification and illumination as an essential to Endodontics
                                                         </li>
                                                         <li class="sc_list_item">
                                                             &#10004;&nbsp;&nbsp;&nbsp;Tooth assessment
@@ -414,7 +416,7 @@
                                                             &#10004;&nbsp;&nbsp;&nbsp;Radiographic techniques
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Endodontic isolation and Rubber Dam
+                                                            &#10004;&nbsp;&nbsp;&nbsp;Endodontics isolation and Rubber Dam
                                                         </li>
                                                         <li class="sc_list_item">
                                                             &#10004;&nbsp;&nbsp;&nbsp;Access cavity refinement with detailed dental anatomy
@@ -489,10 +491,10 @@
                                                             &#10004;&nbsp;&nbsp;&nbsp;Removal of old gutta percha
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Comprehensive endodontic management of traumatically compromised teeth
+                                                            &#10004;&nbsp;&nbsp;&nbsp;Comprehensive Endodontics management of traumatically compromised teeth
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Comprehensive practice of endodontics from start to finish
+                                                            &#10004;&nbsp;&nbsp;&nbsp;Comprehensive practice of Endodontics from start to finish
                                                         </li>
                                                         <li class="sc_list_item">
                                                             &#10004;&nbsp;&nbsp;&nbsp;Direct and indirect posts

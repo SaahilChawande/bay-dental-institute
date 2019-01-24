@@ -27,11 +27,13 @@
     <link rel='stylesheet' href='js/vendor/swiper/swiper.min.css' type='text/css' media='all' />
 	<style>
 		.float{
-			position:absolute;
-			height:60px;
-			padding:10px;
-			right:0px;
+			position:fixed;
 			text-align:center;
+			padding:15px;
+			width:5%;
+			display:block;
+			bottom: 5em;
+			right: 1.5em;
 		}
 	</style>
 </head>
@@ -65,7 +67,7 @@
                                         <li class="menu-item"><a href="botox-and-lip-fillers.php"><span>Facial Aesthetics: Botox &amp; Lip Fillers</span></a></li>
                                         <li class="menu-item"><a href="dental-assistant-training.php"><span>Dental Assistant Training</span></a></li>
                                         <li class="menu-item"><a href="javascript:void(0)"><span>Social Media Marketing for Dentists</span></a></li>
-                                        <li class="menu-item"><a href="endodontics.php"><span>Endotontics</span></a></li>
+                                        <li class="menu-item"><a href="endodontics.php"><span>Endodontics</span></a></li>
                                     </ul>
                                 </li>
                                 <li class="menu-item"><a href="gallery.php">Gallery</a></li>
@@ -112,7 +114,7 @@
                                         <li class="menu-item"><a href="botox-and-lip-fillers.php"><span>Facial Aesthetics: Botox &amp; Lip Fillers</span></a></li>
                                         <li class="menu-item"><a href="dental-assistant-training.php"><span>Dental Assistant Training</span></a></li>
                                         <li class="menu-item"><a href="javascript:void(0)"><span>Social Media Marketing for Dentists</span></a></li>
-                                        <li class="menu-item"><a href="endodontics.php"><span>Endotontics</span></a></li>
+                                        <li class="menu-item"><a href="endodontics.php"><span>Endodontics</span></a></li>
                                 </ul>
                             </li>
                             <li class="menu-item"><a href="gallery.php">Gallery</a></li>
