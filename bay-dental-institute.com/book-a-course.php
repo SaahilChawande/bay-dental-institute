@@ -114,7 +114,7 @@
         var session_isset = check_session();
 
         if(session_isset === '1')   {
-            var username = "<?= isset($_SESSION['username']) ? $_SESSION['username'] : ''; ?>";
+            var username = get_current_user();
             var data_array = {"username": username};
             var data = JSON.parse(JSON.stringify(data_array));
             $.ajax({
@@ -129,7 +129,7 @@
                         $('#' + data.message[i].course_id + '_2').show();
                     }
                 }
-                else if(data.status == "error") {
+                else if(data.status == "error" && data.message != "No items found in cart") {
                     swal("Error", data.message, "error");
                 }
             }).fail(function(xhr, status, error)    {
@@ -147,11 +147,15 @@
         ?>';
     }
 
+    function get_current_user() {
+        return "<?= isset($_SESSION['username']) ? $_SESSION['username'] : ''; ?>";
+    }
+
     function onAddCartClicked(id)   {
         var session_isset = check_session();
 
         if(session_isset === '1')   {
-            var username = "<?= isset($_SESSION['username']) ? $_SESSION['username'] : ''; ?>";
+            var username = get_current_user();
             var data_array = {"username": username, "course_id": id.toString() };
             var data = JSON.parse(JSON.stringify(data_array));
             $.ajax({
@@ -185,7 +189,7 @@
         var session_isset = check_session();
 
         if(session_isset === '1')   {
-            var username = "<?= isset($_SESSION['username']) ? $_SESSION['username'] : ''; ?>";
+            var username = get_current_user();
             var data_array = {"username": username, "course_id": id.toString() };
             var data = JSON.parse(JSON.stringify(data_array));
             $.ajax({
@@ -211,6 +215,56 @@
                 type: "error"
             }).then(function()  {
                 window.location.href = "login.php";
+            });
+        }
+    }
+
+    function onBookNowClick()   {
+        var session_isset = check_session();
+        var username = get_current_user();
+        var data_array = {"username": username };
+        var data = JSON.parse(JSON.stringify(data_array));
+
+        if(session_isset === '1')   {
+            $.ajax({
+                type: "POST",
+                url: "get-cart.php",
+                data: data,
+                dataType: "json"
+            }).done(function(data)  {
+                if(data.status == "ok") {
+                    if(data.message.length > 0)     {
+                        window.location.href = "checkout.php";
+                    }   else    {
+                        swal("Please add at least 1 course to checkout!");
+                    }
+                }
+                else if(data.status == "error") {
+                    swal("Error", data.message, "error");
+                }
+            }).fail(function(xhr, status, error)    {
+                swal("Unable to connect. Please try again.");
+            });
+        }   else    {
+            swal("Please login / signup to continue", {
+                buttons: {
+                    cancel: "Cancel",
+                    login: "Login",
+                    signup: "Signup"
+                },
+            }).then((value) => {
+                switch (value)  {
+                    case "cancel":
+                        break;
+                    case "login":
+                        window.location.href = "login.php";
+                        break;
+                    case "signup":
+                        window.location.href = "signup.php";
+                        break;
+                    default:
+                        break;
+                }
             });
         }
     }
@@ -338,7 +392,7 @@
                                         <div class="wpb_wrapper">
                                             <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_2 margin_bottom_huge">
                                                 <div class="column-1_1 sc_column_item">
-                                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large alignright" style="padding: 1em 1.25em">Book Now</a>
+                                                    <a href="javascript:void(0)" onclick="onBookNowClick();" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large alignright" style="padding: 1em 1.25em">Book Now</a>
 													
                                                     <?php 
                                                         if(isset($_SESSION['username']))    {

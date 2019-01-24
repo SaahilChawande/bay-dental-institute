@@ -6923,3 +6923,13 @@ h1 .wpb_text_column p, h2 .wpb_text_column p, h3 .wpb_text_column p, h4 .wpb_tex
 	background-color: #B30000;
 	border-radius: 3px;
 }
+
+.scroll-bar	{
+	overflow: hidden;
+}
+
+@media only screen and (max-width: 600px)	{
+	.scroll-bar	{
+		overflow: scroll;
+	}
+}
