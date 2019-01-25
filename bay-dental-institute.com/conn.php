@@ -1,7 +1,16 @@
 <?php
+
+$is_server_set = 1;
+
+if ($is_server_set == 0)    {
+    $username="root";
+    $password="";
+}   elseif (is_server_set == 1) {
+    $username = "baydentaluser";
+    $password = "blank";
+}
+
 $servername="localhost";
-$username="root";
-$password="";
 $dbname="baydentalinstitute";
 $conn=mysqli_connect($servername,$username,$password,$dbname);
 
