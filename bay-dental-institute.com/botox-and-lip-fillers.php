@@ -184,7 +184,7 @@
                                         <div class="wpb_wrapper">
                                             <div class="wpb_text_column wpb_content_element ">
                                                 <div class="wpb_wrapper centext">
-                                                    <h3>FACIAL AESTHETICS for DENTISTS</h3>
+                                                    <h3>Facial Aesthetics for Dentists</h3>
                                                     <p>In our Facial Aesthetics- basics workshop, our goal is t make dentists aware of the branch of facial aesthetics which include, Botox, fillers, microdermabrasion, lip lightening, Physician strength peels, lasers, electrocautery and to enable them to incorporate in their dental practice.</p>
                                                 </div>
                                             </div>
@@ -207,13 +207,13 @@
                                                     <h3>Aims and Objectives</h3>
                                                     <ul class="sc_list sc_list_style_iconed">
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Awareness about the upcoming field of Facial aesthetics for dentists
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Awareness about the upcoming field of Facial aesthetics for dentists
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Understanding the inclusions in medical cosmetology
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Understanding the inclusions in medical cosmetology
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Learning the techniques and safety measures in Practice
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Learning the techniques and safety measures in Practice
                                                         </li>
                                                     </ul>
                                                 </div>

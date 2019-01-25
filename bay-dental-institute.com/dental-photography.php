@@ -221,22 +221,22 @@
                                                     <h3>Aims and Objectives</h3>
                                                     <ul class="sc_list sc_list_style_iconed">
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Use of dental photography, consent .
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Use of dental photography, consent .
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Learn about the camera and different settings
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Learn about the camera and different settings
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Understand lighting and how it affects image composition
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Understand lighting and how it affects image composition
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Different views and how to record a full series of clinical case documentation
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Different views and how to record a full series of clinical case documentation
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Take artistic images of your lab work and armamentarium
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Take artistic images of your lab work and armamentarium
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Shade matching, cross polarized filter, image editing.
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Shade matching, cross polarized filter, image editing.
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -259,22 +259,22 @@
                                                     <h3>Theory and Demonstration</h3>
                                                     <ul class="sc_list sc_list_style_iconed">
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Clinical and creative uses of dental photography in practice
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Clinical and creative uses of dental photography in practice
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Equipment considerations and necessary investment
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Equipment considerations and necessary investment
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Settings and functions explained. Standard settings in dentistry
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Settings and functions explained. Standard settings in dentistry
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Lighting
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Lighting
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Clinical views for full case series documentation
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Clinical views for full case series documentation
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Errors in settings, light etc – trouble shooting
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Errors in settings, light etc – trouble shooting
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -294,16 +294,16 @@
                                                     <h3>Hands on</h3>
                                                     <ul class="sc_list sc_list_style_iconed">
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Full clinical series documentation
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Full clinical series documentation
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Try different settings and angles
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Try different settings and angles
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Artistic Documentation
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Artistic Documentation
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Experimentation and fun with different props and lights / Flashes
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Experimentation and fun with different props and lights / Flashes
                                                         </li>
                                                     </ul>
                                                 </div>

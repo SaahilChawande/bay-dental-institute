@@ -192,9 +192,9 @@
                                                     <h3>Aim and Objective</h3>
                                                     <ul class="sc_list sc_list_style_iconed">
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;To give the knowledge, confidence and skills to create beautiful and functional direct anterior and posterior composites 
+                                                            &#10146;&nbsp;&nbsp;&nbsp;To give the knowledge, confidence and skills to create beautiful and functional direct anterior and posterior composites 
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Course includes lectures and significant anterior and posterior practicals. 
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Course includes lectures and significant anterior and posterior practicals. 
                                                         </li>
                                                         
                                                         
@@ -221,46 +221,46 @@
                                                     <h3>Topics Covered</h3>
                                                     <ul class="sc_list sc_list_style_iconed">
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Unbiased appraisal of current materials
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Unbiased appraisal of current materials
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;The determinants of colour
+                                                            &#10146;&nbsp;&nbsp;&nbsp;The determinants of colour
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Natural Layering concept
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Natural Layering concept
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Material and shade selection
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Material and shade selection
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Anterior and Posterior Isolation Techniques
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Anterior and Posterior Isolation Techniques
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Bonding Partial Coverage Anterior Composites
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Bonding Partial Coverage Anterior Composites
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Direct and Semi-Direct Techniques
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Direct and Semi-Direct Techniques
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Shade Masking and Hypoplasia
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Shade Masking and Hypoplasia
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Diasterma Closure
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Diasterma Closure
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Complex build up techniques
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Complex build up techniques
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Lab Communication
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Lab Communication
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Finishing and Polishing in detial
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Finishing and Polishing in detial
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Ideal Contact Point Creation
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Ideal Contact Point Creation
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Direct Posterior
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Direct Posterior
                                                         </li>
                                                     </ul>
                                                 </div>

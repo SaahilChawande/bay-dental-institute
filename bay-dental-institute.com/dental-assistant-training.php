@@ -211,15 +211,15 @@
                                                     <h3>Aim and Objective</h3>
                                                     <ul class="sc_list sc_list_style_iconed">
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;To equip the assistant with the general know how of a busy clinical practice. 
+                                                            &#10146;&nbsp;&nbsp;&nbsp;To equip the assistant with the general know how of a busy clinical practice. 
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Understanding the administrative and communication aspect of a Dental Practice 
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Understanding the administrative and communication aspect of a Dental Practice 
                                                         </li>
 														<li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Decorum, sterilization and Disinfection 
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Decorum, sterilization and Disinfection 
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Cross Contamination
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Cross Contamination
                                                         </li>
                                                         
                                                     </ul>
@@ -245,46 +245,46 @@
                                                     <h3>Topics Covered</h3>
                                                     <ul class="sc_list sc_list_style_iconed">
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Aspects of a busy practice
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Aspects of a busy practice
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Decorum
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Decorum
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Personal hygiene
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Personal hygiene
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Teeth Numbering, lab communication
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Teeth Numbering, lab communication
                                                         </li>
 														<li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Sterilization, Disinfection, Cross Contamination
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Sterilization, Disinfection, Cross Contamination
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Parts of the Chair, Compressor
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Parts of the Chair, Compressor
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Patient Management
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Patient Management
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Communication, administration and scheduling
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Communication, administration and scheduling
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Understanding the basics of different procedures in dentistry
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Understanding the basics of different procedures in dentistry
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Clinical skills:- Suction, Xrays, Materials
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Clinical skills:- Suction, Xrays, Materials
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Handling Different materials
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Handling Different materials
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Chair preparation for different procedures
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Chair preparation for different procedures
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Complete Patient Cycle
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Complete Patient Cycle
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Basics od Medical Emergences
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Basics od Medical Emergences
                                                         </li>
                                                         
                                                     </ul>

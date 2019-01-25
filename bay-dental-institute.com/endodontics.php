@@ -213,175 +213,175 @@
                                                     <h3>Aims and Objectives</h3>
                                                     <ul class="sc_list sc_list_style_iconed">
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;To revise and understand basic dental anatomy and how this relates to access cavity design
+                                                            &#10146;&nbsp;&nbsp;&nbsp;To revise and understand basic dental anatomy and how this relates to access cavity design
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;To understand that access cavity is the fundamental premise for success in Endodontics
+                                                            &#10146;&nbsp;&nbsp;&nbsp;To understand that access cavity is the fundamental premise for success in Endodontics
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Pulp physiology and Pathology
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Pulp physiology and Pathology
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Endodontics Diagnosis
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Endodontics Diagnosis
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Endodontics treatment
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Endodontics treatment
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Emergency and acute pain control (local anaesthetic techniques)
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Emergency and acute pain control (local anaesthetic techniques)
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;The role of systemic antibiotics and other systemic and local medications
+                                                            &#10146;&nbsp;&nbsp;&nbsp;The role of systemic antibiotics and other systemic and local medications
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Radiographic assessment
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Radiographic assessment
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;To develop deep expertise in preparation for Endodontics
+                                                            &#10146;&nbsp;&nbsp;&nbsp;To develop deep expertise in preparation for Endodontics
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;To understand the goals of the first stages in treatment
+                                                            &#10146;&nbsp;&nbsp;&nbsp;To understand the goals of the first stages in treatment
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;To understand the essential role of rubber dam isolation
+                                                            &#10146;&nbsp;&nbsp;&nbsp;To understand the essential role of rubber dam isolation
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;To accurately assess radiographs
+                                                            &#10146;&nbsp;&nbsp;&nbsp;To accurately assess radiographs
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;To develop access cavity design with varied armamentarium and decontaminate the coronal
+                                                            &#10146;&nbsp;&nbsp;&nbsp;To develop access cavity design with varied armamentarium and decontaminate the coronal
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Understanding Special tests and advanced imaging processes (CBCT)
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Understanding Special tests and advanced imaging processes (CBCT)
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Learning Irrigation and disinfection techniques
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Learning Irrigation and disinfection techniques
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Perfecting Endodontics diagnosis
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Perfecting Endodontics diagnosis
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Inter-appointment dressing techniques
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Inter-appointment dressing techniques
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Accessing the apex
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Accessing the apex
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;To understand and implement anatomy into canal preparation
+                                                            &#10146;&nbsp;&nbsp;&nbsp;To understand and implement anatomy into canal preparation
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;To utilize highly effective irrigation agents and techniques
+                                                            &#10146;&nbsp;&nbsp;&nbsp;To utilize highly effective irrigation agents and techniques
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;To understand various preparation techniques, systems and how to use them
+                                                            &#10146;&nbsp;&nbsp;&nbsp;To understand various preparation techniques, systems and how to use them
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;To understand and overcome iatrogenic and anatomical problems
+                                                            &#10146;&nbsp;&nbsp;&nbsp;To understand and overcome iatrogenic and anatomical problems
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;To develop deep understanding of working length assessment and achieving patency
+                                                            &#10146;&nbsp;&nbsp;&nbsp;To develop deep understanding of working length assessment and achieving patency
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;To consolidate and enhance canal preparation techniques
+                                                            &#10146;&nbsp;&nbsp;&nbsp;To consolidate and enhance canal preparation techniques
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;To develop understanding of obturation techniques
+                                                            &#10146;&nbsp;&nbsp;&nbsp;To develop understanding of obturation techniques
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;To develop excellence in canal preparation and obturation
+                                                            &#10146;&nbsp;&nbsp;&nbsp;To develop excellence in canal preparation and obturation
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Understand and practice a variety of techniques
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Understand and practice a variety of techniques
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Removal of root canal blockages
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Removal of root canal blockages
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Removal of incumbent failed Endodontics obturation material
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Removal of incumbent failed Endodontics obturation material
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Removal of posts/silver points and separated instrument
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Removal of posts/silver points and separated instrument
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Management of very calcified canals
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Management of very calcified canals
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;To understand how to overcome common problems in Endodontics
+                                                            &#10146;&nbsp;&nbsp;&nbsp;To understand how to overcome common problems in Endodontics
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;How to remove old failed Endodontics material
+                                                            &#10146;&nbsp;&nbsp;&nbsp;How to remove old failed Endodontics material
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;To perfect obturation technique
+                                                            &#10146;&nbsp;&nbsp;&nbsp;To perfect obturation technique
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Understand the pathophysiology of dental trauma
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Understand the pathophysiology of dental trauma
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Luxation
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Luxation
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Fractures
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Fractures
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Root fractures
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Root fractures
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Avulsions
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Avulsions
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Understand root development
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Understand root development
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Accurately assess prognosis and ensure best practice in management strategy
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Accurately assess prognosis and ensure best practice in management strategy
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Trauma
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Trauma
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;To practice and perfect Endodontics techniques for traumatized teeth
+                                                            &#10146;&nbsp;&nbsp;&nbsp;To practice and perfect Endodontics techniques for traumatized teeth
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Management of post operative pain –prediction and avoidance
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Management of post operative pain –prediction and avoidance
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;To ensure techniques are honed with deep expertise
+                                                            &#10146;&nbsp;&nbsp;&nbsp;To ensure techniques are honed with deep expertise
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Problem solving
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Problem solving
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Periodontal assessment
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Periodontal assessment
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Restorative assessment
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Restorative assessment
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Posts
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Posts
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Direct restorations
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Direct restorations
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;In-direct restorations
+                                                            &#10146;&nbsp;&nbsp;&nbsp;In-direct restorations
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Tooth whitening
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Tooth whitening
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Access through existing restorations
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Access through existing restorations
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Give deep understanding of the restorative options for Endodonticsally treated teeth
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Give deep understanding of the restorative options for Endodonticsally treated teeth
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;To give deep skills in tooth preparation & post preparation
+                                                            &#10146;&nbsp;&nbsp;&nbsp;To give deep skills in tooth preparation & post preparation
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;To develop skills in conventional and adhesive preparations
+                                                            &#10146;&nbsp;&nbsp;&nbsp;To develop skills in conventional and adhesive preparations
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;To develop skills in access through or removal of existing restorations
+                                                            &#10146;&nbsp;&nbsp;&nbsp;To develop skills in access through or removal of existing restorations
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -404,109 +404,109 @@
                                                     <h3>Hands On</h3>
                                                     <ul class="sc_list sc_list_style_iconed">
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Surgery preparation
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Surgery preparation
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Access to magnification and illumination as an essential to Endodontics
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Access to magnification and illumination as an essential to Endodontics
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Tooth assessment
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Tooth assessment
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Radiographic techniques
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Radiographic techniques
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Endodontics isolation and Rubber Dam
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Endodontics isolation and Rubber Dam
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Access cavity refinement with detailed dental anatomy
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Access cavity refinement with detailed dental anatomy
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Coronal decontamination
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Coronal decontamination
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Access and preparation of the canal, hand files and rotary
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Access and preparation of the canal, hand files and rotary
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Apical gauging
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Apical gauging
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Problem solving with ledges, perforations and anomalies
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Problem solving with ledges, perforations and anomalies
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Irrigation and disinfection techniques
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Irrigation and disinfection techniques
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Canal preparation
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Canal preparation
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Working length assessment
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Working length assessment
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Apex locators and radiographs
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Apex locators and radiographs
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Cleaning and shaping the root canal
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Cleaning and shaping the root canal
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Further deep technique development of cleaning and preparing of the root canal
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Further deep technique development of cleaning and preparing of the root canal
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;How to ensure maximal disinfection at the apex
+                                                            &#10146;&nbsp;&nbsp;&nbsp;How to ensure maximal disinfection at the apex
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;How to ensure you achieve patency and fill to the apical constriction (correct working length)
+                                                            &#10146;&nbsp;&nbsp;&nbsp;How to ensure you achieve patency and fill to the apical constriction (correct working length)
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Root canal obturation
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Root canal obturation
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Warm vertical techniques
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Warm vertical techniques
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Cold lateral techniques
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Cold lateral techniques
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;MTA
+                                                            &#10146;&nbsp;&nbsp;&nbsp;MTA
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Obturation techniques – practice of the theories discussed
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Obturation techniques – practice of the theories discussed
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Detailed use of the obturation armamentarium
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Detailed use of the obturation armamentarium
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Providing an immediate coronal seal
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Providing an immediate coronal seal
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Optimisation of obturation techniques
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Optimisation of obturation techniques
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Access to WL of very calcified teeth
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Access to WL of very calcified teeth
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Removal of posts and fractured instruments
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Removal of posts and fractured instruments
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Removal of old gutta percha
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Removal of old gutta percha
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Comprehensive Endodontics management of traumatically compromised teeth
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Comprehensive Endodontics management of traumatically compromised teeth
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Comprehensive practice of Endodontics from start to finish
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Comprehensive practice of Endodontics from start to finish
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Direct and indirect posts
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Direct and indirect posts
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Direct and in direct crowns
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Direct and in direct crowns
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Cutting back and tooth whitening techniques
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Cutting back and tooth whitening techniques
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Coronal dismantling
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Coronal dismantling
                                                         </li>
                                                     </ul>
                                                 </div>

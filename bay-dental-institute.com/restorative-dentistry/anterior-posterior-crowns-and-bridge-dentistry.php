@@ -165,45 +165,45 @@
                                                     <h3>Objectives</h3>
                                                     <ul class="sc_list sc_list_style_iconed">
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Types of anterior crowns: dentine bonded crowns, e.max& metal ceramic
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Types of anterior crowns: dentine bonded crowns, e.max& metal ceramic
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Indications &amp; Case Selection
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Indications &amp; Case Selection
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Preparation, temporisation, cementation
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Preparation, temporisation, cementation
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Handpiece and Bur Control
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Handpiece and Bur Control
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Bur Selection
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Bur Selection
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Adhesive cementation techniques & Cement selection
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Adhesive cementation techniques & Cement selection
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Occlusion
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Occlusion
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Soft tissue management: Electro surgery and lasers
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Soft tissue management: Electro surgery and lasers
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Indications for replacing missing teeth
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Indications for replacing missing teeth
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Types of bridge designs and when to use which design
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Types of bridge designs and when to use which design
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Material Selection
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Material Selection
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Preparation of bridges, temporisation and cementation
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Preparation of bridges, temporisation and cementation
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Soft tissue management and aesthetic pontic site creation
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Soft tissue management and aesthetic pontic site creation
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Aesthetic Denture design
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Aesthetic Denture design
                                                         </li>
                                                         
                                                         
@@ -228,26 +228,26 @@
                                                     <h3>Hands-On</h3>
                                                     <ul class="sc_list sc_list_style_iconed">
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Anterior Crown preps for e.max, dentine bonded & metal ceramic crowns
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Anterior Crown preps for e.max, dentine bonded & metal ceramic crowns
                                                         </li>
 														<li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Temporisation
-                                                        </li>
-														
-														<li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Electro-surgery and Laser
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Temporisation
                                                         </li>
 														
 														<li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Bridge preps: Resin Bonded bridges, Fixed-Movable, Fixed-Fixed
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Electro-surgery and Laser
                                                         </li>
 														
 														<li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Fibre-reinforced composite bridges
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Bridge preps: Resin Bonded bridges, Fixed-Movable, Fixed-Fixed
                                                         </li>
 														
 														<li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Denture design
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Fibre-reinforced composite bridges
+                                                        </li>
+														
+														<li class="sc_list_item">
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Denture design
                                                         </li>
                                                         
                                                     </ul>

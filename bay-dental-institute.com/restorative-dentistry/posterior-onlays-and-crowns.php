@@ -164,42 +164,42 @@
                                                     <h3>Objectives</h3>
                                                     <ul class="sc_list sc_list_style_iconed">
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Posterior onlay and full coverage crown preparation
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Posterior onlay and full coverage crown preparation
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Indications
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Indications
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Material selection
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Material selection
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Bur selection
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Bur selection
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Preparationn techniques
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Preparationn techniques
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Handpiece and Bur Control
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Handpiece and Bur Control
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Marginal elevation techniques
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Marginal elevation techniques
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Temporisation
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Temporisation
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Adhesive cementation techniques
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Adhesive cementation techniques
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Cement selection
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Cement selection
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Restoration of endodontically treated teeth
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Restoration of endodontically treated teeth
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Post and Cores
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Post and Cores
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Assessing restorability of badly broken down teeth
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Assessing restorability of badly broken down teeth
                                                         </li>
                                                         
                                                         
@@ -224,14 +224,14 @@
                                                     <h3>Hands-On</h3>
                                                     <ul class="sc_list sc_list_style_iconed">
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Onlay preps
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Onlay preps
                                                         </li>
 														<li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Full coverage crown preps
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Full coverage crown preps
                                                         </li>
 														
 														<li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Post preps and Core build up
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Post preps and Core build up
                                                         </li>
 														
 														

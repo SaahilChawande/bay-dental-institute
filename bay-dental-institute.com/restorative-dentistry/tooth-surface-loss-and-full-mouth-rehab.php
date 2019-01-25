@@ -164,39 +164,39 @@
                                                     <h3>Objectives</h3>
                                                     <ul class="sc_list sc_list_style_iconed">
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Tooth surface loss: types, diagnosis, prevention and treatment
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Tooth surface loss: types, diagnosis, prevention and treatment
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Conformative vs Re-organised approach
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Conformative vs Re-organised approach
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Occlusion
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Occlusion
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Increasing OVD
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Increasing OVD
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Facebow and Articulators: How and when to use
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Facebow and Articulators: How and when to use
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Diagnostic wax ups and techniques for build-ups
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Diagnostic wax ups and techniques for build-ups
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Types of veneer designs
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Types of veneer designs
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Lab Communication
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Lab Communication
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Direct vs Indirect restorations for treatment of toothwear
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Direct vs Indirect restorations for treatment of toothwear
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Long-term provisionals
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Long-term provisionals
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Splint therapy
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Splint therapy
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Lucia Jigs
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Lucia Jigs
                                                         </li>
                                                         
                                                         
@@ -221,14 +221,14 @@
                                                     <h3>Hands-On</h3>
                                                     <ul class="sc_list sc_list_style_iconed">
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Composite build-ups of tooth surface loss cases
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Composite build-ups of tooth surface loss cases
                                                         </li>
 														<li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Facebow transfer
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Facebow transfer
                                                         </li>
 														
 														<li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Lucia Jigs
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Lucia Jigs
                                                         </li>
                                                         
                                                     </ul>

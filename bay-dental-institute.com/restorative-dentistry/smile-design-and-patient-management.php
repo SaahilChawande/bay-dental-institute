@@ -153,27 +153,27 @@
                                                     <h3>Objectives</h3>
                                                     <ul class="sc_list sc_list_style_iconed">
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Introduction to aesthetic and restorative dentistry
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Introduction to aesthetic and restorative dentistry
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;The patient exam, diagnosis,prognosis and introduction to treatment planning.
+                                                            &#10146;&nbsp;&nbsp;&nbsp;The patient exam, diagnosis,prognosis and introduction to treatment planning.
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Caries and Periodontal Disease
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Caries and Periodontal Disease
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Discussion of the perception of beauty
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Discussion of the perception of beauty
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Assessment of facial landmarks
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Assessment of facial landmarks
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Smile Design
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Smile Design
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Treatment planning for the aesthetic case
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Treatment planning for the aesthetic case
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Dentist-Patient Communication and the art of soft Skills
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Dentist-Patient Communication and the art of soft Skills
                                                         </li>
                                                         
                                                     </ul>
@@ -197,7 +197,7 @@
                                                     <h3>Hands-On</h3>
                                                     <ul class="sc_list sc_list_style_iconed">
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Smile design exercises in groups with 1:1 guidance
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Smile design exercises in groups with 1:1 guidance
                                                         </li>
                                                         
                                                     </ul>

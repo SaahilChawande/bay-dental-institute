@@ -162,7 +162,7 @@
                                                 <div class="slides swiper-wrapper">
                                                     <div class="swiper-slide" style="background-image: url(images/courses/rubber-dam/rd1.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
                                                     <div class="swiper-slide" style="background-image: url(images/courses/rubber-dam/rd2.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/rubber-dam/rd3.jpg); transform:rotate(180deg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/rubber-dam/rd3.jpg);  background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
                                                     <div class="swiper-slide" style="background-image: url(images/courses/rubber-dam/rd4.jpg);transform:rotate(180deg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
                                                     <div class="swiper-slide" style="background-image: url(images/courses/rubber-dam/rd5.jpg); transform:rotate(180deg);background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
                                                     <div class="swiper-slide" style="background-image: url(images/courses/rubber-dam/rd6.jpg); transform:rotate(180deg);background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
@@ -215,31 +215,31 @@
                                                     <h3>Aims and Objectives</h3>
                                                     <ul class="sc_list sc_list_style_iconed">
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Remove the fear factor from rubber dam placement
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Remove the fear factor from rubber dam placement
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Simplifying dam placement and removal
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Simplifying dam placement and removal
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Understanding different techniques of Dam Placement
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Understanding different techniques of Dam Placement
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Patient comfort
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Patient comfort
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Absolute Isolation and partial isolation
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Absolute Isolation and partial isolation
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Absolute Isolation and partial isolation
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Absolute Isolation and partial isolation
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Fluid Control
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Fluid Control
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Course Covers
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Course Covers
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Theory on benefits and types of isolation
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Theory on benefits and types of isolation
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -262,25 +262,25 @@
                                                     <h3>Hands on Clinical Manikin</h3>
                                                     <ul class="sc_list sc_list_style_iconed">
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Get familiar with different clamps, forceps , Dams
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Get familiar with different clamps, forceps , Dams
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Floss Ties
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Floss Ties
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Split Dam technique , Quadrant Isolation, Single tooth Isolation.
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Split Dam technique , Quadrant Isolation, Single tooth Isolation.
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Dam stabilization, and patient comfort
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Dam stabilization, and patient comfort
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Photography with Dam on
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Photography with Dam on
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Dam Removal
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Dam Removal
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Dam Tears and troubleShooting.
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Dam Tears and troubleShooting.
                                                         </li>
                                                     </ul>
 								

@@ -149,42 +149,42 @@
                                                     <h3>Objectives</h3>
                                                     <ul class="sc_list sc_list_style_iconed">
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Understanding properties of colour in aesthetic industry
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Understanding properties of colour in aesthetic industry
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Aesthetic shade analysis & mapping for direct and indirect restorations
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Aesthetic shade analysis & mapping for direct and indirect restorations
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Shade guides and light correcting lamps
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Shade guides and light correcting lamps
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;What to record &amp; how to record
+                                                            &#10146;&nbsp;&nbsp;&nbsp;What to record &amp; how to record
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Lab Communications
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Lab Communications
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Understanding aetiology of discolouration
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Understanding aetiology of discolouration
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Tooth whitening techniques:Vital and Non-Vital
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Tooth whitening techniques:Vital and Non-Vital
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Tray Design
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Tray Design
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Managing Sensitivity
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Managing Sensitivity
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Tetracycline staining
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Tetracycline staining
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Micro-abrasion and Resin Infiltration
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Micro-abrasion and Resin Infiltration
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Legality, Marketing &amp; Fee setting
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Legality, Marketing &amp; Fee setting
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Managing patient expectations
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Managing patient expectations
                                                         </li>
                                                         
                                                     </ul>
@@ -208,7 +208,7 @@
                                                     <h3>Hands-On</h3>
                                                     <ul class="sc_list sc_list_style_iconed">
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Shade analysis &amp; mapping using light correcting lamps
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Shade analysis &amp; mapping using light correcting lamps
                                                         </li>
                                                         
                                                     </ul>

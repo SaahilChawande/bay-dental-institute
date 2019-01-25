@@ -149,42 +149,42 @@
                                                     <h3>Objectives</h3>
                                                     <ul class="sc_list sc_list_style_iconed">
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Indications
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Indications
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Material Selection &amp; Ceramics
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Material Selection &amp; Ceramics
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Clinical techniques - APT/APR
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Clinical techniques - APT/APR
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Bur Selection
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Bur Selection
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Step by step guide - Prep, Impressions, Try in, Temporisation, Cementation
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Step by step guide - Prep, Impressions, Try in, Temporisation, Cementation
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Immediate Dentine Sealing
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Immediate Dentine Sealing
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Types of veneer designs
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Types of veneer designs
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Lab Communication
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Lab Communication
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Managing Sensitivity
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Managing Sensitivity
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Fee Setting
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Fee Setting
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Soft tissue management
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Soft tissue management
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Gingival bio-types, Biological width &amp; Bone sounding
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Gingival bio-types, Biological width &amp; Bone sounding
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Soft tissue retraction techniques
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Soft tissue retraction techniques
                                                         </li>
                                                         
                                                     </ul>
@@ -208,16 +208,16 @@
                                                     <h3>Hands-On</h3>
                                                     <ul class="sc_list sc_list_style_iconed">
                                                         <li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Veneer preparation using APT/APR technique
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Veneer preparation using APT/APR technique
                                                         </li>
 														<li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Impressions
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Impressions
                                                         </li>
 														<li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Fabrication of provisionals
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Fabrication of provisionals
                                                         </li>
 														<li class="sc_list_item">
-                                                            &#10004;&nbsp;&nbsp;&nbsp;Freehand and Veneer Preparation
+                                                            &#10146;&nbsp;&nbsp;&nbsp;Freehand and Veneer Preparation
                                                         </li>
                                                         
                                                     </ul>

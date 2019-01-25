@@ -304,7 +304,7 @@
                                                             Our Board and Faculty includes Clinicians settled in India and Overseas who have cleared and registered overseas and aim to provide honest guidance for hardworking candidates.
                                                         </div>
                                                         <div class="sc_columns columns_wrap">
-                                                            <div class="column-1_3 column_padding_bottom">
+                                                            <div class="column-1_3 column_padding_bottom" style="padding-top:10px;">
                                                                 <div id="sc_team_454_1" class="sc_team_item">
                                                                     <div class="sc_team_item_avatar">
                                                                         <img width="182" height="182" alt="" src="images/our-team/t1.jpg">
@@ -321,7 +321,7 @@
                                                                 </div>
                                                             </div>
                                                             <div class="column-1_3 column_padding_bottom">
-                                                                <div id="sc_team_454_4" class="sc_team_item">
+                                                                <div id="sc_team_454_1" class="sc_team_item">
                                                                     <div class="sc_team_item_avatar">
                                                                         <img width="182" height="182" alt="" src="images/our-team/t3.jpg">
                                                                     </div>
@@ -338,7 +338,7 @@
                                                                 </div>
                                                             </div>
                                                             <div class="column-1_3 column_padding_bottom">
-                                                                <div id="sc_team_454_2" class="sc_team_item">
+                                                                <div id="sc_team_454_1" class="sc_team_item">
                                                                     <div class="sc_team_item_avatar">
                                                                         <img width="182" height="182" alt="" src="images/our-team/t2.jpg">
                                                                     </div>
