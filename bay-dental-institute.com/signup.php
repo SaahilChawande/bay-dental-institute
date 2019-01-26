@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-US" class="scheme_original">
-
-
-<!-- Mirrored from dentario-html.themerex.net/grid.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 21 Nov 2018 12:17:58 GMT -->
+<?php 
+    $is_subfolder = false;
+?>
 <head>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <meta charset="UTF-8" />
@@ -80,39 +80,7 @@
                     <div class="logo alignleft" style="margin: 0" >
                         <img src="images/logo-1x.png" class="logo_main" alt="">
                     </div>
-                    <div class="content_wrap clearfix">
-                        <nav class="menu_main_nav_area">
-                            <ul id="menu_main" class="menu_main_nav">
-                                <li class="menu-item" ><a href="index.php"><span>Home</span></a></li>
-                                <li class="menu-item"><a href="index.php#about-us">About Us</a></li>
-                                <li class="menu-item menu-item-has-children"><a href="#"><span>Courses &nbsp;&#8659;</span></a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item"><a href="ore-lds-uk.php"><span>ORE / LDS - UK</span></a></li>
-                                        <li class="menu-item"><a href="nbde-usa.php"><span>NBDE - USA</span></a></li>
-                                        <li class="menu-item"><a href="ndeb-canada.php"><span>NDEB - Canada</span></a></li>
-                                        <li class="menu-item"><a href="restorative-dentistry.php"><span>Restorative Dentistry</span></a></li>
-                                        <li class="menu-item"><a href="composites.php"><span>Composites</span></a></li>
-                                        <li class="menu-item"><a href="dental-photography.php"><span>Dental Photography</span></a></li>
-                                        <li class="menu-item"><a href="rubber-dam.php"><span>Rubber Dam</span></a></li>
-                                        <li class="menu-item"><a href="botox-and-lip-fillers.php"><span>Facial Aesthetics: Botox &amp; Lip Fillers</span></a></li>
-                                        <li class="menu-item"><a href="dental-assistant-training.php"><span>Dental Assistant Training</span></a></li>
-                                        <li class="menu-item"><a href="javascript:void(0)"><span>Social Media Marketing for Dentists</span></a></li>
-                                        <li class="menu-item"><a href="endodontics.php"><span>Endodontics</span></a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item"><a href="gallery.php">Gallery</a></li>
-                                <li class="menu-item"><a href="javascript:void(0)">Faculty</a></li>
-                                <li class="menu-item"><a href="javascript:void(0)">Store</a></li>
-                                <li class="menu-item"><a href="book-a-course.php">Book a course</a></li>
-                                <li class="menu-item menu-item-has-children"><a href="#"><span>Contact &nbsp;&#8659;</span></a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item"><a href="javascript:void(0)"><span>Testimonials</span></a></li>
-                                        <li class="menu-item"><a href="index.php#contact-us"><span>Contact Us</span></a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
+                    <?php include "desktop-header.php"; ?>
                 </div>
             </div>
         </header>
@@ -126,42 +94,7 @@
                     </a>
                 </div>
             </div>
-            <div class="side_wrap">
-                <div class="close">Close</div>
-                <div class="panel_top">
-                    <nav class="menu_main_nav_area">
-                        <ul id="menu_main_mobile" class="menu_main_nav">
-                            <li class="menu-item" onclick="onClickHome()"><a href="index.php"><span>Home</span></a></li>
-                            <li class="menu-item" onclick="onClickAboutUsMenu()"><a href="index.php#about-us">About Us</a></li>
-                            <li class="menu-item menu-item-has-children"><a href="javascript:void(0)"><span>Courses</span></a>
-                                <ul class="sub-menu gold-text">
-                                    <li class="menu-item"><a href="ore-lds-uk.php"><span>ORE / LDS - UK</span></a></li>
-                                    <li class="menu-item"><a href="nbde-usa.php"><span>NBDE - USA</span></a></li>
-                                    <li class="menu-item"><a href="ndeb-canada.php"><span>NDEB - Canada</span></a></li>
-                                    <li class="menu-item"><a href="restorative-dentistry.php"><span>Restorative Dentistry</span></a></li>
-                                    <li class="menu-item"><a href="composites.php"><span>Composites</span></a></li>
-                                    <li class="menu-item"><a href="dental-photography.php"><span>Dental Photography</span></a></li>
-                                    <li class="menu-item"><a href="rubber-dam.php"><span>Rubber Dam</span></a></li>
-                                    <li class="menu-item"><a href="botox-and-lip-fillers.php"><span>Facial Aesthetics: Botox &amp; Lip Fillers</span></a></li>
-                                    <li class="menu-item"><a href="dental-assistant-training.php"><span>Dental Assistant Training</span></a></li>
-                                    <li class="menu-item"><a href="javascript:void(0)"><span>Social Media Marketing for Dentists</span></a></li>
-                                    <li class="menu-item"><a href="endodontics.php"><span>Endodontics</span></a></li>
-                                </ul>
-                            </li>
-                            <li class="menu-item"><a href="gallery.php">Gallery</a></li>
-                            <li class="menu-item"><a href="javascript:void(0)">Faculty</a></li>
-                            <li class="menu-item"><a href="javascript:void(0)">Store</a></li>
-                            <li class="menu-item"><a href="book-a-course.php">Book a course</a></li>
-                            <li class="menu-item menu-item-has-children"><a href="javascript:void(0)"><span>Contact</span></a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item"><a href="javascript:void(0)"><span>Testimonials</span></a></li>
-                                    <li class="menu-item"><a href="index.php#contact-us"><span>Contact Us</span></a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
+            <?php include "mobile-header.php"; ?>
             <div class="mask"></div>
         </div>
 
