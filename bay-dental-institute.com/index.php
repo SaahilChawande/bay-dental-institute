@@ -56,6 +56,17 @@
                 }
             });
         });
+
+        function initMap()  {
+            // The location of Bay Dental Institute
+            var baydental = { lat: 18.95947, lng: 72.80971 };
+            // The map centered at Bay Dental Institute
+            var map = new google.maps.Map(
+                document.getElementById('map'), { zoom: 4, center: baydental});
+            // The marker, positioned at Bay Dental
+            var marker = new google.maps.Marker({position: baydental, map: map});
+
+        }
     </script>
 </head>
 
@@ -623,7 +634,8 @@
                                                     </div>
                                                     <div class="column-1_2 sc_column_item sc_column_item_2">
                                                         <div id="sc_googlemap_380" class="sc_googlemap" data-zoom="14" data-style="ultra_light">
-                                                            <div id="sc_googlemap_380_1" class="sc_googlemap_marker" data-title="" data-description="&lt;div class=&quot;wpb_text_column wpb_content_element &quot; &gt; &lt;div class=&quot;wpb_wrapper&quot;&gt; &lt;p&gt;New York Madison St.&lt;/p&gt; &lt;/div&gt; &lt;/div&gt; " data-address="New York Madison St. " data-latlng="" data-point="images/map_marker.png"></div>
+                                                            <div id="map" class="sc_googlemap_marker" data-title="" data-description="&lt;div class=&quot;wpb_text_column wpb_content_element &quot; &gt; &lt;div class=&quot;wpb_wrapper&quot;&gt; &lt;p&gt;New York Madison St.&lt;/p&gt; &lt;/div&gt; &lt;/div&gt; " data-address="New York Madison St. " data-latlng="" data-point="images/map_marker.png">
+                                                        </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -648,7 +660,7 @@
                             <div id="sc_form_070_wrap" class="sc_form_wrap">
                                 <div id="sc_form_070" class="sc_form sc_form_style_form_2 margin_top_null margin_bottom_null">
                                     <h2 class="sc_form_title sc_item_title">Get in touch with us!</h2>
-                                    <form id="sc_form_070_form" data-formtype="form_2" method="post" action="http://dentario-html.themerex.net/includes/sendmail.php" class="inited">
+                                    <form id="sc_form_070_form" data-formtype="form_2" method="post" class="inited">
                                         <div class="sc_form_info">
                                             <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_2">
                                                 <div class="column-1_2 sc_column_item sc_column_item_1">
@@ -752,7 +764,7 @@
     <script type='text/javascript' src='js/vendor/magnific/jquery.magnific-popup.min.js'></script>
     <script type='text/javascript' src='js/vendor/comp/comp_front.min.js'></script>
     <script type='text/javascript' src='js/vendor/swiper/swiper.min.js'></script>
-    <script type='text/javascript' src='http://maps.google.com/maps/api/js?key='></script>
+    <script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyD6TloiI5ShPFfU14G9gy8AfvJG0ai88rk&callback=initMap'></script>
     <script type='text/javascript' src='js/vendor/core.googlemap.js'></script>
     <script type='text/javascript' src='js/custom/home.js'></script>
 	
