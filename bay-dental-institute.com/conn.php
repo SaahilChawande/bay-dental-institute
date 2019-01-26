@@ -1,11 +1,11 @@
 <?php
 
-$is_server_set = 1;
+$is_server_set = true;
 
-if ($is_server_set == 0)    {
+if (!$is_server_set)    {
     $username="root";
     $password="";
-}   elseif (is_server_set == 1) {
+}   else if ($is_server_set) {
     $username = "baydentaluser";
     $password = "blank";
 }
