@@ -319,7 +319,7 @@
 
 .contactp .bgimage_column,
 .indexp .bgimage_column {
-	background-image:url(../images/about-us-2.jpg);
+	background-image:url(../images/about-us-1.jpg);
 	background-repeat:no-repeat;
 	background-size: contain;
 }
@@ -512,7 +512,6 @@
 	font-size: 14px;
 	color: #f7bd5f;
 	text-align: center;
-	font-family: Merriweather;
 	font-weight:300;
 	font-style:normal
 }
@@ -521,7 +520,6 @@
 	font-size: 14px;
 	color: #C3C7C9;
 	text-align: left;
-	font-family: Merriweather;
 	font-weight:300;
 	font-style:normal
 }

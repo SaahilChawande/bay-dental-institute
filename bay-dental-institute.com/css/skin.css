@@ -10128,7 +10128,7 @@ button,
   color: #55BDE3;
 }
 .sc_item_descr {
-  font-family: 'Merriweather';
+  font-style:normal;
 }
 .scheme_original .sc_item_descr {
   color: #F0FAFF;

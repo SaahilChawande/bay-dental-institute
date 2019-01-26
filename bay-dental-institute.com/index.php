@@ -297,11 +297,13 @@
                                                     <div id="sc_team_454" class="sc_team sc_team_style_team-1  margin_top_huge margin_bottom_large">
                                                         <h2 class="sc_team_title sc_item_title">Meet Our Team</h2>
                                                         <div class="sc_team_descr sc_item_descr">
+														<p>
                                                             With a vision to provide the brightest and most driven clinicians easy access and know how to crack international Dental Licensing exams having gone through the rigorous process ourselves knowing the hardships faced by young candidates due to lack of clarity, cost and economic hardship.
                                                             <br><br>
                                                             Our aim is to provide correct, robust, and to the point concise guidance of what is required to crack these exams, at affordable costs as opposed to flying overseas with a state of the art infrastructure.
                                                             <br><br>
                                                             Our Board and Faculty includes Clinicians settled in India and Overseas who have cleared and registered overseas and aim to provide honest guidance for hardworking candidates.
+														</p>
                                                         </div>
                                                         <div class="sc_columns columns_wrap">
                                                             <div class="column-1_3 column_padding_bottom" style="padding-top:10px;">
