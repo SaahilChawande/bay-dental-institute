@@ -144,8 +144,6 @@
 
                                     <!--FAQs-->
 									
-                            <div class="row">
-                                <div class="vc_col-md-8">
                                     <div class="vc_row wpb_row vc_row-fluid">
                                         <div class="wpb_column vc_column_container vc_col-sm-12">
                                             <div class="vc_column-inner ">
@@ -594,11 +592,6 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="vc_col-md-4">
-                                    <div style="width: 100%;height: 100%; background-color: blue"></div>
-                                </div>
-                            </div>
 
                         </section>
                         <section class="related_wrap related_wrap_empty"></section>
