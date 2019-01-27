@@ -13,7 +13,7 @@
                     <li class="menu-item"><a href="<?php echo $is_subfolder ? '../' : ''; ?>rubber-dam.php"><span>Rubber Dam</span></a></li>
                     <li class="menu-item"><a href="<?php echo $is_subfolder ? '../' : ''; ?>botox-and-lip-fillers.php"><span>Facial Aesthetics: Botox &amp; Lip Fillers</span></a></li>
                     <li class="menu-item"><a href="<?php echo $is_subfolder ? '../' : ''; ?>endodontics.php"><span>Endodontics</span></a></li>
-                    <li class="menu-item"><a href="javascript:void(0)"><span>Social Media Marketing for Dentists</span></a></li>
+                    <li class="menu-item"><a href="<?php echo $is_subfolder ? '../' : ''; ?>social-media-marketing-for-dentists.php"><span>Social Media Marketing for Dentists</span></a></li>
                     <li class="menu-item"><a href="<?php echo $is_subfolder ? '../' : ''; ?>dental-assistant-training.php"><span>Dental Assistant Training</span></a></li>
                 </ul>
             </li>

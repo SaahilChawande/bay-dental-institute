@@ -6936,6 +6936,10 @@ h1 .wpb_text_column p, h2 .wpb_text_column p, h3 .wpb_text_column p, h4 .wpb_tex
     margin-bottom: 1em;
 }
 
+.social-icon-border	{
+	border-radius: 5px;
+}
+
 @media only screen and (max-width: 600px)	{
 	.scroll-bar	{
 		overflow: scroll;
