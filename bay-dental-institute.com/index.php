@@ -269,7 +269,7 @@
                                                             <div class="column-1_3 column_padding_bottom" style="padding-top:10px;">
                                                                 <div id="sc_team_454_1" class="sc_team_item">
                                                                     <div class="sc_team_item_avatar">
-                                                                        <img width="182" height="182" alt="" src="images/our-team/t1.jpg">
+                                                                        <img width="182" height="182" alt="" src="images/our-team/shravan-chawla.jpg">
                                                                     </div>
                                                                     <div class="sc_team_item_info">
                                                                         <h5 class="sc_team_item_title">Dr. Shravan Chawla</h5>
@@ -285,7 +285,7 @@
                                                             <div class="column-1_3 column_padding_bottom">
                                                                 <div id="sc_team_454_1" class="sc_team_item">
                                                                     <div class="sc_team_item_avatar" style= "height: 188px">
-                                                                        <img width="182" height="182" alt="" src="images/our-team/t3.jpg">
+                                                                        <img width="182" height="182" alt="" src="images/our-team/akshari-anchan.jpg">
                                                                     </div>
                                                                     <div class="sc_team_item_info">
                                                                         <h5 class="sc_team_item_title">Dr. Akshari Anchan</h5>
@@ -302,7 +302,7 @@
                                                             <div class="column-1_3 column_padding_bottom">
                                                                 <div id="sc_team_454_1" class="sc_team_item">
                                                                     <div class="sc_team_item_avatar">
-                                                                        <img width="182" height="182" alt="" src="images/our-team/t2.jpg">
+                                                                        <img width="182" height="182" alt="" src="images/our-team/james-mulani.jpg">
                                                                     </div>
                                                                     <div class="sc_team_item_info">
                                                                         <h5 class="sc_team_item_title">Dr. James Mulani</h5>
