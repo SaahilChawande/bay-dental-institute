@@ -1,12 +1,9 @@
-<?php
-    ob_start();
-    session_start();
-?>
-
 <!DOCTYPE html>
 <html lang="en-US" class="scheme_original">
 <?php 
     $is_subfolder = false;
+    ob_start();
+    session_start();
 ?>
 <head>
     <meta charset="UTF-8" />

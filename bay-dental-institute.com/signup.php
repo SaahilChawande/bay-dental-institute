@@ -2,6 +2,8 @@
 <html lang="en-US" class="scheme_original">
 <?php 
     $is_subfolder = false;
+    ob_start();
+    session_start();
 ?>
 <head>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>

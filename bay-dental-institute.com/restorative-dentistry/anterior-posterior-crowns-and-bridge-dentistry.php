@@ -2,6 +2,8 @@
 <html lang="en-US" class="scheme_original">
 <?php 
     $is_subfolder = true;
+    ob_start();
+    session_start();
 ?>
 <head>
     <meta charset="UTF-8" />

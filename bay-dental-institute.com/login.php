@@ -3,6 +3,8 @@
 <html lang="en-US" class="scheme_original">
 <?php 
     $is_subfolder = false;
+    ob_start();
+    session_start();
 ?>
 <head>
     <meta charset="UTF-8" />
@@ -180,7 +182,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="vc_empty_space space_10p" style="height: 18em">
+                        <div class="vc_empty_space space_10p" style="height: 24em">
                             <span class="vc_empty_space_inner"></span>
                         </div>
                     </div>

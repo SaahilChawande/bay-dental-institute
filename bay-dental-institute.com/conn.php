@@ -1,6 +1,6 @@
 <?php
 
-$is_server_set = true;
+$is_server_set = false;
 
 if (!$is_server_set)    {
     $username="root";

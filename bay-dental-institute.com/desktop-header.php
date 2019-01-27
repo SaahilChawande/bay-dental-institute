@@ -2,7 +2,6 @@
     <nav class="menu_main_nav_area">
         <ul id="menu_main" class="menu_main_nav">
             <li class="menu-item" ><a href="<?php echo $is_subfolder ? '../' : ''; ?>index.php#home"><span>Home</span></a></li>
-            <li class="menu-item"><a href="<?php echo $is_subfolder ? '../' : ''; ?>index.php#about-us">About Us</a></li>
             <li class="menu-item menu-item-has-children"><a href="#"><span>Courses &nbsp;&#8659;</span></a>
                 <ul class="sub-menu">
                     <li class="menu-item"><a href="<?php echo $is_subfolder ? '../' : ''; ?>ore-lds-uk.php"><span>ORE / LDS - UK</span></a></li>
@@ -22,12 +21,9 @@
             <li class="menu-item"><a href="javascript:void(0)">Faculty</a></li>
             <li class="menu-item"><a href="javascript:void(0)">Store</a></li>
             <li class="menu-item"><a href="<?php echo $is_subfolder ? '../' : ''; ?>book-a-course.php">Book a course</a></li>
-            <li class="menu-item menu-item-has-children"><a href="#"><span>Contact &nbsp;&#8659;</span></a>
-                <ul class="sub-menu">
-                    <li class="menu-item"><a href="javascript:void(0)"><span>Testimonials</span></a></li>
-                    <li class="menu-item"><a href="<?php echo $is_subfolder ? '../' : ''; ?>index.php#contact-us"><span>Contact Us</span></a></li>
-                </ul>
-            </li>
+            <li class="menu-item"><a href="javascript:void(0)"><span>Testimonials</span></a></li>
+            <li class="menu-item"><a href="<?php echo $is_subfolder ? '../' : ''; ?>index.php#contact-us"><span>Contact Us</span></a></li>
+            <li class="menu-item"><a href="<?php echo $is_subfolder ? '../' : ''; ?><?php echo isset($_SESSION['username']) ? 'logout.php' : 'login.php'; ?>"><?php echo isset($_SESSION['username']) ? "Logout" : "Login"; ?></a></li>
         </ul>
     </nav>
 </div>
