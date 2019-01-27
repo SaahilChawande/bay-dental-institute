@@ -351,7 +351,7 @@
                                                             <p style="display: inline;">1 day/3 hour program</p>
                                                             <br><br>
                                                             <h5 style="display: inline">Cost : </h5>
-                                                            <p style="display: inline">1000/-</p>
+                                                            <p style="display: inline"> &#x20b9; 1,000/-</p>
                                                             <br><br>
                                                             <h5 style="display: inline">Tutor : </h5>
                                                             <p style="display: inline; ">Dr. Shravan Chawla</p>
@@ -383,7 +383,7 @@
                                                             <p style="display: inline;">2 days coaching/ 9am to 6pm</p>
                                                             <br><br>
                                                             <h5 style="display: inline">Cost : </h5>
-                                                            <p style="display: inline;">30000/-</p>
+                                                            <p style="display: inline;"> &#x20b9; 30,000/-</p>
                                                             <br><br>
                                                             <h5 style="display: inline">Tutor : </h5>
                                                             <p style="display: inline;">Dr. Shravan Chawla</p>
@@ -418,7 +418,7 @@
                                                             <p style="display: inline">5 days / 9 am to 6 pm </p>
                                                             <br><br>
                                                             <h5 style="display: inline">Cost : </h5>
-                                                            <p style="display: inline">50000/-</p>
+                                                            <p style="display: inline"> &#x20b9; 50,000/-</p>
                                                             <br><br>
                                                             <h5 style="display: inline">Tutor : </h5>
                                                             <p style="display: inline">Dr. Shravan Chawla</p>
@@ -454,7 +454,7 @@
                                                             <p style="display: inline">2 days / 9 am to 6 pm </p>
                                                             <br><br>
                                                             <h5 style="display: inline">Cost : </h5>
-                                                            <p style="display: inline">25000/-</p>
+                                                            <p style="display: inline"> &#x20b9; 25,000/-</p>
                                                             <br><br>
                                                             <h5 style="display: inline">Tutor : </h5>
                                                             <p style="display: inline">Dr. Shravan Chawla</p>
@@ -483,7 +483,7 @@
                                                             <p style="display: inline">3 hours mock exam </p>
                                                             <br><br>
                                                             <h5 style="display: inline">Cost : </h5>
-                                                            <p style="display: inline">6000/-</p>
+                                                            <p style="display: inline"> &#x20b9; 6,000/-</p>
                                                             <br><br>
                                                             <h5 style="display: inline">Tutor : </h5>
                                                             <p style="display: inline">Dr. Shravan Chawla</p>
@@ -514,7 +514,7 @@
                                                             <p style="display: inline">3 hour mock exam</p>
                                                             <br><br>
                                                             <h5 style="display: inline">Cost : </h5>
-                                                            <p style="display: inline">5500/-</p>
+                                                            <p style="display: inline"> &#x20b9; 5,500/-</p>
                                                             <br><br>
                                                             <h5 style="display: inline">Tutor : </h5>
                                                             <p style="display: inline">Dr. Shravan Chawla</p>
@@ -545,7 +545,7 @@
                                                             <p style="display: inline">20 mins ME Mock exam Followed by 1 hour DTP Mock exam </p>
                                                             <br><br>
                                                             <h5 style="display: inline">Cost : </h5>
-                                                            <p style="display: inline">12000/-</p>
+                                                            <p style="display: inline"> &#x20b9; 12,000/-</p>
                                                             <br><br>
                                                             <h5 style="display: inline">Tutor : </h5>
                                                             <p style="display: inline">Dr. Shravan Chawla</p>
@@ -574,7 +574,7 @@
                                                             <p style="display: inline">4 Modules conducted over 3 days just like exam </p>
                                                             <br><br>
                                                             <h5 style="display: inline">Cost : </h5>
-                                                            <p style="display: inline">20000/-</p>
+                                                            <p style="display: inline"> &#x20b9; 20,000/-</p>
                                                             <br><br>
                                                             <h5 style="display: inline">Tutor : </h5>
                                                             <p style="display: inline">Dr. Shravan Chawla</p>
@@ -605,7 +605,7 @@
                                                             <p style="display: inline">1 day / 9 am to 6 pm </p>
                                                             <br><br>
                                                             <h5 style="display: inline">Cost : </h5>
-                                                            <p style="display: inline">6000/-</p>
+                                                            <p style="display: inline"> &#x20b9; 6,000/-</p>
                                                             <br><br>
                                                             <h5 style="display: inline">Tutor : </h5>
                                                             <p style="display: inline">Dr. Shravan Chawla</p>
@@ -645,13 +645,13 @@
                                                     <div class="column-1_3 sc_column_item">
                                                         <div class="aligncenter course-border">
                                                             <h5 style="display: inline">Course Name : </h5>
-                                                            <p style="display: inline">Orentation & Introduction </p>
+                                                            <p style="display: inline">Orentation &amp; Introduction </p>
                                                             <br><br>
                                                             <h5 style="display: inline">Duration : </h5>
                                                             <p style="display: inline">6 hours</p>
                                                             <br><br>
                                                             <h5 style="display: inline">Cost : </h5>
-                                                            <p style="display: inline">1500/-</p>
+                                                            <p style="display: inline"> &#x20b9; 1,500/-</p>
                                                             <br><br>
                                                             <h5 style="display: inline">Tutor : </h5>
                                                             <p style="display: inline">Dr. Akshari Anchan</p>
@@ -664,7 +664,7 @@
                                                                 Different University / Colleges Background <br/>
                                                                 Deemed Vs Private Universities in USA <br/>
                                                                 CAAPID Appllication <br/>
-                                                                Dates & Deadlines <br/>
+                                                                Dates &amp; Deadlines <br/>
                                                                 Application Process <br/>
                                                                 Subjects to Study <br/>
                                                                 Examination Schedule <br/>
@@ -688,7 +688,7 @@
                                                             <p style="display: inline">8 days ( 4 + 4 ) / 9 am to 11 am ( 15 Hours total ) </p>
                                                             <br><br>
                                                             <h5 style="display: inline">Cost : </h5>
-                                                            <p style="display: inline">16000/-</p>
+                                                            <p style="display: inline"> &#x20b9; 16,000/-</p>
                                                             <br><br>
                                                             <h5 style="display: inline">Tutor : </h5>
                                                             <p style="display: inline">Dr. Akshari Anchan</p>
@@ -723,7 +723,7 @@
                                                                 <br> ( 20 Hours Total )</p>
                                                             <br><br>
                                                             <h5 style="display: inline">Cost : </h5>
-                                                            <p style="display: inline">20000/-</p>
+                                                            <p style="display: inline"> &#x20b9; 20,000/-</p>
                                                             <br><br>
                                                             <h5 style="display: inline">Tutor : </h5>
                                                             <p style="display: inline">Dr. Akshari Anchan</p>
@@ -732,7 +732,7 @@
                                                             <div id="panel12" class="hide_display">
                                                                 All Clinical Science topics covered in brief overview for exam <br/>
                                                                 1 Day Pharmacology <br/>
-                                                                1 Day Conservative Dentistry & Endodontics <br/>
+                                                                1 Day Conservative Dentistry &amp; Endodontics <br/>
 
                                                                 1 Day Oral Pathology <br/>
                                                                 1 Day Periodontics <br/>
@@ -762,7 +762,7 @@
                                                             <p style="display: inline">24 days total ( 6 days/ week  X 4 weeks / 9 am to 11 am / total 48 hours coaching ) </p>
                                                             <br><br>
                                                             <h5 style="display: inline">Cost : </h5>
-                                                            <p style="display: inline">30000/-</p>
+                                                            <p style="display: inline"> &#x20b9; 30,000/-</p>
                                                             <br><br>
                                                             <h5 style="display: inline">Tutor : </h5>
                                                             <p style="display: inline">Dr. Akshari Anchan</p>
@@ -796,7 +796,7 @@
                                                                 <br> / total 48 hours coaching )</p>
                                                             <br><br>
                                                             <h5 style="display: inline">Cost : </h5>
-                                                            <p style="display: inline">40000/-</p>
+                                                            <p style="display: inline"> &#x20b9; 40,000/-</p>
                                                             <br><br>
                                                             <h5 style="display: inline">Tutor : </h5>
                                                             <p style="display: inline">Dr. Akshari Anchan</p>
@@ -804,14 +804,14 @@
                                                             <h5 class="more-details"><a id="flip14">Click for more details&nbsp;&#8659;</a></h5>
                                                             <div id="panel14" class="hide_display">
                                                                 2 Days Pharmacology<br/>
-                                                                2 Days Conservative Dentistry & Endodontics <br/>
+                                                                2 Days Conservative Dentistry &amp; Endodontics <br/>
                                                                 2 Days Prosthodontics <br/>
                                                                 2 Days Oral Pathology <br/>
                                                                 2 Days Periodontics <br/>
                                                                 2 Days Orthodontics <br/>
                                                                 2 Days Oral Surgery <br/>
                                                                 2 Days Public Health <br/>
-                                                                2 Days Oral Medicine & Radiology<br/>
+                                                                2 Days Oral Medicine &amp; Radiology<br/>
                                                                 2 Days Ethics <br/>
                                                                 4 Days Revision
                                                             </div>
