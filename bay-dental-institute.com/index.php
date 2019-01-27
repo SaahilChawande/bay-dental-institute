@@ -58,18 +58,30 @@
                 }
             });
         });
-
-        function initMap()  {
-            // The location of Bay Dental Institute
-            var baydental = { lat: 18.95947, lng: 72.80971 };
-            // The map centered at Bay Dental Institute
-            var map = new google.maps.Map(
-                document.getElementById('map'), { zoom: 4, center: baydental});
-            // The marker, positioned at Bay Dental
-            var marker = new google.maps.Marker({position: baydental, map: map});
-
-        }
     </script>
+    
+
+    <!-- <style>
+        #map {
+            width: 100%;
+            height: 400px;
+            background-color: grey;
+        }
+    </style> -->
+    <style>
+        .mapouter {
+            text-align:right;
+            height:700px;
+            width:760px;
+        }
+        
+        .gmap_canvas {
+            overflow:hidden;
+            background:none!important;
+            height:700px;
+            width:760px;
+        }
+    </style>
 </head>
 
 <body id="home" class="indexp home page body_style_wide body_filled article_style_stretch scheme_original top_panel_show top_panel_above sidebar_hide sidebar_outer_hide vc_responsive">
@@ -115,10 +127,10 @@
                                 <div class="tp-caption dentrarario-home1-static-text tp-resizeme button" id="slide-4-layer-3" data-x="35" data-y="340" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;","speed":1500,"to":"o:1;","delay":500,"ease":"Power3.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
                                     <a href="book-a-course.php" class="sc_button sc_button_square sc_button_style_filled sc_button_size_medium alignleft">Book a Course</a>
                                 </div>
-                                <div style="color: white; font-weight: bold" class="tp-caption dentrarario-home1-static-header tp-resizeme" id="slide-1-layer-4" data-x="35" data-y="143" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0;rY:0;rZ:0;sX:0.8;sY:0.8;skX:0;skY:0;opacity:0;","speed":1500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
+                                <div style="color: white; font-weight: bold; text-shadow: black -2px 0px, black 0px 2px, black 2px 0px, black 0px -2px" class="tp-caption dentrarario-home1-static-header tp-resizeme" id="slide-1-layer-4" data-x="35" data-y="143" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0;rY:0;rZ:0;sX:0.8;sY:0.8;skX:0;skY:0;opacity:0;","speed":1500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
                                     IDLE Training
                                 </div>
-								<div style="color: white; font-size:20px; " class="tp-caption dentrarario-home1-static-header tp-resizeme" id="slide-1-layer-4" data-x="35" data-y="200" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0;rY:0;rZ:0;sX:0.8;sY:0.8;skX:0;skY:0;opacity:0;","speed":1500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
+								<div style="color: white; font-size:20px; text-shadow: black -2px 0px, black 0px 2px, black 2px 0px, black 0px -2px" class="tp-caption dentrarario-home1-static-header tp-resizeme" id="slide-1-layer-4" data-x="35" data-y="200" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0;rY:0;rZ:0;sX:0.8;sY:0.8;skX:0;skY:0;opacity:0;","speed":1500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
                                     Qualified tutors from USA, UK and Canada to help you prepare and help you crack NDBE and ORE
                                 </div>
                             </li>
@@ -130,10 +142,10 @@
                                 <div class="tp-caption dentrarario-home1-static-text tp-resizeme button" id="slide-4-layer-3" data-x="35" data-y="340" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;","speed":1500,"to":"o:1;","delay":500,"ease":"Power3.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
                                     <a href="book-a-course.php" class="sc_button sc_button_square sc_button_style_filled sc_button_size_medium alignleft">Book a course</a>
                                 </div>
-                                <div style="color: white; font-weight: bold" class="tp-caption dentrarario-home1-static-header tp-resizeme" id="slide-4-layer-4" data-x="35" data-y="143" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":500,"ease":"Power3.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
+                                <div style="color: white; font-weight: bold; text-shadow: black -2px 0px, black 0px 2px, black 2px 0px, black 0px -2px" class="tp-caption dentrarario-home1-static-header tp-resizeme" id="slide-4-layer-4" data-x="35" data-y="143" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":500,"ease":"Power3.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
                                     State of the Art Infrastructure
                                 </div>
-								<div style="color: white; font-size:20px; " class="tp-caption dentrarario-home1-static-header tp-resizeme" id="slide-1-layer-4" data-x="35" data-y="200" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0;rY:0;rZ:0;sX:0.8;sY:0.8;skX:0;skY:0;opacity:0;","speed":1500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
+								<div style="color: white; font-size:20px; text-shadow: black -2px 0px, black 0px 2px, black 2px 0px, black 0px -2px" class="tp-caption dentrarario-home1-static-header tp-resizeme" id="slide-1-layer-4" data-x="35" data-y="200" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0;rY:0;rZ:0;sX:0.8;sY:0.8;skX:0;skY:0;opacity:0;","speed":1500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
                                     Live clinical stations for each student connected to live procedures, cameras to the trainer
                                 </div>
                             </li>
@@ -143,12 +155,12 @@
                                 <div style="color: white" class="tp-caption dentrarario-home1-static-text2 tp-resizeme" id="slide-5-layer-2" data-x="35" data-y="255" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power2.easeOut"},{"delay":4250,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
                                 </div>
                                 <div class="tp-caption dentrarario-home1-static-text tp-resizeme button" id="slide-5-layer-3" data-x="35" data-y="317" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;","speed":1500,"to":"o:1;","delay":1500,"ease":"Power2.easeOut"},{"delay":3750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
-                                    <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_medium alignleft">Faculty</a>
+                                    <a href="book-a-course.php" class="sc_button sc_button_square sc_button_style_filled sc_button_size_medium alignleft">Book a Course</a>
                                 </div>
-                                <div style="color: white; font-weight: bold" class="tp-caption dentrarario-home1-static-header tp-resizeme" id="slide-5-layer-4" data-x="35" data-y="143" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":500,"ease":"Power2.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
+                                <div style="color: white; font-weight: bold; text-shadow: black -2px 0px, black 0px 2px, black 2px 0px, black 0px -2px" class="tp-caption dentrarario-home1-static-header tp-resizeme" id="slide-5-layer-4" data-x="35" data-y="143" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":500,"ease":"Power2.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
                                     Worldwide Speakers
                                 </div>
-								<div style="color: white; font-size:20px; " class="tp-caption dentrarario-home1-static-header tp-resizeme" id="slide-1-layer-4" data-x="35" data-y="200" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0;rY:0;rZ:0;sX:0.8;sY:0.8;skX:0;skY:0;opacity:0;","speed":1500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
+								<div style="color: white; font-size:20px; text-shadow: black -2px 0px, black 0px 2px, black 2px 0px, black 0px -2px" class="tp-caption dentrarario-home1-static-header tp-resizeme" id="slide-1-layer-4" data-x="35" data-y="200" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0;rY:0;rZ:0;sX:0.8;sY:0.8;skX:0;skY:0;opacity:0;","speed":1500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
                                      Our course calendar involves speakers of repute, both national and international
                                 </div>
                             </li>
@@ -160,11 +172,11 @@
                                 <div class="tp-caption dentrarario-home1-static-text tp-resizeme button" id="slide-5-layer-3" data-x="35" data-y="317" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;","speed":1500,"to":"o:1;","delay":1500,"ease":"Power2.easeOut"},{"delay":3750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
                                     <a href="book-a-course.php" class="sc_button sc_button_square sc_button_style_filled sc_button_size_medium alignleft">Book a Course</a>
                                 </div>
-                                <div style="color: white; font-weight: bold" class="tp-caption dentrarario-home1-static-header tp-resizeme" id="slide-5-layer-4" data-x="35" data-y="143" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":500,"ease":"Power2.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
+                                <div style="color: white; font-weight: bold; text-shadow: black -2px 0px, black 0px 2px, black 2px 0px, black 0px -2px" class="tp-caption dentrarario-home1-static-header tp-resizeme" id="slide-5-layer-4" data-x="35" data-y="143" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0deg;rY:0;rZ:0;sX:2;sY:2;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":500,"ease":"Power2.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
                                    
                                  New Course
                                 </div>
-								<div style="color: white; font-size:20px; " class="tp-caption dentrarario-home1-static-header tp-resizeme" id="slide-1-layer-4" data-x="35" data-y="200" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0;rY:0;rZ:0;sX:0.8;sY:0.8;skX:0;skY:0;opacity:0;","speed":1500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
+								<div style="color: white; font-size:20px; text-shadow: black -2px 0px, black 0px 2px, black 2px 0px, black 0px -2px" class="tp-caption dentrarario-home1-static-header tp-resizeme" id="slide-1-layer-4" data-x="35" data-y="200" data-width="['auto']" data-height="['auto']" data-type="text" data-responsive_offset="on" data-frames='[{"from":"z:0;rX:0;rY:0;rZ:0;sX:0.8;sY:0.8;skX:0;skY:0;opacity:0;","speed":1500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":4750,"speed":1000,"to":"opacity:0;","ease":"nothing"}]' data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
                                      Learn the latest techniques from the best speakers
                                 </div>
                             </li>
@@ -270,7 +282,7 @@
                                                             </div>
                                                             <div class="column-1_3 column_padding_bottom">
                                                                 <div id="sc_team_454_1" class="sc_team_item">
-                                                                    <div class="sc_team_item_avatar">
+                                                                    <div class="sc_team_item_avatar" style= "height: 188px">
                                                                         <img width="182" height="182" alt="" src="images/our-team/t3.jpg">
                                                                     </div>
                                                                     <div class="sc_team_item_info">
@@ -507,7 +519,7 @@
                                                         <h3 class="sc_call_to_action_title sc_item_title">Have a look at all of our courses</h3>
                                                         <div class="sc_call_to_action_buttons sc_item_buttons">
                                                             <div class="sc_call_to_action_button sc_item_button">
-                                                                <a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_medium">View Courses</a>
+                                                                <a href="book-a-course.php" class="sc_button sc_button_square sc_button_style_filled sc_button_size_medium">View Courses</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -525,7 +537,7 @@
                                             <div class="wpb_wrapper">
                                                 <div class="columns_wrap sc_columns columns_nofluid no_margins sc_columns_count_2">
                                                     <div class="column-1_2 sc_column_item sc_column_item_1">
-                                                        <div class="sc_section w_half_content alignright">
+                                                        <div class="sc_section w_half_content align-contact-us">
                                                             <div class="sc_section_inner">
                                                                 <h2 class="sc_title sc_title_regular sc_align_left margin_bottom_tiny">Contact Us</h2>
                                                                 <h6 class="vc_custom_heading vc_custom_1455550892710">Do not hesitate to contact us!</h6>
@@ -568,10 +580,16 @@
                                                         </div>
                                                     </div>
                                                     <div class="column-1_2 sc_column_item sc_column_item_2">
-                                                        <div id="sc_googlemap_380" class="sc_googlemap" data-zoom="14" data-style="ultra_light">
+                                                    <!-- <div id="map"></div> -->
+                                                    <div class="mapouter">
+                                                        <div class="gmap_canvas">
+                                                            <iframe width="760" height="700" id="gmap_canvas" src="https://maps.google.com/maps?q=Plaza%20Panchashil%2C%20huges%20road&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                                                        </div>
+                                                    </div>
+                                                        <!-- <div id="sc_googlemap_380" class="sc_googlemap" data-zoom="14" data-style="ultra_light">
                                                             <div id="map" class="sc_googlemap_marker" data-title="" data-description="&lt;div class=&quot;wpb_text_column wpb_content_element &quot; &gt; &lt;div class=&quot;wpb_wrapper&quot;&gt; &lt;p&gt;New York Madison St.&lt;/p&gt; &lt;/div&gt; &lt;/div&gt; " data-address="New York Madison St. " data-latlng="" data-point="images/map_marker.png">
-                                                        </div>
-                                                        </div>
+                                                        </div> 
+                                                        </div>-->
                                                     </div>
                                                 </div>
                                             </div>
@@ -579,6 +597,7 @@
                                     </div>
                                 </div>
                                 <div class="vc_row-full-width"></div>
+                                
                             </section>
                         </article>
                         <section class="related_wrap related_wrap_empty"></section>
@@ -699,9 +718,7 @@
     <script type='text/javascript' src='js/vendor/magnific/jquery.magnific-popup.min.js'></script>
     <script type='text/javascript' src='js/vendor/comp/comp_front.min.js'></script>
     <script type='text/javascript' src='js/vendor/swiper/swiper.min.js'></script>
-    <script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyD6TloiI5ShPFfU14G9gy8AfvJG0ai88rk&callback=initMap'></script>
     <script type='text/javascript' src='js/vendor/core.googlemap.js'></script>
-    <script type='text/javascript' src='js/custom/home.js'></script>
 	
 </body>
 
