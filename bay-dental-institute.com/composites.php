@@ -105,7 +105,7 @@
                                                     <div class="swiper-slide" style="background-image: url(images/courses/composites/composites-6.jpg);transform:rotate(180deg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
                                                     <div class="swiper-slide" style="background-image: url(images/courses/composites/composites-7.jpg);transform:rotate(180deg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
                                                     <div class="swiper-slide" style="background-image: url(images/courses/composites/composites-8.jpg);transform:rotate(180deg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/composites/composites-9.jpg);transform:rotate(180deg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/composites/composites-9.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
                                                 </div>
                                                 <div class="sc_slider_controls_wrap">
                                                     <a class="sc_slider_prev" href="#"></a>

@@ -86,22 +86,45 @@
                 <div class="content">
                     <article class="post_item post_item_single page hentry">
                         <section class="post_content">
+                        <div class="vc_row wpb_row vc_row-fluid">
+										<div class="wpb_column vc_column_container vc_col-sm-12">
+											<div class="vc_column-inner ">
+												<div class="wpb_wrapper">
+													<div class="wpb_text_column wpb_content_element ">
+														<div class="wpb_wrapper centext">
+                                                            <p>
+                                                                In today's world of content driven online additiction. How does our profession fit in. How can we create content to ethically attract more clients, stay engaged with our followers, be inspired and connect with international dentists to learn and create a brand for ourselves and our practice. Attend our session to bust all myths about online digital marketing and content generation for the Indian Dentist.
+                                                            </p>
+														</div>
+													</div>
+													<div class="vc_empty_space space_50p">
+														<span class="vc_empty_space_inner"></span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
                             <div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid">
                                 <div class="wpb_column vc_column_container vc_col-sm-12">
                                     <div class="vc_column-inner" style="padding-left: 40px; padding-right: 40px">
                                         <div class="wpb_wrapper">
-                                            <div class = "columns_wrap sc_columns">
-                                                <div class="column-1_4">
+                                            <div class = "columns_wrap sc_columns" style="margin-bottom: 20px">
+                                                <div class="column-1_3">
                                                     <img src="images/social-media/facebook.svg" class="social-icon-border">
                                                 </div>
-                                                <div class="column-1_4">
+                                                <div class="column-1_3">
                                                     <img src="images/social-media/twitter.svg" class="social-icon-border">
                                                 </div>
-                                                <div class="column-1_4">
+                                                <div class="column-1_3">
                                                     <img src="images/social-media/instagram.svg" class="social-icon-border">
                                                 </div>
-                                                <div class="column-1_4">
+                                            </div>
+                                            <div class="columns_wrap sc_columns aligncenter">
+                                                <div class="column-1_2">
                                                     <img src="images/social-media/google-plus.svg" class="social-icon-border">
+                                                </div>
+                                                <div class="column-1_2">
+                                                    <img src="images/social-media/youtube.svg" class="social-icon-border">
                                                 </div>
                                             </div>
                                         </div>

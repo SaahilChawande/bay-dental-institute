@@ -149,7 +149,20 @@
             </div>
         </div>
 
-        <div class="page_content_wrap page_paddings_yes dark-background" style="padding-bottom: 0px;">
+        <div class="vc_row wpb_row vc_row-fluid dark-background" style="padding-top: 20px">
+            <div class="wpb_column vc_column_container vc_col-sm-12">
+                <div class="vc_column-inner ">
+                    <div class="wpb_wrapper">
+                        <div class="column-1_1 sc_column_item aligncenter">
+                            <a href="https://www.instagram.com/explore/locations/418996165156853/bay-dental-associates" target="_blank" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="padding: 1em 1.25em">Visit Our Instagram Page</a>
+                            <a href="https://www.facebook.com/baydentalmumbai/" target="_blank" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="padding: 1em 1.25em">Visit Our Facebook Page</a>                                                    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="page_content_wrap page_paddings_yes dark-background" style="padding-bottom: 0px; padding-top: 0px">
             <div class="content_wrap">
                 <div class="content">
                     <article class="post_item post_item_single page hentry">
@@ -313,9 +326,7 @@
                                 <div class="wpb_column vc_column_container vc_col-sm-12">
                                     <div class="vc_column-inner ">
                                         <div class="wpb_wrapper">
-										
 											<div id="instafeed-gallery-feed" class="gallery row no-gutter">
-  
 												<div class="col-xs-12 col-sm-4">
 													<a href="https://www.instagram.com/baydentalmumbai/"><img src="images/logo-fixed.png" style="margin:0;padding-left:50px;" class="img-responsive"></a>
 													<a href="{{image}}" data-caption="{{model.user.username}}, {{likes}} likes">

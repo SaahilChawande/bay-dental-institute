@@ -167,9 +167,6 @@
                                                             &#10146;&nbsp;&nbsp;&nbsp;Absolute Isolation and partial isolation
                                                         </li>
                                                         <li class="sc_list_item">
-                                                            &#10146;&nbsp;&nbsp;&nbsp;Absolute Isolation and partial isolation
-                                                        </li>
-                                                        <li class="sc_list_item">
                                                             &#10146;&nbsp;&nbsp;&nbsp;Fluid Control
                                                         </li>
                                                         <li class="sc_list_item">
