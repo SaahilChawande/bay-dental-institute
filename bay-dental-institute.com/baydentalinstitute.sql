@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 23, 2019 at 06:20 PM
+-- Generation Time: Jan 30, 2019 at 07:54 PM
 -- Server version: 10.1.30-MariaDB
 -- PHP Version: 7.2.2
 
@@ -38,10 +38,37 @@ CREATE TABLE `cart` (
 --
 
 INSERT INTO `cart` (`username`, `course_id`) VALUES
+('admin', 3),
+('chawlashravan@gmail.com', 1),
+('chawlashravan@gmail.com', 2),
+('chawlashravan@gmail.com', 5),
+('chawlashravan@gmail.com', 12),
+('chawlashravan@gmail.com', 13),
 ('niveditalodha', 2),
 ('niveditalodha', 3),
-('saahilchawande', 1),
-('saahilchawande', 14);
+('richa', 1),
+('richa', 2),
+('richa', 3),
+('richa', 4),
+('richa', 5),
+('richa', 6),
+('richa', 7),
+('richa', 8),
+('richa', 9),
+('richa', 10),
+('richa', 11),
+('richa', 12),
+('richa', 13),
+('richa', 14),
+('saahilchawande', 4),
+('saahilchawande', 5),
+('saahilchawande', 6),
+('saahilchawande', 7),
+('saahilchawande', 8),
+('saahilchawande', 9),
+('saahilchawande', 10),
+('saahilchawande', 11),
+('saahilchawande', 12);
 
 -- --------------------------------------------------------
 
@@ -66,7 +93,10 @@ INSERT INTO `client` (`username`, `password`, `email`, `address`, `mobileNo`) VA
 ('anilchawande', 'anil@123', 'anilchawande@gmail.com', '12345678', ''),
 ('nvlodha', 'nivi@123', 'nivi@gail.com', '123456', ''),
 ('ronakmanglani', 'ronak@123', 'rabc@gmail.com', '1234', ''),
-('niveditalodha', 'nivi@123', 'nivi@gmail.com', '1234567', '1234567890');
+('niveditalodha', 'nivi@123', 'nivi@gmail.com', '1234567', '1234567890'),
+('admin', 'admin123', 'thevibetheorem@gmail.com', 'mumbai', '9930830048'),
+('richa', 'richadoshi@1234', 'richa20@gmail.com', 'abcd', '8097213123'),
+('chawlashravan@gmail.com', 'shravan1985', 'chawlashravan@gmail.com', '21-B, vaibhav building, breach candy, bhulabhai desai road', '9820958880');
 
 -- --------------------------------------------------------
 
@@ -103,6 +133,48 @@ INSERT INTO `courses` (`course_id`, `course_name`, `course_duration`, `course_co
 (13, 'NBDE / NDEB - Intense Part 1', '24 days total (6 days / week * 4 weeks / 9 am to 11 am / total 48 hours coaching)', '30000', 'Dr. Akshari Anchan', 'NBDE (USA) / NDEB (CANADA)'),
 (14, 'NBDE / NDEB - Intense Part 2', '24 days total (6 days / week * 4 weeks / 9 am to 11 am / total 48 hours coaching)', '40000', 'Dr. Akshari Anchan', 'NBDE (USA) / NBDE (CANADA)');
 
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `store_cart`
+--
+
+CREATE TABLE `store_cart` (
+  `username` varchar(64) NOT NULL,
+  `product_id` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `store_cart`
+--
+
+INSERT INTO `store_cart` (`username`, `product_id`) VALUES
+('saahilchawande', 1),
+('saahilchawande', 2);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `store_products`
+--
+
+CREATE TABLE `store_products` (
+  `id` int(11) NOT NULL,
+  `product_name` varchar(256) NOT NULL,
+  `product_price` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `store_products`
+--
+
+INSERT INTO `store_products` (`id`, `product_name`, `product_price`) VALUES
+(1, 'Bur Number 330', 175),
+(2, 'Bur Number 170', 175),
+(3, 'Dental Mannequin', 25000),
+(4, 'Notes for ORE - Part 1', 15000),
+(5, 'Notes for ORE - Part 2', 20000);
+
 --
 -- Indexes for dumped tables
 --
@@ -126,6 +198,18 @@ ALTER TABLE `courses`
   ADD PRIMARY KEY (`course_id`);
 
 --
+-- Indexes for table `store_cart`
+--
+ALTER TABLE `store_cart`
+  ADD PRIMARY KEY (`username`,`product_id`);
+
+--
+-- Indexes for table `store_products`
+--
+ALTER TABLE `store_products`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -134,6 +218,12 @@ ALTER TABLE `courses`
 --
 ALTER TABLE `courses`
   MODIFY `course_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+
+--
+-- AUTO_INCREMENT for table `store_products`
+--
+ALTER TABLE `store_products`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

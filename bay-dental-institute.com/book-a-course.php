@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US" class="scheme_original">
-<?php 
+<?php
     $is_subfolder = false;
     ob_start();
     session_start();
@@ -28,7 +28,7 @@
     <link rel='stylesheet' href='css/core.messages.css' type='text/css' media='all' />
     <link rel='stylesheet' href='js/vendor/swiper/swiper.min.css' type='text/css' media='all' />
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-    
+
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 
@@ -36,7 +36,7 @@
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 	<script>
-    
+
 	$(document).ready(function(){
         $("#flip1").click(function(){
             $("#panel1").slideToggle();
@@ -77,7 +77,7 @@
             $("#panel8").slideToggle();
         });
     });
-	
+
 	$(document).ready(function(){
         $("#flip9").click(function(){
             $("#panel9").slideToggle();
@@ -225,25 +225,7 @@
         var data = JSON.parse(JSON.stringify(data_array));
 
         if(session_isset === '1')   {
-            $.ajax({
-                type: "POST",
-                url: "get-cart.php",
-                data: data,
-                dataType: "json"
-            }).done(function(data)  {
-                if(data.status == "ok") {
-                    if(data.message.length > 0)     {
-                        window.location.href = "checkout.php";
-                    }   else    {
-                        swal("Please add at least 1 course to checkout!");
-                    }
-                }
-                else if(data.status == "error") {
-                    swal("Error", data.message, "error");
-                }
-            }).fail(function(xhr, status, error)    {
-                swal("Unable to connect. Please try again.");
-            });
+            window.location.href = "checkout.php";
         }   else    {
             swal("Please login / signup to continue", {
                 buttons: {
@@ -312,7 +294,7 @@
                 </div>
             </div>
         </div>
-						
+
         <div class="page_content_wrap page_paddings_yes dark-background">
             <div class="content_wrap">
                 <div class="content">
@@ -325,8 +307,8 @@
                                             <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_2 margin_bottom_huge">
                                                 <div class="column-1_1 sc_column_item">
                                                     <a href="javascript:void(0)" onclick="onBookNowClick();" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large alignright" style="padding: 1em 1.25em">Book Now</a>
-													
-                                                    <?php 
+
+                                                    <?php
                                                         if(isset($_SESSION['username']))    {
                                                             echo '<a href="logout.php" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large alignright" style="padding: 1em 1.25em">Logout</a>';
                                                         }
@@ -334,7 +316,7 @@
                                                             echo '<a href="login.php" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large alignright" style="padding: 1em 1.25em">Login</a>';
                                                         }
                                                     ?>
-                                                    
+
                                                 </div>
 												<div class="aligncenter">
 												<h3>ORE/LDS-UK</h3>
@@ -631,11 +613,11 @@
                                             </div>
                                         </div>
                                     </div>
-									
+
 									<div class="aligncenter">
 									<h3>NBDE (USA) / NDEB (CANADA)</h3>
 									</div>
-									
+
 									<br/><br/>
 
                                     <div class="vc_column-inner" style="padding-right: 40px; padding-left: 40px">
@@ -934,6 +916,6 @@
 <!-- Mirrored from dentario-html.themerex.net/shortcodes.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 21 Nov 2018 12:17:29 GMT -->
 </html>
 
-<?php 
+<?php
     ob_end_flush();
 ?>

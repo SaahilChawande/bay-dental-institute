@@ -8,15 +8,17 @@
 
     include "conn.php";
 
-    $query = "SELECT courses.course_name, courses.course_duration, courses.course_cost, courses.tutor FROM courses INNER JOIN cart ON courses.course_id = cart.course_id WHERE cart.username = '" . $_SESSION['username'] . "';";
+    $query = "SELECT courses.course_id, courses.course_name, courses.course_duration, courses.course_cost, courses.tutor FROM courses INNER JOIN cart ON courses.course_id = cart.course_id WHERE cart.username = '" . $_SESSION['username'] . "';";
 
     $result = mysqli_query($conn, $query);
+
+	$grand_total = 0;
 
 ?>
 
 <!DOCTYPE html>
 <html lang="en-US" class="scheme_original">
-<?php 
+<?php
     $is_subfolder = false;
 ?>
 <head>
@@ -42,7 +44,7 @@
     <link rel='stylesheet' href='css/core.messages.css' type='text/css' media='all' />
     <link rel='stylesheet' href='js/vendor/swiper/swiper.min.css' type='text/css' media='all' />
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-    
+
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 
@@ -50,6 +52,107 @@
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 	<script>
+
+	function get_current_user() {
+		return "<?= isset($_SESSION['username']) ? $_SESSION['username'] : ''; ?>";
+	}
+
+	function onDeleteClicked(id, cost)	{
+		var result = id.split("_");
+		var is_course_set = false;
+		if (result[0] === "1")	{
+			is_course_set = true;
+		}
+		var priceToDelete = parseInt(cost, 10, is_course_set);
+
+		swal("Are you sure you want to remove this item from cart?", {
+			buttons: {
+				no: "No.",
+				yes: "Yes, remove it."
+			},
+		}).then((value) => {
+			switch(value)	{
+				case "no":
+					break;
+				case "yes":
+					removeFromCart(result, priceToDelete, is_course_set);
+					break;
+				default:
+					break;
+			}
+		});
+
+	}
+
+	function removeFromCart(result, priceToDelete, is_course_set)	{
+		if(result[0] === "1")	{
+			var username = get_current_user();
+            var data_array = {"username": username, "course_id": result[1] };
+            var data = JSON.parse(JSON.stringify(data_array));
+            $.ajax({
+                type: "POST",
+                url: "remove-from-cart-handler.php",
+                data: data,
+                dataType: "json"
+            }).done(function(data)  {
+                if(data.status == "ok") {
+					if (is_course_set) {
+						var originalPrice = parseInt($("#total_cost_1").html().substring(2));
+						var updatedPrice = originalPrice - priceToDelete;
+						$("#total_cost_1").html("&#x20b9; " + updatedPrice);
+					}	else {
+						var originalPrice = parseInt($("#total_cost_2").html().substring(2));
+						var updatedPrice = originalPrice - priceToDelete;
+						$("#total_cost_2").html("&#x20b9; " + updatedPrice);
+					}
+					var originalPrice = parseInt($("#grand_total_cost").html().substring(2));
+					var updatedPrice = originalPrice - priceToDelete;
+					$("#grand_total_cost").html("&#x20b9; " + updatedPrice);
+                    $("#" + result[0] + "_" + result[1]).hide();
+                }
+                else if(data.status == "error") {
+                    swal("Error", data.message, "error");
+                }
+            }).fail(function(xhr, status, error)    {
+                swal("Unable to connect. Please try again.");
+            });
+        } else if (result[0] === "2")	{
+			var username = get_current_user();
+			var data_array = {"username": username, "product_id": result[1] };
+			var data = JSON.parse(JSON.stringify(data_array));
+			$.ajax({
+				type: "POST",
+				url: "remove-product-from-store-cart-handler.php",
+				data: data,
+				dataType: "json"
+			}).done(function(data)  {
+				if(data.status == "ok") {
+					if (is_course_set) {
+						var originalPrice = parseInt($("#total_cost_1").html().substring(2));
+						var updatedPrice = originalPrice - priceToDelete;
+						$("#total_cost_1").html("&#x20b9; " + updatedPrice);
+					}	else {
+						var originalPrice = parseInt($("#total_cost_2").html().substring(2));
+						var updatedPrice = originalPrice - priceToDelete;
+						$("#total_cost_2").html("&#x20b9; " + updatedPrice);
+					}
+					var originalPrice = parseInt($("#grand_total_cost").html().substring(2));
+					var updatedPrice = originalPrice - priceToDelete;
+					$("#grand_total_cost").html("&#x20b9; " + updatedPrice);
+                    $("#" + result[0] + "_" + result[1]).hide();
+					$("#" + result[0] + "_" + result[1]).hide();
+				}
+				else if(data.status == "error") {
+					swal("Error", data.message, "error");
+				}
+			}).fail(function(xhr, status, error)    {
+				swal("Unable to connect. Please try again.");
+			});
+		}
+	}
+
+
+
     </script>
 </head>
 
@@ -95,7 +198,7 @@
                 </div>
             </div>
         </div>
-						
+
         <div class="page_content_wrap page_paddings_yes dark-background">
             <div class="content_wrap">
                 <div class="content">
@@ -105,39 +208,40 @@
                                 <div class="wpb_column vc_column_container vc_col-sm-12">
                                     <div class="vc_column-inner scroll-bar">
                                         <div class="wpb_wrapper">
-                                            <h4 class="sc_title sc_title_regular margin_top_null margin_bottom_small">Table</h4>
+                                            <h4 class="sc_title sc_title_regular margin_top_null margin_bottom_small aligncenter">Your Courses</h4>
                                             <div class="sc_table">
-                                            <?php 
+                                            <?php
                                                 if(mysqli_num_rows($result) > 0)    {
                                                     echo '<table>
                                                             <tbody>
                                                                 <tr>
-                                                                    <th width="10%">#</th>
                                                                     <th>Name</th>
                                                                     <th>Duration</th>
                                                                     <th>Cost</th>
                                                                     <th>Tutor</th>
+																	<th>Action</th>
                                                                 </tr>';
                                                     $i = 1;
                                                     $total_cost = 0;
                                                     while($row = mysqli_fetch_assoc($result))   {
-                                                        echo '<tr align="center">
-                                                                <td>' . $i++ . '</td>
+                                                        echo '<tr id="1_' . $row['course_id'] . '" align="center">
                                                                 <td>' . $row['course_name'] . '</td>
                                                                 <td>' . $row['course_duration'] . '</td>
                                                                 <td> &#x20b9; ' . $row['course_cost'] . '</td>
                                                                 <td>' . $row['tutor'] . '</td>
+																<td onclick="onDeleteClicked(\'1_' . $row['course_id'] . '\', ' . $row['course_cost'] . ')"><img height="35px" width="35px" src="images/delete.svg"/></td>
                                                             </tr>';
                                                         $total_cost += (int)$row['course_cost'];
                                                     }
+													$grand_total += $total_cost;
                                                     echo '<tr align="center">
-                                                            <td colspan="3">Total Cost</td>
-                                                            <td colspan="2"> &#x20b9; ' . $total_cost . '</td>
+                                                            <td colspan="2">Total Cost</td>
+                                                            <td colspan="3" id="total_cost_1">&#x20b9; ' . $total_cost . '</td>
                                                         </tr>
                                                         </tbody></table>';
                                                 }
                                                 else    {
-                                                    echo '<h3>No items found in the cart.</h3>';
+                                                    echo '<h3 class="aligncenter">No items found in the cart.</h3>';
                                                 }
                                                     ?>
                                                     <p>
@@ -149,6 +253,52 @@
                                         </div>
                                     </div>
                                 </div>
+								<?php
+									$query = "SELECT store_products.id , store_products.product_name, store_products.product_price FROM store_products INNER JOIN store_cart ON store_products.id = store_cart.product_id WHERE store_cart.username = '" . $_SESSION['username'] . "';";
+									$result = mysqli_query($conn, $query);
+								?>
+                                <div class="vc_row wpb_row vc_row-fluid">
+                              		<div class="wpb_column vc_column_container vc_col-sm-12">
+                              			<div class="vc_column-inner scroll-bar">
+                              				<div class="wpb_wrapper">
+                              					<h4 class="sc_title sc_title_regular margin_top_null margin_bottom_small aligncenter">Your Products</h4>
+												<div class="sc_table">
+													<?php
+		                                                if(mysqli_num_rows($result) > 0)    {
+		                                                    echo '<table>
+		                                                            <tbody>
+		                                                                <tr>
+		                                                                    <th>Name</th>
+		                                                                    <th>Cost</th>
+																			<th>Action</th>
+		                                                                </tr>';
+		                                                    $i = 1;
+		                                                    $total_cost = 0;
+		                                                    while($row = mysqli_fetch_assoc($result))   {
+		                                                        echo '<tr id="2_' . $row['id'] . '" align="center">
+		                                                                <td>' . $row['product_name'] . '</td>
+		                                                                <td> &#x20b9; ' . $row['product_price'] . '</td>
+																		<td onclick="onDeleteClicked(\'2_' . $row['id'] . '\', ' . $row['product_price'] . ')"><img height="35px" width="35px" src="images/delete.svg"/></td>
+		                                                            </tr>';
+		                                                        $total_cost += (int)$row['product_price'];
+		                                                    }
+															$grand_total += $total_cost;
+		                                                    echo '<tr align="center">
+		                                                            <td colspan="2">Total Cost</td>
+		                                                            <td colspan="2" id="total_cost_2">&#x20b9; ' . $total_cost . '</td>
+		                                                        </tr>
+		                                                        </tbody></table>';
+		                                                }
+		                                                else    {
+		                                                    echo '<h3 class="aligncenter">No items found in the cart.</h3>';
+		                                                }
+		                                                    ?>
+												</div>
+                              				</div>
+                              			</div>
+                              		</div>
+                                </div>
+								<h3 class="aligncenter">Grand Total : <span style="color: white" id="grand_total_cost">&#x20b9; <?= $grand_total ?></span></h3>
                         </section>
                         <section class="related_wrap related_wrap_empty"></section>
                     </article>
@@ -241,7 +391,6 @@
 <script type='text/javascript' src='js/vendor/ui/effect.min.js'></script>
 <script type='text/javascript' src='js/vendor/ui/effect-fade.min.js'></script>
 <script type='text/javascript' src='js/vendor/swiper/swiper.min.js'></script>
-<script type='text/javascript' src='http://maps.google.com/maps/api/js?key='></script>
 <script type='text/javascript' src='js/vendor/core.googlemap.js'></script>
 <script type='text/javascript' src='js/vendor/chart.min.js'></script>
 </body>
@@ -250,6 +399,6 @@
 <!-- Mirrored from dentario-html.themerex.net/shortcodes.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 21 Nov 2018 12:17:29 GMT -->
 </html>
 
-<?php 
+<?php
     ob_end_flush();
 ?>
