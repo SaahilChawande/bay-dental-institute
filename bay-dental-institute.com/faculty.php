@@ -53,6 +53,32 @@
         $("#t4").click(function(){
             $("#c4").slideToggle();
         });
+		$("#t5").click(function(){
+			$("#c5").slideToggle();
+		});
+		
+		$("#t6").click(function(){
+			$("#c6").slideToggle();
+		});
+
+        $("#t7").click(function(){
+            $("#c7").slideToggle();
+        });
+
+        $("#t8").click(function(){
+            $("#c8").slideToggle();
+        });
+
+        $("#t9").click(function(){
+            $("#c9").slideToggle();
+        });
+		$("#t10").click(function(){
+			$("#c10").slideToggle();
+		});
+		
+		$("#t11").click(function(){
+			$("#c11").slideToggle();
+		});
     });
 
 
@@ -125,8 +151,8 @@
                                                                         <h5 class="sc_team_item_title">
                                                                             <a href="single-team.html">Dr. Shravan Chawla</a>
                                                                         </h5>
-                                                                        <div class="sc_team_item_position">ORE - UK</div>
-                                                                        <div>Click on the image for more content</div>
+                                                                        <div class="sc_team_item_position">ORE - UK <br/>Director<br/>Bay Dental Institute</div>
+                                                                        <div><br/>Click on the image for more content</div>
                                                                         <div class="aligncenter">&#x2193;</div>
                                                                         <div id="c1" class="sc_team_item_description hide_display">
                                                                         Dr. Shravan Chawla has graduated from the University of Mauritius, followed by giving the licensing conducted by the DCI for Indian citizens studying abroad. After gaining a PG certification in aesthetics and implants for NYU(USA), Dr. Chawla went on to crack the ORE-UK licensing exams to be registered as a licensed Dental practitioner with the GDC-UK. Currently Dr. Chawla runs his practice Bay Dental Institute in South Mumbai.
@@ -143,7 +169,7 @@
                                                                         <h5 class="sc_team_item_title">
                                                                             <a href="single-team.html">Dr. Akshari Anchan</a>
                                                                         </h5>
-                                                                        <div class="sc_team_item_position">NBDE / NDBE</div>
+                                                                        <div class="sc_team_item_position">NBDE / NDBE<br/>Director<br/>Botox and Facial Aesthetics Clinician</div>
                                                                         <div>Click on the image for more content</div>
                                                                         <div class="aligncenter">&#x2193;</div>
                                                                         <div id="c2" class="sc_team_item_description hide_display">
@@ -161,7 +187,7 @@
                                                                         <h5 class="sc_team_item_title">
                                                                             <a href="single-team.html">Dr. Vishal Gupta</a>
                                                                         </h5>
-                                                                        <div class="sc_team_item_position">Composites</div>
+                                                                        <div class="sc_team_item_position">Advanced composite masterclass<br/>Style Italiano level1 trainer<br/>KOL for 3M ESPE</div>
                                                                         <div>Click on the image for more content</div>
                                                                         <div class="aligncenter">&#x2193;</div>
                                                                         <div id="c3" class="sc_team_item_description hide_display">
@@ -179,8 +205,8 @@
                                                                         <h5 class="sc_team_item_title">
                                                                             <a href="single-team.html">Dr. Manav Kalra</a>
                                                                         </h5>
-                                                                        <div class="sc_team_item_position">Veeners</div>
-                                                                        <div>Click on the image for more content</div>
+                                                                        <div class="sc_team_item_position">Advanced veneers<br/>Emax specialist clinician<br/>KOL for Ivoclar Vivadent</div>
+                                                                        <div><br/>Click on the image for more content</div>
                                                                         <div class="aligncenter">&#x2193;</div>
                                                                         <div id="c4" class="sc_team_item_description hide_display">
                                                                         Dr Manav Kalra is a Prosthodontist who works out of his private practice in New Delhi. The focus of his practice is primarily on Aesthetics, Full Mouth Rehabilitation & Implants having a strong ethos of minimally invasive and additive Dentistry. His work has seen his practice win many prestigious awards for excellence & aesthetics . Being Certified in DSD ( Digital Smile Design ) He is among the leading KOL ( Key Opinion leaders ) for various companies such as Ivoclar Vivadent ( Switzerland ) for key treatments with Emax including ( but not limited to ) veneers, smile designing , full mouth rehabilitation, inlays and onlays etc. His passion to teach sees him as a role of clinical mentor in many institutions across the country. Keeping in mind the reach of digital social media, Dr. Kalra has succesfully established a youtube channel to spread knowledge and help dentists learn from his work.
@@ -188,6 +214,166 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
+																	
+															<div class="column-1_4 column_padding_bottom">
+                                                                <div id="sc_team_296_1" class="sc_team_item">
+                                                                    <div class="sc_team_item_avatar">
+                                                                        <img id="t5" width="182" height="182" alt="Dr. Sam Jethwa" src="images/our-team/sam-jethwa.jpeg">
+                                                                    </div>
+                                                                    <div class="sc_team_item_info">
+                                                                        <h5 class="sc_team_item_title">
+                                                                            <a href="single-team.html">Dr. Sam Jethwa</a>
+                                                                        </h5>
+                                                                        <div class="sc_team_item_position">Veneers & Occlusion<br/>Director<br/>British Academy of Cosmetic Dentistry</div>
+                                                                        <div>Click on the image for more content</div>
+                                                                        <div class="aligncenter">&#x2193;</div>
+                                                                        <div id="c5" class="sc_team_item_description hide_display">
+                                                                        Director of Membership at The British Academy of Cosmetic Dentistry, and an award-winning cosmetic dentist. Dr Sam Jethwa is based in London and lectures and provides hands on training to dentists in the UK and internationally, on the topic of smile design, occlusion, and the methods of creating natural, predictable smiles, with a strong focus on minimal and no preparation porcelain techniques. Dr Jethwa founded The Bespoke Smile Academy, which provides training for dentists in the UK and Germany and is a key opinion leader for DMG dental materials and a brand ambassador for Ordo Life, the oral health brand. 
+																		Dr Jethwa is a qualified clinical teacher with a Postgraduate Diploma in clinical education, and is a member of the Royal College of Surgeons of Edinburgh,. He has published articles on smile design, functional success, and is passionate about imparting his knowledge to ensure more dentists have the skill set to treat the worn dentition and aesthetic case with total confidence.
+																		Dr Jethwa treats multiple complex cases every year and shares his knowledge on social media as one of the most prominent dentists in the UK on Instagram.
+																		 “my vision is to equip dentists around the world with the skills to translate their version of a beautiful smile, into reality”
+
+																		Special interests:<br/>
+																		Occlusion<br/>
+																		Smile design <br/>
+																		Hand designed trial smiles<br/> 
+																		Minimal Porcelain veneers <br/>
+																		Worn dentition<br/>
+																		Sam Jethwa BDS(Lon) MFDS RCS (Edin) PgDip ClinEd
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+															<div class="column-1_4 column_padding_bottom">
+                                                                <div id="sc_team_296_1" class="sc_team_item">
+                                                                    <div class="sc_team_item_avatar">
+                                                                        <img id="t6" width="182" height="182" alt="Dr. Mayur Davda" src="images/our-team/mayur-davda.jpg">
+                                                                    </div>
+                                                                    <div class="sc_team_item_info">
+                                                                        <h5 class="sc_team_item_title">
+                                                                            <a href="single-team.html">Dr. Mayur Davda</a>
+                                                                        </h5>
+                                                                        <div class="sc_team_item_position">Dental Photography<br/>Director<br/>Dental Photography School<br/></div>
+                                                                        <div><br/>Click on the image for more content</div>
+                                                                        <div class="aligncenter">&#x2193;</div>
+                                                                        <div id="c6" class="sc_team_item_description hide_display">
+                                                                        Dr. Mayur Davda is an alumnus of Dr. D Y Patil University School of Dentistry, Navi Mumbai and has his private practice at Mumbai. 
+																		He has extensively lectured on dental photography and related topics to encourage dental photography. Some of the podiums where he has lectured include Indian academy of aesthetic dentistry, Famdent Conference, ICOI, FDI &IDA conference, many state conferences, Dental Colleges & Universities like Government Dental College – Mumbai, Nair Dental College, and Manipal University etc.<br/>
+
+																		As an artist Dr. Mayur Davda has exhibited at some of the most prestigious art galleries of India like The Jehangir Art Gallery, Aura Art Gallery, Kalaghoda Art Festival, Taj Literature festival and so on. 
+																		His passion for high speed macro photography has made him India’s first dentist to be featured in the best photography magazines of India like Better Photography and Smart Photography. 
+																		His art work Liquid Canvas – high speed liquid droplet photography (www.liquidcanvas.in) is one of the most difficult art forms due to which he was interviewed on National Television 2 times over and was also invited by the Consulate General of Turkey in 2015 for contribution to the field of fine art photography. 
+																		He is a keen observer of wildlife and conservation and has publications in international magazines like Lonely Planet and Sanctuary Asia. 
+																		He has also received the highly commended Indian Dental Talent of the Year award at Famdent Awards – 2015.
+																		CANON India and GPS smile design (Las Vegas, USA) have recognized his contribution toward dental photography and have assigned him the responsibility of a Dental Photography mentor since May 2015.
+																		Dr. Davda has various publications to his credit and continues to pursue research as the CEO of Dental Photography School (www.dentalphotographyschool.in) in India’s one and only institute for dental photography training at Mumbai.
+
+																		Close to all the images in the book called Clinical Fixed Prosthodontics by Dr. Moez Khakiani were clicked by Dr. Davda himself. He also has a Chapter called Photography in Dentistry to his credit in the same book & has co-authored a chapter on shade selection & communication.
+																		He is the mentor for India’s most extensive course on dental photography at Manipal University called the integrated dental photography program that runs for 3 months every year.
+
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+																
+                                                        </div>
+														<h4 class="sc_team_title sc_item_title">Mr. Dental ORE Tutors</h4>
+														<br><br/>
+                                                        <div class="sc_columns columns_wrap">
+                                                            <div class="column-1_4 column_padding_bottom">
+                                                                <div id="sc_team_296_1" class="sc_team_item">
+                                                                    <div class="sc_team_item_avatar">
+                                                                        <img id="t7" width="182" height="182" alt="Dr. Fred Mukwenda" src="images/our-team/fred-mukwenda.jpg">
+                                                                    </div>
+                                                                    <div class="sc_team_item_info">
+                                                                        <h5 class="sc_team_item_title">
+                                                                            <a href="single-team.html">Dr. Fred Mukwenda</a>
+                                                                        </h5>
+                                                                        <div class="sc_team_item_position">BDS, MPH, MSC (CONS)</div>
+                                                                        <div>Click on the image for more content</div>
+                                                                        <div class="aligncenter">&#x2193;</div>
+                                                                        <div id="c7" class="sc_team_item_description hide_display">
+                                                                        Dr. Fred is well known ORE 2 Manikin Tutor and has been conducting manikin courses here at MR. Dental since January 2007. Dr Fred is the lead Tutor for ORE 2 Manikin courses. He has vast experience and expertise in all areas of the ORE II Manikin. He is also well known in the field of dentistry and has been in clinical practice as a restorative specialist qualified from Eastman's UCL. He has taught at Londec and also has previously taught at Eastman’s UCL. He has assisted in the set-up of the ORE 2 Manikin Exam at Eastman's UCL and have examined ORE 2 manikin candidates. Dr Fred’s direct teaching, approach, expertise and guidance meets the examiner’s perspective.
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="column-1_4 column_padding_bottom">
+                                                                <div id="sc_team_296_2" class="sc_team_item">
+                                                                    <div class="sc_team_item_avatar">
+                                                                        <img id="t8" width="182" height="182" alt="Dr. Anita Pradhan " src="images/our-team/anita-pradhan.jpg">
+                                                                    </div>
+                                                                    <div class="sc_team_item_info">
+                                                                        <h5 class="sc_team_item_title">
+                                                                            <a href="single-team.html">Dr. Anita Pradhan </a>
+                                                                        </h5>
+                                                                        <div class="sc_team_item_position">BDS, FAGE</div>
+                                                                        <div>Click on the image for more content</div>
+                                                                        <div class="aligncenter">&#x2193;</div>
+                                                                        <div id="c8" class="sc_team_item_description hide_display">
+                                                                        Since joining our Manikin Tutorial team Dr Anita has become extremely popular among ORE candidates. She is very sincere, caring and passionate in her guidance. Dr Anita believes in CORRECT guidance always to meet the expectations of the examiner. She has become our second lead course tutor for ORE Manikin. Dr Anita has established MR Dental's Facebook pages and works tirelessly to give you the correct feedback on our FB pages. Dr Anita's profound understanding of the GDC guidelines for the ORE 2 exam is the best around. Dr. Anita also demonstrates the dental techniques that are used in MR. Courses’ ‘How To’ video guides, featured on our Videos page and YouTube channel. These combined have attracted over 139,000 views so far. Dr. Anita has more than 9 years of clinical experience and has been involved in conducting and organising CPD courses in the past and has a great passion for teaching.
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="column-1_4 column_padding_bottom">
+                                                                <div id="sc_team_296_3" class="sc_team_item">
+                                                                    <div class="sc_team_item_avatar">
+                                                                        <img id="t9" width="182" height="182" alt="Dr. Zina Saad" src="images/our-team/zina-saad.jpg">
+                                                                    </div>
+                                                                    <div class="sc_team_item_info">
+                                                                        <h5 class="sc_team_item_title">
+                                                                            <a href="single-team.html">Dr. Zina Saad</a>
+                                                                        </h5>
+                                                                        <div class="sc_team_item_position">BDS</div>
+                                                                        <div>Click on the image for more content</div>
+                                                                        <div class="aligncenter">&#x2193;</div>
+                                                                        <div id="c9" class="sc_team_item_description hide_display">
+                                                                            Dr Zina is a vital member of MR. Dental’s OSCE/DTP/ME Tutorial Team. She has vast knowledge of the ORE exam. Dr Zina believes in providing the much care and exact precise details of the ORE Exam to all candidates.  She loves  teaching and enjoys guiding the ORE candidates. Dr Zina also commands excellent Manikin Skills, but her focus remains in guiding ORE candidates with the OSCE/DTP/ME topics. She is very caring, sympathetic and has amazing interaction with each candidate. Dr Zina loves passing her vast knowledge and her vast valuable experience to all candidates in attendance.
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="column-1_4 column_padding_bottom">
+                                                                <div id="sc_team_296_4" class="sc_team_item even">
+                                                                    <div class="sc_team_item_avatar">
+                                                                        <img id="t10" width="182" height="182" alt="Dr. Jasmine Singh" src="images/our-team/jasmine-singh.jpg" style="height: 180px">
+                                                                    </div>
+                                                                    <div class="sc_team_item_info">
+                                                                        <h5 class="sc_team_item_title">
+                                                                            <a href="single-team.html">Dr. Jasmine Singh</a>
+                                                                        </h5>
+                                                                        <div class="sc_team_item_position">BDS, Dip. Sedation UCL</div>
+                                                                        <div>Click on the image for more content</div>
+                                                                        <div class="aligncenter">&#x2193;</div>
+                                                                        <div id="c10" class="sc_team_item_description hide_display">
+                                                                       Dr Jasmine is very patient and full of energy. Dr Jasmine is a very valuable member of the MR. Dental’s  OSCE/DTP/ME Tutorial Team. She has a very caring attitude to every candidate and is very committed to provide the best ORE knowledge and guidance to every ORE candidate. Her guidance is direct and is exceptional. She is very well liked by the ORE candidates. Dr Jasmine continues to enhance her skills by actively attending the continuing dental education programmes. Dr Jasmine is currently completing her “Conscious Sedation in Dentistry” course at UCL along with teaching at MR. Dental. Dr Jasmine has an ORE focused approach to her teaching and her cheery bubbly personality is a great comfort to everyone around her. In her spare time she enjoys reading, baking and exploring new places around her.
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+																	
+															<div class="column-1_4 column_padding_bottom">
+                                                                <div id="sc_team_296_1" class="sc_team_item">
+                                                                    <div class="sc_team_item_avatar">
+                                                                        <img id="t11" width="182" height="182" alt="Dr. Shazia Afzal " src="images/our-team/shazia-afzal.jpg">
+                                                                    </div>
+                                                                    <div class="sc_team_item_info">
+                                                                        <h5 class="sc_team_item_title">
+                                                                            <a href="single-team.html">Dr. Shazia Afzal </a>
+                                                                        </h5>
+                                                                        <div class="sc_team_item_position">BDS</div>
+                                                                        <div>Click on the image for more content</div>
+                                                                        <div class="aligncenter">&#x2193;</div>
+                                                                        <div id="c11" class="sc_team_item_description hide_display">
+                                                                       Shazia Afzal  is an important member of MR Dental's OSCE/DTP/ME Tutorial Team. She is very passionate in her teaching and is very focus in her guidance. Dr Shazia is very knowledgeable and keeps herself updated regarding the guidelines of the ORE exams. She works diligently and  make every effort to guide the candidates correctly for their ORE exams. Dr Shazia welcomes questions from candidates and interacts with every candidate. She believes in correct guidance and is very keen to help each candidate to achieve success in their exams.
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+																
                                                         </div>
                                                     </div>
                                                 </div>
