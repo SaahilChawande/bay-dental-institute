@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 30, 2019 at 07:54 PM
+-- Generation Time: Feb 03, 2019 at 12:36 PM
 -- Server version: 10.1.30-MariaDB
 -- PHP Version: 7.2.2
 
@@ -131,7 +131,9 @@ INSERT INTO `courses` (`course_id`, `course_name`, `course_duration`, `course_co
 (11, 'NBDE / NDEB - Impulse Part 1', '8 days (4 + 4) / 9 am to 11 am (15 hours total)', '16000', 'Dr. Akshari Anchan', 'NBDE (USA) / NDEB (CANADA)'),
 (12, 'NBDE / NDEB - Impulse Part 2', '10 days (5 + 5) / 9 am to 11 am (20 hours total)', '20000', 'Dr. Akshari Anchan', 'NBDE (USA) / NDEB (CANADA)'),
 (13, 'NBDE / NDEB - Intense Part 1', '24 days total (6 days / week * 4 weeks / 9 am to 11 am / total 48 hours coaching)', '30000', 'Dr. Akshari Anchan', 'NBDE (USA) / NDEB (CANADA)'),
-(14, 'NBDE / NDEB - Intense Part 2', '24 days total (6 days / week * 4 weeks / 9 am to 11 am / total 48 hours coaching)', '40000', 'Dr. Akshari Anchan', 'NBDE (USA) / NBDE (CANADA)');
+(14, 'NBDE / NDEB - Intense Part 2', '24 days total (6 days / week * 4 weeks / 9 am to 11 am / total 48 hours coaching)', '40000', 'Dr. Akshari Anchan', 'NBDE (USA) / NBDE (CANADA)'),
+(15, 'Demistifying Dentistry - Advanced Composite Clinical Masterclass', 'April 6th / 7th 2019 - 9 am to 5 pm', '25000', 'Dr. Vishal Gupta', 'Composites'),
+(16, 'Bespoke Veeners - Advanced Clinical Veener Simulation Workshop', 'April 20th / 21st 2019 - 9 am to 5 pm', '16500', 'Dr. Manav Kalra', 'Veneers');
 
 -- --------------------------------------------------------
 
@@ -217,7 +219,7 @@ ALTER TABLE `store_products`
 -- AUTO_INCREMENT for table `courses`
 --
 ALTER TABLE `courses`
-  MODIFY `course_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `course_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT for table `store_products`

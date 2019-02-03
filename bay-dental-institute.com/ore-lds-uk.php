@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US" class="scheme_original">
-<?php 
+<?php
     $is_subfolder = false;
     ob_start();
     session_start();
@@ -131,6 +131,9 @@
                                                             <p>
                                                                 It is a 2 part exam. Part I is theory based MCQ exam requiring 50% pass individually followed by part II exam which is a practical exam. Both exams are held in London many times a year. After Passing part II the candidate is eligible to register with the GDC, and seek a job as a dentist with the NHS / Private practice/ Hospital in the UK ( Britain, Ireland, Scotland, Wales )  (NOTE:- Except Dublin. )
                                                             </p>
+															<p>
+																Bay Dental Institute 
+															</p>
 														</div>
 													</div>
 													<div class="vc_empty_space space_50p">
@@ -143,7 +146,7 @@
 
 
                                     <!--FAQs-->
-									
+
                                     <div class="vc_row wpb_row vc_row-fluid">
                                         <div class="wpb_column vc_column_container vc_col-sm-12">
                                             <div class="vc_column-inner ">

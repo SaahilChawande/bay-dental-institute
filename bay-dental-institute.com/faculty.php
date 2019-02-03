@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US" class="scheme_original">
-<?php 
+<?php
     $is_subfolder = false;
     ob_start();
     session_start();
@@ -28,7 +28,7 @@
     <link rel='stylesheet' href='css/core.messages.css' type='text/css' media='all' />
     <link rel='stylesheet' href='js/vendor/swiper/swiper.min.css' type='text/css' media='all' />
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-    
+
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 
@@ -56,7 +56,7 @@
 		$("#t5").click(function(){
 			$("#c5").slideToggle();
 		});
-		
+
 		$("#t6").click(function(){
 			$("#c6").slideToggle();
 		});
@@ -75,7 +75,7 @@
 		$("#t10").click(function(){
 			$("#c10").slideToggle();
 		});
-		
+
 		$("#t11").click(function(){
 			$("#c11").slideToggle();
 		});
@@ -127,7 +127,7 @@
                 </div>
             </div>
         </div>
-						
+
         <div class="page_content_wrap page_paddings_yes dark-background">
             <div class="content_wrap">
                 <div class="content">
@@ -214,7 +214,7 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
-																	
+
 															<div class="column-1_4 column_padding_bottom">
                                                                 <div id="sc_team_296_1" class="sc_team_item">
                                                                     <div class="sc_team_item_avatar">
@@ -228,7 +228,7 @@
                                                                         <div>Click on the image for more content</div>
                                                                         <div class="aligncenter">&#x2193;</div>
                                                                         <div id="c5" class="sc_team_item_description hide_display">
-                                                                        Director of Membership at The British Academy of Cosmetic Dentistry, and an award-winning cosmetic dentist. Dr Sam Jethwa is based in London and lectures and provides hands on training to dentists in the UK and internationally, on the topic of smile design, occlusion, and the methods of creating natural, predictable smiles, with a strong focus on minimal and no preparation porcelain techniques. Dr Jethwa founded The Bespoke Smile Academy, which provides training for dentists in the UK and Germany and is a key opinion leader for DMG dental materials and a brand ambassador for Ordo Life, the oral health brand. 
+                                                                        Director of Membership at The British Academy of Cosmetic Dentistry, and an award-winning cosmetic dentist. Dr Sam Jethwa is based in London and lectures and provides hands on training to dentists in the UK and internationally, on the topic of smile design, occlusion, and the methods of creating natural, predictable smiles, with a strong focus on minimal and no preparation porcelain techniques. Dr Jethwa founded The Bespoke Smile Academy, which provides training for dentists in the UK and Germany and is a key opinion leader for DMG dental materials and a brand ambassador for Ordo Life, the oral health brand.
 																		Dr Jethwa is a qualified clinical teacher with a Postgraduate Diploma in clinical education, and is a member of the Royal College of Surgeons of Edinburgh,. He has published articles on smile design, functional success, and is passionate about imparting his knowledge to ensure more dentists have the skill set to treat the worn dentition and aesthetic case with total confidence.
 																		Dr Jethwa treats multiple complex cases every year and shares his knowledge on social media as one of the most prominent dentists in the UK on Instagram.
 																		 “my vision is to equip dentists around the world with the skills to translate their version of a beautiful smile, into reality”
@@ -236,7 +236,7 @@
 																		Special interests:<br/>
 																		Occlusion<br/>
 																		Smile design <br/>
-																		Hand designed trial smiles<br/> 
+																		Hand designed trial smiles<br/>
 																		Minimal Porcelain veneers <br/>
 																		Worn dentition<br/>
 																		Sam Jethwa BDS(Lon) MFDS RCS (Edin) PgDip ClinEd
@@ -258,13 +258,13 @@
                                                                         <div><br/>Click on the image for more content</div>
                                                                         <div class="aligncenter">&#x2193;</div>
                                                                         <div id="c6" class="sc_team_item_description hide_display">
-                                                                        Dr. Mayur Davda is an alumnus of Dr. D Y Patil University School of Dentistry, Navi Mumbai and has his private practice at Mumbai. 
+                                                                        Dr. Mayur Davda is an alumnus of Dr. D Y Patil University School of Dentistry, Navi Mumbai and has his private practice at Mumbai.
 																		He has extensively lectured on dental photography and related topics to encourage dental photography. Some of the podiums where he has lectured include Indian academy of aesthetic dentistry, Famdent Conference, ICOI, FDI &IDA conference, many state conferences, Dental Colleges & Universities like Government Dental College – Mumbai, Nair Dental College, and Manipal University etc.<br/>
 
-																		As an artist Dr. Mayur Davda has exhibited at some of the most prestigious art galleries of India like The Jehangir Art Gallery, Aura Art Gallery, Kalaghoda Art Festival, Taj Literature festival and so on. 
-																		His passion for high speed macro photography has made him India’s first dentist to be featured in the best photography magazines of India like Better Photography and Smart Photography. 
-																		His art work Liquid Canvas – high speed liquid droplet photography (www.liquidcanvas.in) is one of the most difficult art forms due to which he was interviewed on National Television 2 times over and was also invited by the Consulate General of Turkey in 2015 for contribution to the field of fine art photography. 
-																		He is a keen observer of wildlife and conservation and has publications in international magazines like Lonely Planet and Sanctuary Asia. 
+																		As an artist Dr. Mayur Davda has exhibited at some of the most prestigious art galleries of India like The Jehangir Art Gallery, Aura Art Gallery, Kalaghoda Art Festival, Taj Literature festival and so on.
+																		His passion for high speed macro photography has made him India’s first dentist to be featured in the best photography magazines of India like Better Photography and Smart Photography.
+																		His art work Liquid Canvas – high speed liquid droplet photography (www.liquidcanvas.in) is one of the most difficult art forms due to which he was interviewed on National Television 2 times over and was also invited by the Consulate General of Turkey in 2015 for contribution to the field of fine art photography.
+																		He is a keen observer of wildlife and conservation and has publications in international magazines like Lonely Planet and Sanctuary Asia.
 																		He has also received the highly commended Indian Dental Talent of the Year award at Famdent Awards – 2015.
 																		CANON India and GPS smile design (Las Vegas, USA) have recognized his contribution toward dental photography and have assigned him the responsibility of a Dental Photography mentor since May 2015.
 																		Dr. Davda has various publications to his credit and continues to pursue research as the CEO of Dental Photography School (www.dentalphotographyschool.in) in India’s one and only institute for dental photography training at Mumbai.
@@ -277,7 +277,7 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
-																
+
                                                         </div>
 														<h4 class="sc_team_title sc_item_title">Mr. Dental ORE Tutors</h4>
 														<br><br/>
@@ -354,7 +354,7 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
-																	
+
 															<div class="column-1_4 column_padding_bottom">
                                                                 <div id="sc_team_296_1" class="sc_team_item">
                                                                     <div class="sc_team_item_avatar">
@@ -373,7 +373,7 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
-																
+
                                                         </div>
                                                     </div>
                                                 </div>
@@ -487,6 +487,6 @@
 <!-- Mirrored from dentario-html.themerex.net/shortcodes.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 21 Nov 2018 12:17:29 GMT -->
 </html>
 
-<?php 
+<?php
     ob_end_flush();
 ?>
