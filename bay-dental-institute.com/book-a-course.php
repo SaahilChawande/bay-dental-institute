@@ -355,7 +355,7 @@
 												</div>
 												<br/>
 												<br/>
-												<div id="ore-lds-wrapper" style="display:none;">
+												<div id="ore-lds-wrapper" style="display:none;" class="margin_bottom_huge">
 													<div class="row">
 	                                                    <div class="column-1_3 sc_column_item">
 	                                                        <div class="aligncenter course-border">
@@ -657,10 +657,10 @@
 									</div>
 
 									<br/><br/>
-									<div id="ndbe-wrapper" style="display:none;">
+									<div id="ndbe-wrapper" style="display:none;" class="margin_bottom_huge">
 										<div class="vc_column-inner" style="padding-right: 40px; padding-left: 40px">
 	                                        <div class="wpb_wrapper">
-	                                            <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_2 margin_bottom_huge">
+	                                            <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_2">
 	                                                <div class="row">
 	                                                    <div class="column-1_3 sc_column_item">
 	                                                        <div class="aligncenter course-border">
@@ -1052,7 +1052,7 @@
 	                                                            </div>
 	                                                            <div class="row aligncenter">
 	                                                                <div class="column-1_2">
-	                                                                    <a target="_blank" href="www.mrdental.co.uk" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Visit Now</a>
+	                                                                    <a href="https://www.mrdental.co.uk"  target="_blank" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Visit Now</a>
 	                                                                </div>
 	                                                            </div>
 	                                                        </div>
@@ -1085,7 +1085,7 @@
 	                                                            </div>
 	                                                            <div class="row aligncenter">
 	                                                                <div class="column-1_2">
-	                                                                    <a target="_blank" href="www.mrdental.co.uk" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Visit Now</a>
+	                                                                    <a href="https://www.mrdental.co.uk" target="_blank" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Visit Now</a>
 	                                                                </div>
 	                                                            </div>
 	                                                        </div>
