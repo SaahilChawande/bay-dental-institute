@@ -131,8 +131,10 @@
                                                             <p>
                                                                 It is a 2 part exam. Part I is theory based MCQ exam requiring 50% pass individually followed by part II exam which is a practical exam. Both exams are held in London many times a year. After Passing part II the candidate is eligible to register with the GDC, and seek a job as a dentist with the NHS / Private practice/ Hospital in the UK ( Britain, Ireland, Scotland, Wales )  (NOTE:- Except Dublin. )
                                                             </p>
-															<p>
-																Bay Dental Institute 
+															<p style="font-weight: bold">
+																Bay Dental Institute is proud to be associated with MR. Dental (UK), for providing our facility for the MR. Dental ORE Training program in India. MR. Dental has over 12 years of experience in conducting ORE training in the UK. These MR. Dental ORE training courses are priced and listed separately on our book a course page and is conducted by tutors from the UK who come down periodically for the MR. Dental ORE training course at our center. Bay Dental Institute is a facility service provider for the MR. Dental ORE Course in India. For more information about the MR. Dental ORE training click on our "Book a Course" Tab.
+                                                                <br>
+                                                                MR. Dental Tutors include :- Dr. Fred Mukwenda BDS, MPH, MSC (CONS), Dr. Anita Pradhan BDS, FAGE, Dr. Zina Saad, Dr. Jasmine Singh, Dr. Shazia Afzal
 															</p>
 														</div>
 													</div>
