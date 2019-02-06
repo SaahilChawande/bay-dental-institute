@@ -7,6 +7,7 @@
     }
 
     include "conn.php";
+    require_once "config.php";
 
     $query = "SELECT courses.course_id, courses.course_name, courses.course_duration, courses.course_cost, courses.tutor FROM courses INNER JOIN cart ON courses.course_id = cart.course_id WHERE cart.username = '" . $_SESSION['username'] . "';";
 
@@ -23,6 +24,7 @@
 ?>
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="icon" type="image/x-icon" href="images/favicon.png" />
     <title>Book a course - Bay Dental Institute</title>
@@ -76,6 +78,7 @@
 					break;
 				case "yes":
 					removeFromCart(result, priceToDelete, is_course_set);
+					location.reload();
 					break;
 				default:
 					break;
@@ -299,6 +302,26 @@
                               		</div>
                                 </div>
 								<h3 class="aligncenter">Grand Total : <span style="color: white" id="grand_total_cost">&#x20b9; <?= $grand_total ?></span></h3>
+                            <div class="aligncenter">
+                                <form action="charge.php" method="POST">
+                                    <!-- Note that the amount is in paise = 50 INR -->
+                                    <script
+                                            src="https://checkout.razorpay.com/v1/checkout.js"
+                                            data-key="<?php echo $razor_pay_api_key; ?>"
+                                            data-amount= "<?php echo $grand_total * 100; ?>"
+                                            data-buttontext="Pay with Razorpay"
+                                            data-name="<?php echo $_SESSION['username']; ?>"
+                                            data-description="Test Transaction with Razor Pay"
+                                            data-image="https://baydentalinstitute.org/images/logo-fixed.png"
+                                            data-prefill.name=""
+                                            data-prefill.contact="<?php echo $_SESSION['mobile_number']; ?>"
+                                            data-prefill.email="<?php echo $_SESSION['email']; ?>"
+                                            data-theme.color="#30383B"
+                                            data-modal.backdropclose="true"
+                                    ></script>
+                                    <input type="hidden" value="Hidden Element" name="hidden">
+                                </form>
+                            </div>
                         </section>
                         <section class="related_wrap related_wrap_empty"></section>
                     </article>

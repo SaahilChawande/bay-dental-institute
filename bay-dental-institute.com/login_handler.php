@@ -35,8 +35,15 @@ if($username == "" and $password == "") {
 $query = "select * from `client` where `username` = '" . $username . "' and `password` = '" . $password . "';";
 $result = mysqli_query($conn, $query);
 if(mysqli_num_rows($result) > 0)    {
+    $row = mysqli_fetch_assoc($result);
+    $email = $row['email'];
+    $address = $row['address'];
+    $mobile_number = $row['mobileNo'];
     session_start();
     $_SESSION['username'] = $username;
+    $_SESSION['email'] = $email;
+    $_SESSION['address'] = $address;
+    $_SESSION['mobile_number'] = $mobile_number;
     send_success('Login Successful');
 
     // Resume here
