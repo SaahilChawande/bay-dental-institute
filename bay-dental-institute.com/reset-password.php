@@ -1,16 +1,16 @@
-
+<?php
+$email = $_POST['email'];
+$is_subfolder = false;
+ob_start();
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en-US" class="scheme_original">
-<?php 
-    $is_subfolder = false;
-    ob_start();
-    session_start();
-?>
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="icon" type="image/x-icon" href="images/favicon.png" />
-    <title>Login - Bay Dental Institute</title>
+    <title>Reset Password - Bay Dental Institute</title>
     <link rel='stylesheet' href='css/animations.css' type='text/css' media='all' />
     <link rel='stylesheet' href='js/vendor/esg/settings.css' type='text/css' media='all' />
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700|Lora:400,400i,700,700i|Merriweather:300,300i,400,400i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Poppins:300,400,500,600,700|Raleway:100,200,300,400,500,600,700,800,900&amp;subset=latin-ext' type='text/css' media='all'>
@@ -26,7 +26,7 @@
     <link rel='stylesheet' href='css/custom.css' type='text/css' media='all' />
     <link rel='stylesheet' href='css/core.messages.css' type='text/css' media='all' />
     <link rel='stylesheet' href='js/vendor/esg/lightbox.css' type='text/css' media='all' />
-    
+
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 
@@ -34,73 +34,33 @@
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
     <script type="application/javascript">
+        function onResetPasswordClicked()   {
+            var my_data = $('#reset_password_form').serializeArray();
 
-        
-        function onLoginClicked()    {    
-            var my_data = $('#login_form').serializeArray();
-            $.ajax({
-                type: "POST",
-                url: "login_handler.php",
-                data: my_data,
-                dataType: "json"
-            }).done(function(data)  {
-                if(data.status == "ok") {
-                    swal({
-                        title: "Login Successful", 
-                        type: "success"
-                    }).then(function()  {
-                        window.location.href = "book-a-course.php";
-                    });
-                }
-                else if(data.status == "error") {
-                    swal("Error", data.message, "error");
-                }
-            }).fail(function (xhr, status, error)   {
-                swal("Unable to connect. Please try again!");
-                console.log(xhr);
-                console.log(status);
-                console.log(error);
-            })
-            return false;
-        }
-
-        function onSignUpClicked()  {
-            window.location.href = "signup.php";
-        }
-
-        function onForgotPasswordClick()    {
-            swal({
-                text: 'Enter your registered email id',
-                content: "input",
-                button: {
-                    text: "Submit",
-                    closeModal: false,
-                },
-            }).then(email => {
-                    if (email !== null) {
-                        $.ajax({
-                            type: "POST",
-                            url: "check-email.php",
-                            data: {'email' : email},
-                            dataType: "json"
-                        }).done(function(data)  {
-                            if (data.status == "ok")    {
-                                var url = 'reset-password.php';
-                                var form = $('<form action="' + url + '" method="post">' +
-                                    '<input type="email" name="email" value="' + email + '" />' +
-                                    '</form>');
-                                $('body').append(form);
-                                form.submit();
-                            }
-                            else if (data.status == "error") {
-                                swal("Error", data.message, "error");
-                            }
-                        });
+            if (my_data[0]["value"] === my_data[1]["value"])    {
+                $.ajax({
+                    type: "POST",
+                    url: "reset-password-handler.php",
+                    data: {"email": "<?= $email ?>", "password1": my_data[0]["value"], "password2": my_data[1]["value"]},
+                    dataType: "json"
+                })
+                .done(function(data)    {
+                    if (data.status === "ok")   {
+                        swal("Success", data.message, "success")
+                            .then(function()    {
+                                window.location.href = "login.php";
+                            });
                     }
-            });
+                    else if (data.status === "error")   {
+                        swal("Error", data.message, "error");
+                    }
+                });
+            }   else    {
+                swal("Passwords do no match");
+            }
         }
     </script>
-	
+
 </head>
 
 <body class="page body_style_wide body_filled article_style_stretch scheme_original top_panel_show top_panel_above sidebar_hide sidebar_outer_hide vc_responsive">
@@ -137,95 +97,70 @@
         <div class="top_panel_title top_panel_style_2 title_present breadcrumbs_present scheme_original dark-background">
             <div class="top_panel_title_inner top_panel_inner_style_2 title_present_inner breadcrumbs_present_inner">
                 <div class="content_wrap">
-                    <h1 class="page_title">Login</h1>
+                    <h1 class="page_title">Reset Password</h1>
                     <div class="breadcrumbs">
                         <a class="breadcrumbs_item home" href="index.php">Home</a>
                         <span class="breadcrumbs_delimiter"></span>
-                        <span class="breadcrumbs_item current">Login</span>
+                        <span class="breadcrumbs_item current">Reset Password</span>
                     </div>
                 </div>
             </div>
         </div>
 
-            <div class="wpb_column vc_column_container vc_col-sm-12 dark-background">
-                <div class="vc_column-inner ">
-                    <div class="wpb_wrapper">
-                        <div class="sc_content content_wrap margin_top_huge margin_bottom_huge">
-                            <div class="sc_form_wrap">
-                                <div class="sc_form sc_form_style_form_2 margin_top_null margin_bottom_null">
-									
-                                    <form id="login_form" method="post" onsubmit="return onLoginClicked();">
-                                        <div class="sc_form_info">
-                                            <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_2">
-                                                <div class="column-1_2 sc_column_item sc_column_item_1">
-                                                    <div class="wpb_text_column wpb_content_element ">
-                                                        <div class="wpb_wrapper">
-                                                            <div class="sc_form_item sc_form_field label_over">
-                                                                <label class="required" for="sc_form_username">Username</label>
-                                                                <input type="text" style="padding-left:0;" name="username" placeholder="Username" required>
-                                                            </div>
+        <div class="wpb_column vc_column_container vc_col-sm-12 dark-background">
+            <div class="vc_column-inner ">
+                <div class="wpb_wrapper">
+                    <div class="sc_content content_wrap margin_top_huge margin_bottom_huge">
+                        <div class="sc_form_wrap">
+                            <div class="sc_form sc_form_style_form_2 margin_top_null margin_bottom_null">
+
+                                <form id="reset_password_form" method="post" onsubmit="return onResetPasswordClicked();">
+                                    <div class="sc_form_info">
+                                        <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_2">
+                                            <div class="column-1_2 sc_column_item sc_column_item_1">
+                                                <div class="wpb_text_column wpb_content_element ">
+                                                    <div class="wpb_wrapper">
+                                                        <div class="sc_form_item sc_form_field label_over">
+                                                            <label class="required" for="query_from" required>New Password</label>
+                                                            <input type="password" required pattern="(?=.*\d)(?=.*[a-z]).{8,}" title="Password must contain atleast 8 characters using numbers" name="password1" placeholder="New Password">
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_2">
-                                                <div class="column-1_2 sc_column_item sc_column_item_1">
-                                                    <div class="wpb_text_column wpb_content_element ">
-                                                        <div class="wpb_wrapper">
-                                                            <div class="sc_form_item sc_form_field label_over">
-                                                                <label class="required" for="query_from" >Password</label>
-                                                                <input type="password"  name="password" placeholder="Password" required>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <br><br>
-
-                                            <a href="javascript:void(0);" onclick="onForgotPasswordClick()">Forgot Password?</a>
-
-                                            <div class="sc_form_item sc_form_button">
-                                                <button name="submit" type="submit" id="submit">Login</button>
-                                                &nbsp;&nbsp;
-                                                <button onclick="onSignUpClicked()">Sign Up</button>
                                             </div>
                                         </div>
-																			
-										<?php
-											// if(isset($_POST['submit'])){
-                                            //     $uname=$_POST['username'];
-                                            //     $pass=$_POST['password'];
-                                            //     $sql="select password from client where username='$uname'";
-                                            //     $query=mysqli_query($conn,$sql);
-                                            //     if(mysqli_num_rows($query)>0){
-                                            //         $passdb=mysqli_fetch_array($query);
-                                            //         if($pass!=$passdb){
-                                            //             echo "<em>*Invalid username or password</em>";
-                                            //         }
-                                            //     }
-                                            //     else{
-                                            //         echo "<em>*You need to register</em>";
-                                            //     }
-											// }
-										?>
-                                    </form>
 
-                                </div>
+                                        <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_2">
+                                            <div class="column-1_2 sc_column_item sc_column_item_1">
+                                                <div class="wpb_text_column wpb_content_element ">
+                                                    <div class="wpb_wrapper">
+                                                        <div class="sc_form_item sc_form_field label_over">
+                                                            <label class="required" for="query_from" required>Confirm New Password</label>
+                                                            <input type="password" required pattern="(?=.*\d)(?=.*[a-z]).{8,}" title="Password must contain atleast 8 characters using numbers" name="password2" placeholder="Confirm New Password">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="sc_form_item sc_form_button">
+                                            <button name="submit" type="submit" id="submit">Reset Password</button>
+                                        </div>
+                                    </div>
+                                </form>
+
                             </div>
                         </div>
-                        <div class="vc_empty_space space_10p" style="height: 24em">
-                            <span class="vc_empty_space_inner"></span>
-                        </div>
+                    </div>
+                    <div class="vc_empty_space space_10p" style="height: 29em">
+                        <span class="vc_empty_space_inner"></span>
                     </div>
                 </div>
             </div>
-        
-    
+        </div>
 
         <div class="dark-background" style="color: #30383B; width: 100%">abc</div>
 
-            <?php include 'footer.php'?>
+        <?php include 'footer.php'?>
     </div>
 </div>
 

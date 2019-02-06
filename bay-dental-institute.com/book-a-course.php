@@ -648,6 +648,94 @@
                                         </div>
                                     </div>
 
+                                    <div class="aligncenter" id="toggle-mr-dental-view" style="cursor:pointer;">
+                                        <h3>
+                                            <span style="float: left; margin-left: 40px">&#8659;</span>
+                                            MR. DENTAL - ORE
+                                            <span style="float: right; margin-right: 40px">&#8659;</span>
+                                        </h3>
+                                    </div>
+
+                                    <br/><br/>
+
+                                    <div id="mr-dental-wrapper" style="display:none;">
+                                        <div class="vc_column-inner" style="padding-right: 40px; padding-left: 40px">
+                                            <div class="wpb_wrapper">
+                                                <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_2 margin_bottom_huge">
+                                                    <div class="row">
+                                                        <div class="column-1_2 sc_column_item">
+                                                            <div class="aligncenter course-border">
+                                                                <h5 style="display: inline">Course Name : </h5>
+                                                                <p style="display: inline">5 Day OSCE, DTP &amp; ME</p>
+                                                                <br><br>
+                                                                <h5 style="display: inline">Duration : </h5>
+                                                                <p style="display: inline">June 8 th - 12 th, 2019 - 9 am to 5 pm</p>
+                                                                <br><br>
+                                                                <h5 style="display: inline">Cost : </h5>
+                                                                <p style="display: inline">GBP 990</p>
+                                                                <br><br>
+                                                                <h5 style="display: inline">Tutor : </h5>
+                                                                <p style="display: inline">Dr. Anita Pradhan (MR. Dental) &amp; Dr. Jasmine Singh (MR. Dental)</p>
+                                                                <br>
+                                                                <h5 class="more-details"><a id="flip18">Click for more details&nbsp;&#8659;</a></h5>
+                                                                <div id="panel18" class="hide_display">
+                                                                    Day 1 :- Skilled OSCE's <br>
+                                                                    Day 2 :- Actor &amp; Written OSCE's <br>
+                                                                    Day 3 :- Dental Treatment Planning <br>
+                                                                    Day 4 :- Medical Emergency <br>
+                                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Medical Emergency Mock <br>
+                                                                    Day 5 :- OSCE &amp; DTP Mock <br>
+                                                                    All Tutors from MR. Dental UK. All training materials, manuals, etc. provided by MR. Dental UK. <br>
+                                                                    Only 10 spots.
+                                                                </div>
+                                                                <div class="row aligncenter">
+                                                                    <div class="column-1_2">
+                                                                        <a href="https://www.mrdental.co.uk/Mumbai-India-ORE-Course/ORE-II-COURSE-MUMBAI-INDIA-June-19.Html?cPath=15"  target="_blank" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Book Now</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="column-1_2 sc_column_item">
+                                                            <div class="aligncenter course-border">
+                                                                <h5 style="display: inline">Course Name : </h5>
+                                                                <p style="display: inline">5 day MANIKIN Course</p>
+                                                                <br><br>
+                                                                <h5 style="display: inline">Duration : </h5>
+                                                                <p style="display: inline">June 14th - 19th, 2019</p>
+                                                                <br><br>
+                                                                <h5 style="display: inline">Cost : </h5>
+                                                                <p style="display: inline">GBP 990</p>
+                                                                <br><br>
+                                                                <h5 style="display: inline">Tutor : </h5>
+                                                                <p style="display: inline">Dr. Fred Mukwenda (MR. Dental) &amp; Dr. Anita Pradhan (MR. Dental)</p>
+                                                                <br>
+                                                                <h5 class="more-details"><a id="flip19">Click for more details&nbsp;&#8659;</a></h5>
+                                                                <div id="panel19" class="hide_display">
+                                                                    Day 1 :- Amalgam Class I &amp; II Cavities <br>
+                                                                    Day 2 :- Composite :- Class III, IV, V and Cusp Build-up <br>
+                                                                    Day 3 :- Crown Preps <br>
+                                                                    Day 4 :- Impression Taking, <br>
+                                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Temporary Crown, Lab Card,
+                                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rest Seat, RCT <br>
+                                                                    Day 5 :- Supervised Practice and Feedback <br>
+                                                                    All tutors from MR. Dental UK. All training material, manuals, stc. provided by MR. Dental UK. <br>
+                                                                    Only 10 spots.
+                                                                </div>
+                                                                <div class="row aligncenter">
+                                                                    <div class="column-1_2">
+                                                                        <a href="https://www.mrdental.co.uk/Mumbai-India-ORE-Course/ORE-II-COURSE-MUMBAI-INDIA-June-19.Html?cPath=15" target="_blank" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Book Now</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <br/><br/><br/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
 									<div class="aligncenter" id="nbde-toggle-view" style="cursor: pointer;">
 									<h3>
 										<span style="float: left; margin-left: 40px">&#8659;</span>
@@ -1011,91 +1099,6 @@
 	                                        </div>
 	                                    </div>
 									</div><br><br>
-
-									<div class="aligncenter" id="toggle-mr-dental-view" style="cursor:pointer;">
-										<h3>
-											<span style="float: left; margin-left: 40px">&#8659;</span>
-											MR. DENTAL - ORE
-											<span style="float: right; margin-right: 40px">&#8659;</span>
-										</h3>
-									</div>
-
-									<div id="mr-dental-wrapper" style="display:none;">
-										<div class="vc_column-inner" style="padding-right: 40px; padding-left: 40px">
-	                                        <div class="wpb_wrapper">
-	                                            <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_2 margin_bottom_huge">
-	                                                <div class="row">
-	                                                    <div class="column-1_2 sc_column_item">
-	                                                        <div class="aligncenter course-border">
-	                                                            <h5 style="display: inline">Course Name : </h5>
-	                                                            <p style="display: inline">5 Day OSCE, DTP &amp; ME</p>
-	                                                            <br><br>
-	                                                            <h5 style="display: inline">Duration : </h5>
-	                                                            <p style="display: inline">June 8 th - 12 th, 2019 - 9 am to 5 pm</p>
-	                                                            <br><br>
-	                                                            <h5 style="display: inline">Cost : </h5>
-	                                                            <p style="display: inline">GBP 990</p>
-	                                                            <br><br>
-	                                                            <h5 style="display: inline">Tutor : </h5>
-	                                                            <p style="display: inline">Dr. Anita Pradhan (MR. Dental) &amp; Dr. Jasmine Singh (MR. Dental)</p>
-	                                                            <br>
-	                                                            <h5 class="more-details"><a id="flip18">Click for more details&nbsp;&#8659;</a></h5>
-	                                                            <div id="panel18" class="hide_display">
-	                                                                Day 1 :- Skilled OSCE's <br>
-																	Day 2 :- Actor &amp; Written OSCE's <br>
-																	Day 3 :- Dental Treatment Planning <br>
-																	Day 4 :- Medical Emergency <br>
-																	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Medical Emergency Mock <br>
-																	Day 5 :- OSCE &amp; DTP Mock <br>
-																	All Tutors from MR. Dental UK. All training materials, manuals, etc. provided by MR. Dental UK. <br>
-																	Only 10 spots.
-	                                                            </div>
-	                                                            <div class="row aligncenter">
-	                                                                <div class="column-1_2">
-	                                                                    <a href="https://www.mrdental.co.uk"  target="_blank" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Visit Now</a>
-	                                                                </div>
-	                                                            </div>
-	                                                        </div>
-	                                                    </div>
-														<div class="column-1_2 sc_column_item">
-	                                                        <div class="aligncenter course-border">
-	                                                            <h5 style="display: inline">Course Name : </h5>
-	                                                            <p style="display: inline">5 day MANIKIN Course</p>
-	                                                            <br><br>
-	                                                            <h5 style="display: inline">Duration : </h5>
-	                                                            <p style="display: inline">June 14th - 19th, 2019</p>
-	                                                            <br><br>
-	                                                            <h5 style="display: inline">Cost : </h5>
-	                                                            <p style="display: inline">GBP 990</p>
-	                                                            <br><br>
-	                                                            <h5 style="display: inline">Tutor : </h5>
-	                                                            <p style="display: inline">Dr. Fred Mukwenda (MR. Dental) &amp; Dr. Anita Pradhan (MR. Dental)</p>
-	                                                            <br>
-	                                                            <h5 class="more-details"><a id="flip19">Click for more details&nbsp;&#8659;</a></h5>
-	                                                            <div id="panel19" class="hide_display">
-	                                                                Day 1 :- Amalgam Class I &amp; II Cavities <br>
-																	Day 2 :- Composite :- Class III, IV, V and Cusp Build-up <br>
-																	Day 3 :- Crown Preps <br>
-																	Day 4 :- Impression Taking, <br>
-																	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Temporary Crown, Lab Card,
-																	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rest Seat, RCT <br>
-																	Day 5 :- Supervised Practice and Feedback <br>
-																	All tutors from MR. Dental UK. All training material, manuals, stc. provided by MR. Dental UK. <br>
-																	Only 10 spots.
-	                                                            </div>
-	                                                            <div class="row aligncenter">
-	                                                                <div class="column-1_2">
-	                                                                    <a href="https://www.mrdental.co.uk" target="_blank" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Visit Now</a>
-	                                                                </div>
-	                                                            </div>
-	                                                        </div>
-	                                                    </div>
-	                                                </div>
-	                                                <br/><br/><br/>
-	                                            </div>
-	                                        </div>
-	                                    </div>
-									</div>
                                 </div>
                             </div>
                             <div class="vc_row-full-width"></div>
@@ -1193,12 +1196,9 @@
 <script type='text/javascript' src='js/vendor/ui/effect-fade.min.js'></script>
 <script type='text/javascript' src='js/vendor/swiper/swiper.min.js'></script>
 <script type='text/javascript' src='http://maps.google.com/maps/api/js?key='></script>
-<script type='text/javascript' src='js/vendor/core.googlemap.js'></script>
 <script type='text/javascript' src='js/vendor/chart.min.js'></script>
 </body>
 
-
-<!-- Mirrored from dentario-html.themerex.net/shortcodes.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 21 Nov 2018 12:17:29 GMT -->
 </html>
 
 <?php
