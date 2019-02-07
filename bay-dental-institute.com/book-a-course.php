@@ -322,7 +322,6 @@
                 </div>
             </div>
         </div>
-
         <div class="page_content_wrap page_paddings_yes dark-background">
             <div class="content_wrap">
                 <div class="content">

@@ -327,6 +327,9 @@
                     </article>
                 </div>
             </div>
+            <div class="vc_empty_space space_10p" style="height: 10em">
+                <span class="vc_empty_space_inner"></span>
+            </div>
         </div>
         <div class="copyright_wrap copyright_style_socials scheme_light">
             <div class="copyright_wrap_inner">
