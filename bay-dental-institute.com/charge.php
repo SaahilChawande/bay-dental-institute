@@ -4,6 +4,7 @@
 
     session_start();
 
+    // Calculate the total amount
     $total_amount = 0;
 
     $get_cart_query = "select courses.course_cost from `courses` inner join `cart` on courses.course_id = cart.course_id where cart.username = '" . $_SESSION['username'] . "';";
@@ -23,8 +24,20 @@
         }
     }
 
+    // Insert the transaction into the database
+
     $query = "insert into `transactions` values ('" . $_POST['razorpay_payment_id'] . "', '" . $_SESSION['username'] . "', '" . $total_amount . "');";
     mysqli_query($conn, $query);
     echo "<pre>";
     print_r($_POST);
-    die;
+
+    // Capture the payment
+
+    require('razorpay-php/Razorpay.php');
+
+    use Razorpay\Api\Api;
+
+    $api = new Api('rzp_test_OXnWOtyaXflPKm', 'gfSrMTNfkr8B0g3hh7sadTet');
+
+    $payment = $api->payment->fetch($_POST['razorpay_payment_id']);
+    $payment->capture(array('amount' => $payment->amount));
