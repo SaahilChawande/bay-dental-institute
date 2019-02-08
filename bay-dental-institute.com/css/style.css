@@ -6925,6 +6925,13 @@ h1 .wpb_text_column p, h2 .wpb_text_column p, h3 .wpb_text_column p, h4 .wpb_tex
 	border-radius: 3px;
 }
 
+.batch-full-button	{
+	width: 100%;
+	color: white;
+	background-color: #00C1CF;
+	border-radius: 3px;
+}
+
 .scroll-bar	{
 	overflow: hidden;
 }

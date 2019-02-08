@@ -80,6 +80,14 @@
         echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
     }
 
+    // Update the enrolled number
+    $query = "select courses.course_id, courses.enrolled from `courses` inner join `cart` on courses.course_id = cart.course_id where username = '" . $_SESSION['username'] . "';";
+    $result = mysqli_query($conn, $query);
+    while($row = mysqli_fetch_assoc($result))   {
+        $update_query = "update `courses` set enrolled = " . ($row['enrolled'] + 1) . " where course_id = " . $row['course_id'] . ";";
+        mysqli_query($conn, $update_query);
+    }
+
     // Delete entries from cart
     $query = "delete from `cart` where username = '" . $_SESSION['username'] . "';";
     mysqli_query($conn, $query);

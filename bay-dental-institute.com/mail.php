@@ -37,7 +37,7 @@
         }
         $str = array_reverse($str);
         $result = implode('', $str);
-        return "Rs. " . $result . " only";
+        return "&#x20b9; " . $result . " only";
     }
 
     function prependZeros($number)  {
@@ -182,7 +182,7 @@
                         $mail_body .= '<td>' . $index++ . '</td>';
                         $mail_body .= '<td>' . $row['course_name'] . '</td>';
                         $total_cost += (int)$row['course_cost'];
-                        $mail_body .= '<td>' . $row['course_cost'] . '/- </td>';
+                        $mail_body .= '<td> &#x20b9; ' . $row['course_cost'] . '/- </td>';
                         $mail_body .= '</tr>';
                     }
 
@@ -194,14 +194,14 @@
                         $mail_body .= '<td>' . $index++ . '</td>';
                         $mail_body .= '<td>' . $row['product_name'] . '</td>';
                         $total_cost += (int)$row['product_price'];
-                        $mail_body .= '<td>' . $row['product_price'] . '/-</td>';
+                        $mail_body .= '<td> &#x20b9; ' . $row['product_price'] . '/-</td>';
                         $mail_body .= '</tr>';
                     }
 
                     $mail_body .= '<tr>';
                     $mail_body .= '<td></td>';
                     $mail_body .= '<td><b>Total : </b></td>';
-                    $mail_body .= '<td>' . $total_cost . '/-</td>';
+                    $mail_body .= '<td> &#x20b9; ' . $total_cost . '/-</td>';
                     $mail_body .= '</tr>';
 
                     $mail_body .= '<tr><td></td><td colspan="2"><b>' . convertToWords($total_cost) . '</b></td>';
@@ -216,7 +216,7 @@
                                 <div class="col-md-4">For Bay Dental Training Institute</div>
                             </div>
                             <br>
-                            <p>Rs. ' . $total_cost . '/- received on ' . date("d/m/Y") . ' with <b>Payment Reference No. ' . $razor_pay_transaction_id . '</b></p>
+                            <p> &#x20b9; ' . $total_cost . '/- received on ' . date("d/m/Y") . ' with <b>Payment Reference No. ' . $razor_pay_transaction_id . '</b></p>
                             <h4>This is an auto-generated invoice.</h4>
                             <b>GST Not applicable as firm is yet to qualify in order to obtain GST Number.</b>
                         </div>

@@ -239,6 +239,7 @@
 
                                                     <?php
                                                         if(isset($_SESSION['username']))    {
+                                                            echo '<a href="checkout.php" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large alignright" style="padding: 1em 1.25em"><img width="20px" src="images/social-media/shopping-cart.svg"></a>';
                                                             echo '<a href="logout.php" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large alignright" style="padding: 1em 1.25em">Logout</a>';
                                                         }
                                                         else    {

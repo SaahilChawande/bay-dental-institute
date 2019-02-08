@@ -112,6 +112,10 @@
 			$("#panel19").slideToggle();
 		});
 
+        $("#flip20").click(function()	{
+            $("#panel20").slideToggle();
+        });
+
 		$("#ore-lds-toggle-view").click(function()	{
 			$("#ore-lds-wrapper").slideToggle();
 		});
@@ -141,6 +145,7 @@
         var session_isset = check_session();
 
         if(session_isset === '1')   {
+            // Get all the courses from cart
             var username = get_current_user();
             var data_array = {"username": username};
             var data = JSON.parse(JSON.stringify(data_array));
@@ -154,6 +159,29 @@
                     for(var i = 0; i < data.message.length; i++)    {
                         $('#' + data.message[i].course_id + '_1').hide();
                         $('#' + data.message[i].course_id + '_2').show();
+                    }
+                }
+                else if(data.status == "error" && data.message != "No items found in cart") {
+                    swal("Error", data.message, "error");
+                }
+            }).fail(function(xhr, status, error)    {
+                swal("Unable to connect. Please try again.");
+            });
+
+            //Check courses with full batch size
+            $.ajax({
+                type: "POST",
+                url: "get-all-courses.php",
+                data: data,
+                dataType: "json"
+            }).done(function(data)  {
+                if(data.status == "ok") {
+                    for(var i = 0; i < data.message.length; i++)    {
+                        if (data.message[i].enrolled === data.message[i].maximum)   {
+                            $('#' + data.message[i].course_id + '_1').hide();
+                            $('#' + data.message[i].course_id + '_2').hide();
+                            $('#' + data.message[i].course_id + '_3').show();
+                        }
                     }
                 }
                 else if(data.status == "error" && data.message != "No items found in cart") {
@@ -277,6 +305,10 @@
             });
         }
     }
+
+    function onMaximumCapacityClicked() {
+        swal("Cannot Enroll", "This course capacity is to its limit", "info");
+    }
     </script>
 </head>
 
@@ -333,10 +365,11 @@
                                         <div class="wpb_wrapper">
                                             <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_2">
                                                 <div class="column-1_1 sc_column_item">
-                                                    <a href="javascript:void(0)" onclick="onBookNowClick();" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large alignright" style="padding: 1em 1.25em">Book Now</a>
+                                                    <a href="javascript:void(0)" onclick="onBookNowClick();" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large alignright" style="padding: 1em 1.25em">Check Out</a>
 
                                                     <?php
                                                         if(isset($_SESSION['username']))    {
+                                                            echo '<a href="checkout.php" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large alignright" style="padding: 1em 1.25em"><img width="20px" src="images/social-media/shopping-cart.svg"></a>';
                                                             echo '<a href="logout.php" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large alignright" style="padding: 1em 1.25em">Logout</a>';
                                                         }
                                                         else    {
@@ -384,6 +417,7 @@
 	                                                                <div class="column-1_2">
 	                                                                    <a id="1_1" onclick="onAddCartClicked('1');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 23px">Add to Cart</a>
 	                                                                    <a id="1_2" onclick="onRemoveCartClicked('1');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="display: none; color: white; margin-top: 23px">Remove from Cart</a>
+                                                                        <a id="1_3" onclick="onMaximumCapacityClicked();" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large batch-full-button" style="display: none; width: 100%; color: white; margin-top: 23px">Batch Full</a>
 	                                                                </div>
 	                                                            </div>
 	                                                        </div>
@@ -419,6 +453,7 @@
 	                                                                <div class="column-1_2">
 	                                                                    <a id="2_1" onclick="onAddCartClicked('2');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Add to Cart</a>
 	                                                                    <a id="2_2" onclick="onRemoveCartClicked('2');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="color: white; display: none">Remove from Cart</a>
+                                                                        <a id="2_3" onclick="onMaximumCapacityClicked();" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large batch-full-button" style="display: none; width: 100%; color: white">Batch Full</a>
 	                                                                </div>
 	                                                            </div>
 	                                                        </div>
@@ -452,6 +487,7 @@
 	                                                                <div class="column-1_2">
 	                                                                    <a id="3_1" onclick="onAddCartClicked('3');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 23px">Add to Cart</a>
 	                                                                    <a id="3_2" onclick="onRemoveCartClicked('3');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="color: white; margin-top: 23px; display: none">Remove from Cart</a>
+                                                                        <a id="3_3" onclick="onMaximumCapacityClicked();" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large batch-full-button" style="display: none; width: 100%; color: white; margin-top: 23px">Batch Full</a>
 	                                                                </div>
 	                                                            </div>
 	                                                        </div>
@@ -484,6 +520,7 @@
 	                                                                <div class="column-1_2">
 	                                                                    <a id="4_1" onclick="onAddCartClicked('4');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 20px">Add to Cart</a>
 	                                                                    <a id="4_2" onclick="onRemoveCartClicked('4');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="color: white; margin-top: 20px; display: none">Remove from Cart</a>
+                                                                        <a id="4_3" onclick="onMaximumCapacityClicked();" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large batch-full-button" style="display: none; width: 100%; color: white; margin-top: 20px">Batch Full</a>
 	                                                                </div>
 	                                                            </div>
 	                                                        </div>
@@ -515,6 +552,7 @@
 	                                                                <div class="column-1_2">
 	                                                                    <a id="5_1" onclick="onAddCartClicked('5');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 20px">Add to Cart</a>
 	                                                                    <a id="5_2" onclick="onRemoveCartClicked('5');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="color: white; margin-top: 20px; display: none">Remove from Cart</a>
+                                                                        <a id="5_3" onclick="onMaximumCapacityClicked();" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large batch-full-button" style="display: none; width: 100%; color: white; margin-top: 20px">Batch Full</a>
 	                                                                </div>
 	                                                            </div>
 	                                                        </div>
@@ -544,6 +582,7 @@
 	                                                                <div class="column-1_2">
 	                                                                    <a id="6_1" onclick="onAddCartClicked('6');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 20px">Add to Cart</a>
 	                                                                    <a id="6_2" onclick="onRemoveCartClicked('6');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="color: white; margin-top: 20px; display: none">Remove from Cart</a>
+                                                                        <a id="6_3" onclick="onMaximumCapacityClicked();" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large batch-full-button" style="display: none; width: 100%; color: white; margin-top: 20px">Batch Full</a>
 	                                                                </div>
 	                                                            </div>
 	                                                        </div>
@@ -575,6 +614,7 @@
 	                                                                <div class="column-1_2">
 	                                                                    <a id="7_1" onclick="onAddCartClicked('7');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 12px">Add to Cart</a>
 	                                                                    <a id="7_2" onclick="onRemoveCartClicked('7');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="color: white; margin-top: 12px; display: none">Remove from Cart</a>
+                                                                        <a id="7_3" onclick="onMaximumCapacityClicked();" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large batch-full-button" style="display: none; width: 100%; color: white; margin-top: 12px">Batch Full</a>
 	                                                                </div>
 	                                                            </div>
 	                                                        </div>
@@ -606,6 +646,7 @@
 	                                                                <div class="column-1_2">
 	                                                                    <a id="8_1" onclick="onAddCartClicked('8');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Add to Cart</a>
 	                                                                    <a id="8_2" onclick="onRemoveCartClicked('8');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="color: white; display: none">Remove from Cart</a>
+                                                                        <a id="8_3" onclick="onMaximumCapacityClicked();" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large batch-full-button" style="display: none; width: 100%; color: white">Batch Full</a>
 	                                                                </div>
 	                                                            </div>
 	                                                        </div>
@@ -637,6 +678,7 @@
 	                                                                <div class="column-1_2">
 	                                                                    <a id="9_1" onclick="onAddCartClicked('9');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white;">Add to Cart</a>
 	                                                                    <a id="9_2" onclick="onRemoveCartClicked('9');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="color: white; display: none;">Remove from Cart</a>
+                                                                        <a id="9_3" onclick="onMaximumCapacityClicked();" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large batch-full-button" style="display: none; width: 100%; color: white">Batch Full</a>
 	                                                                </div>
 	                                                            </div>
 	                                                        </div>
@@ -676,8 +718,8 @@
                                                                 <h5 style="display: inline">Tutor : </h5>
                                                                 <p style="display: inline">Dr. Anita Pradhan (MR. Dental) &amp; Dr. Jasmine Singh (MR. Dental)</p>
                                                                 <br>
-                                                                <h5 class="more-details"><a id="flip18">Click for more details&nbsp;&#8659;</a></h5>
-                                                                <div id="panel18" class="hide_display">
+                                                                <h5 class="more-details"><a id="flip19">Click for more details&nbsp;&#8659;</a></h5>
+                                                                <div id="panel19" class="hide_display">
                                                                     Day 1 :- Skilled OSCE's <br>
                                                                     Day 2 :- Actor &amp; Written OSCE's <br>
                                                                     Day 3 :- Dental Treatment Planning <br>
@@ -708,8 +750,8 @@
                                                                 <h5 style="display: inline">Tutor : </h5>
                                                                 <p style="display: inline">Dr. Fred Mukwenda (MR. Dental) &amp; Dr. Anita Pradhan (MR. Dental)</p>
                                                                 <br>
-                                                                <h5 class="more-details"><a id="flip19">Click for more details&nbsp;&#8659;</a></h5>
-                                                                <div id="panel19" class="hide_display">
+                                                                <h5 class="more-details"><a id="flip20">Click for more details&nbsp;&#8659;</a></h5>
+                                                                <div id="panel20" class="hide_display">
                                                                     Day 1 :- Amalgam Class I &amp; II Cavities <br>
                                                                     Day 2 :- Composite :- Class III, IV, V and Cusp Build-up <br>
                                                                     Day 3 :- Crown Preps <br>
@@ -782,6 +824,7 @@
 	                                                                <div class="column-1_2">
 	                                                                    <a id="10_1" onclick="onAddCartClicked('10');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Add to Cart</a>
 	                                                                    <a id="10_2" onclick="onRemoveCartClicked('10');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="color: white; display: none">Remove from Cart</a>
+                                                                        <a id="10_3" onclick="onMaximumCapacityClicked();" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large batch-full-button" style="display: none; width: 100%; color: white">Batch Full</a>
 	                                                                </div>
 	                                                            </div>
 	                                                        </div>
@@ -816,6 +859,7 @@
 	                                                                <div class="column-1_2">
 	                                                                    <a id="11_1" onclick="onAddCartClicked('11');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Add to Cart</a>
 	                                                                    <a id="11_2" onclick="onRemoveCartClicked('11');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="color: white; display: none">Remove from Cart</a>
+                                                                        <a id="11_3" onclick="onMaximumCapacityClicked();" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large batch-full-button" style="display: none; width: 100%; color: white">Batch Full</a>
 	                                                                </div>
 	                                                            </div>
 	                                                        </div>
@@ -854,6 +898,7 @@
 	                                                                <div class="column-1_2">
 	                                                                    <a id="12_1" onclick="onAddCartClicked('12');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 10px">Add to Cart</a>
 	                                                                    <a id="12_2" onclick="onRemoveCartClicked('12');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="color: white; margin-top: 10px; display: none">Remove from Cart</a>
+                                                                        <a id="12_3" onclick="onMaximumCapacityClicked();" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large batch-full-button" style="display: none; width: 100%; color: white; margin-top: 10px">Batch Full</a>
 	                                                                </div>
 	                                                            </div>
 	                                                        </div>
@@ -889,6 +934,7 @@
 	                                                                <div class="column-1_2">
 	                                                                    <a id="13_1" onclick="onAddCartClicked('13');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Add to Cart</a>
 	                                                                    <a id="13_2" onclick="onRemoveCartClicked('13');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="color: white; display: none">Remove from Cart</a>
+                                                                        <a id="13_3" onclick="onMaximumCapacityClicked();" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large batch-full-button" style="display: none; width: 100%; color: white">Batch Full</a>
 	                                                                </div>
 	                                                            </div>
 	                                                        </div>
@@ -926,6 +972,7 @@
 	                                                                <div class="column-1_2">
 	                                                                    <a id="14_1" onclick="onAddCartClicked('14');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Add to Cart</a>
 	                                                                    <a id="14_2" onclick="onRemoveCartClicked('14');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="color: white; display: none">Remove from Cart</a>
+                                                                        <a id="14_3" onclick="onMaximumCapacityClicked();" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large batch-full-button" style="display: none; width: 100%; color: white">Batch Full</a>
 	                                                                </div>
 	                                                            </div>
 
@@ -957,7 +1004,7 @@
 	                                                            <p style="display: inline">Demistifying Dentistry - Advanced Composite Clinical Masterclass</p>
 	                                                            <br><br>
 	                                                            <h5 style="display: inline">Duration : </h5>
-	                                                            <p style="display: inline">April 6th / 7th 2019 - 9 am to 5 pm</p>
+	                                                            <p style="display: inline">April 13th / 14th 2019 - 9 am to 5 pm</p>
 	                                                            <br><br>
 	                                                            <h5 style="display: inline">Cost : </h5>
 	                                                            <p style="display: inline"> &#x20b9; 25,000/-</p>
@@ -981,6 +1028,7 @@
 	                                                                <div class="column-1_2">
 	                                                                    <a id="15_1" onclick="onAddCartClicked('15');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Add to Cart</a>
 	                                                                    <a id="15_2" onclick="onRemoveCartClicked('15');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="color: white; display: none">Remove from Cart</a>
+                                                                        <a id="15_3" onclick="onMaximumCapacityClicked();" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large batch-full-button" style="display: none; width: 100%; color: white">Batch Full</a>
 	                                                                </div>
 	                                                            </div>
 	                                                        </div>
@@ -1005,7 +1053,7 @@
 	                                        <div class="wpb_wrapper">
 	                                            <div class="columns_wrap sc_columns columns_nofluid sc_columns_count_2 margin_bottom_huge">
 	                                                <div class="row">
-	                                                    <div class="column-1_2 sc_column_item aligncenter">
+	                                                    <div class="column-1_2 sc_column_item">
 	                                                        <div class="aligncenter course-border">
 	                                                            <h5 style="display: inline">Course Name : </h5>
 	                                                            <p style="display: inline">Bespoke Veeners - Advanced Clinical Veener Simulation Workshop</p>
@@ -1034,10 +1082,46 @@
 	                                                                <div class="column-1_2">
 	                                                                    <a id="16_1" onclick="onAddCartClicked('16');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Add to Cart</a>
 	                                                                    <a id="16_2" onclick="onRemoveCartClicked('16');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="color: white; display: none">Remove from Cart</a>
+                                                                        <a id="16_3" onclick="onMaximumCapacityClicked();" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large batch-full-button" style="display: none; width: 100%; color: white">Batch Full</a>
 	                                                                </div>
 	                                                            </div>
 	                                                        </div>
 	                                                    </div>
+                                                        <div class="column-1_2 sc_column_item">
+                                                            <div class="aligncenter course-border">
+                                                                <h5 style="display: inline">Course Name : </h5>
+                                                                <p style="display: inline">Veneers &amp; Occlusion - Bespoke Smile Academy UK</p>
+                                                                <br><br>
+                                                                <h5 style="display: inline">Duration : </h5>
+                                                                <p style="display: inline">Nov 16 - 17, 2019</p>
+                                                                <br><br>
+                                                                <h5 style="display: inline">Cost : </h5>
+                                                                <p style="display: inline"> &#x20b9; 26,500/-</p>
+                                                                <br><br>
+                                                                <h5 style="display: inline">Tutor : </h5>
+                                                                <p style="display: inline">Dr. Sam Jethwa <br> (British Academy of Cosmetic Dentistry)</p>
+                                                                <br>
+                                                                <h5 class="more-details"><a id="flip17">Click for more details&nbsp;&#8659;</a></h5>
+                                                                <div id="panel17" class="hide_display">
+                                                                    Learn from the Director of Young Dentists learning - British Academy of Cosmetic Dentistry<br>
+                                                                    Best Young Dentist - UK 2016/17 <br>
+                                                                    All about Veneers <br>
+                                                                    Complete Clinical Protocol <br>
+                                                                    Case discussions and selection <br>
+                                                                    Clinical Steps <br>
+                                                                    Smile Design <br>
+                                                                    Occlusion <br>
+                                                                    Failures and Management.
+                                                                </div>
+                                                                <div class="row aligncenter">
+                                                                    <div class="column-1_2">
+                                                                        <a id="17_1" onclick="onAddCartClicked('17');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Add to Cart</a>
+                                                                        <a id="17_2" onclick="onRemoveCartClicked('17');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="color: white; display: none">Remove from Cart</a>
+                                                                        <a id="17_3" onclick="onMaximumCapacityClicked();" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large batch-full-button" style="display: none; width: 100%; color: white">Batch Full</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
 	                                                </div>
 	                                                <br/><br/><br/>
 	                                            </div>
@@ -1064,16 +1148,16 @@
 	                                                            <p style="display: inline">Grey Scale - Advanced Dental Photography Course</p>
 	                                                            <br><br>
 	                                                            <h5 style="display: inline">Duration : </h5>
-	                                                            <p style="display: inline">TBD (June)</p>
+	                                                            <p style="display: inline">29 - 30th June 2019</p>
 	                                                            <br><br>
 	                                                            <h5 style="display: inline">Cost : </h5>
-	                                                            <p style="display: inline"> TBD </p>
+	                                                            <p style="display: inline"> &#x20b9; 15,000/- </p>
 	                                                            <br><br>
 	                                                            <h5 style="display: inline">Tutor : </h5>
 	                                                            <p style="display: inline">Dr. Mayur Davda</p>
 	                                                            <br>
-	                                                            <h5 class="more-details"><a id="flip17">Click for more details&nbsp;&#8659;</a></h5>
-	                                                            <div id="panel17" class="hide_display">
+	                                                            <h5 class="more-details"><a id="flip18">Click for more details&nbsp;&#8659;</a></h5>
+	                                                            <div id="panel18" class="hide_display">
 	                                                                Leading Dental Photography mentor by Dr. Mayur Davda <br>
 																	Cannon Photo Mentor <br>
 																	Each candidate to play with DSLR and Advanced Lenses <br>
@@ -1086,8 +1170,9 @@
 	                                                            </div>
 	                                                            <div class="row aligncenter">
 	                                                                <div class="column-1_2">
-	                                                                    <a id="17_1" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Add to Cart</a>
-	                                                                    <a id="17_2" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="color: white; display: none">Remove from Cart</a>
+	                                                                    <a id="18_1" onclick="onAddCartClicked('18');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white">Add to Cart</a>
+	                                                                    <a id="18_2" onclick="onRemoveCartClicked('18');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="color: white; display: none">Remove from Cart</a>
+                                                                        <a id="18_3" onclick="onMaximumCapacityClicked();" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large batch-full-button" style="display: none; width: 100%; color: white">Batch Full</a>
 	                                                                </div>
 	                                                            </div>
 	                                                        </div>
@@ -1194,7 +1279,6 @@
 <script type='text/javascript' src='js/vendor/ui/effect.min.js'></script>
 <script type='text/javascript' src='js/vendor/ui/effect-fade.min.js'></script>
 <script type='text/javascript' src='js/vendor/swiper/swiper.min.js'></script>
-<script type='text/javascript' src='http://maps.google.com/maps/api/js?key='></script>
 <script type='text/javascript' src='js/vendor/chart.min.js'></script>
 </body>
 
