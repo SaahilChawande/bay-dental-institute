@@ -90,37 +90,38 @@
                         <section class="post_content">
 
                             <!--Slider-->
-                            <!--<div class="vc_row wpb_row vc_row-fluid">
+                            <div class="vc_row wpb_row vc_row-fluid">
                                 <div class="wpb_column vc_column_container vc_col-sm-12">
                                     <div class="vc_column-inner ">
                                         <div class="wpb_wrapper">
                                             <div id="sc_slider_193" class="sc_slider sc_slider_swiper swiper-slider-container sc_slider_height_fixed sc_slider_controls sc_slider_nopagination sc_slider_bg" data-old-height="400" data-interval="6424" style="height:400px;width:100%;">
                                                 <div class="slides swiper-wrapper">
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/ore-lds-uk/s1.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/ore-lds-uk/s2.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/ore-lds-uk/s3.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/ore-lds-uk/s4.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/ore-lds-uk/s5.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/ore-lds-uk/s6.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/ore-lds-uk/s7.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/ore-lds-uk/s8.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/ore-lds-uk/s9.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/ore-lds-uk/s10.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/ore-lds-uk/s11.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
-                                                    <div class="swiper-slide" style="background-image: url(images/courses/ore-lds-uk/s12.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/ndeb-nbde/ndeb-nbde-1.jpg); transform:rotate(180deg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/ndeb-nbde/ndeb-nbde-2.jpg); transform:rotate(90deg);background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/ndeb-nbde/ndeb-nbde-3.jpg);transform:rotate(90deg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/ndeb-nbde/ndeb-nbde-4.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/ndeb-nbde/ndeb-nbde-5.jpg);background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/ndeb-nbde/ndeb-nbde-6.jpg);transform:rotate(270deg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/ndeb-nbde/ndeb-nbde-7.jpg);transform:rotate(270deg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/ndeb-nbde/ndeb-nbde-8.jpg);transform:rotate(270deg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/ndeb-nbde/ndeb-nbde-9.jpg);transform:rotate(270deg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/ndeb-nbde/ndeb-nbde-10.jpg);transform:rotate(270deg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/ndeb-nbde/ndeb-nbde-11.jpg);transform:rotate(270deg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/ndeb-nbde/ndeb-nbde-12.jpg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
+                                                    <div class="swiper-slide" style="background-image: url(images/courses/ndeb-nbde/ndeb-nbde-13.jpg);transform:rotate(270deg); background-repeat: no-repeat; background-size: contain" data-style="width:100%;height:400px;"></div>
                                                 </div>
                                                 <div class="sc_slider_controls_wrap">
                                                     <a class="sc_slider_prev" href="#"></a>
                                                     <a class="sc_slider_next" href="#"></a>
                                                 </div>
                                             </div>
-                                            <div class="vc_empty_space space_25p">
+                                            <div class="vc_empty_space space_50p">
                                                 <span class="vc_empty_space_inner"></span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>-->
+                            </div>
 
                             <!--Initial Para-->
                             <div class="vc_row wpb_row vc_row-fluid">
@@ -176,7 +177,7 @@
             <div class="copyright_wrap_inner">
                 <div class="content_wrap_outer">
                     <div class="content_wrap">
-                        <div class="copyright_text">Incepiom © 2018 All Rights Reserved.</div>
+                        <div class="copyright_text">Bay Dental Institute 2018 © All Rights Reserved. Developed by <a href="www.incepiomdigitech.in">Incepiom Digitech</a></div>
                     </div>
                 </div>
             </div>
@@ -263,6 +264,4 @@
 <script type='text/javascript' src='js/vendor/chart.min.js'></script>
 </body>
 
-
-<!-- Mirrored from dentario-html.themerex.net/shortcodes.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 21 Nov 2018 12:17:29 GMT -->
 </html>
