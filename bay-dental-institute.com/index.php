@@ -307,8 +307,7 @@
                                                                     <div class="sc_team_item_info">
                                                                         <h5 class="sc_team_item_title">Dr. James Mulani</h5>
                                                                         <div class="sc_team_item_position">BDS (Mauritius), MJDF (UK),
-                                                                            <br>Stat Exam &amp; Licensed Practitioner (GDC - UK), Overseas Mentor,
-                                                                            <br>ORE Course Program Director
+                                                                            <br>Stat Exam &amp; Licensed Practitioner (GDC - UK), Overseas Mentor, ORE Course Program Director
                                                                         </div>
                                                                         <h6><a href="javascript:void(0)" id="t3-details-click" style="color: white">Click for more &#8659;</a></h6>
                                                                         <div class="sc_team_item_description" id="t3-details" style="display: none">

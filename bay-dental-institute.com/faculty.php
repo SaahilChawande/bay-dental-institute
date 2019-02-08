@@ -149,7 +149,7 @@
                                                                         <h5 class="sc_team_item_title">
                                                                             Dr. Akshari Anchan
                                                                         </h5>
-                                                                        <div class="sc_team_item_position">NBDE / NDBE Director<br/>Botox and Facial Aesthetics Clinician</div>
+                                                                        <div class="sc_team_item_position">NBDE / NDBE Course Director<br/>Botox and Facial Aesthetics Clinician</div>
                                                                         <br><br>
                                                                         <div>Click on the image for more content</div>
                                                                     </div>
@@ -228,6 +228,7 @@
                                                                             Dr. Fred Mukwenda
                                                                         </h5>
                                                                         <div class="sc_team_item_position">BDS, MPH, MSC (CONS)</div>
+                                                                        <div>Click on the image for more content</div>
                                                                     </div>
                                                                 </div>
                                                             </div>
