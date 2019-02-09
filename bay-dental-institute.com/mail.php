@@ -43,7 +43,7 @@
     function prependZeros($number)  {
         if ($number < 10)
             return '00' . $number;
-        else if ($number >= 10 && $number < 99)
+        else if ($number >= 10 && $number < 100)
             return '0' . $number;
         else
             return '' . $number;
@@ -68,12 +68,12 @@
 
     // Generate the invoice number
     $result_array = array();
-    $query = 'select * from `transactions`;';
+    $query = 'select * from `transactions_new` order by invoice_id desc;';
     $result = mysqli_query($conn, $query);
     while($row = mysqli_fetch_assoc($result))   {
         array_push($result_array, $row);
     }
-    $recent_invoice = $result_array[sizeof($result_array) - 1]["invoice_number"];
+    $recent_invoice = $result_array[0]["invoice_number"];
     $recent_invoice_array = explode("/", $recent_invoice);
 
     if (checkAfterApril() == $recent_invoice_array[1])
@@ -82,6 +82,11 @@
         $new_invoice_number = prependZeros(1);
 
     $final_invoice_number = $new_invoice_number . "/" . checkAfterApril();
+
+    // Get customer details
+    $customer_query = "select * from `client` where username = '" . $_SESSION["username"] . "';";
+    $customer_result = mysqli_query($conn, $customer_query);
+    $customer_row = mysqli_fetch_assoc($customer_result);
 
     // Form the mail body
     $total_cost = 0;
@@ -157,10 +162,10 @@
                 <h6 class="text-center">Regd, off. :-404-A, Neelakanth Building, 98, Marine Drive, Mumbai-400002</h6>
                 <p class="text-center"><b>Invoice No. ' . $final_invoice_number . '</b></p>
                 <div class="text-center"><b> Date : ' . date("d/m/Y") . '</b></div>
-                <p><b>Mr / Mrs / Dr. Aljeeta Ajit Kadam</b></p>
-                <p><b>Tel. No. 9820069746</b></p>
+                <p><b>' . $customer_row["username"] . '</b></p>
+                <p><b>Tel. No. ' . $customer_row["mobileNo"] . '</b></p>
                 <br>
-                <p><b>Address:- 413 D Wing, Gaurav Garden Society, Mira-Bhayandar Road, Next To Thunga Hospital, Mira Road East, Thane :- 401107</b></p>
+                <p><b>Address:- ' . $customer_row["address"] . '</b></p>
             </div>
             <br>
             <div>

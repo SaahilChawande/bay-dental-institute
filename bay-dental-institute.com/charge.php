@@ -28,7 +28,7 @@
 
     // Insert the transaction into the database
 
-    $query = "insert into `transactions` values ('" . $_POST['razorpay_payment_id'] . "', '" . $_SESSION['username'] . "', '" . $total_amount . "', '" . $final_invoice_number . "', '" . date('d/m/Y') . "');";
+    $query = "insert into `transactions_new` (`transaction_id`, `username`, `amount`, `invoice_number`, `date`) values ('" . $_POST['razorpay_payment_id'] . "', '" . $_SESSION['username'] . "', '" . $total_amount . "', '" . $final_invoice_number . "', '" . date('d/m/Y') . "');";
     mysqli_query($conn, $query);
 
     // Capture the payment
@@ -54,14 +54,15 @@
     $mail = new PHPMailer(true);                                // Passing 'true' enables exceptions
     try {
         // Server Settings
-        $mail->SMTPDebug = 0;                                           // Enable verbose debug output
-        $mail->isSMTP();                                                // Set mailer to use SMTP
-        $mail->Host = 'smtp.gmail.com';                                 // Specify main and backup smtp servers
-        $mail->SMTPAuth = true;                                         // Enable SMTP Authentication
-        $mail->Username = 'info@baydental.in';                          // SMTP Username
-        $mail->Password = 'bda41016';                                   // SMTP Password
-        $mail->SMTPSecure = 'ssl';                                      // Enable 'ssl' encryption, 'tls' also accepted
-        $mail->Port = 465;                                              // Gmail : 465 for ssl and 587 for tls
+        $mail->SMTPDebug = 2;                                           // Enable verbose debug output
+        //$mail->isSMTP();                                                // Set mailer to use SMTP
+        $mail->Host = 'localhost';                                 // Specify main and backup smtp servers
+        //$mail->authentication  = false;
+        //$mail->SMTPAuth = false;                                         // Enable SMTP Authentication
+        //$mail->Username = 'info@baydental.in';                          // SMTP Username
+        //$mail->Password = 'bda41016';                                   // SMTP Password
+        //$mail->SMTPSecure = 'ssl';                                      // Enable 'ssl' encryption, 'tls' also accepted
+        //$mail->Port = 465;                                              // Gmail : 465 for ssl and 587 for tls
 
         // Recipients
         $mail->setFrom('info@baydental.in', 'no-reply@baydental.in');
@@ -123,7 +124,7 @@
     <link rel='stylesheet' href='css/custom.css' type='text/css' media='all' />
     <link rel='stylesheet' href='css/core.messages.css' type='text/css' media='all' />
     <link rel='stylesheet' href='js/vendor/swiper/swiper.min.css' type='text/css' media='all' />
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <link rel="stylesheet" href="https://printjs-4de6.kxcdn.com/print.min.css">
 
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>

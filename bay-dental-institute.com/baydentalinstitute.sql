@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 08, 2019 at 09:54 AM
+-- Generation Time: Feb 09, 2019 at 09:59 AM
 -- Server version: 10.1.30-MariaDB
 -- PHP Version: 7.2.2
 
@@ -38,7 +38,6 @@ CREATE TABLE `cart` (
 --
 
 INSERT INTO `cart` (`username`, `course_id`) VALUES
-('admin', 3),
 ('chawlashravan@gmail.com', 1),
 ('chawlashravan@gmail.com', 2),
 ('chawlashravan@gmail.com', 5),
@@ -59,8 +58,7 @@ INSERT INTO `cart` (`username`, `course_id`) VALUES
 ('richa', 11),
 ('richa', 12),
 ('richa', 13),
-('richa', 14),
-('saahilchawande', 1);
+('richa', 14);
 
 -- --------------------------------------------------------
 
@@ -113,7 +111,7 @@ CREATE TABLE `courses` (
 --
 
 INSERT INTO `courses` (`course_id`, `course_name`, `course_duration`, `course_cost`, `tutor`, `main_course`, `enrolled`, `maximum`) VALUES
-(1, 'ORE / LDS Orientation and Introduction', '1 day / 3 hour program', '1000', 'Dr. Shravan Chawla', 'ORE / LDS - UK', 0, 10),
+(1, 'ORE / LDS Orientation and Introduction', '1 day / 3 hour program', '1000', 'Dr. Shravan Chawla', 'ORE / LDS - UK', 1, 10),
 (2, 'Part I - Theory Exam Coaching', '2 days coaching / 9 am to 6 pm', '30000', 'Dr. Shravan Chawla', 'ORE / LDS - UK', 0, 10),
 (3, 'Part II - Comprehensive Coaching', '5 days / 9 am to 6 pm', '50000', 'Dr. Shravan Chawla', 'ORE / LDS - UK', 0, 10),
 (4, 'Part II - 2 Day Revision Coourse', '2 days / 9 am to 6 pm', '25000', 'Dr. Shravan Chawla', 'ORE / LDS - UK', 0, 10),
@@ -122,9 +120,9 @@ INSERT INTO `courses` (`course_id`, `course_name`, `course_duration`, `course_co
 (7, '1 Day ME + DTP Mock Exam', '20 mins ME Mock exam followed by 1 hour DTP mock exam', '12000', 'Dr. Shravan Chawla', 'ORE / LDS - UK', 0, 10),
 (8, 'ORE / LDS Part II Complete Mock', '4 Modules conducted over 3 days just like exam', '20000', 'Dr. Shravan Chawla', 'ORE / LDS - UK', 0, 10),
 (9, '1 Day Manikin Revision', '1 day / 9 am to 6 pm', '6000', 'Dr. Shravan Chawla', 'ORE / LDS - UK', 0, 10),
-(10, 'Orientation and Introduction', '6 hours', '1500', 'Dr. Akshari Anchan', 'NBDE (USA) / NDEB (CANADA)', 0, 10),
-(11, 'NBDE / NDEB - Impulse Part 1', '8 days (4 + 4) / 9 am to 11 am (15 hours total)', '16000', 'Dr. Akshari Anchan', 'NBDE (USA) / NDEB (CANADA)', 0, 10),
-(12, 'NBDE / NDEB - Impulse Part 2', '10 days (5 + 5) / 9 am to 11 am (20 hours total)', '20000', 'Dr. Akshari Anchan', 'NBDE (USA) / NDEB (CANADA)', 0, 10),
+(10, 'Orientation and Introduction', '6 hours', '1500', 'Dr. Akshari Anchan', 'NBDE (USA) / NDEB (CANADA)', 2, 10),
+(11, 'NBDE / NDEB - Impulse Part 1', '8 days (4 + 4) / 9 am to 11 am (15 hours total)', '16000', 'Dr. Akshari Anchan', 'NBDE (USA) / NDEB (CANADA)', 2, 10),
+(12, 'NBDE / NDEB - Impulse Part 2', '10 days (5 + 5) / 9 am to 11 am (20 hours total)', '20000', 'Dr. Akshari Anchan', 'NBDE (USA) / NDEB (CANADA)', 2, 10),
 (13, 'NBDE / NDEB - Intense Part 1', '24 days total (6 days / week * 4 weeks / 9 am to 11 am / total 48 hours coaching)', '30000', 'Dr. Akshari Anchan', 'NBDE (USA) / NDEB (CANADA)', 0, 10),
 (14, 'NBDE / NDEB - Intense Part 2', '24 days total (6 days / week * 4 weeks / 9 am to 11 am / total 48 hours coaching)', '40000', 'Dr. Akshari Anchan', 'NBDE (USA) / NBDE (CANADA)', 0, 10),
 (15, 'Demistifying Dentistry - Advanced Composite Clinical Masterclass', 'April 13th / 14th 2019 - 9 am to 5 pm', '25000', 'Dr. Vishal Gupta', 'Composites', 2, 10),
@@ -169,11 +167,12 @@ INSERT INTO `store_products` (`id`, `product_name`, `product_price`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `transactions`
+-- Table structure for table `transactions_new`
 --
 
-CREATE TABLE `transactions` (
-  `id` varchar(64) NOT NULL,
+CREATE TABLE `transactions_new` (
+  `invoice_id` int(11) NOT NULL,
+  `transaction_id` varchar(64) NOT NULL,
   `username` varchar(64) NOT NULL,
   `amount` varchar(64) NOT NULL,
   `invoice_number` varchar(64) NOT NULL,
@@ -181,19 +180,11 @@ CREATE TABLE `transactions` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `transactions`
+-- Dumping data for table `transactions_new`
 --
 
-INSERT INTO `transactions` (`id`, `username`, `amount`, `invoice_number`, `date`) VALUES
-('pay_Btjaibbi6YPPJx', 'saahilchawande', '91500', '008/2018-19', '08/02/2019'),
-('pay_Btk9EAbJ1ESTeq', 'saniya07', '41000', '008/2018-19', '08/02/2019'),
-('pay_Btkjk8SCmQt1kB', 'saahilchawande', '1000', '008/2018-19', '08/02/2019'),
-('pay_BtVikvz62z70PK', 'saahilchawande', '128850', '002/2018-19', '07/02/2019'),
-('pay_BtVjRlrFGCMOsN', 'saahilchawande', '128850', '003/2018-19', '07/02/2019'),
-('pay_BtVrxu1Vfzqoob', 'saahilchawande', '128850', '004/2018-19', '07/02/2019'),
-('pay_BtW3inZUZuUKeo', 'saahilchawande', '155500', '005/2018-19', '07/02/2019'),
-('pay_BtWHzmNdBpfxyL', 'saahilchawande', '117500', '006/2018-19', '07/02/2019'),
-('pay_BtWLxmJaFBLSgy', 'saahilchawande', '143500', '007/2018-19', '08/02/2019');
+INSERT INTO `transactions_new` (`invoice_id`, `transaction_id`, `username`, `amount`, `invoice_number`, `date`) VALUES
+(1, 'pay_Btjaibbi6YPPJx', 'saahilchawande', '1000', '001/2018-19', '09/02/2019');
 
 --
 -- Indexes for dumped tables
@@ -230,10 +221,10 @@ ALTER TABLE `store_products`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `transactions`
+-- Indexes for table `transactions_new`
 --
-ALTER TABLE `transactions`
-  ADD PRIMARY KEY (`id`);
+ALTER TABLE `transactions_new`
+  ADD PRIMARY KEY (`invoice_id`);
 
 --
 -- AUTO_INCREMENT for dumped tables
@@ -250,6 +241,12 @@ ALTER TABLE `courses`
 --
 ALTER TABLE `store_products`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
+--
+-- AUTO_INCREMENT for table `transactions_new`
+--
+ALTER TABLE `transactions_new`
+  MODIFY `invoice_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

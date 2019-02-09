@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2a5367c-6aea-47a6-991f-6aad4b80105d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/bay-dental-institute.com/testimonials.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/dental-photography.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/dental-photography.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/desktop-header.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/desktop-header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/faculty.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/faculty.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/images/courses/dental-photography/dp13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/images/courses/dental-photography/dp13.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/images/courses/dental-photography/dp14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/images/courses/dental-photography/dp3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/images/courses/dental-photography/dp3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/images/courses/dental-photography/dp4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/images/courses/dental-photography/dp4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/images/courses/dental-photography/dp5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/images/courses/dental-photography/dp5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/images/courses/dental-photography/dp8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/mobile-header.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/mobile-header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/nbde-usa.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/nbde-usa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/ndeb-canada.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/ndeb-canada.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/baydentalinstitute.sql" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/baydentalinstitute.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/charge.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/charge.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/mail.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,15 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="309" column="147" selection-start-line="309" selection-start-column="147" selection-end-line="309" selection-end-column="147" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/nbde-usa.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -79,32 +59,48 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/store.php">
+        <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/testimonials.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="352" column="169" selection-start-line="352" selection-start-column="169" selection-end-line="352" selection-end-column="169" />
+            <state relative-caret-position="253">
+              <caret line="29" column="96" selection-start-line="29" selection-start-column="96" selection-end-line="29" selection-end-column="96" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/conn.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/mail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3841">
+              <caret line="167" column="49" selection-start-line="167" selection-start-column="49" selection-end-line="167" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/charge.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1380">
+              <caret line="30" column="267" selection-start-line="30" selection-start-column="267" selection-end-line="30" selection-end-column="267" />
               <folding>
-                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+                <element signature="e#1852#1886#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/testimonials.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1817">
-              <caret line="91" column="55" selection-start-line="91" selection-start-column="55" selection-end-line="91" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/dental-photography.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
+            <state relative-caret-position="1644">
               <caret line="109" column="252" selection-start-line="109" selection-start-column="252" selection-end-line="109" selection-end-column="252" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -116,24 +112,6 @@
                 <element signature="n#style#0;n#div#18;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#19;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/desktop-header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="100" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="100" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/mobile-header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="26" column="104" selection-start-line="26" selection-start-column="104" selection-end-line="26" selection-end-column="104" />
             </state>
           </provider>
         </entry>
@@ -194,7 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bay-dental-institute/css/skin.css" />
         <option value="$PROJECT_DIR$/bay-dental-institute/css/style.css" />
         <option value="$PROJECT_DIR$/bay-dental-institute/index.php" />
         <option value="$PROJECT_DIR$/bay-dental-institute.com/sample.php" />
@@ -214,7 +191,6 @@
         <option value="$PROJECT_DIR$/bay-dental-institute.com/css/custom.css" />
         <option value="$PROJECT_DIR$/bay-dental-institute.com/css/skin.css" />
         <option value="$PROJECT_DIR$/bay-dental-institute.com/config.php" />
-        <option value="$PROJECT_DIR$/bay-dental-institute.com/conn.php" />
         <option value="$PROJECT_DIR$/bay-dental-institute.com/login_handler.php" />
         <option value="$PROJECT_DIR$/bay-dental-institute.com/check-email.php" />
         <option value="$PROJECT_DIR$/bay-dental-institute.com/login.php" />
@@ -223,10 +199,8 @@
         <option value="$PROJECT_DIR$/bay-dental-institute.com/js/custom/require.js" />
         <option value="$PROJECT_DIR$/bay-dental-institute.com/css/style.css" />
         <option value="$PROJECT_DIR$/bay-dental-institute.com/get-all-courses.php" />
-        <option value="$PROJECT_DIR$/bay-dental-institute.com/mail.php" />
         <option value="$PROJECT_DIR$/bay-dental-institute.com/book-a-course.php" />
         <option value="$PROJECT_DIR$/bay-dental-institute.com/botox-and-lip-fillers.php" />
-        <option value="$PROJECT_DIR$/bay-dental-institute.com/charge.php" />
         <option value="$PROJECT_DIR$/bay-dental-institute.com/checkout.php" />
         <option value="$PROJECT_DIR$/bay-dental-institute.com/composites.php" />
         <option value="$PROJECT_DIR$/bay-dental-institute.com/dental-assistant-training.php" />
@@ -239,12 +213,16 @@
         <option value="$PROJECT_DIR$/bay-dental-institute.com/store.php" />
         <option value="$PROJECT_DIR$/bay-dental-institute.com/desktop-header.php" />
         <option value="$PROJECT_DIR$/bay-dental-institute.com/mobile-header.php" />
-        <option value="$PROJECT_DIR$/bay-dental-institute.com/testimonials.php" />
         <option value="$PROJECT_DIR$/bay-dental-institute.com/index.php" />
         <option value="$PROJECT_DIR$/bay-dental-institute.com/nbde-usa.php" />
         <option value="$PROJECT_DIR$/bay-dental-institute.com/ndeb-canada.php" />
         <option value="$PROJECT_DIR$/bay-dental-institute.com/faculty.php" />
         <option value="$PROJECT_DIR$/bay-dental-institute.com/dental-photography.php" />
+        <option value="$PROJECT_DIR$/bay-dental-institute.com/testimonials.php" />
+        <option value="$PROJECT_DIR$/bay-dental-institute.com/charge.php" />
+        <option value="$PROJECT_DIR$/bay-dental-institute.com/conn.php" />
+        <option value="$PROJECT_DIR$/bay-dental-institute.com/test.php" />
+        <option value="$PROJECT_DIR$/bay-dental-institute.com/mail.php" />
       </list>
     </option>
   </component>
@@ -329,12 +307,12 @@
       <workItem from="1549195035324" duration="313000" />
       <workItem from="1549386785971" duration="1401000" />
       <workItem from="1549435910390" duration="53735000" />
-      <workItem from="1549632365621" duration="4580000" />
+      <workItem from="1549632365621" duration="13395000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158801000" />
+    <option name="totallyTimeSpent" value="167616000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="846" extended-state="6" />
@@ -424,13 +402,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/conn.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/book-a-course.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
@@ -442,13 +413,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
           <caret line="208" column="169" selection-start-line="208" selection-start-column="169" selection-end-line="208" selection-end-column="169" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/charge.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="196" column="169" selection-start-line="196" selection-start-column="169" selection-end-line="196" selection-end-column="169" />
         </state>
       </provider>
     </entry>
@@ -530,13 +494,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/logout.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/mail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5106">
-          <caret line="222" column="42" lean-forward="true" selection-start-line="222" selection-start-column="42" selection-end-line="222" selection-end-column="42" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/ore-lds-uk.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -654,13 +611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/testimonials.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1817">
-          <caret line="91" column="55" selection-start-line="91" selection-start-column="55" selection-end-line="91" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/nbde-usa.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
@@ -670,7 +620,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/dental-photography.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
+        <state relative-caret-position="1644">
           <caret line="109" column="252" selection-start-line="109" selection-start-column="252" selection-end-line="109" selection-end-column="252" />
           <folding>
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -682,6 +632,44 @@
             <element signature="n#style#0;n#div#18;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#19;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#article#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/testimonials.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="29" column="96" selection-start-line="29" selection-start-column="96" selection-end-line="29" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/charge.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1380">
+          <caret line="30" column="267" selection-start-line="30" selection-start-column="267" selection-end-line="30" selection-end-column="267" />
+          <folding>
+            <element signature="e#1852#1886#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3841">
+          <caret line="167" column="49" selection-start-line="167" selection-start-column="49" selection-end-line="167" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/conn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
