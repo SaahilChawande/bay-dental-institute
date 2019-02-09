@@ -37,7 +37,7 @@
 
     use Razorpay\Api\Api;
 
-    $api = new Api('rzp_test_OXnWOtyaXflPKm', 'gfSrMTNfkr8B0g3hh7sadTet');
+    $api = new Api($razor_pay_api_key, $razor_pay_secret_key);
 
     $payment = $api->payment->fetch($_POST['razorpay_payment_id']);
     $payment->capture(array('amount' => $payment->amount));
