@@ -67,6 +67,7 @@
         // Recipients
         $mail->setFrom('info@baydental.in', 'no-reply@baydental.in');
         $mail->addAddress($_SESSION['email']);       // Add a recipient
+        $mail->addBCC('info@baydental.in');
 
         // Attachments
 
