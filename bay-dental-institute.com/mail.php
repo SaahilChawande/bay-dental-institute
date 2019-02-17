@@ -159,13 +159,14 @@
                 <h5 class="text-center">Mobile: 9820958880</h5>
                 <h1 class="text-center">Bay Dental Training Institute</h1>
                 <h3 class="text-center">(Prop: Shravan Kishore Chawla HUF)</h3>
-                <h6 class="text-center">Regd, off. :-404-A, Neelakanth Building, 98, Marine Drive, Mumbai-400002</h6>
+                <h6 class="text-center">Regd, off. :-404-A, Neela Kanth Building, 98, Marine Drive, Mumbai-400002</h6>
                 <p class="text-center"><b>Invoice No. ' . $final_invoice_number . '</b></p>
                 <div class="text-center"><b> Date : ' . date("d/m/Y") . '</b></div>
                 <p><b>' . $customer_row["username"] . '</b></p>
                 <p><b>Tel. No. ' . $customer_row["mobileNo"] . '</b></p>
                 <br>
                 <p><b>Address:- ' . $customer_row["address"] . '</b></p>
+                <h4 class="text-center"><b>Your Course Has Been Booked!</b></h4>
             </div>
             <br>
             <div>

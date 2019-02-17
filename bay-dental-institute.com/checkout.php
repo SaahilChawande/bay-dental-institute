@@ -311,7 +311,7 @@
                                             data-amount= "<?php echo $grand_total * 100; ?>"
                                             data-buttontext="Pay with Razorpay"
                                             data-name="<?php echo $_SESSION['username']; ?>"
-                                            data-description="Test Transaction with Razor Pay"
+                                            data-description="Bay Dental Institute Payment"
                                             data-image="https://baydentalinstitute.org/images/logo-fixed.png"
                                             data-prefill.name=""
                                             data-prefill.contact="<?php echo $_SESSION['mobile_number']; ?>"

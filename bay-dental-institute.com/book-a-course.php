@@ -140,6 +140,14 @@
 			$("#mr-dental-wrapper").slideToggle();
 		});
     });
+	function viewPolicy()   {
+	    swal("1. Courses once booked cannot be changed, transferred , refunded.\n\n" +
+            "2. Any Courses changed , modified by Bay Dental Institute will be informed to the candidate and option of full refund or transfer to another course will be given. \n\n" +
+            "3. Bay Dental Institute has the right to cancel, reschedule any course due to unforseen circumstances, In that case entire course amount will be refunded 100%. \n\n" +
+            "4. Bay Dental Institute is not liable to pay any charges towards travel, accomodation in case of any course date changes, speaker unavailability, unavoidable circumstances. \n\n" +
+            "5. Goods once sold through the online store can not be returned. Incase of any defect, can be returned and replaced once goods received. \n\n" +
+            "6. All disputes to be settled under Mumbai Jurisdiction. \n\n");
+    }
 
     $(document).ready(function()    {
         var session_isset = check_session();
@@ -1186,7 +1194,9 @@
                                 </div>
                             </div>
                             <div class="vc_row-full-width"></div>
-
+                            <div class="aligncenter">
+                                <h3><a href="javascript:void(0)" onclick="viewPolicy();">Cancellation and Refund Policy</a></h3>
+                            </div>
                         </section>
                         <section class="related_wrap related_wrap_empty"></section>
                     </article>

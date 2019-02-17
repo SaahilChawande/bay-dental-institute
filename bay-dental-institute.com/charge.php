@@ -31,16 +31,20 @@
     $query = "insert into `transactions_new` (`transaction_id`, `username`, `amount`, `invoice_number`, `date`) values ('" . $_POST['razorpay_payment_id'] . "', '" . $_SESSION['username'] . "', '" . $total_amount . "', '" . $final_invoice_number . "', '" . date('d/m/Y') . "');";
     mysqli_query($conn, $query);
 
-    // Capture the payment
+    // Update the enrolled number
+    $query = "select courses.course_id, courses.enrolled from `courses` inner join `cart` on courses.course_id = cart.course_id where username = '" . $_SESSION['username'] . "';";
+    $result = mysqli_query($conn, $query);
+    while($row = mysqli_fetch_assoc($result))   {
+        $update_query = "update `courses` set enrolled = " . ($row['enrolled'] + 1) . " where course_id = " . $row['course_id'] . ";";
+        mysqli_query($conn, $update_query);
+    }
 
-    require('razorpay-php/Razorpay.php');
+    // Delete entries from cart
+    $query = "delete from `cart` where username = '" . $_SESSION['username'] . "';";
+    mysqli_query($conn, $query);
 
-    use Razorpay\Api\Api;
-
-    $api = new Api($razor_pay_api_key, $razor_pay_secret_key);
-
-    $payment = $api->payment->fetch($_POST['razorpay_payment_id']);
-    $payment->capture(array('amount' => $payment->amount));
+    $query = "delete from `store_cart` where username = '" . $_SESSION['username'] . "';";
+    mysqli_query($conn, $query);
 
     // Send the invoice on the mail
 
@@ -67,7 +71,7 @@
         // Recipients
         $mail->setFrom('info@baydental.in', 'no-reply@baydental.in');
         $mail->addAddress($_SESSION['email'], $_SESSION['username']);       // Add a recipient
-        $mail->AddCC('info@baydental.in', 'Bay Dental Institute');
+        $mail->addAddress('info@baydental.in', 'Bay Dental Institute');
 
         // Attachments
 
@@ -82,20 +86,16 @@
         echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
     }
 
-    // Update the enrolled number
-    $query = "select courses.course_id, courses.enrolled from `courses` inner join `cart` on courses.course_id = cart.course_id where username = '" . $_SESSION['username'] . "';";
-    $result = mysqli_query($conn, $query);
-    while($row = mysqli_fetch_assoc($result))   {
-        $update_query = "update `courses` set enrolled = " . ($row['enrolled'] + 1) . " where course_id = " . $row['course_id'] . ";";
-        mysqli_query($conn, $update_query);
-    }
+    // Capture the payment
 
-    // Delete entries from cart
-    $query = "delete from `cart` where username = '" . $_SESSION['username'] . "';";
-    mysqli_query($conn, $query);
+    require('razorpay-php/Razorpay.php');
 
-    $query = "delete from `store_cart` where username = '" . $_SESSION['username'] . "';";
-    mysqli_query($conn, $query);
+    use Razorpay\Api\Api;
+
+    $api = new Api($razor_pay_api_key, $razor_pay_secret_key);
+
+    $payment = $api->payment->fetch($_POST['razorpay_payment_id']);
+    $payment->capture(array('amount' => $payment->amount));
 ?>
 <!DOCTYPE html>
 <html lang="en-US" class="scheme_original">
