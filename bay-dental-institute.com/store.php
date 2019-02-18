@@ -37,6 +37,21 @@
 
     <script type="text/javascript">
 
+        var details_array = [
+            "Push Button for Ease of changing Burs\n\n High Quality German export quality\n\n Ergonomic handle for good grip\n\n Cermaic Bearings\n\n 2 Hole type attachment\n\n Light Weight ( 59.8 grams ) made from compressed high quality Metal.\n\n Lux 2000 Bright LED\n\n 3 point water Spray Coolant for fast cutting\n\n 6 Months Warranty from Manufacturer",
+            "Push Button for Ease of changing Burs\n\n High Quality German export quality\n\n Ergonomic handle for good grip\n\n Cermaic Bearings\n\n 2 Hole type attachment\n\n Light Weight ( 59.8 grams ) made from compressed high quality Metal.\n\n 3 point water Spray Coolant for fast cutting\n\n 6 Months Warranty from Manufacturer",
+            "Rotating Lock for ease of handling\n\n High Quality German export quality\n\n Ergonomic Rubberized handle for good grip\n\n Attaches all Straight Burs\n\n 6 Months Warranty from Manufacturer",
+            "Two hole air motor attachment\n\n Attaches to two hole type air motor turbing\n\n Attaches to contra-angle, straight handpiece\n\n Forward and backward rotation possible\n\n High Quality German export quality\n\n Cermaic Bearings\n\n 2 Hole type attachment\n\n 6 Months Warranty from Manufacturer",
+            "High Quality German export quality\n\n Ergonomic handle for good grip\n\n Smooth push button to engage micro motor burs\n\n Slender Neck and Mini head for better working\n\n Made from compressed high quality Metal.\n\n 6 Months Warranty from Manufacturer",
+            "Regular Latch Type HP\n\n High Quality German export quality\n\n Ergonomic handle for good grip\n\n Made from compressed high quality Metal.\n\n 6 Months Warranty from Manufacturer",
+            "For practicing class II cavity prep for ORE\n\n Attaches to Air Rotor",
+            "High Quality ORE Exam Manikin\n\n Fiber Glass Head ( Not Plastic )\n\n Silicone Cheeks ( Not Rubber )\n\n Exact ORE exam style manikin\n\n Magnet Jaws for faster Teeth Replacements\n\n Heavy Duty Clamp and Articulator\n\n Good Resale Value\n\n Draining Point below Manikin\n\n NOTE :-\n\n Jaws are not Frasaco Jaws.\n\n Frasaco Jaws are to be bought seperately"
+        ];
+
+        function showDetails(id)    {
+            swal(details_array[id-1]);
+        }
+
        $(document).ready(function()    {
            var session_isset = check_session();
 
@@ -248,19 +263,24 @@
                                                     ?>
 
                                                 </div>
-                      												              <div class="aligncenter">
-        												                              <h3>Materials We Provide</h3>
-                     												              </div>
-                      												             <br/>
-                      												             <br/>
+                                                <div class="aligncenter">
+                                                    <h3>Materials We Provide</h3>
+                                                </div>
+                                                <br/>
+                                                <br/>
                                                <div class="row">
                                                     <div class="column-1_3 sc_column_item">
                                                         <div class="aligncenter course-border">
+                                                            <img src="images/store-products/store_item_1.jpg" alt="Dentsafe LED Air Rotor Handpiece">
                                                             <h5 style="display: inline">Name : </h5>
-                                                            <p style="display: inline; ">Bur Number 330</p>
+                                                            <p style="display: inline; ">Dentsafe LED Air Rotor Handpiece</p>
                                                             <br><br>
                                                             <h5 style="display: inline">Cost : </h5>
-                                                            <p style="display: inline"> &#x20b9; 175/-</p>
+                                                            <p style="display: inline"> &#x20b9; 3,400/- All Inclusive ( Free Shipping within India )
+                                                                <br>Overseas Shipping extra
+                                                                <br>Item Ships within 3-5 Working Days</p>
+                                                            <br>
+                                                            <h5 class="more-details"><a id="flip1" onclick="showDetails(1)">Click for more details</a></h5>
                                                             <div class="row aligncenter">
                                                                 <div class="column-1_2">
                                                                     <a id="1_1" onclick="onAddCartClicked('1');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 23px">Add to Cart</a>
@@ -271,11 +291,15 @@
                                                     </div>
                                                     <div class="column-1_3 sc_column_item">
                                                         <div class="aligncenter course-border">
+                                                            <img src="images/store-products/store_item_2.jpg" alt="Dentsafe Regular Air Rotor HP">
                                                             <h5 style="display: inline">Name : </h5>
-                                                            <p style="display: inline; ">Bur Number 170</p>
+                                                            <p style="display: inline; ">Dentsafe Regular Air Rotor HP</p>
                                                             <br><br>
                                                             <h5 style="display: inline">Cost : </h5>
-                                                            <p style="display: inline"> &#x20b9; 175/-</p>
+                                                            <p style="display: inline"> &#x20b9; 2,300/- All Inclusive ( Free Shipping within India )
+                                                                <br>Overseas Shipping extra
+                                                                <br>Item Ships within 3-5 Working Days</p>
+                                                            <h5 class="more-details"><a onclick="showDetails(2)">Click for more details</a></h5>
                                                             <div class="row aligncenter">
                                                                 <div class="column-1_2">
                                                                     <a id="2_1" onclick="onAddCartClicked('2');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 23px">Add to Cart</a>
@@ -286,11 +310,15 @@
                                                     </div>
                                                     <div class="column-1_3 sc_column_item">
                                                         <div class="aligncenter course-border">
+                                                            <img src="images/store-products/store_item_3.jpg" alt="Dent Safe Straight Motor Handpiece">
                                                             <h5 style="display: inline">Name : </h5>
-                                                            <p style="display: inline; ">Dental Mannequin</p>
+                                                            <p style="display: inline; ">Dent Safe Straight Motor Handpiece</p>
                                                             <br><br>
                                                             <h5 style="display: inline">Cost : </h5>
-                                                            <p style="display: inline"> &#x20b9; 25,000/-</p>
+                                                            <p style="display: inline"> &#x20b9; 1,800/- All Inclusive ( Free Shipping within India )
+                                                                <br>Overseas Shipping extra
+                                                                <br>Item Ships within 3-5 Working Days</p>
+                                                            <h5 class="more-details"><a onclick="showDetails(3)">Click for more details</a></h5>
                                                             <div class="row aligncenter">
                                                                 <div class="column-1_2">
                                                                     <a id="3_1" onclick="onAddCartClicked('3');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 23px">Add to Cart</a>
@@ -301,33 +329,102 @@
                                                     </div>
                                                 </div>
                                                 <br>
-						                                    <div class="row">
-                                                    <div class="column-1_2 sc_column_item">
-                                                    <div class="aligncenter course-border">
+                                                <div class="row">
+                                                    <div class="column-1_3 sc_column_item">
+                                                        <div class="aligncenter course-border">
+                                                            <img src="images/store-products/store_item_4.jpg" alt="Dentsafe Air Motor Attachment">
                                                             <h5 style="display: inline">Name : </h5>
-                                                            <p style="display: inline; ">Notes for ORE - Part 1</p>
+                                                            <p style="display: inline; ">Dentsafe Air Motor Attachment</p>
                                                             <br><br>
                                                             <h5 style="display: inline">Cost : </h5>
-                                                            <p style="display: inline"> &#x20b9; 15,000/-</p>
+                                                            <p style="display: inline"> &#x20b9; 1,800/- All Inclusive ( Free Shipping within India )
+                                                                <br>Overseas Shipping extra
+                                                                <br>Item Ships within 3-5 Working Days</p>
+                                                            <h5 class="more-details"><a onclick="showDetails(4)">Click for more details</a></h5>
                                                             <div class="row aligncenter">
                                                                 <div class="column-1_2">
-                                                                    <a id="4_1" onclick="onAddCartClicked('4');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 23px">Add to Cart</a>
-                                                                    <a id="4_2" onclick="onRemoveCartClicked('4');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="display: none; color: white; margin-top: 23px">Remove from Cart</a>
+                                                                    <a id="1_1" onclick="onAddCartClicked('4');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 23px">Add to Cart</a>
+                                                                    <a id="1_2" onclick="onRemoveCartClicked('4');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="display: none; color: white; margin-top: 23px">Remove from Cart</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="column-1_3 sc_column_item">
+                                                        <div class="aligncenter course-border">
+                                                            <img src="images/store-products/store_item_5.jpg" alt="Dentsafe Push Button Contra-Angle Handpiece">
+                                                            <h5 style="display: inline">Name : </h5>
+                                                            <p style="display: inline; ">Dentsafe Push Button Contra-Angle Handpiece</p>
+                                                            <br>
+                                                            <h5 style="display: inline">Cost : </h5>
+                                                            <p style="display: inline"> &#x20b9; 1,800/- All Inclusive ( Free Shipping within India )
+                                                                <br>Overseas Shipping extra
+                                                                <br>Item Ships within 3-5 Working Days</p>
+                                                            <h5 class="more-details"><a onclick="showDetails(5)">Click for more details</a></h5>
+                                                            <div class="row aligncenter">
+                                                                <div class="column-1_2">
+                                                                    <a id="2_1" onclick="onAddCartClicked('5');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 23px">Add to Cart</a>
+                                                                    <a id="2_2" onclick="onRemoveCartClicked('5');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="display: none; color: white; margin-top: 23px">Remove from Cart</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="column-1_3 sc_column_item">
+                                                        <div class="aligncenter course-border">
+                                                            <img src="images/store-products/store_item_6.jpg" alt="Dentsafe Regular Latch Type HP">
+                                                            <h5 style="display: inline">Name : </h5>
+                                                            <p style="display: inline; ">Dentsafe Regular Latch Type HP</p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Cost : </h5>
+                                                            <p style="display: inline"> &#x20b9; 1,800/- All Inclusive ( Free Shipping within India )
+                                                                <br>Overseas Shipping extra
+                                                                <br>Item Ships within 3-5 Working Days</p>
+                                                            <h5 class="more-details"><a onclick="showDetails(6)">Click for more details</a></h5>
+                                                            <div class="row aligncenter">
+                                                                <div class="column-1_2">
+                                                                    <a id="3_1" onclick="onAddCartClicked('6');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 23px">Add to Cart</a>
+                                                                    <a id="3_2" onclick="onRemoveCartClicked('6');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="display: none; color: white; margin-top: 23px">Remove from Cart</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <br>
+                                                <div class="row">
+                                                    <div class="column-1_2 sc_column_item">
+                                                        <div class="aligncenter course-border">
+                                                            <img width="485px" src="images/store-products/store_item_7.jpg" alt="Bur no 330">
+                                                            <br>
+                                                            <h5 style="display: inline">Name : </h5>
+                                                            <p style="display: inline; ">Bur no 330</p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Cost : </h5>
+                                                            <p style="display: inline"> &#x20b9; 150/- Per Bur ( all Inclusive )
+                                                                <br>Free Shipping within India
+                                                                <br>Overseas Shipping Extra</p>
+                                                            <h5 class="more-details"><a onclick="showDetails(7)">Click for more details</a></h5>
+                                                            <div class="row aligncenter">
+                                                                <div class="column-1_2">
+                                                                    <a id="4_1" onclick="onAddCartClicked('7');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 23px">Add to Cart</a>
+                                                                    <a id="4_2" onclick="onRemoveCartClicked('7');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="display: none; color: white; margin-top: 23px">Remove from Cart</a>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="column-1_2 sc_column_item">
                                                     <div class="aligncenter course-border">
+                                                        <img src="images/store-products/store_item_8.jpg" alt="ORE Exam Manikin with Compatible jaws">
                                                             <h5 style="display: inline">Name : </h5>
-                                                            <p style="display: inline; ">Notes for ORE - Part 2</p>
+                                                            <p style="display: inline; ">ORE Exam Manikin with Compatible jaws</p>
                                                             <br><br>
                                                             <h5 style="display: inline">Cost : </h5>
-                                                            <p style="display: inline"> &#x20b9; 20,000/-</p>
+                                                            <p style="display: inline"> &#x20b9; 26,000/- all Inclusive ( Free Shipping Within India )
+                                                                <br>Overseas Shipping Extra</p>
+                                                        <br><br>
+                                                        <h5 class="more-details"><a onclick="showDetails(8)">Click for more details</a></h5>
                                                             <div class="row aligncenter">
                                                                 <div class="column-1_2">
-                                                                    <a id="5_1" onclick="onAddCartClicked('5');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 23px">Add to Cart</a>
-                                                                    <a id="5_2" onclick="onRemoveCartClicked('5');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="display: none; color: white; margin-top: 23px">Remove from Cart</a>
+                                                                    <a id="5_1" onclick="onAddCartClicked('8');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 23px">Add to Cart</a>
+                                                                    <a id="5_2" onclick="onRemoveCartClicked('8');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="display: none; color: white; margin-top: 23px">Remove from Cart</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -391,9 +488,6 @@
                         </a>
                         <a rel="nofollow" href="#" title="Connect with Google" class="wp-social-login-provider wp-social-login-provider-google" data-provider="Google">
                             <img alt="" title="Connect with Google" src="images/google.png" />
-                        </a>
-                        <a rel="nofollow" href="#" title="Connect with Twitter" class="wp-social-login-provider wp-social-login-provider-twitter" data-provider="Twitter">
-                            <img alt="" title="Connect with Twitter" src="images/twitter.png" />
                         </a>
                     </div>
                     <div class="wp-social-login-widget-clearing"></div>
