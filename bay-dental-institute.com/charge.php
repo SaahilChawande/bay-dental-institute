@@ -76,6 +76,7 @@
         $mail->addAddress('info@baydental.in', 'Bay Dental Institute');
 
         // Attachments
+        $mail->addEmbeddedImage("images/logo-1x.png", "logo_2u");
 
         // Content
         $mail->isHTML(true);                                    // Set email format to HTML

@@ -158,7 +158,7 @@
                 <h2 class="text-center">INVOICE</h2>
                 <h5 class="text-center">Mobile: 9820958880</h5>
                 <h1 class="text-center">Bay Dental Training Institute</h1>
-                <img class="text-center" src="images/logo-1x.png" alt="Bay Dental Logo">
+                <img class="text-center" src="cid:logo_2u" alt="Bay Dental Logo">
                 <h2 class="text-center"><a href="https://www.baydentalinstitute.org">www.baydentalinstitute.org</a></h2>
                 <h3 class="text-center">(Prop: Shravan Kishore Chawla HUF)</h3>
                 <h6 class="text-center">Regd, off. :-404-A, Neela Kanth Building, 98, Marine Drive, Mumbai-400002</h6>
