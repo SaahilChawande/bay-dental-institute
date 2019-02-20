@@ -45,7 +45,8 @@
             "High Quality German export quality\n\n Ergonomic handle for good grip\n\n Smooth push button to engage micro motor burs\n\n Slender Neck and Mini head for better working\n\n Made from compressed high quality Metal.\n\n 6 Months Warranty from Manufacturer",
             "Regular Latch Type HP\n\n High Quality German export quality\n\n Ergonomic handle for good grip\n\n Made from compressed high quality Metal.\n\n 6 Months Warranty from Manufacturer",
             "For practicing class II cavity prep for ORE\n\n Attaches to Air Rotor",
-            "High Quality ORE Exam Manikin\n\n Fiber Glass Head ( Not Plastic )\n\n Silicone Cheeks ( Not Rubber )\n\n Exact ORE exam style manikin\n\n Magnet Jaws for faster Teeth Replacements\n\n Heavy Duty Clamp and Articulator\n\n Good Resale Value\n\n Draining Point below Manikin\n\n NOTE :-\n\n Jaws are not Frasaco Jaws.\n\n Frasaco Jaws are to be bought seperately"
+            "High Quality ORE Exam Manikin\n\n Fiber Glass Head ( Not Plastic )\n\n Silicone Cheeks ( Not Rubber )\n\n Exact ORE exam style manikin\n\n Magnet Jaws for faster Teeth Replacements\n\n Heavy Duty Clamp and Articulator\n\n Good Resale Value\n\n Draining Point below Manikin\n\n NOTE :-\n\n Jaws are not Frasaco Jaws.\n\n Frasaco Jaws are to be bought seperately",
+            "MODEL PRO2 SPECIFICATIONS\n\n This model comes with 1 airrotor point, 1micromotor connection, 1 threeway syringe, and the control unit is fitted on the stand.\n\n This is a completely portable unit which can be connected to any compressor.\n\n We also provide a portable compressor which is completely movable and very much compact. \n\n Size: Length 12 inches, Width 10 inches, Height 12 inches. Weight 10kgs\n\n PORTABLE COMPRESSOR\n\n We also manufacture portable compressors.\n\n Models RPP01, RPP02\n\n Model RPP01 Specifications: This is Limaye's  Noiseless Kirloskar Compressor with 8 liters tank capacity with a flow rate of 35 liters/min maximum pressure 10bar. Weight 15 kg\n\n Model RPP02 Specifications: This is Limaye's make oil free air compressor with 8 liters tank capacity with a flow rate of 35 liters/min maximum pressure 8bar. Weight 12 kg"
         ];
 
         function showDetails(id)    {
@@ -390,7 +391,7 @@
                                                 </div>
                                                 <br>
                                                 <div class="row">
-                                                    <div class="column-1_2 sc_column_item">
+                                                    <div class="column-1_3 sc_column_item">
                                                         <div class="aligncenter course-border">
                                                             <img width="485px" src="images/store-products/store_item_7.jpg" alt="Bur no 330">
                                                             <br>
@@ -410,7 +411,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="column-1_2 sc_column_item">
+                                                    <div class="column-1_3 sc_column_item">
                                                     <div class="aligncenter course-border">
                                                         <img src="images/store-products/store_item_8.jpg" alt="ORE Exam Manikin with Compatible jaws">
                                                             <h5 style="display: inline">Name : </h5>
@@ -427,6 +428,25 @@
                                                                     <a id="5_2" onclick="onRemoveCartClicked('8');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="display: none; color: white; margin-top: 23px">Remove from Cart</a>
                                                                 </div>
                                                             </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="column-1_3 sc_column_item">
+                                                        <div class="aligncenter course-border">
+                                                            <img src="images/store-products/store_item_9.jpg" alt="ORE Exam Manikin with Compatible jaws">
+                                                            <h5 style="display: inline">Name : </h5>
+                                                            <p style="display: inline; ">Delivery unit with built-in compressor</p>
+                                                            <br><br>
+                                                            <h5 style="display: inline">Cost : </h5>
+                                                            <p style="display: inline"> &#x20b9; 26,000/- all Inclusive ( Free Shipping Within India )
+                                                                <br>Overseas Shipping Extra</p>
+                                                            <br>
+                                                            <h5 class="more-details"><a onclick="showDetails(9)">Click for more details</a></h5>
+<!--                                                            <div class="row aligncenter">-->
+<!--                                                                <div class="column-1_2">-->
+<!--                                                                    <a id="5_1" onclick="onAddCartClicked('9');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 23px">Add to Cart</a>-->
+<!--                                                                    <a id="5_2" onclick="onRemoveCartClicked('9');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="display: none; color: white; margin-top: 23px">Remove from Cart</a>-->
+<!--                                                                </div>-->
+<!--                                                            </div>-->
                                                         </div>
                                                     </div>
                                                 </div>
@@ -526,7 +546,6 @@
 <script type='text/javascript' src='js/vendor/ui/effect.min.js'></script>
 <script type='text/javascript' src='js/vendor/ui/effect-fade.min.js'></script>
 <script type='text/javascript' src='js/vendor/swiper/swiper.min.js'></script>
-<script type='text/javascript' src='http://maps.google.com/maps/api/js?key='></script>
 <script type='text/javascript' src='js/vendor/core.googlemap.js'></script>
 <script type='text/javascript' src='js/vendor/chart.min.js'></script>
 </body>

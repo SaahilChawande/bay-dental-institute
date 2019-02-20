@@ -164,7 +164,7 @@
                                                                         <h5 class="sc_team_item_title">
                                                                             Dr. Vishal Gupta
                                                                         </h5>
-                                                                        <div class="sc_team_item_position">Advanced composite masterclass<br/>Style Italiano level1 trainer<br/>KOL for 3M ESPE</div>
+                                                                        <div class="sc_team_item_position">Advanced composite masterclass<br/>Style Italiano Level 1 trainer<br/>KOL for 3M ESPE</div>
                                                                         <br>
                                                                         <div>Click on the image for more content</div>
                                                                     </div>
@@ -188,7 +188,7 @@
 															<div class="column-1_4 column_padding_bottom">
                                                                 <div id="sc_team_296_1" class="sc_team_item">
                                                                     <div onclick="view_faculty_info(4, 'Dr. Sam Jethwa', 'sam-jethwa')" class="sc_team_item_avatar" style="cursor: pointer">
-                                                                        <img id="t5" width="182" height="182" alt="Dr. Sam Jethwa" src="images/our-team/sam-jethwa.jpeg">
+                                                                        <img id="t5" width="182" height="182" alt="Dr. Sam Jethwa" src="images/our-team/sam-jethwa.jpg">
                                                                     </div>
                                                                     <div class="sc_team_item_info">
                                                                         <h5 class="sc_team_item_title">
@@ -395,12 +395,8 @@
 <script type='text/javascript' src='js/vendor/ui/effect-fade.min.js'></script>
 <script type='text/javascript' src='js/vendor/swiper/swiper.min.js'></script>
 <script type='text/javascript' src='http://maps.google.com/maps/api/js?key='></script>
-<script type='text/javascript' src='js/vendor/core.googlemap.js'></script>
 <script type='text/javascript' src='js/vendor/chart.min.js'></script>
 </body>
-
-
-<!-- Mirrored from dentario-html.themerex.net/shortcodes.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 21 Nov 2018 12:17:29 GMT -->
 </html>
 
 <?php

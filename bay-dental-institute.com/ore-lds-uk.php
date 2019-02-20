@@ -472,7 +472,7 @@
                                                                 <div class="wpb_text_column wpb_content_element ">
                                                                     <div class="wpb_wrapper">
                                                                         <p>Well it is not tough, there are plenty of openings in many private and NHS practices. Ideally after passing you should aggressively interview with all practices that have an opening. If you are able to impress the practice with your etiquette, and you have an exhaustive portfolio of work, getting a job with visa support is not impossible.
-                                                                            Log on to <a href="www.bdjjobs.com">www.bdjjobs.com</a> to get an idea of the jobs on offer.
+                                                                            Log on to <a target="_blank" href="https://www.bdjjobs.com/">www.bdjjobs.com</a> to get an idea of the jobs on offer.
                                                                         </p>
 
 

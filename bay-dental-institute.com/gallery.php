@@ -102,6 +102,12 @@
 		  }
 		}
 	</style>
+
+    <script>
+        function redirectTo(link)   {
+            window.open(link, '_blank');
+        }
+    </script>
 	
 </head>
 
@@ -154,8 +160,8 @@
                 <div class="vc_column-inner ">
                     <div class="wpb_wrapper">
                         <div class="column-1_1 sc_column_item aligncenter">
-                            <a href="https://www.instagram.com/explore/locations/418996165156853/bay-dental-associates" target="_blank" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="padding: 1em 1.25em">Visit Our Instagram Page</a>
-                            <a href="https://www.facebook.com/baydentalmumbai/" target="_blank" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="padding: 1em 1.25em">Visit Our Facebook Page</a>                                                    
+                            <img class="margin_right_medium" width="70px" style="cursor: pointer" src="images/social-media/instagram.png" alt="instagram logo" onclick="redirectTo('https://www.instagram.com/explore/locations/418996165156853/bay-dental-associates')">
+                            <img width="70px" style="cursor: pointer" src="images/social-media/facebook.png" alt="facebook logo" onclick="redirectTo('https://www.facebook.com/baydentalmumbai/')">
                         </div>
                     </div>
                 </div>
@@ -432,6 +438,4 @@
 <script type='text/javascript' src='js/vendor/esg/jquery.themepunch.essential.min.js'></script>
 </body>
 
-
-<!-- Mirrored from dentario-html.themerex.net/grid.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 21 Nov 2018 12:20:19 GMT -->
 </html>
