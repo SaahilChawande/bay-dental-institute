@@ -437,8 +437,7 @@
                                                             <p style="display: inline; ">Delivery unit with built-in compressor</p>
                                                             <br><br>
                                                             <h5 style="display: inline">Cost : </h5>
-                                                            <p style="display: inline"> &#x20b9; 26,000/- all Inclusive ( Free Shipping Within India )
-                                                                <br>Overseas Shipping Extra</p>
+                                                            <p style="display: inline"> TBD </p>
                                                             <br>
                                                             <h5 class="more-details"><a onclick="showDetails(9)">Click for more details</a></h5>
 <!--                                                            <div class="row aligncenter">-->

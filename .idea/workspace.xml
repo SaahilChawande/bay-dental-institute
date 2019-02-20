@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2a5367c-6aea-47a6-991f-6aad4b80105d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/faculty.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/faculty.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/gallery.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/images/store-products/store_item_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/images/store-products/store_item_2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/images/store-products/store_item_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/images/store-products/store_item_5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/images/store-products/store_item_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/images/store-products/store_item_6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/ore-lds-uk.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/ore-lds-uk.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/store.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/store.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,8 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/store.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="547" column="77" selection-start-line="547" selection-start-column="77" selection-end-line="547" selection-end-column="77" />
+            <state relative-caret-position="310">
+              <caret line="439" column="92" selection-start-line="439" selection-start-column="92" selection-end-line="439" selection-end-column="92" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
@@ -291,18 +284,18 @@
       <workItem from="1550397491079" duration="273000" />
       <workItem from="1550397965423" duration="10746000" />
       <workItem from="1550567535633" duration="403000" />
-      <workItem from="1550659150587" duration="3153000" />
+      <workItem from="1550659150587" duration="3462000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="188857000" />
+    <option name="totallyTimeSpent" value="189166000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="846" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25100672" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25100672" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -645,8 +638,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/store.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="547" column="77" selection-start-line="547" selection-start-column="77" selection-end-line="547" selection-end-column="77" />
+        <state relative-caret-position="310">
+          <caret line="439" column="92" selection-start-line="439" selection-start-column="92" selection-end-line="439" selection-end-column="92" />
           <folding>
             <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
