@@ -46,7 +46,7 @@
             "Regular Latch Type HP\n\n High Quality German export quality\n\n Ergonomic handle for good grip\n\n Made from compressed high quality Metal.\n\n 6 Months Warranty from Manufacturer",
             "For practicing class II cavity prep for ORE\n\n Attaches to Air Rotor",
             "High Quality ORE Exam Manikin\n\n Fiber Glass Head ( Not Plastic )\n\n Silicone Cheeks ( Not Rubber )\n\n Exact ORE exam style manikin\n\n Magnet Jaws for faster Teeth Replacements\n\n Heavy Duty Clamp and Articulator\n\n Good Resale Value\n\n Draining Point below Manikin\n\n NOTE :-\n\n Jaws are not Frasaco Jaws.\n\n Frasaco Jaws are to be bought seperately",
-            "MODEL PRO2 SPECIFICATIONS\n\n This model comes with 1 airrotor point, 1micromotor connection, 1 threeway syringe, and the control unit is fitted on the stand.\n\n This is a completely portable unit which can be connected to any compressor.\n\n We also provide a portable compressor which is completely movable and very much compact. \n\n Size: Length 12 inches, Width 10 inches, Height 12 inches. Weight 10kgs\n\n PORTABLE COMPRESSOR\n\n We also manufacture portable compressors.\n\n Models RPP01, RPP02\n\n Model RPP01 Specifications: This is Limaye's  Noiseless Kirloskar Compressor with 8 liters tank capacity with a flow rate of 35 liters/min maximum pressure 10bar. Weight 15 kg\n\n Model RPP02 Specifications: This is Limaye's make oil free air compressor with 8 liters tank capacity with a flow rate of 35 liters/min maximum pressure 8bar. Weight 12 kg"
+            "MODEL PR0 1 SPECIFICATIONS\n\n 1 airrotor point, 1 micromotor connection, 1threeway syringe,1xray viewer and fitted with 1/2hp noise less Kirloskar compressor with 8 liters tank capacity and all standard accessories.\n\n The complete portable system, you have to plug it to the electricity point and start using, you can put it in your car and take anywhere as per usage for consultations in hospitals and for GA cases etc.\n\n The system is completely proven and it can be used as a normal system as what you use in your clinic you can use it in your clinic when your chair control trolley is not working.\n\n Size: Length 19 inches, Width 19 inches, Height 36 inches. Weight 30kgs."
         ];
 
         function showDetails(id)    {
@@ -437,15 +437,16 @@
                                                             <p style="display: inline; ">Delivery unit with built-in compressor</p>
                                                             <br><br>
                                                             <h5 style="display: inline">Cost : </h5>
-                                                            <p style="display: inline"> TBD </p>
+                                                            <p style="display: inline"> &#x20b9; 30,680/- Per Bur ( all Inclusive )
+                                                                <br> Overseas extra shipping </p>
                                                             <br>
                                                             <h5 class="more-details"><a onclick="showDetails(9)">Click for more details</a></h5>
-<!--                                                            <div class="row aligncenter">-->
-<!--                                                                <div class="column-1_2">-->
-<!--                                                                    <a id="5_1" onclick="onAddCartClicked('9');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 23px">Add to Cart</a>-->
-<!--                                                                    <a id="5_2" onclick="onRemoveCartClicked('9');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="display: none; color: white; margin-top: 23px">Remove from Cart</a>-->
-<!--                                                                </div>-->
-<!--                                                            </div>-->
+                                                            <div class="row aligncenter">
+                                                                <div class="column-1_2">
+                                                                    <a id="9_1" onclick="onAddCartClicked('9');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="width: 100%; color: white; margin-top: 23px">Add to Cart</a>
+                                                                    <a id="9_2" onclick="onRemoveCartClicked('9');" href="javascript:void(0)" class="sc_button sc_button_square sc_button_size_large remove-cart-button" style="display: none; color: white; margin-top: 23px">Remove from Cart</a>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
