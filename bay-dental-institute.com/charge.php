@@ -77,6 +77,8 @@
 
         // Attachments
         $mail->addEmbeddedImage("images/logo-1x.png", "logo_2u");
+        $mail->addEmbeddedImage("images/logo-1x.png", "logo_1a");
+        $mail->addEmbeddedImage("images/bda_logo.jpg", "logo_1b");
 
         // Content
         $mail->isHTML(true);                                    // Set email format to HTML

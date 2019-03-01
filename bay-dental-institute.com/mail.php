@@ -228,4 +228,7 @@
                             <h4>This is an auto-generated invoice.</h4>
                             <b>GST Not applicable as firm is yet to qualify in order to obtain GST Number.</b>
                         </div>
-                    </div></body></html>';
+                    </div>
+                    <h3>Thanks and Regards,<br>Bay Dental Institute</h3>
+                    <img style="margin-right: 25px" width="100px" height="100px" class="text-center" src="cid:logo_1a" alt="Bay Dental Institute Logo">
+                    <img width="100px" height="100px" class="text-center" src="cid:logo_1b" alt="Bay Dental Associates Logo"></body></html>';
