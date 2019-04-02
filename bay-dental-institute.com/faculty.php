@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-US" class="scheme_original">
 <?php
-    $is_subfolder = false;
-    ob_start();
-    session_start();
+$is_subfolder = false;
+ob_start();
+session_start();
 ?>
 <head>
     <meta charset="UTF-8" />
@@ -35,7 +35,7 @@
     <!-- Sweet Alert -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
 
-	<script>
+    <script>
 
         var faculty_info = [
             "Dr. Shravan Chawla has graduated from the University of Mauritius, followed by giving the licensing conducted by the DCI for Indian citizens studying abroad. After gaining a PG certification in aesthetics and implants for NYU(USA), Dr. Chawla went on to crack the ORE-UK licensing exams to be registered as a licensed Dental practitioner with the GDC-UK. Currently Dr. Chawla runs his practice Bay Dental Institute in South Mumbai.",
@@ -49,7 +49,9 @@
             "Since joining our Manikin Tutorial team Dr Anita has become extremely popular among ORE candidates. She is very sincere, caring and passionate in her guidance. Dr Anita believes in CORRECT guidance always to meet the expectations of the examiner. She has become our second lead course tutor for ORE Manikin. Dr Anita has established MR Dental's Facebook pages and works tirelessly to give you the correct feedback on our FB pages. Dr Anita's profound understanding of the GDC guidelines for the ORE 2 exam is the best around. Dr. Anita also demonstrates the dental techniques that are used in MR. Courses’ ‘How To’ video guides, featured on our Videos page and YouTube channel. These combined have attracted over 139,000 views so far. Dr. Anita has more than 9 years of clinical experience and has been involved in conducting and organising CPD courses in the past and has a great passion for teaching.",
             "Dr Zina is a vital member of MR. Dental’s OSCE/DTP/ME Tutorial Team. She has vast knowledge of the ORE exam. Dr Zina believes in providing the much care and exact precise details of the ORE Exam to all candidates. She loves teaching and enjoys guiding the ORE candidates. Dr Zina also commands excellent Manikin Skills, but her focus remains in guiding ORE candidates with the OSCE/DTP/ME topics. She is very caring, sympathetic and has amazing interaction with each candidate. Dr Zina loves passing her vast knowledge and her vast valuable experience to all candidates in attendance.",
             "Dr Jasmine is very patient and full of energy. Dr Jasmine is a very valuable member of the MR. Dental’s OSCE/DTP/ME Tutorial Team. She has a very caring attitude to every candidate and is very committed to provide the best ORE knowledge and guidance to every ORE candidate. Her guidance is direct and is exceptional. She is very well liked by the ORE candidates. Dr Jasmine continues to enhance her skills by actively attending the continuing dental education programmes. Dr Jasmine is currently completing her “Conscious Sedation in Dentistry” course at UCL along with teaching at MR. Dental. Dr Jasmine has an ORE focused approach to her teaching and her cheery bubbly personality is a great comfort to everyone around her. In her spare time she enjoys reading, baking and exploring new places around her.",
-            "Shazia Afzal is an important member of MR Dental's OSCE/DTP/ME Tutorial Team. She is very passionate in her teaching and is very focus in her guidance. Dr Shazia is very knowledgeable and keeps herself updated regarding the guidelines of the ORE exams. She works diligently and make every effort to guide the candidates correctly for their ORE exams. Dr Shazia welcomes questions from candidates and interacts with every candidate. She believes in correct guidance and is very keen to help each candidate to achieve success in their exams."
+            "Shazia Afzal is an important member of MR Dental's OSCE/DTP/ME Tutorial Team. She is very passionate in her teaching and is very focus in her guidance. Dr Shazia is very knowledgeable and keeps herself updated regarding the guidelines of the ORE exams. She works diligently and make every effort to guide the candidates correctly for their ORE exams. Dr Shazia welcomes questions from candidates and interacts with every candidate. She believes in correct guidance and is very keen to help each candidate to achieve success in their exams.",
+            "Nick name: Griya\n\n Born: ACEH, 08 October 184, Indonesia\n\nGraduated: Padjadjaran University\n\nOwner: Griya Dental Care\n\n Hobby: Browsing, Youtube, Sport, Learning by doing, Sharing\n\nGriya Ridha Raharja graduated from Padjadjaran University in 2011. His experience includes lecturing in many workshops and maintain a private general practice at Griya Dental Care, Jakarta. His passion in Esthetic & Cosmetic Dentistry, Restorative Dentistry, Rubberdamology, Indirecct Restoration, Microscope Dentistry and Dental Photography. He also received intensive course of photography from Darwis Triadi Schoool of Photography in 2009. He is one of KOL (Key Opinion Leader) for Micerium Gruppo Composite in Asia Region. He has 10,000 followers on Social Media (Instagram) and thousands of likes on each post photo and video for sharing his cases.",
+            "Nickname: Rizal\n\nBorn: Bandung, 20 February 1990\n\n University: Padjadjaran University\n\n Dr. Rizal Rizky Akbar graduated from Padjadjaran University since 104. Currently, he is a dentist at Griya Dental Care. Dr. Rizal has passion in Esthetic, Restorative Dentistry and Dental Photography. He is also a lecturer and Handson instructor for Dental Photography and Restorative Topic in Indonesia. He is one of the KOL (Key Opinion Leader) for Micerium Composite in Asia Region. He is often sharing his work on social media (Instagram) and currently has 90,000 followers and thousands of likes for each post."
         ];
 
         function view_faculty_info(id, name, image_name)  {
@@ -58,7 +60,7 @@
                 text: faculty_info[id],
                 imageUrl: 'images/our-team/' + image_name + '.jpg',
                 imageWidth: 250,
-                imageHeight: 50,
+                imageHeight: 250,
                 imageAlt: name,
                 animation: true
             })
@@ -117,189 +119,217 @@
                 <div class="content">
                     <article class="post_item post_item_single page hentry">
                         <section class="post_content">
-                        <div class="vc_row wpb_row vc_row-fluid">
-                                    <div class="wpb_column vc_column_container vc_col-sm-12">
-                                        <div class="vc_column-inner ">
-                                            <div class="wpb_wrapper">
-                                                <div id="sc_team_296_wrap" class="sc_team_wrap type1">
-                                                    <div id="sc_team_296" class="sc_team sc_team_style_team-1">
-                                                        <h2 class="sc_team_title sc_item_title">Meet Our team</h2>
-                                                        <br><br>
-                                                        <div class="sc_columns columns_wrap">
-                                                            <div class="column-1_4 column_padding_bottom">
-                                                                <div id="sc_team_296_1" class="sc_team_item">
-                                                                    <div onclick="view_faculty_info(0, 'Dr. Shravan Chawla', 'shravan-chawla')" class="sc_team_item_avatar" style="cursor: pointer">
-                                                                        <img id="t1" width="182" height="182" alt="Dr. Shravan Chawla" src="images/our-team/shravan-chawla.jpg">
-                                                                    </div>
-                                                                    <div class="sc_team_item_info">
-                                                                        <h5 class="sc_team_item_title">
-                                                                            Dr. Shravan Chawla
-                                                                        </h5>
-                                                                        <div class="sc_team_item_position">ORE - UK <br/>Director<br/>Bay Dental Institute</div>
-                                                                        <div><br/>Click on the image for more content</div>
-                                                                    </div>
+                            <div class="vc_row wpb_row vc_row-fluid">
+                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                    <div class="vc_column-inner ">
+                                        <div class="wpb_wrapper">
+                                            <div id="sc_team_296_wrap" class="sc_team_wrap type1">
+                                                <div id="sc_team_296" class="sc_team sc_team_style_team-1">
+                                                    <h2 class="sc_team_title sc_item_title">Meet Our team</h2>
+                                                    <br><br>
+                                                    <div class="sc_columns columns_wrap">
+                                                        <div class="column-1_4 column_padding_bottom">
+                                                            <div id="sc_team_296_1" class="sc_team_item">
+                                                                <div onclick="view_faculty_info(0, 'Dr. Shravan Chawla', 'shravan-chawla')" class="sc_team_item_avatar" style="cursor: pointer">
+                                                                    <img id="t1" width="182" height="182" alt="Dr. Shravan Chawla" src="images/our-team/shravan-chawla.jpg">
+                                                                </div>
+                                                                <div class="sc_team_item_info">
+                                                                    <h5 class="sc_team_item_title">
+                                                                        Dr. Shravan Chawla
+                                                                    </h5>
+                                                                    <div class="sc_team_item_position">ORE - UK <br/>Director<br/>Bay Dental Institute</div>
+                                                                    <div><br/>Click on the image for more content</div>
                                                                 </div>
                                                             </div>
-                                                            <div class="column-1_4 column_padding_bottom">
-                                                                <div id="sc_team_296_2" class="sc_team_item">
-                                                                    <div onclick="view_faculty_info(1, 'Dr. Akshari Anchan', 'akshari-anchan')" class="sc_team_item_avatar" style="cursor: pointer">
-                                                                        <img id="t2" width="182" height="182" alt="Dr. Akshari Anchan" src="images/our-team/akshari-anchan.jpg">
-                                                                    </div>
-                                                                    <div class="sc_team_item_info">
-                                                                        <h5 class="sc_team_item_title">
-                                                                            Dr. Akshari Anchan
-                                                                        </h5>
-                                                                        <div class="sc_team_item_position">NBDE / NDBE Course Director<br/>Botox and Facial Aesthetics Clinician</div>
-                                                                        <br><br>
-                                                                        <div>Click on the image for more content</div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="column-1_4 column_padding_bottom">
-                                                                <div id="sc_team_296_3" class="sc_team_item">
-                                                                    <div onclick="view_faculty_info(2, 'Dr. Vishal Gupta', 'vishal-gupta')" class="sc_team_item_avatar" style="cursor: pointer">
-                                                                        <img id="t3" width="182" height="182" alt="Dr. Vishal Gupta" src="images/our-team/vishal-gupta.jpg">
-                                                                    </div>
-                                                                    <div class="sc_team_item_info">
-                                                                        <h5 class="sc_team_item_title">
-                                                                            Dr. Vishal Gupta
-                                                                        </h5>
-                                                                        <div class="sc_team_item_position">Advanced composite masterclass<br/>Style Italiano Level 1 trainer<br/>KOL for 3M ESPE</div>
-                                                                        <br>
-                                                                        <div>Click on the image for more content</div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="column-1_4 column_padding_bottom">
-                                                                <div id="sc_team_296_4" class="sc_team_item even">
-                                                                    <div onclick="view_faculty_info(3, 'Dr. Manav Kalra', 'manav-kalra')" class="sc_team_item_avatar" style="cursor: pointer">
-                                                                        <img id="t4" width="182" height="182" alt="Dr. Manav Kalra" src="images/our-team/manav-kalra.jpg" style="height: 180px">
-                                                                    </div>
-                                                                    <div class="sc_team_item_info">
-                                                                        <h5 class="sc_team_item_title">
-                                                                            Dr. Manav Kalra
-                                                                        </h5>
-                                                                        <div class="sc_team_item_position">Advanced veneers<br/>Emax specialist clinician<br/>KOL for Ivoclar Vivadent</div>
-                                                                        <div><br/>Click on the image for more content</div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-
-															<div class="column-1_4 column_padding_bottom">
-                                                                <div id="sc_team_296_1" class="sc_team_item">
-                                                                    <div onclick="view_faculty_info(4, 'Dr. Sam Jethwa', 'sam-jethwa')" class="sc_team_item_avatar" style="cursor: pointer">
-                                                                        <img id="t5" width="182" height="182" alt="Dr. Sam Jethwa" src="images/our-team/sam-jethwa.jpg">
-                                                                    </div>
-                                                                    <div class="sc_team_item_info">
-                                                                        <h5 class="sc_team_item_title">
-                                                                            Dr. Sam Jethwa
-                                                                        </h5>
-                                                                        <div class="sc_team_item_position">Veneers & Occlusion<br/>Director<br/>British Academy of Cosmetic Dentistry</div>
-                                                                        <div>Click on the image for more content</div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-															<div class="column-1_4 column_padding_bottom">
-                                                                <div id="sc_team_296_1" class="sc_team_item">
-                                                                    <div onclick="view_faculty_info(5, 'Dr. Mayur Davda', 'mayur-davda')" class="sc_team_item_avatar" style="cursor: pointer">
-                                                                        <img id="t6" width="182" height="182" alt="Dr. Mayur Davda" src="images/our-team/mayur-davda.jpg">
-                                                                    </div>
-                                                                    <div class="sc_team_item_info">
-                                                                        <h5 class="sc_team_item_title">
-                                                                            Dr. Mayur Davda
-                                                                        </h5>
-                                                                        <div class="sc_team_item_position">Dental Photography<br/>Director<br/>Dental Photography School<br/></div>
-                                                                        <div><br/>Click on the image for more content</div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-
                                                         </div>
-														<h4 class="sc_team_title sc_item_title">MR. Dental ORE Tutors</h4>
-														<br><br/>
-                                                        <div class="sc_columns columns_wrap">
-                                                            <div class="column-1_4 column_padding_bottom">
-                                                                <div id="sc_team_296_1" class="sc_team_item">
-                                                                    <div onclick="view_faculty_info(6, 'Dr. Fred Mukwenda', 'fred-mukwenda')" class="sc_team_item_avatar" style="cursor: pointer">
-                                                                        <img id="t7" width="182" height="182" alt="Dr. Fred Mukwenda" src="images/our-team/fred-mukwenda.jpg">
-                                                                    </div>
-                                                                    <div class="sc_team_item_info">
-                                                                        <h5 class="sc_team_item_title">
-                                                                            Dr. Fred Mukwenda
-                                                                        </h5>
-                                                                        <div class="sc_team_item_position">BDS, MPH, MSC (CONS)</div>
-                                                                        <div>Click on the image for more content</div>
-                                                                    </div>
+                                                        <div class="column-1_4 column_padding_bottom">
+                                                            <div id="sc_team_296_2" class="sc_team_item">
+                                                                <div onclick="view_faculty_info(1, 'Dr. Akshari Anchan', 'akshari-anchan')" class="sc_team_item_avatar" style="cursor: pointer">
+                                                                    <img id="t2" width="182" height="182" alt="Dr. Akshari Anchan" src="images/our-team/akshari-anchan.jpg">
+                                                                </div>
+                                                                <div class="sc_team_item_info">
+                                                                    <h5 class="sc_team_item_title">
+                                                                        Dr. Akshari Anchan
+                                                                    </h5>
+                                                                    <div class="sc_team_item_position">NBDE / NDBE Course Director<br/>Botox and Facial Aesthetics Clinician</div>
+                                                                    <br><br>
+                                                                    <div>Click on the image for more content</div>
                                                                 </div>
                                                             </div>
-                                                            <div class="column-1_4 column_padding_bottom">
-                                                                <div id="sc_team_296_2" class="sc_team_item">
-                                                                    <div onclick="view_faculty_info(7, 'Dr. Anita Pradhan', 'anita-pradhan')" class="sc_team_item_avatar" style="cursor: pointer">
-                                                                        <img id="t8" width="182" height="182" alt="Dr. Anita Pradhan " src="images/our-team/anita-pradhan.jpg">
-                                                                    </div>
-                                                                    <div class="sc_team_item_info">
-                                                                        <h5 class="sc_team_item_title">
-                                                                            Dr. Anita Pradhan
-                                                                        </h5>
-                                                                        <div class="sc_team_item_position">BDS, FAGE</div>
-                                                                        <div>Click on the image for more content</div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="column-1_4 column_padding_bottom">
-                                                                <div id="sc_team_296_3" class="sc_team_item">
-                                                                    <div onclick="view_faculty_info(8, 'Dr. Zina Saad', 'zina-saad')" class="sc_team_item_avatar" style="cursor: pointer">
-                                                                        <img id="t9" width="182" height="182" alt="Dr. Zina Saad" src="images/our-team/zina-saad.jpg">
-                                                                    </div>
-                                                                    <div class="sc_team_item_info">
-                                                                        <h5 class="sc_team_item_title">
-                                                                            Dr. Zina Saad
-                                                                        </h5>
-                                                                        <div class="sc_team_item_position">BDS</div>
-                                                                        <div>Click on the image for more content</div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="column-1_4 column_padding_bottom">
-                                                                <div id="sc_team_296_4" class="sc_team_item even">
-                                                                    <div onclick="view_faculty_info(9, 'Dr. Jasmine Singh', 'jasmine-singh')" class="sc_team_item_avatar" style="cursor: pointer">
-                                                                        <img id="t10" width="182" height="182" alt="Dr. Jasmine Singh" src="images/our-team/jasmine-singh.jpg" style="height: 180px">
-                                                                    </div>
-                                                                    <div class="sc_team_item_info">
-                                                                        <h5 class="sc_team_item_title">
-                                                                            Dr. Jasmine Singh
-                                                                        </h5>
-                                                                        <div class="sc_team_item_position">BDS, Dip. Sedation UCL</div>
-                                                                        <div>Click on the image for more content</div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-
-															<div class="column-1_4 column_padding_bottom">
-                                                                <div id="sc_team_296_1" class="sc_team_item">
-                                                                    <div onclick="view_faculty_info(10, 'Dr. Shazia Afzal', 'shazia-afzal')" class="sc_team_item_avatar" style="cursor: pointer">
-                                                                        <img id="t11" width="182" height="182" alt="Dr. Shazia Afzal " src="images/our-team/shazia-afzal.jpg">
-                                                                    </div>
-                                                                    <div class="sc_team_item_info">
-                                                                        <h5 class="sc_team_item_title">
-                                                                            Dr. Shazia Afzal
-                                                                        </h5>
-                                                                        <div class="sc_team_item_position">BDS</div>
-                                                                        <div>Click on the image for more content</div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-
                                                         </div>
+                                                        <div class="column-1_4 column_padding_bottom">
+                                                            <div id="sc_team_296_3" class="sc_team_item">
+                                                                <div onclick="view_faculty_info(2, 'Dr. Vishal Gupta', 'vishal-gupta')" class="sc_team_item_avatar" style="cursor: pointer">
+                                                                    <img id="t3" width="182" height="182" alt="Dr. Vishal Gupta" src="images/our-team/vishal-gupta.jpg">
+                                                                </div>
+                                                                <div class="sc_team_item_info">
+                                                                    <h5 class="sc_team_item_title">
+                                                                        Dr. Vishal Gupta
+                                                                    </h5>
+                                                                    <div class="sc_team_item_position">Advanced composite masterclass<br/>Style Italiano Level 1 trainer<br/>KOL for 3M ESPE</div>
+                                                                    <br>
+                                                                    <div>Click on the image for more content</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="column-1_4 column_padding_bottom">
+                                                            <div id="sc_team_296_4" class="sc_team_item even">
+                                                                <div onclick="view_faculty_info(3, 'Dr. Manav Kalra', 'manav-kalra')" class="sc_team_item_avatar" style="cursor: pointer">
+                                                                    <img id="t4" width="182" height="182" alt="Dr. Manav Kalra" src="images/our-team/manav-kalra.jpg" style="height: 180px">
+                                                                </div>
+                                                                <div class="sc_team_item_info">
+                                                                    <h5 class="sc_team_item_title">
+                                                                        Dr. Manav Kalra
+                                                                    </h5>
+                                                                    <div class="sc_team_item_position">Advanced veneers<br/>Emax specialist clinician<br/>KOL for Ivoclar Vivadent</div>
+                                                                    <div><br/>Click on the image for more content</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="column-1_4 column_padding_bottom">
+                                                            <div id="sc_team_296_1" class="sc_team_item">
+                                                                <div onclick="view_faculty_info(4, 'Dr. Sam Jethwa', 'sam-jethwa')" class="sc_team_item_avatar" style="cursor: pointer">
+                                                                    <img id="t5" width="182" height="182" alt="Dr. Sam Jethwa" src="images/our-team/sam-jethwa.jpg">
+                                                                </div>
+                                                                <div class="sc_team_item_info">
+                                                                    <h5 class="sc_team_item_title">
+                                                                        Dr. Sam Jethwa
+                                                                    </h5>
+                                                                    <div class="sc_team_item_position">Veneers & Occlusion<br/>Director<br/>British Academy of Cosmetic Dentistry</div>
+                                                                    <div>Click on the image for more content</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="column-1_4 column_padding_bottom">
+                                                            <div id="sc_team_296_1" class="sc_team_item">
+                                                                <div onclick="view_faculty_info(5, 'Dr. Mayur Davda', 'mayur-davda')" class="sc_team_item_avatar" style="cursor: pointer">
+                                                                    <img id="t6" width="182" height="182" alt="Dr. Mayur Davda" src="images/our-team/mayur-davda.jpg">
+                                                                </div>
+                                                                <div class="sc_team_item_info">
+                                                                    <h5 class="sc_team_item_title">
+                                                                        Dr. Mayur Davda
+                                                                    </h5>
+                                                                    <div class="sc_team_item_position">Dental Photography<br/>Director<br/>Dental Photography School<br/></div>
+                                                                    <div><br/>Click on the image for more content</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="column-1_4 column_padding_bottom">
+                                                            <div id="sc_team_296_1" class="sc_team_item">
+                                                                <div onclick="view_faculty_info(11, 'Dr. Griya Ridha Raharja', 'griya-raharja')" class="sc_team_item_avatar" style="cursor: pointer">
+                                                                    <img id="t6" width="182" height="182" alt="Dr. Mayur Davda" src="images/our-team/griya-raharja.jpg">
+                                                                </div>
+                                                                <div class="sc_team_item_info">
+                                                                    <h5 class="sc_team_item_title">
+                                                                        Dr. Griya Ridha Raharja
+                                                                    </h5>
+                                                                    <div class="sc_team_item_position">Graduated: Padjadjaran University<br/>Owner: Griya Dental Care<br/><br></div>
+                                                                    <div><br/>Click on the image for more content</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="column-1_4 column_padding_bottom">
+                                                            <div id="sc_team_296_1" class="sc_team_item">
+                                                                <div onclick="view_faculty_info(12, 'Dr. Rizal Rizky Akbar', 'rizal-akbar')" class="sc_team_item_avatar" style="cursor: pointer">
+                                                                    <img id="t6" width="182" height="182" alt="Dr. Mayur Davda" src="images/our-team/rizal-akbar.jpg">
+                                                                </div>
+                                                                <div class="sc_team_item_info">
+                                                                    <h5 class="sc_team_item_title">
+                                                                        Dr. Rizal Rizky Akbar
+                                                                    </h5>
+                                                                    <div class="sc_team_item_position">University: Padjadjaran University<br/>Dentist at Griya Dental Care<br/><br/></div>
+                                                                    <div><br/>Click on the image for more content</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                    <h4 class="sc_team_title sc_item_title">MR. Dental ORE Tutors</h4>
+                                                    <br><br/>
+                                                    <div class="sc_columns columns_wrap">
+                                                        <div class="column-1_4 column_padding_bottom">
+                                                            <div id="sc_team_296_1" class="sc_team_item">
+                                                                <div onclick="view_faculty_info(6, 'Dr. Fred Mukwenda', 'fred-mukwenda')" class="sc_team_item_avatar" style="cursor: pointer">
+                                                                    <img id="t7" width="182" height="182" alt="Dr. Fred Mukwenda" src="images/our-team/fred-mukwenda.jpg">
+                                                                </div>
+                                                                <div class="sc_team_item_info">
+                                                                    <h5 class="sc_team_item_title">
+                                                                        Dr. Fred Mukwenda
+                                                                    </h5>
+                                                                    <div class="sc_team_item_position">BDS, MPH, MSC (CONS)</div>
+                                                                    <div>Click on the image for more content</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="column-1_4 column_padding_bottom">
+                                                            <div id="sc_team_296_2" class="sc_team_item">
+                                                                <div onclick="view_faculty_info(7, 'Dr. Anita Pradhan', 'anita-pradhan')" class="sc_team_item_avatar" style="cursor: pointer">
+                                                                    <img id="t8" width="182" height="182" alt="Dr. Anita Pradhan " src="images/our-team/anita-pradhan.jpg">
+                                                                </div>
+                                                                <div class="sc_team_item_info">
+                                                                    <h5 class="sc_team_item_title">
+                                                                        Dr. Anita Pradhan
+                                                                    </h5>
+                                                                    <div class="sc_team_item_position">BDS, FAGE</div>
+                                                                    <div>Click on the image for more content</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="column-1_4 column_padding_bottom">
+                                                            <div id="sc_team_296_3" class="sc_team_item">
+                                                                <div onclick="view_faculty_info(8, 'Dr. Zina Saad', 'zina-saad')" class="sc_team_item_avatar" style="cursor: pointer">
+                                                                    <img id="t9" width="182" height="182" alt="Dr. Zina Saad" src="images/our-team/zina-saad.jpg">
+                                                                </div>
+                                                                <div class="sc_team_item_info">
+                                                                    <h5 class="sc_team_item_title">
+                                                                        Dr. Zina Saad
+                                                                    </h5>
+                                                                    <div class="sc_team_item_position">BDS</div>
+                                                                    <div>Click on the image for more content</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="column-1_4 column_padding_bottom">
+                                                            <div id="sc_team_296_4" class="sc_team_item even">
+                                                                <div onclick="view_faculty_info(9, 'Dr. Jasmine Singh', 'jasmine-singh')" class="sc_team_item_avatar" style="cursor: pointer">
+                                                                    <img id="t10" width="182" height="182" alt="Dr. Jasmine Singh" src="images/our-team/jasmine-singh.jpg" style="height: 180px">
+                                                                </div>
+                                                                <div class="sc_team_item_info">
+                                                                    <h5 class="sc_team_item_title">
+                                                                        Dr. Jasmine Singh
+                                                                    </h5>
+                                                                    <div class="sc_team_item_position">BDS, Dip. Sedation UCL</div>
+                                                                    <div>Click on the image for more content</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="column-1_4 column_padding_bottom">
+                                                            <div id="sc_team_296_1" class="sc_team_item">
+                                                                <div onclick="view_faculty_info(10, 'Dr. Shazia Afzal', 'shazia-afzal')" class="sc_team_item_avatar" style="cursor: pointer">
+                                                                    <img id="t11" width="182" height="182" alt="Dr. Shazia Afzal " src="images/our-team/shazia-afzal.jpg">
+                                                                </div>
+                                                                <div class="sc_team_item_info">
+                                                                    <h5 class="sc_team_item_title">
+                                                                        Dr. Shazia Afzal
+                                                                    </h5>
+                                                                    <div class="sc_team_item_position">BDS</div>
+                                                                    <div>Click on the image for more content</div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
                                                     </div>
                                                 </div>
-                                                <div class="vc_empty_space space_70p">
-                                                    <span class="vc_empty_space_inner"></span>
-                                                </div>
+                                            </div>
+                                            <div class="vc_empty_space space_70p">
+                                                <span class="vc_empty_space_inner"></span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
                             <div class="vc_row-full-width"></div>
 
                         </section>
@@ -394,11 +424,10 @@
 <script type='text/javascript' src='js/vendor/ui/effect.min.js'></script>
 <script type='text/javascript' src='js/vendor/ui/effect-fade.min.js'></script>
 <script type='text/javascript' src='js/vendor/swiper/swiper.min.js'></script>
-<script type='text/javascript' src='http://maps.google.com/maps/api/js?key='></script>
 <script type='text/javascript' src='js/vendor/chart.min.js'></script>
 </body>
 </html>
 
 <?php
-    ob_end_flush();
+ob_end_flush();
 ?>
