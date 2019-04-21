@@ -2,6 +2,17 @@
 <html lang="en-US" class="scheme_original">
 <?php
 $is_subfolder = false;
+
+session_start();
+
+$success = $_GET['success'];
+if ($success == 'true')   {
+    $success_message = 'Successful';
+}   else if ($success == 'false')    {
+    $success_message = 'Failed';
+    $error_message = $_GET['message'];
+}
+
 ?>
 <head>
     <meta charset="UTF-8" />
@@ -68,11 +79,11 @@ $is_subfolder = false;
         <div class="top_panel_title top_panel_style_2 title_present breadcrumbs_present scheme_original dark-background">
             <div class="top_panel_title_inner top_panel_inner_style_2 title_present_inner breadcrumbs_present_inner">
                 <div class="content_wrap">
-                    <h1 class="page_title">Payment Success</h1>
+                    <h1 class="page_title">Payment <?php echo $success_message ?></h1>
                     <div class="breadcrumbs">
                         <a class="breadcrumbs_item home" href="index.php">Home</a>
                         <span class="breadcrumbs_delimiter"></span>
-                        <span class="breadcrumbs_item current">Payment Success</span>
+                        <span class="breadcrumbs_item current">Payment <?php echo $success_message ?></span>
                     </div>
                 </div>
             </div>
@@ -82,7 +93,12 @@ $is_subfolder = false;
             <div class="vc_column-inner ">
                 <div class="wpb_wrapper">
                     <div class="sc_content content_wrap margin_top_huge margin_bottom_huge">
+                        <?php if ($success == 'true') { ?>
                         <h2 class="aligncenter">Payment Successful. Please check your inbox for invoice.</h2>
+                        <?php } else { ?>
+                        <h2 class="aligncenter">Payment Failed. Please try again.</h2>
+                        <h2 class="aligncenter"> <?php echo $error_message; ?> </h2>
+                        <?php } ?>
                     </div>
                     <div class="aligncenter">
                         <a href="index.php" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large" style="color: white; margin-top: 23px">Back To Home</a>

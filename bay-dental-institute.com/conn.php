@@ -1,6 +1,6 @@
 <?php
 
-$is_server_set = false;
+$is_server_set = true;
 
 if (!$is_server_set)    {
     $username="root";
@@ -12,7 +12,7 @@ if (!$is_server_set)    {
 
 $servername="localhost";
 $dbname="baydentalinstitute";
-$conn=mysqli_connect($servername,$username,$password,$dbname);
+$conn = mysqli_connect($servername,$username,$password,$dbname);
 
 if(!$conn)   {
     die("Connection error: " . mysqli_connect_error());

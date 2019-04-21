@@ -1,11 +1,38 @@
 <?php
 
-    include "conn.php";
+    require "conn.php";
     include "mail.php";
+    require "config.php";
 
     @session_start();
 
     echo "<h1>Please wait...</h1>";
+
+    // Verify the Payment
+
+    require('razorpay-php/Razorpay.php');
+    use Razorpay\Api\Api;
+    use Razorpay\Api\Errors\SignatureVerificationError;
+
+    $success = true;
+
+    $error = "Payment Failed";
+
+    if (empty($_POST['razorpay_payment_id']) === false) {
+        $api = new Api($razor_pay_api_key, $razor_pay_secret_key);
+        try {
+            $attributes = array(
+                'razorpay_order_id' => $_SESSION['razorpay_order_id'],
+                'razorpay_payment_id' => $_POST['razorpay_payment_id'],
+                'razorpay_signature' => $_POST['razorpay_signature']
+            );
+            $api->utility->verifyPaymentSignature($attributes);
+        }
+        catch(SignatureVerificationError $e) {
+            $success = false;
+            $error = 'Razorpay Error : ' . $e->getMessage();
+        }
+    }
 
     // Calculate the total amount
     $total_amount = 0;
@@ -27,6 +54,8 @@
             $total_amount += (int)$row['product_price'];
         }
     }
+
+
 
     // Insert the transaction into the database
 
@@ -91,4 +120,10 @@
         echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
     }
 
-    header("Location: payment_success.php");
+    // Redirect to next page
+
+    if ($success === true) {
+        header("Location: payment_success.php?success=true");
+    } else if ($success === false) {
+        header("Location: payment_success.php?success=false&message={$error}");
+    }

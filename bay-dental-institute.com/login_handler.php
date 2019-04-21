@@ -39,11 +39,13 @@ if(mysqli_num_rows($result) > 0)    {
     $email = $row['email'];
     $address = $row['address'];
     $mobile_number = $row['mobileNo'];
+    $address = $row['address'];
     session_start();
     $_SESSION['username'] = $username;
     $_SESSION['email'] = $email;
     $_SESSION['address'] = $address;
     $_SESSION['mobile_number'] = $mobile_number;
+    $_SESSION['address'] = $address;
     send_success('Login Successful');
 
     // Resume here

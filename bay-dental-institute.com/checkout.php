@@ -1,26 +1,25 @@
 <?php
-    ob_start();
-    session_start();
+ob_start();
+session_start();
 
-    if(!isset($_SESSION['username']))    {
-        header("Location: book-a-course.php");
-    }
+if(!isset($_SESSION['username']))    {
+    header("Location: book-a-course.php");
+}
 
-    include "conn.php";
-    require_once "config.php";
+include "conn.php";
 
-    $query = "SELECT courses.course_id, courses.course_name, courses.course_duration, courses.course_cost, courses.tutor FROM courses INNER JOIN cart ON courses.course_id = cart.course_id WHERE cart.username = '" . $_SESSION['username'] . "';";
+$query = "SELECT courses.course_id, courses.course_name, courses.course_duration, courses.course_cost, courses.tutor FROM courses INNER JOIN cart ON courses.course_id = cart.course_id WHERE cart.username = '" . $_SESSION['username'] . "';";
 
-    $result = mysqli_query($conn, $query);
+$result = mysqli_query($conn, $query);
 
-	$grand_total = 0;
+$grand_total = 0;
 
 ?>
 
 <!DOCTYPE html>
 <html lang="en-US" class="scheme_original">
 <?php
-    $is_subfolder = false;
+$is_subfolder = false;
 ?>
 <head>
     <meta charset="UTF-8" />
@@ -53,106 +52,106 @@
     <!-- Sweet Alert -->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
-	<script>
+    <script>
 
-	function get_current_user() {
-		return "<?= isset($_SESSION['username']) ? $_SESSION['username'] : ''; ?>";
-	}
+        function get_current_user() {
+            return "<?= isset($_SESSION['username']) ? $_SESSION['username'] : ''; ?>";
+        }
 
-	function onDeleteClicked(id, cost)	{
-		var result = id.split("_");
-		var is_course_set = false;
-		if (result[0] === "1")	{
-			is_course_set = true;
-		}
-		var priceToDelete = parseInt(cost, 10, is_course_set);
+        function onDeleteClicked(id, cost)	{
+            var result = id.split("_");
+            var is_course_set = false;
+            if (result[0] === "1")	{
+                is_course_set = true;
+            }
+            var priceToDelete = parseInt(cost, 10, is_course_set);
 
-		swal("Are you sure you want to remove this item from cart?", {
-			buttons: {
-				no: "No.",
-				yes: "Yes, remove it."
-			},
-		}).then((value) => {
-			switch(value)	{
-				case "no":
-					break;
-				case "yes":
-					removeFromCart(result, priceToDelete, is_course_set);
-					location.reload();
-					break;
-				default:
-					break;
-			}
-		});
-
-	}
-
-	function removeFromCart(result, priceToDelete, is_course_set)	{
-		if(result[0] === "1")	{
-			var username = get_current_user();
-            var data_array = {"username": username, "course_id": result[1] };
-            var data = JSON.parse(JSON.stringify(data_array));
-            $.ajax({
-                type: "POST",
-                url: "remove-from-cart-handler.php",
-                data: data,
-                dataType: "json"
-            }).done(function(data)  {
-                if(data.status == "ok") {
-					if (is_course_set) {
-						var originalPrice = parseInt($("#total_cost_1").html().substring(2));
-						var updatedPrice = originalPrice - priceToDelete;
-						$("#total_cost_1").html("&#x20b9; " + updatedPrice);
-					}	else {
-						var originalPrice = parseInt($("#total_cost_2").html().substring(2));
-						var updatedPrice = originalPrice - priceToDelete;
-						$("#total_cost_2").html("&#x20b9; " + updatedPrice);
-					}
-					var originalPrice = parseInt($("#grand_total_cost").html().substring(2));
-					var updatedPrice = originalPrice - priceToDelete;
-					$("#grand_total_cost").html("&#x20b9; " + updatedPrice);
-                    $("#" + result[0] + "_" + result[1]).hide();
+            swal("Are you sure you want to remove this item from cart?", {
+                buttons: {
+                    no: "No.",
+                    yes: "Yes, remove it."
+                },
+            }).then((value) => {
+                switch(value)	{
+                    case "no":
+                        break;
+                    case "yes":
+                        removeFromCart(result, priceToDelete, is_course_set);
+                        location.reload();
+                        break;
+                    default:
+                        break;
                 }
-                else if(data.status == "error") {
-                    swal("Error", data.message, "error");
-                }
-            }).fail(function(xhr, status, error)    {
-                swal("Unable to connect. Please try again.");
             });
-        } else if (result[0] === "2")	{
-			var username = get_current_user();
-			var data_array = {"username": username, "product_id": result[1] };
-			var data = JSON.parse(JSON.stringify(data_array));
-			$.ajax({
-				type: "POST",
-				url: "remove-product-from-store-cart-handler.php",
-				data: data,
-				dataType: "json"
-			}).done(function(data)  {
-				if(data.status == "ok") {
-					if (is_course_set) {
-						var originalPrice = parseInt($("#total_cost_1").html().substring(2));
-						var updatedPrice = originalPrice - priceToDelete;
-						$("#total_cost_1").html("&#x20b9; " + updatedPrice);
-					}	else {
-						var originalPrice = parseInt($("#total_cost_2").html().substring(2));
-						var updatedPrice = originalPrice - priceToDelete;
-						$("#total_cost_2").html("&#x20b9; " + updatedPrice);
-					}
-					var originalPrice = parseInt($("#grand_total_cost").html().substring(2));
-					var updatedPrice = originalPrice - priceToDelete;
-					$("#grand_total_cost").html("&#x20b9; " + updatedPrice);
-                    $("#" + result[0] + "_" + result[1]).hide();
-					$("#" + result[0] + "_" + result[1]).hide();
-				}
-				else if(data.status == "error") {
-					swal("Error", data.message, "error");
-				}
-			}).fail(function(xhr, status, error)    {
-				swal("Unable to connect. Please try again.");
-			});
-		}
-	}
+
+        }
+
+        function removeFromCart(result, priceToDelete, is_course_set)	{
+            if(result[0] === "1")	{
+                var username = get_current_user();
+                var data_array = {"username": username, "course_id": result[1] };
+                var data = JSON.parse(JSON.stringify(data_array));
+                $.ajax({
+                    type: "POST",
+                    url: "remove-from-cart-handler.php",
+                    data: data,
+                    dataType: "json"
+                }).done(function(data)  {
+                    if(data.status == "ok") {
+                        if (is_course_set) {
+                            var originalPrice = parseInt($("#total_cost_1").html().substring(2));
+                            var updatedPrice = originalPrice - priceToDelete;
+                            $("#total_cost_1").html("&#x20b9; " + updatedPrice);
+                        }	else {
+                            var originalPrice = parseInt($("#total_cost_2").html().substring(2));
+                            var updatedPrice = originalPrice - priceToDelete;
+                            $("#total_cost_2").html("&#x20b9; " + updatedPrice);
+                        }
+                        var originalPrice = parseInt($("#grand_total_cost").html().substring(2));
+                        var updatedPrice = originalPrice - priceToDelete;
+                        $("#grand_total_cost").html("&#x20b9; " + updatedPrice);
+                        $("#" + result[0] + "_" + result[1]).hide();
+                    }
+                    else if(data.status == "error") {
+                        swal("Error", data.message, "error");
+                    }
+                }).fail(function(xhr, status, error)    {
+                    swal("Unable to connect. Please try again.");
+                });
+            } else if (result[0] === "2")	{
+                var username = get_current_user();
+                var data_array = {"username": username, "product_id": result[1] };
+                var data = JSON.parse(JSON.stringify(data_array));
+                $.ajax({
+                    type: "POST",
+                    url: "remove-product-from-store-cart-handler.php",
+                    data: data,
+                    dataType: "json"
+                }).done(function(data)  {
+                    if(data.status == "ok") {
+                        if (is_course_set) {
+                            var originalPrice = parseInt($("#total_cost_1").html().substring(2));
+                            var updatedPrice = originalPrice - priceToDelete;
+                            $("#total_cost_1").html("&#x20b9; " + updatedPrice);
+                        }	else {
+                            var originalPrice = parseInt($("#total_cost_2").html().substring(2));
+                            var updatedPrice = originalPrice - priceToDelete;
+                            $("#total_cost_2").html("&#x20b9; " + updatedPrice);
+                        }
+                        var originalPrice = parseInt($("#grand_total_cost").html().substring(2));
+                        var updatedPrice = originalPrice - priceToDelete;
+                        $("#grand_total_cost").html("&#x20b9; " + updatedPrice);
+                        $("#" + result[0] + "_" + result[1]).hide();
+                        $("#" + result[0] + "_" + result[1]).hide();
+                    }
+                    else if(data.status == "error") {
+                        swal("Error", data.message, "error");
+                    }
+                }).fail(function(xhr, status, error)    {
+                    swal("Unable to connect. Please try again.");
+                });
+            }
+        }
 
 
 
@@ -207,13 +206,13 @@
                 <div class="content">
                     <article class="post_item post_item_single page hentry">
                         <section class="post_content">
-                        <div class="vc_row wpb_row vc_row-fluid">
+                            <div class="vc_row wpb_row vc_row-fluid">
                                 <div class="wpb_column vc_column_container vc_col-sm-12">
                                     <div class="vc_column-inner scroll-bar">
                                         <div class="wpb_wrapper">
                                             <h4 class="sc_title sc_title_regular margin_top_null margin_bottom_small aligncenter">Your Courses</h4>
                                             <div class="sc_table">
-                                            <?php
+                                                <?php
                                                 if(mysqli_num_rows($result) > 0)    {
                                                     echo '<table>
                                                             <tbody>
@@ -236,7 +235,7 @@
                                                             </tr>';
                                                         $total_cost += (int)$row['course_cost'];
                                                     }
-													$grand_total += $total_cost;
+                                                    $grand_total += $total_cost;
                                                     echo '<tr align="center">
                                                             <td colspan="2">Total Cost</td>
                                                             <td colspan="3" id="total_cost_1">&#x20b9; ' . $total_cost . '</td>
@@ -246,80 +245,143 @@
                                                 else    {
                                                     echo '<h3 class="aligncenter">No items found in the cart.</h3>';
                                                 }
-                                                    ?>
-                                                    <p>
-                                                </div>
-                                                <div class="vc_empty_space space_76p">
-                                                    <span class="vc_empty_space_inner"></span>
-                                                </div>
+                                                ?>
+                                                <p>
+                                            </div>
+                                            <div class="vc_empty_space space_76p">
+                                                <span class="vc_empty_space_inner"></span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-								<?php
-									$query = "SELECT store_products.id , store_products.product_name, store_products.product_price FROM store_products INNER JOIN store_cart ON store_products.id = store_cart.product_id WHERE store_cart.username = '" . $_SESSION['username'] . "';";
-									$result = mysqli_query($conn, $query);
-								?>
-                                <div class="vc_row wpb_row vc_row-fluid">
-                              		<div class="wpb_column vc_column_container vc_col-sm-12">
-                              			<div class="vc_column-inner scroll-bar">
-                              				<div class="wpb_wrapper">
-                              					<h4 class="sc_title sc_title_regular margin_top_null margin_bottom_small aligncenter">Your Products</h4>
-												<div class="sc_table">
-													<?php
-		                                                if(mysqli_num_rows($result) > 0)    {
-		                                                    echo '<table>
+                            </div>
+                            <?php
+                            $query = "SELECT store_products.id , store_products.product_name, store_products.product_price FROM store_products INNER JOIN store_cart ON store_products.id = store_cart.product_id WHERE store_cart.username = '" . $_SESSION['username'] . "';";
+                            $result = mysqli_query($conn, $query);
+                            ?>
+                            <div class="vc_row wpb_row vc_row-fluid">
+                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                    <div class="vc_column-inner scroll-bar">
+                                        <div class="wpb_wrapper">
+                                            <h4 class="sc_title sc_title_regular margin_top_null margin_bottom_small aligncenter">Your Products</h4>
+                                            <div class="sc_table">
+                                                <?php
+                                                if(mysqli_num_rows($result) > 0)    {
+                                                    echo '<table>
 		                                                            <tbody>
 		                                                                <tr>
 		                                                                    <th>Name</th>
 		                                                                    <th>Cost</th>
 																			<th>Action</th>
 		                                                                </tr>';
-		                                                    $i = 1;
-		                                                    $total_cost = 0;
-		                                                    while($row = mysqli_fetch_assoc($result))   {
-		                                                        echo '<tr id="2_' . $row['id'] . '" align="center">
+                                                    $i = 1;
+                                                    $total_cost = 0;
+                                                    while($row = mysqli_fetch_assoc($result))   {
+                                                        echo '<tr id="2_' . $row['id'] . '" align="center">
 		                                                                <td>' . $row['product_name'] . '</td>
 		                                                                <td> &#x20b9; ' . $row['product_price'] . '</td>
 																		<td onclick="onDeleteClicked(\'2_' . $row['id'] . '\', ' . $row['product_price'] . ')"><img height="35px" width="35px" src="images/delete.svg"/></td>
 		                                                            </tr>';
-		                                                        $total_cost += (int)$row['product_price'];
-		                                                    }
-															$grand_total += $total_cost;
-		                                                    echo '<tr align="center">
+                                                        $total_cost += (int)$row['product_price'];
+                                                    }
+                                                    $grand_total += $total_cost;
+                                                    echo '<tr align="center">
 		                                                            <td colspan="2">Total Cost</td>
 		                                                            <td colspan="2" id="total_cost_2">&#x20b9; ' . $total_cost . '</td>
 		                                                        </tr>
 		                                                        </tbody></table>';
-		                                                }
-		                                                else    {
-		                                                    echo '<h3 class="aligncenter">No items found in the cart.</h3>';
-		                                                }
-		                                                    ?>
-												</div>
-                              				</div>
-                              			</div>
-                              		</div>
+                                                }
+                                                else    {
+                                                    echo '<h3 class="aligncenter">No items found in the cart.</h3>';
+                                                }
+                                                ?>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-								<h3 class="aligncenter">Grand Total : <span style="color: white" id="grand_total_cost">&#x20b9; <?= $grand_total ?></span></h3>
+                            </div>
+                            <h3 class="aligncenter">Grand Total : <span style="color: white" id="grand_total_cost">&#x20b9; <?= $grand_total ?></span></h3>
+
+                            <?php
+                                require('config.php');
+                                require('razorpay-php/Razorpay.php');
+
+                                use Razorpay\Api\Api;
+
+                                $api = new Api($razor_pay_api_key, $razor_pay_secret_key);
+
+                                $receipt = round(microtime(true) * 1000);
+
+                                $orderData = [
+                                    'receipt' => $receipt,
+                                    'amount' => $grand_total * 100,
+                                    'currency' => 'INR',
+                                    'payment_capture' => 1
+                                ];
+
+                                $razorpay_order = $api->order->create($orderData);
+                                $razorpay_order_id =$razorpay_order['id'];
+
+                                $_SESSION['razorpay_order_id'] = $razorpay_order_id;
+
+                                $displayAmount = $amount = $orderData['amount'];
+
+                                if ($display_currency !== 'INR')  {
+                                    $url = "https://api.fixer.io/latest?symbols=$display_currency&base=INR";
+                                    $exchange = json_decode(file_get_contents($url), true);
+
+                                    $displayAmount = $exchange['rates'][$display_currency] * $amount / 100;
+                                }
+
+                                $checkout = 'automatic';
+
+                                $data = [
+                                    "key" => $razor_pay_api_key,
+                                    "amount" => $grand_total * 100,
+                                    "name" => $_SESSION['username'],
+                                    "description" => "Bay Dental Institute Payment",
+                                    "image" => "https://baydentalinstitute.org/images/logo-fixed.png",
+                                    "prefill" => [
+                                            "name" => $_SESSION['username'],
+                                            "email" => $_SESSION['email'],
+                                            "contact" => $_SESSION['mobile_number']
+                                    ],
+                                    "notes" => [
+                                        "address" => $_SESSION['address'],
+                                        "merchant_order_id" => "12312321"
+                                    ],
+                                    "theme" => [
+                                            "color" => "#30383B"
+                                    ],
+                                    "order_id" => $razorpay_order_id
+                                ];
+
+                                $json = json_encode($data);
+
+                            ?>
+
+
                             <div class="aligncenter">
                                 <form action="charge.php" method="POST">
                                     <!-- Note that the amount is in paise = 50 INR -->
                                     <script
                                             src="https://checkout.razorpay.com/v1/checkout.js"
-                                            data-key="<?php echo $razor_pay_api_key; ?>"
-                                            data-amount= "<?php echo $grand_total * 100; ?>"
+                                            data-key="<?php echo $data['key']; ?>"
+                                            data-amount= "<?php echo $data['amount']; ?>"
+                                            data-currency="INR"
                                             data-buttontext="Pay with Razorpay"
-                                            data-name="<?php echo $_SESSION['username']; ?>"
-                                            data-description="Bay Dental Institute Payment"
-                                            data-image="https://baydentalinstitute.org/images/logo-fixed.png"
-                                            data-prefill.name=""
-                                            data-prefill.contact="<?php echo $_SESSION['mobile_number']; ?>"
-                                            data-prefill.email="<?php echo $_SESSION['email']; ?>"
-                                            data-theme.color="#30383B"
+                                            data-name="<?php echo $data['name']; ?>"
+                                            data-description="<?php echo $data['description']; ?>"
+                                            data-image="<?php echo $data['image'] ?>"
+                                            data-prefill.name="<?php echo $data['prefill']['name'] ?>"
+                                            data-prefill.contact="<?php echo $data['prefill']['contact']; ?>"
+                                            data-prefill.email="<?php echo $data['prefill']['email']; ?>"
+                                            data-notes.shopping_order_id = "<?php echo $receipt; ?>"
+                                            data-order_id="<?php echo $data['order_id']; ?>"
+                                            data-theme.color="<?php echo $data['theme']['color']; ?>"
                                             data-modal.backdropclose="true"
                                     ></script>
-                                    <input type="hidden" value="Hidden Element" name="hidden">
+                                    <input type="hidden" value="<?php echo $receipt ?>" name="hidden">
                                 </form>
                             </div>
                         </section>
@@ -426,5 +488,5 @@
 </html>
 
 <?php
-    ob_end_flush();
+ob_end_flush();
 ?>
