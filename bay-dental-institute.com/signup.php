@@ -293,7 +293,4 @@
 <script type='text/javascript' src='js/vendor/comp/comp_front.min.js'></script>
 <script type='text/javascript' src='js/vendor/esg/jquery.themepunch.essential.min.js'></script>
 </body>
-
-
-<!-- Mirrored from dentario-html.themerex.net/grid.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 21 Nov 2018 12:20:19 GMT -->
 </html>
