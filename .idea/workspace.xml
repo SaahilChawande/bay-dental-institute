@@ -3,23 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f2a5367c-6aea-47a6-991f-6aad4b80105d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/book-a-course.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/book-a-course.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/botox-and-lip-fillers.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/botox-and-lip-fillers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/composites.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/composites.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/dental-assistant-training.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/dental-assistant-training.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/dental-photography.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/dental-photography.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/endodontics.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/endodontics.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/faculty.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/faculty.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/nbde-usa.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/nbde-usa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/ndeb-canada.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/ndeb-canada.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/ore-lds-uk.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/ore-lds-uk.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/restorative-dentistry.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/restorative-dentistry.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/rubber-dam.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/rubber-dam.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/signup.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/signup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/social-media-marketing-for-dentists.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/social-media-marketing-for-dentists.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/store.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/store.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/testimonials.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/testimonials.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bay-dental-institute.com/charge.php" beforeDir="false" afterPath="$PROJECT_DIR$/bay-dental-institute.com/charge.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +12,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/charge.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="77" column="12" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -115,7 +109,6 @@
         <option value="$PROJECT_DIR$/bay-dental-institute.com/login_handler.php" />
         <option value="$PROJECT_DIR$/bay-dental-institute.com/checkout.php" />
         <option value="$PROJECT_DIR$/bay-dental-institute.com/payment_success.php" />
-        <option value="$PROJECT_DIR$/bay-dental-institute.com/charge.php" />
         <option value="$PROJECT_DIR$/bay-dental-institute.com/conn.php" />
         <option value="$PROJECT_DIR$/bay-dental-institute.com/config.php" />
         <option value="$PROJECT_DIR$/bay-dental-institute.com/footer.php" />
@@ -135,6 +128,7 @@
         <option value="$PROJECT_DIR$/bay-dental-institute.com/social-media-marketing-for-dentists.php" />
         <option value="$PROJECT_DIR$/bay-dental-institute.com/store.php" />
         <option value="$PROJECT_DIR$/bay-dental-institute.com/testimonials.php" />
+        <option value="$PROJECT_DIR$/bay-dental-institute.com/charge.php" />
       </list>
     </option>
   </component>
@@ -249,16 +243,19 @@
       <workItem from="1555835593602" duration="10659000" />
       <workItem from="1555870914397" duration="400000" />
       <workItem from="1555914934983" duration="835000" />
+      <workItem from="1555915817666" duration="49000" />
+      <workItem from="1556195700733" duration="266000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="212882000" />
+    <option name="totallyTimeSpent" value="213197000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="846" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29731545" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30536914" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -389,13 +386,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/charge.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -613,6 +603,13 @@
     <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/restorative-dentistry/tooth-surface-loss-and-full-mouth-rehab.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3494" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bay-dental-institute.com/charge.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="77" column="12" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="12" />
+        </state>
       </provider>
     </entry>
   </component>

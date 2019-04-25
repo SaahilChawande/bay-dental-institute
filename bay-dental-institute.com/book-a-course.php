@@ -1107,7 +1107,7 @@ session_start();
                                                                 <p style="display: inline">Bespoke Veeners - Advanced Clinical Veener Simulation Workshop</p>
                                                                 <br><br>
                                                                 <h5 style="display: inline">Duration : </h5>
-                                                                <p style="display: inline">April 20th / 21st 2019 - 9 am to 5 pm</p>
+                                                                <p style="display: inline">July 6th / 7th 2019 - 9 am to 5 pm</p>
                                                                 <br><br>
                                                                 <h5 style="display: inline">Cost : </h5>
                                                                 <p style="display: inline"> &#x20b9; 16,500/-</p>

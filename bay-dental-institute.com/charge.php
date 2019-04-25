@@ -70,6 +70,16 @@
         mysqli_query($conn, $update_query);
     }
 
+    // Delete cart items when the course is full
+    $query = "select course_id, enrolled, maximum from `courses`;";
+    $result = mysqli_query($conn, $query);
+    while($row = mysqli_fetch_assoc($result))   {
+        if ($row['enrolled'] == $row['maximum'])    {
+            $delete_query = "delete from `cart` where course_id = " . $row['course_id'] . ";";
+            mysqli_query($conn, $delete_query);
+        }
+    }
+
     // Delete entries from cart
     $query = "delete from `cart` where username = '" . $_SESSION['username'] . "';";
     mysqli_query($conn, $query);
