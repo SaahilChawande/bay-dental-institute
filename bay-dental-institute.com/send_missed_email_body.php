@@ -1,97 +1,77 @@
 <?php
-    include "conn.php";
-    session_start();
-    date_default_timezone_set('Asia/Kolkata');
-    function convertToWords($number)    {
-        $no = round($number);
-        $hundred = null;
-        $digits_1 = strlen($no);
-        $i = 0;
-        $str = array();
-        $words = array('0' => '', '1' => 'One', '2' => 'Two',
-            '3' => 'Three', '4' => 'Four', '5' => 'Five', '6' => 'Six',
-            '7' => 'Seven', '8' => 'Eight', '9' => 'Nine',
-            '10' => 'Ten', '11' => 'Eleven', '12' => 'Twelve',
-            '13' => 'Thirteen', '14' => 'Fourteen',
-            '15' => 'Fifteen', '16' => 'Sixteen', '17' => 'Seventeen',
-            '18' => 'Eighteen', '19' =>'Nineteen', '20' => 'Twenty',
-            '30' => 'Thirty', '40' => 'Forty', '50' => 'Fifty',
-            '60' => 'Sixty', '70' => 'Seventy',
-            '80' => 'Eighty', '90' => 'Ninety');
-        $digits = array('', 'Hundred', 'Thousand', 'Lakh', 'Crore');
-        while ($i < $digits_1) {
-            $divider = ($i == 2) ? 10 : 100;
-            $number = floor($no % $divider);
-            $no = floor($no / $divider);
-            $i += ($divider == 10) ? 1 : 2;
-            if ($number) {
-                $plural = (($counter = count($str)) && $number > 9) ? 's' : null;
-                $hundred = ($counter == 1 && $str[0]) ? ' and ' : null;
-                $str [] = ($number < 21) ? $words[$number] .
-                    " " . $digits[$counter] . $plural . " " . $hundred
-                    :
-                    $words[floor($number / 10) * 10]
-                    . " " . $words[$number % 10] . " "
-                    . $digits[$counter] . $plural . " " . $hundred;
-            } else $str[] = null;
-        }
-        $str = array_reverse($str);
-        $result = implode('', $str);
-        return "&#x20b9; " . $result . " only";
+date_default_timezone_set('Asia/Kolkata');
+function convertToWords($number)    {
+    $no = round($number);
+    $hundred = null;
+    $digits_1 = strlen($no);
+    $i = 0;
+    $str = array();
+    $words = array('0' => '', '1' => 'One', '2' => 'Two',
+        '3' => 'Three', '4' => 'Four', '5' => 'Five', '6' => 'Six',
+        '7' => 'Seven', '8' => 'Eight', '9' => 'Nine',
+        '10' => 'Ten', '11' => 'Eleven', '12' => 'Twelve',
+        '13' => 'Thirteen', '14' => 'Fourteen',
+        '15' => 'Fifteen', '16' => 'Sixteen', '17' => 'Seventeen',
+        '18' => 'Eighteen', '19' =>'Nineteen', '20' => 'Twenty',
+        '30' => 'Thirty', '40' => 'Forty', '50' => 'Fifty',
+        '60' => 'Sixty', '70' => 'Seventy',
+        '80' => 'Eighty', '90' => 'Ninety');
+    $digits = array('', 'Hundred', 'Thousand', 'Lakh', 'Crore');
+    while ($i < $digits_1) {
+        $divider = ($i == 2) ? 10 : 100;
+        $number = floor($no % $divider);
+        $no = floor($no / $divider);
+        $i += ($divider == 10) ? 1 : 2;
+        if ($number) {
+            $plural = (($counter = count($str)) && $number > 9) ? 's' : null;
+            $hundred = ($counter == 1 && $str[0]) ? ' and ' : null;
+            $str [] = ($number < 21) ? $words[$number] .
+                " " . $digits[$counter] . $plural . " " . $hundred
+                :
+                $words[floor($number / 10) * 10]
+                . " " . $words[$number % 10] . " "
+                . $digits[$counter] . $plural . " " . $hundred;
+        } else $str[] = null;
     }
+    $str = array_reverse($str);
+    $result = implode('', $str);
+    return "&#x20b9; " . $result . " only";
+}
 
-    function prependZeros($number)  {
-        if ($number < 10)
-            return '00' . $number;
-        else if ($number >= 10 && $number < 100)
-            return '0' . $number;
-        else
-            return '' . $number;
-    }
-
-    function checkAfterApril() {
-        $todays_year = date('Y');
-        $previous_year = date("Y",strtotime("-1 year"));
-        $next_year = date("Y", strtotime("+1 year"));
-
-        $today_date = date("Y-m-d H:i:s");
-        $check_date = $todays_year . "-04-01 00:00:00";
-
-        if ($today_date < $check_date)    {
-            return $previous_year . "-" . substr($todays_year, 2);
-        }   else   {
-            return $todays_year . "-" . substr($next_year, 2);
-        }
-
-    }
-
-
-    // Generate the invoice number
-    $result_array = array();
-    $query = 'select * from `transactions_new` order by invoice_id desc;';
-    $result = mysqli_query($conn, $query);
-    while($row = mysqli_fetch_assoc($result))   {
-        array_push($result_array, $row);
-    }
-    $recent_invoice = $result_array[0]["invoice_number"];
-    $recent_invoice_array = explode("/", $recent_invoice);
-
-    if (checkAfterApril() == $recent_invoice_array[1])
-        $new_invoice_number = prependZeros(((int)$recent_invoice_array[0])+1);
+function prependZeros($number)  {
+    if ($number < 10)
+        return '00' . $number;
+    else if ($number >= 10 && $number < 100)
+        return '0' . $number;
     else
-        $new_invoice_number = prependZeros(1);
+        return '' . $number;
+}
 
-    $final_invoice_number = $new_invoice_number . "/" . checkAfterApril();
+function checkAfterApril() {
+    $todays_year = date('Y');
+    $previous_year = date("Y",strtotime("-1 year"));
+    $next_year = date("Y", strtotime("+1 year"));
 
-    // Get customer details
-    $customer_query = "select * from `client` where username = '" . $_SESSION["username"] . "';";
-    $customer_result = mysqli_query($conn, $customer_query);
-    $customer_row = mysqli_fetch_assoc($customer_result);
+    $today_date = date("Y-m-d H:i:s");
+    $check_date = $todays_year . "-04-01 00:00:00";
 
-    // Form the mail body
-    $total_cost = 0;
-    $razor_pay_transaction_id = isset($_POST['razorpay_payment_id']) ? $_POST['razorpay_payment_id'] : 'Sample';
-    $mail_body = '
+    if ($today_date < $check_date)    {
+        return $previous_year . "-" . substr($todays_year, 2);
+    }   else   {
+        return $todays_year . "-" . substr($next_year, 2);
+    }
+
+}
+
+
+// Generate the invoice number
+$result_array = array();
+$query = 'select * from `transactions_new` order by invoice_id desc;';
+
+// Form the mail body
+$total_cost = 0;
+$razor_pay_transaction_id = isset($_POST['razorpay_payment_id']) ? $_POST['razorpay_payment_id'] : 'Sample';
+$mail_body = '
         <!DOCTYPE html>
         <html lang="en">
         <head>
@@ -162,12 +142,12 @@
                 <h2 class="text-center"><a href="https://www.baydentalinstitute.org">www.baydentalinstitute.org</a></h2>
                 <h3 class="text-center">(Prop: Shravan Kishore Chawla HUF)</h3>
                 <h6 class="text-center">Regd, off. :-404-A, Neela Kanth Building, 98, Marine Drive, Mumbai-400002</h6>
-                <p class="text-center"><b>Invoice No. ' . $final_invoice_number . '</b></p>
-                <div class="text-center"><b> Date : ' . date("d/m/Y") . '</b></div>
-                <p class="text-center"><b>' . $customer_row["username"] . '</b></p>
-                <p class="text-center"><b>Tel. No. ' . $customer_row["mobileNo"] . '</b></p>
+                <p class="text-center"><b>Invoice No. 017/2019-20</b></p>
+                <div class="text-center"><b> Date : 12/07/2019</b></div>
+                <p class="text-center"><b>Neha Pednekar</b></p>
+                <p class="text-center"><b>Tel. No. 9004422480</b></p>
                 <br>
-                <p class="text-center"><b>Address:- ' . $customer_row["address"] . '</b></p>
+                <p class="text-center"><b>Address:- 106/A, Bhagirath, Senapati Bapat Marg, Lower Parel, Mumbai- 400013</b></p>
                 <h4 class="text-center"><b>Your Course Has Been Booked!</b></h4>
             </div>
             <br>
@@ -181,42 +161,29 @@
                         </tr>
                     </thead>
                     <tbody>';
-                    // Get courses from cart
-                    $query = "select courses.course_name, courses.course_cost from `courses` inner join `cart` on courses.course_id = cart.course_id where cart.username = '" . $_SESSION['username'] . "';";
-                    $result = mysqli_query($conn, $query);
-                    $index = 1;
-                    while($row = mysqli_fetch_assoc($result))   {
-                        $mail_body .= '<tr>';
-                        $mail_body .= '<td>' . $index++ . '</td>';
-                        $mail_body .= '<td>' . $row['course_name'] . '</td>';
-                        $total_cost += (int)$row['course_cost'];
-                        $mail_body .= '<td> &#x20b9; ' . $row['course_cost'] . '/- </td>';
-                        $mail_body .= '</tr>';
-                    }
+// Get courses from cart
 
-                    // Get courses from store
-                    $query = "select store_products.product_name, store_products.product_price from `store_products` inner join `store_cart` on store_products.id = store_cart.product_id where store_cart.username = '" . $_SESSION['username'] . "';";
-                    $result = mysqli_query($conn, $query);
-                    while($row = mysqli_fetch_assoc($result))   {
-                        $mail_body .= '<tr>';
-                        $mail_body .= '<td>' . $index++ . '</td>';
-                        $mail_body .= '<td>' . $row['product_name'] . '</td>';
-                        $total_cost += (int)$row['product_price'];
-                        $mail_body .= '<td> &#x20b9; ' . $row['product_price'] . '/-</td>';
-                        $mail_body .= '</tr>';
-                    }
+$mail_body .= '<tr>';
+$mail_body .= '<td>1</td>';
+$mail_body .= '<td>Part I - Theory Exam Coaching</td>';
+$total_cost = 30000;
+$mail_body .= '<td> &#x20b9; 30000/- </td>';
+$mail_body .= '</tr>';
 
-                    $mail_body .= '<tr>';
-                    $mail_body .= '<td></td>';
-                    $mail_body .= '<td><b>Total : </b></td>';
-                    $mail_body .= '<td> &#x20b9; ' . $total_cost . '/-</td>';
-                    $mail_body .= '</tr>';
 
-                    $mail_body .= '<tr><td></td><td colspan="2"><b>' . convertToWords($total_cost) . '</b></td>';
-                    $mail_body .= '</tbody></table>';
-                    $mail_body .= '</div></div><br>';
 
-                    $mail_body .= '
+
+$mail_body .= '<tr>';
+$mail_body .= '<td></td>';
+$mail_body .= '<td><b>Total : </b></td>';
+$mail_body .= '<td> &#x20b9; ' . $total_cost . '/-</td>';
+$mail_body .= '</tr>';
+
+$mail_body .= '<tr><td></td><td colspan="2"><b>' . convertToWords($total_cost) . '</b></td>';
+$mail_body .= '</tbody></table>';
+$mail_body .= '</div></div><br>';
+
+$mail_body .= '
                     <div class="container"
                         <div style="border: solid black; padding: 10px 20px 10px 20px; margin-bottom: 40px">
                             <div class="row">
@@ -228,7 +195,8 @@
                             <h4>This is an auto-generated invoice.</h4>
                             <b>GST Not applicable as firm is yet to qualify in order to obtain GST Number.</b>
                         </div>
+                        <h3>Thanks and Regards,<br>Bay Dental Institute</h3>
+                        <img style="margin-right: 25px" width="100px" height="100px" class="text-center" src="cid:logo_1a" alt="Bay Dental Institute Logo">
+                        <img width="100px" height="100px" class="text-center" src="cid:logo_1b" alt="Bay Dental Associates Logo">
                     </div>
-                    <h3>Thanks and Regards,<br>Bay Dental Institute</h3>
-                    <img style="margin-right: 25px" width="100px" height="100px" class="text-center" src="cid:logo_1a" alt="Bay Dental Institute Logo">
-                    <img width="100px" height="100px" class="text-center" src="cid:logo_1b" alt="Bay Dental Associates Logo"></body></html>';
+                    </body></html>';

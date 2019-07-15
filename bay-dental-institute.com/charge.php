@@ -6,6 +6,9 @@
 
     @session_start();
 
+    if (empty($_SESSION['username']))
+        header("Location: book-a-course.php");
+
     echo "<h1>Please wait...</h1>";
 
     // Verify the Payment
